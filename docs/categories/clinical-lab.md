@@ -6,36 +6,36 @@
 
 ## 本页索引
 
-| Skill | 一句话理解 |
-| --- | --- |
-| [`$13c-metabolic-flux`](#skill-13c-metabolic-flux) | 这是一个面向“医学、临床与实验室规范”的专项技能，用于处理 `13c-metabolic-flux` 相关任务。 |
-| [`$adaptyv`](#skill-adaptyv) | 围绕 `adaptyv` 的专项能力，主要用于组织可复现的科研流程。 |
-| [`$alphagenome`](#skill-alphagenome) | 围绕 `alphagenome` 的专项能力，主要用于支持医学与临床研究分析。 |
-| [`$analytical-method-validation`](#skill-analytical-method-validation) | 这是一个面向“医学、临床与实验室规范”的专项技能，用于处理 `analytical-method-validation` 相关任务。 |
-| [`$bids`](#skill-bids) | 围绕 `bids` 的专项能力，主要用于处理科研或医学影像，并可支持医学与临床研究分析。 |
-| [`$cellprofiler`](#skill-cellprofiler) | 围绕 `cellprofiler` 的专项能力，主要用于处理科研或医学影像，并可组织可复现的科研流程。 |
-| [`$cellxgene-census`](#skill-cellxgene-census) | 这是一个面向“医学、临床与实验室规范”的专项技能，用于处理 `cellxgene-census` 相关任务。 |
-| [`$clinical-decision-support`](#skill-clinical-decision-support) | 围绕 `clinical-decision-support` 的专项能力，主要用于支持医学与临床研究分析。 |
-| [`$clinical-reports`](#skill-clinical-reports) | 围绕 `clinical-reports` 的专项能力，主要用于检查问题并给出修改建议，并可支持医学与临床研究分析。 |
-| [`$experimental-design`](#skill-experimental-design) | 这是一个面向“医学、临床与实验室规范”的专项技能，用于处理 `experimental-design` 相关任务。 |
-| [`$fluidsim`](#skill-fluidsim) | 围绕 `fluidsim` 的专项能力，主要用于检查问题并给出修改建议。 |
-| [`$genomic-coordinates`](#skill-genomic-coordinates) | 围绕 `genomic-coordinates` 的专项能力，主要用于检查问题并给出修改建议。 |
-| [`$ginkgo-cloud-lab`](#skill-ginkgo-cloud-lab) | 这是一个面向“医学、临床与实验室规范”的专项技能，用于处理 `ginkgo-cloud-lab` 相关任务。 |
-| [`$glycoengineering`](#skill-glycoengineering) | 围绕 `glycoengineering` 的专项能力，主要用于组织可复现的科研流程。 |
-| [`$iso-standards-readiness`](#skill-iso-standards-readiness) | 围绕 `iso-standards-readiness` 的专项能力，主要用于检查问题并给出修改建议，并可支持医学与临床研究分析。 |
-| [`$ncats-arax`](#skill-ncats-arax) | 围绕 `ncats-arax` 的专项能力，主要用于支持医学与临床研究分析。 |
-| [`$neurokit2`](#skill-neurokit2) | 围绕 `neurokit2` 的专项能力，主要用于检查问题并给出修改建议，并可组织可复现的科研流程。 |
-| [`$onekgpd`](#skill-onekgpd) | 这是一个面向“医学、临床与实验室规范”的专项技能，用于处理 `onekgpd` 相关任务。 |
-| [`$ontology-term-resolution`](#skill-ontology-term-resolution) | 围绕 `ontology-term-resolution` 的专项能力，主要用于检查问题并给出修改建议。 |
-| [`$pacsomatic`](#skill-pacsomatic) | 围绕 `pacsomatic` 的专项能力，主要用于处理科研或医学影像，并可支持医学与临床研究分析。 |
-| [`$pkpd-modeling`](#skill-pkpd-modeling) | 这是一个面向“医学、临床与实验室规范”的专项技能，用于处理 `pkpd-modeling` 相关任务。 |
-| [`$primer-design`](#skill-primer-design) | 围绕 `primer-design` 的专项能力，主要用于检查问题并给出修改建议。 |
-| [`$pyhealth`](#skill-pyhealth) | 围绕 `pyhealth` 的专项能力，主要用于处理科研或医学影像，并可支持医学与临床研究分析。 |
-| [`$qiime2-amplicon`](#skill-qiime2-amplicon) | 这是一个面向“医学、临床与实验室规范”的专项技能，用于处理 `qiime2-amplicon` 相关任务。 |
-| [`$relion`](#skill-relion) | 这是一个面向“医学、临床与实验室规范”的专项技能，用于处理 `relion` 相关任务。 |
-| [`$relsa-severity-assessment`](#skill-relsa-severity-assessment) | 围绕 `relsa-severity-assessment` 的专项能力，主要用于支持医学与临床研究分析。 |
-| [`$scientific-brainstorming`](#skill-scientific-brainstorming) | 围绕 `scientific-brainstorming` 的专项能力，主要用于检查问题并给出修改建议，并可支持医学与临床研究分析。 |
-| [`$treatment-plans`](#skill-treatment-plans) | 围绕 `treatment-plans` 的专项能力，主要用于支持医学与临床研究分析。 |
+| Skill | 所属技能套件 | 一句话理解 |
+| --- | --- | --- |
+| [`$13c-metabolic-flux`](#skill-13c-metabolic-flux) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 这是一个面向“医学、临床与实验室规范”的专项技能，用于处理 `13c-metabolic-flux` 相关任务。 |
+| [`$adaptyv`](#skill-adaptyv) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 围绕 `adaptyv` 的专项能力，主要用于组织可复现的科研流程。 |
+| [`$alphagenome`](#skill-alphagenome) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 围绕 `alphagenome` 的专项能力，主要用于支持医学与临床研究分析。 |
+| [`$analytical-method-validation`](#skill-analytical-method-validation) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 这是一个面向“医学、临床与实验室规范”的专项技能，用于处理 `analytical-method-validation` 相关任务。 |
+| [`$bids`](#skill-bids) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 围绕 `bids` 的专项能力，主要用于处理科研或医学影像，并可支持医学与临床研究分析。 |
+| [`$cellprofiler`](#skill-cellprofiler) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 围绕 `cellprofiler` 的专项能力，主要用于处理科研或医学影像，并可组织可复现的科研流程。 |
+| [`$cellxgene-census`](#skill-cellxgene-census) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 这是一个面向“医学、临床与实验室规范”的专项技能，用于处理 `cellxgene-census` 相关任务。 |
+| [`$clinical-decision-support`](#skill-clinical-decision-support) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 围绕 `clinical-decision-support` 的专项能力，主要用于支持医学与临床研究分析。 |
+| [`$clinical-reports`](#skill-clinical-reports) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 围绕 `clinical-reports` 的专项能力，主要用于检查问题并给出修改建议，并可支持医学与临床研究分析。 |
+| [`$experimental-design`](#skill-experimental-design) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 这是一个面向“医学、临床与实验室规范”的专项技能，用于处理 `experimental-design` 相关任务。 |
+| [`$fluidsim`](#skill-fluidsim) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 围绕 `fluidsim` 的专项能力，主要用于检查问题并给出修改建议。 |
+| [`$genomic-coordinates`](#skill-genomic-coordinates) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 围绕 `genomic-coordinates` 的专项能力，主要用于检查问题并给出修改建议。 |
+| [`$ginkgo-cloud-lab`](#skill-ginkgo-cloud-lab) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 这是一个面向“医学、临床与实验室规范”的专项技能，用于处理 `ginkgo-cloud-lab` 相关任务。 |
+| [`$glycoengineering`](#skill-glycoengineering) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 围绕 `glycoengineering` 的专项能力，主要用于组织可复现的科研流程。 |
+| [`$iso-standards-readiness`](#skill-iso-standards-readiness) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 围绕 `iso-standards-readiness` 的专项能力，主要用于检查问题并给出修改建议，并可支持医学与临床研究分析。 |
+| [`$ncats-arax`](#skill-ncats-arax) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 围绕 `ncats-arax` 的专项能力，主要用于支持医学与临床研究分析。 |
+| [`$neurokit2`](#skill-neurokit2) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 围绕 `neurokit2` 的专项能力，主要用于检查问题并给出修改建议，并可组织可复现的科研流程。 |
+| [`$onekgpd`](#skill-onekgpd) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 这是一个面向“医学、临床与实验室规范”的专项技能，用于处理 `onekgpd` 相关任务。 |
+| [`$ontology-term-resolution`](#skill-ontology-term-resolution) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 围绕 `ontology-term-resolution` 的专项能力，主要用于检查问题并给出修改建议。 |
+| [`$pacsomatic`](#skill-pacsomatic) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 围绕 `pacsomatic` 的专项能力，主要用于处理科研或医学影像，并可支持医学与临床研究分析。 |
+| [`$pkpd-modeling`](#skill-pkpd-modeling) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 这是一个面向“医学、临床与实验室规范”的专项技能，用于处理 `pkpd-modeling` 相关任务。 |
+| [`$primer-design`](#skill-primer-design) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 围绕 `primer-design` 的专项能力，主要用于检查问题并给出修改建议。 |
+| [`$pyhealth`](#skill-pyhealth) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 围绕 `pyhealth` 的专项能力，主要用于处理科研或医学影像，并可支持医学与临床研究分析。 |
+| [`$qiime2-amplicon`](#skill-qiime2-amplicon) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 这是一个面向“医学、临床与实验室规范”的专项技能，用于处理 `qiime2-amplicon` 相关任务。 |
+| [`$relion`](#skill-relion) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 这是一个面向“医学、临床与实验室规范”的专项技能，用于处理 `relion` 相关任务。 |
+| [`$relsa-severity-assessment`](#skill-relsa-severity-assessment) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 围绕 `relsa-severity-assessment` 的专项能力，主要用于支持医学与临床研究分析。 |
+| [`$scientific-brainstorming`](#skill-scientific-brainstorming) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 围绕 `scientific-brainstorming` 的专项能力，主要用于检查问题并给出修改建议，并可支持医学与临床研究分析。 |
+| [`$treatment-plans`](#skill-treatment-plans) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 围绕 `treatment-plans` 的专项能力，主要用于支持医学与临床研究分析。 |
 
 ## 详细说明
 
@@ -43,6 +43,8 @@
 ### `$13c-metabolic-flux`
 
 - 全局目录：`~/.codex/skills/13c-metabolic-flux/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：这是一个面向“医学、临床与实验室规范”的专项技能，用于处理 `13c-metabolic-flux` 相关任务。
 - 适合何时使用：支持临床研究、实验室方法验证、标准体系和医学数据工作流。
 - 使用前注意：医学输出仅用于科研和信息整理，不能替代临床判断。 先核对硬件、依赖版本、运行时间和预算，再启动长任务。
@@ -69,9 +71,11 @@ Estimates intracellular metabolic fluxes from steady-state carbon-13 isotope-tra
 ### `$adaptyv`
 
 - 全局目录：`~/.codex/skills/adaptyv/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：围绕 `adaptyv` 的专项能力，主要用于组织可复现的科研流程。
 - 适合何时使用：支持临床研究、实验室方法验证、标准体系和医学数据工作流。
-- 使用前注意：可能需要账号、API 凭据、联网权限或付费资源；执行外部写入前先确认。
+- 使用前注意：医学输出仅用于科研和信息整理，不能替代临床判断。 可能需要账号、API 凭据、联网权限或付费资源；执行外部写入前先确认。
 
 可复制提示词：
 
@@ -95,6 +99,8 @@ Uses the Adaptyv Bio Foundry API and Python SDK to design protein characterizati
 ### `$alphagenome`
 
 - 全局目录：`~/.codex/skills/alphagenome/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：围绕 `alphagenome` 的专项能力，主要用于支持医学与临床研究分析。
 - 适合何时使用：支持临床研究、实验室方法验证、标准体系和医学数据工作流。
 - 使用前注意：医学输出仅用于科研和信息整理，不能替代临床判断。
@@ -119,9 +125,11 @@ Looks up precomputed AlphaGenome Atlas effects for any GRCh38 single-nucleotide 
 ### `$analytical-method-validation`
 
 - 全局目录：`~/.codex/skills/analytical-method-validation/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：这是一个面向“医学、临床与实验室规范”的专项技能，用于处理 `analytical-method-validation` 相关任务。
 - 适合何时使用：支持临床研究、实验室方法验证、标准体系和医学数据工作流。
-- 使用前注意：技能说明不代表依赖、模型、数据或凭据已经安装；首次使用先让 Codex 检查环境。
+- 使用前注意：医学输出仅用于科研和信息整理，不能替代临床判断。
 
 可复制提示词：
 
@@ -143,6 +151,8 @@ Plans, executes, and documents validation, verification, and transfer of analyti
 ### `$bids`
 
 - 全局目录：`~/.codex/skills/bids/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：围绕 `bids` 的专项能力，主要用于处理科研或医学影像，并可支持医学与临床研究分析。
 - 适合何时使用：支持临床研究、实验室方法验证、标准体系和医学数据工作流。
 - 使用前注意：医学输出仅用于科研和信息整理，不能替代临床判断。
@@ -169,9 +179,11 @@ Organizes, queries, validates, and converts Brain Imaging Data Structure (BIDS) 
 ### `$cellprofiler`
 
 - 全局目录：`~/.codex/skills/cellprofiler/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：围绕 `cellprofiler` 的专项能力，主要用于处理科研或医学影像，并可组织可复现的科研流程。
 - 适合何时使用：支持临床研究、实验室方法验证、标准体系和医学数据工作流。
-- 使用前注意：技能说明不代表依赖、模型、数据或凭据已经安装；首次使用先让 Codex 检查环境。
+- 使用前注意：医学输出仅用于科研和信息整理，不能替代临床判断。
 
 可复制提示词：
 
@@ -193,9 +205,11 @@ Runs reproducible CellProfiler microscopy pipelines for nuclear segmentation, ce
 ### `$cellxgene-census`
 
 - 全局目录：`~/.codex/skills/cellxgene-census/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：这是一个面向“医学、临床与实验室规范”的专项技能，用于处理 `cellxgene-census` 相关任务。
 - 适合何时使用：支持临床研究、实验室方法验证、标准体系和医学数据工作流。
-- 使用前注意：技能说明不代表依赖、模型、数据或凭据已经安装；首次使用先让 Codex 检查环境。
+- 使用前注意：医学输出仅用于科研和信息整理，不能替代临床判断。
 
 可复制提示词：
 
@@ -217,6 +231,8 @@ Queries the CZ CELLxGENE Census programmatically for versioned public single-cel
 ### `$clinical-decision-support`
 
 - 全局目录：`~/.codex/skills/clinical-decision-support/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：围绕 `clinical-decision-support` 的专项能力，主要用于支持医学与临床研究分析。
 - 适合何时使用：支持临床研究、实验室方法验证、标准体系和医学数据工作流。
 - 使用前注意：医学输出仅用于科研和信息整理，不能替代临床判断。 论文、引用和结论必须回到原始来源核验，不要把摘要或模型回答当作最终证据。
@@ -241,6 +257,8 @@ Prepares and validates research-only clinical decision-support evaluation, evide
 ### `$clinical-reports`
 
 - 全局目录：`~/.codex/skills/clinical-reports/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：围绕 `clinical-reports` 的专项能力，主要用于检查问题并给出修改建议，并可支持医学与临床研究分析。
 - 适合何时使用：支持临床研究、实验室方法验证、标准体系和医学数据工作流。
 - 使用前注意：医学输出仅用于科研和信息整理，不能替代临床判断。
@@ -265,9 +283,11 @@ Creates safety-bounded draft structures and runs local deterministic checks for 
 ### `$experimental-design`
 
 - 全局目录：`~/.codex/skills/experimental-design/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：这是一个面向“医学、临床与实验室规范”的专项技能，用于处理 `experimental-design` 相关任务。
 - 适合何时使用：支持临床研究、实验室方法验证、标准体系和医学数据工作流。
-- 使用前注意：技能说明不代表依赖、模型、数据或凭据已经安装；首次使用先让 Codex 检查环境。
+- 使用前注意：医学输出仅用于科研和信息整理，不能替代临床判断。
 
 可复制提示词：
 
@@ -291,6 +311,8 @@ Designs experiments and studies BEFORE data is collected — choosing a design, 
 ### `$fluidsim`
 
 - 全局目录：`~/.codex/skills/fluidsim/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：围绕 `fluidsim` 的专项能力，主要用于检查问题并给出修改建议。
 - 适合何时使用：支持临床研究、实验室方法验证、标准体系和医学数据工作流。
 - 使用前注意：医学输出仅用于科研和信息整理，不能替代临床判断。 先核对硬件、依赖版本、运行时间和预算，再启动长任务。
@@ -317,6 +339,8 @@ Plans, configures, inspects, restarts, and analyzes bounded FluidSim computation
 ### `$genomic-coordinates`
 
 - 全局目录：`~/.codex/skills/genomic-coordinates/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：围绕 `genomic-coordinates` 的专项能力，主要用于检查问题并给出修改建议。
 - 适合何时使用：支持临床研究、实验室方法验证、标准体系和医学数据工作流。
 - 使用前注意：医学输出仅用于科研和信息整理，不能替代临床判断。
@@ -341,9 +365,11 @@ Converts genomic intervals between coordinate conventions, normalises and compar
 ### `$ginkgo-cloud-lab`
 
 - 全局目录：`~/.codex/skills/ginkgo-cloud-lab/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：这是一个面向“医学、临床与实验室规范”的专项技能，用于处理 `ginkgo-cloud-lab` 相关任务。
 - 适合何时使用：支持临床研究、实验室方法验证、标准体系和医学数据工作流。
-- 使用前注意：可能需要账号、API 凭据、联网权限或付费资源；执行外部写入前先确认。
+- 使用前注意：医学输出仅用于科研和信息整理，不能替代临床判断。 可能需要账号、API 凭据、联网权限或付费资源；执行外部写入前先确认。
 
 可复制提示词：
 
@@ -365,9 +391,11 @@ Guides protocol selection, input preparation, pricing checks, and browser orderi
 ### `$glycoengineering`
 
 - 全局目录：`~/.codex/skills/glycoengineering/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：围绕 `glycoengineering` 的专项能力，主要用于组织可复现的科研流程。
 - 适合何时使用：支持临床研究、实验室方法验证、标准体系和医学数据工作流。
-- 使用前注意：论文、引用和结论必须回到原始来源核验，不要把摘要或模型回答当作最终证据。
+- 使用前注意：医学输出仅用于科研和信息整理，不能替代临床判断。 论文、引用和结论必须回到原始来源核验，不要把摘要或模型回答当作最终证据。
 
 可复制提示词：
 
@@ -389,6 +417,8 @@ Analyzes and engineers protein glycosylation by scanning canonical N-glycosylati
 ### `$iso-standards-readiness`
 
 - 全局目录：`~/.codex/skills/iso-standards-readiness/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：围绕 `iso-standards-readiness` 的专项能力，主要用于检查问题并给出修改建议，并可支持医学与临床研究分析。
 - 适合何时使用：支持临床研究、实验室方法验证、标准体系和医学数据工作流。
 - 使用前注意：医学输出仅用于科研和信息整理，不能替代临床判断。 论文、引用和结论必须回到原始来源核验，不要把摘要或模型回答当作最终证据。
@@ -413,6 +443,8 @@ Prepares and structurally reviews readiness evidence for ISO management-system a
 ### `$ncats-arax`
 
 - 全局目录：`~/.codex/skills/ncats-arax/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：围绕 `ncats-arax` 的专项能力，主要用于支持医学与临床研究分析。
 - 适合何时使用：支持临床研究、实验室方法验证、标准体系和医学数据工作流。
 - 使用前注意：医学输出仅用于科研和信息整理，不能替代临床判断。 可能需要账号、API 凭据、联网权限或付费资源；执行外部写入前先确认。
@@ -439,6 +471,8 @@ Queries the NCATS Translator ARAX production API for bounded, typed, provenance-
 ### `$neurokit2`
 
 - 全局目录：`~/.codex/skills/neurokit2/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：围绕 `neurokit2` 的专项能力，主要用于检查问题并给出修改建议，并可组织可复现的科研流程。
 - 适合何时使用：支持临床研究、实验室方法验证、标准体系和医学数据工作流。
 - 使用前注意：医学输出仅用于科研和信息整理，不能替代临床判断。 可能需要账号、API 凭据、联网权限或付费资源；执行外部写入前先确认。
@@ -465,9 +499,11 @@ Builds and audits reproducible NeuroKit2 research workflows for physiological ti
 ### `$onekgpd`
 
 - 全局目录：`~/.codex/skills/onekgpd/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：这是一个面向“医学、临床与实验室规范”的专项技能，用于处理 `onekgpd` 相关任务。
 - 适合何时使用：支持临床研究、实验室方法验证、标准体系和医学数据工作流。
-- 使用前注意：技能说明不代表依赖、模型、数据或凭据已经安装；首次使用先让 Codex 检查环境。
+- 使用前注意：医学输出仅用于科研和信息整理，不能替代临床判断。
 
 可复制提示词：
 
@@ -489,9 +525,11 @@ Queries the 1000 Genomes Project dataset (3,202 whole-genome-sequenced individua
 ### `$ontology-term-resolution`
 
 - 全局目录：`~/.codex/skills/ontology-term-resolution/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：围绕 `ontology-term-resolution` 的专项能力，主要用于检查问题并给出修改建议。
 - 适合何时使用：支持临床研究、实验室方法验证、标准体系和医学数据工作流。
-- 使用前注意：技能说明不代表依赖、模型、数据或凭据已经安装；首次使用先让 Codex 检查环境。
+- 使用前注意：医学输出仅用于科研和信息整理，不能替代临床判断。
 
 可复制提示词：
 
@@ -513,6 +551,8 @@ Resolves free-text scientific labels to ontology term IDs and validates existing
 ### `$pacsomatic`
 
 - 全局目录：`~/.codex/skills/pacsomatic/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：围绕 `pacsomatic` 的专项能力，主要用于处理科研或医学影像，并可支持医学与临床研究分析。
 - 适合何时使用：支持临床研究、实验室方法验证、标准体系和医学数据工作流。
 - 使用前注意：医学输出仅用于科研和信息整理，不能替代临床判断。
@@ -539,9 +579,11 @@ Prepares and launches nf-core/pacsomatic matched tumor-normal PacBio HiFi genomi
 ### `$pkpd-modeling`
 
 - 全局目录：`~/.codex/skills/pkpd-modeling/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：这是一个面向“医学、临床与实验室规范”的专项技能，用于处理 `pkpd-modeling` 相关任务。
 - 适合何时使用：支持临床研究、实验室方法验证、标准体系和医学数据工作流。
-- 使用前注意：先核对硬件、依赖版本、运行时间和预算，再启动长任务。
+- 使用前注意：医学输出仅用于科研和信息整理，不能替代临床判断。 先核对硬件、依赖版本、运行时间和预算，再启动长任务。
 
 可复制提示词：
 
@@ -563,9 +605,11 @@ Pharmacokinetic and pharmacodynamic modelling and simulation - non-compartmental
 ### `$primer-design`
 
 - 全局目录：`~/.codex/skills/primer-design/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：围绕 `primer-design` 的专项能力，主要用于检查问题并给出修改建议。
 - 适合何时使用：支持临床研究、实验室方法验证、标准体系和医学数据工作流。
-- 使用前注意：技能说明不代表依赖、模型、数据或凭据已经安装；首次使用先让 Codex 检查环境。
+- 使用前注意：医学输出仅用于科研和信息整理，不能替代临床判断。
 
 可复制提示词：
 
@@ -587,6 +631,8 @@ Designs and audits PCR and RT-qPCR primers with Primer3, explicit thermodynamic 
 ### `$pyhealth`
 
 - 全局目录：`~/.codex/skills/pyhealth/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：围绕 `pyhealth` 的专项能力，主要用于处理科研或医学影像，并可支持医学与临床研究分析。
 - 适合何时使用：支持临床研究、实验室方法验证、标准体系和医学数据工作流。
 - 使用前注意：医学输出仅用于科研和信息整理，不能替代临床判断。
@@ -611,6 +657,8 @@ Builds and validates PyHealth clinical machine-learning pipelines for EHR, signa
 ### `$qiime2-amplicon`
 
 - 全局目录：`~/.codex/skills/qiime2-amplicon/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：这是一个面向“医学、临床与实验室规范”的专项技能，用于处理 `qiime2-amplicon` 相关任务。
 - 适合何时使用：支持临床研究、实验室方法验证、标准体系和医学数据工作流。
 - 使用前注意：医学输出仅用于科研和信息整理，不能替代临床判断。
@@ -635,6 +683,8 @@ Processes paired-end 16S amplicon reads into QIIME 2 ASVs and taxonomy with reta
 ### `$relion`
 
 - 全局目录：`~/.codex/skills/relion/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：这是一个面向“医学、临床与实验室规范”的专项技能，用于处理 `relion` 相关任务。
 - 适合何时使用：支持临床研究、实验室方法验证、标准体系和医学数据工作流。
 - 使用前注意：医学输出仅用于科研和信息整理，不能替代临床判断。
@@ -659,6 +709,8 @@ Validates and executes RELION single-particle cryo-EM refinement and half-map po
 ### `$relsa-severity-assessment`
 
 - 全局目录：`~/.codex/skills/relsa-severity-assessment/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：围绕 `relsa-severity-assessment` 的专项能力，主要用于支持医学与临床研究分析。
 - 适合何时使用：支持临床研究、实验室方法验证、标准体系和医学数据工作流。
 - 使用前注意：医学输出仅用于科研和信息整理，不能替代临床判断。
@@ -685,6 +737,8 @@ Supports multivariate severity assessment and exploratory endpoint-time score fo
 ### `$scientific-brainstorming`
 
 - 全局目录：`~/.codex/skills/scientific-brainstorming/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：围绕 `scientific-brainstorming` 的专项能力，主要用于检查问题并给出修改建议，并可支持医学与临床研究分析。
 - 适合何时使用：支持临床研究、实验室方法验证、标准体系和医学数据工作流。
 - 使用前注意：医学输出仅用于科研和信息整理，不能替代临床判断。 论文、引用和结论必须回到原始来源核验，不要把摘要或模型回答当作最终证据。
@@ -709,6 +763,8 @@ Facilitates evidence-aware scientific ideation with independent generation, stru
 ### `$treatment-plans`
 
 - 全局目录：`~/.codex/skills/treatment-plans/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：围绕 `treatment-plans` 的专项能力，主要用于支持医学与临床研究分析。
 - 适合何时使用：支持临床研究、实验室方法验证、标准体系和医学数据工作流。
 - 使用前注意：医学输出仅用于科研和信息整理，不能替代临床判断。

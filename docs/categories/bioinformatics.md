@@ -6,43 +6,43 @@
 
 ## 本页索引
 
-| Skill | 一句话理解 |
-| --- | --- |
-| [`$anndata`](#skill-anndata) | 围绕 `anndata` 的专项能力，主要用于处理生物信息与组学数据。 |
-| [`$arboreto`](#skill-arboreto) | 围绕 `arboreto` 的专项能力，主要用于处理生物信息与组学数据。 |
-| [`$biopython`](#skill-biopython) | 围绕 `biopython` 的专项能力，主要用于处理生物信息与组学数据，并可开展系统发育或分类学分析。 |
-| [`$bioservices`](#skill-bioservices) | 围绕 `bioservices` 的专项能力，主要用于处理生物信息与组学数据。 |
-| [`$bulk-rnaseq`](#skill-bulk-rnaseq) | 围绕 `bulk-rnaseq` 的专项能力，主要用于处理生物信息与组学数据。 |
-| [`$cobrapy`](#skill-cobrapy) | 围绕 `cobrapy` 的专项能力，主要用于进行代谢网络与通量分析。 |
-| [`$deepspot-m`](#skill-deepspot-m) | 围绕 `deepspot-m` 的专项能力，主要用于处理生物信息与组学数据，并可处理科研或医学影像。 |
-| [`$deeptools`](#skill-deeptools) | 围绕 `deeptools` 的专项能力，主要用于处理生物信息与组学数据。 |
-| [`$depmap`](#skill-depmap) | 这是一个面向“生物信息、组学与遗传学”的专项技能，用于处理 `depmap` 相关任务。 |
-| [`$dnanexus-integration`](#skill-dnanexus-integration) | 围绕 `dnanexus-integration` 的专项能力，主要用于处理生物信息与组学数据。 |
-| [`$esm`](#skill-esm) | 围绕 `esm` 的专项能力，主要用于处理生物信息与组学数据。 |
-| [`$etetoolkit`](#skill-etetoolkit) | 围绕 `etetoolkit` 的专项能力，主要用于处理生物信息与组学数据，并可开展系统发育或分类学分析。 |
-| [`$geniml`](#skill-geniml) | 围绕 `geniml` 的专项能力，主要用于处理生物信息与组学数据。 |
-| [`$genomic-intelligence`](#skill-genomic-intelligence) | 围绕 `genomic-intelligence` 的专项能力，主要用于处理生物信息与组学数据。 |
-| [`$gget`](#skill-gget) | 围绕 `gget` 的专项能力，主要用于处理生物信息与组学数据。 |
-| [`$gtars`](#skill-gtars) | 围绕 `gtars` 的专项能力，主要用于处理生物信息与组学数据。 |
-| [`$hugging-science`](#skill-hugging-science) | 围绕 `hugging-science` 的专项能力，主要用于处理生物信息与组学数据。 |
-| [`$lamindb`](#skill-lamindb) | 这是一个面向“生物信息、组学与遗传学”的专项技能，用于处理 `lamindb` 相关任务。 |
-| [`$latchbio-integration`](#skill-latchbio-integration) | 这是一个面向“生物信息、组学与遗传学”的专项技能，用于处理 `latchbio-integration` 相关任务。 |
-| [`$mageck`](#skill-mageck) | 这是一个面向“生物信息、组学与遗传学”的专项技能，用于处理 `mageck` 相关任务。 |
-| [`$pathogen-variant-surveillance`](#skill-pathogen-variant-surveillance) | 围绕 `pathogen-variant-surveillance` 的专项能力，主要用于处理生物信息与组学数据，并可分析遗传变异及其影响。 |
-| [`$pathway-enrichment`](#skill-pathway-enrichment) | 围绕 `pathway-enrichment` 的专项能力，主要用于处理质谱、蛋白组或代谢组数据。 |
-| [`$phylogenetics`](#skill-phylogenetics) | 围绕 `phylogenetics` 的专项能力，主要用于处理生物信息与组学数据，并可开展系统发育或分类学分析。 |
-| [`$polars-bio`](#skill-polars-bio) | 围绕 `polars-bio` 的专项能力，主要用于处理生物信息与组学数据，并可分析遗传变异及其影响。 |
-| [`$primekg`](#skill-primekg) | 这是一个面向“生物信息、组学与遗传学”的专项技能，用于处理 `primekg` 相关任务。 |
-| [`$pydeseq2`](#skill-pydeseq2) | 围绕 `pydeseq2` 的专项能力，主要用于处理生物信息与组学数据。 |
-| [`$pysam`](#skill-pysam) | 围绕 `pysam` 的专项能力，主要用于处理生物信息与组学数据，并可分析遗传变异及其影响。 |
-| [`$scanpy`](#skill-scanpy) | 围绕 `scanpy` 的专项能力，主要用于处理生物信息与组学数据。 |
-| [`$scikit-bio`](#skill-scikit-bio) | 围绕 `scikit-bio` 的专项能力，主要用于处理生物信息与组学数据，并可开展系统发育或分类学分析。 |
-| [`$scvelo`](#skill-scvelo) | 围绕 `scvelo` 的专项能力，主要用于处理生物信息与组学数据。 |
-| [`$scvi-tools`](#skill-scvi-tools) | 围绕 `scvi-tools` 的专项能力，主要用于处理生物信息与组学数据。 |
-| [`$tamarind`](#skill-tamarind) | 围绕 `tamarind` 的专项能力，主要用于处理生物信息与组学数据。 |
-| [`$tiledbvcf`](#skill-tiledbvcf) | 围绕 `tiledbvcf` 的专项能力，主要用于处理生物信息与组学数据，并可分析遗传变异及其影响。 |
-| [`$torchdrug`](#skill-torchdrug) | 围绕 `torchdrug` 的专项能力，主要用于处理生物信息与组学数据。 |
-| [`$waypoint-bio`](#skill-waypoint-bio) | 这是一个面向“生物信息、组学与遗传学”的专项技能，用于处理 `waypoint-bio` 相关任务。 |
+| Skill | 所属技能套件 | 一句话理解 |
+| --- | --- | --- |
+| [`$anndata`](#skill-anndata) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 围绕 `anndata` 的专项能力，主要用于处理生物信息与组学数据。 |
+| [`$arboreto`](#skill-arboreto) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 围绕 `arboreto` 的专项能力，主要用于处理生物信息与组学数据。 |
+| [`$biopython`](#skill-biopython) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 围绕 `biopython` 的专项能力，主要用于处理生物信息与组学数据，并可开展系统发育或分类学分析。 |
+| [`$bioservices`](#skill-bioservices) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 围绕 `bioservices` 的专项能力，主要用于处理生物信息与组学数据。 |
+| [`$bulk-rnaseq`](#skill-bulk-rnaseq) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 围绕 `bulk-rnaseq` 的专项能力，主要用于处理生物信息与组学数据。 |
+| [`$cobrapy`](#skill-cobrapy) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 围绕 `cobrapy` 的专项能力，主要用于进行代谢网络与通量分析。 |
+| [`$deepspot-m`](#skill-deepspot-m) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 围绕 `deepspot-m` 的专项能力，主要用于处理生物信息与组学数据，并可处理科研或医学影像。 |
+| [`$deeptools`](#skill-deeptools) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 围绕 `deeptools` 的专项能力，主要用于处理生物信息与组学数据。 |
+| [`$depmap`](#skill-depmap) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 这是一个面向“生物信息、组学与遗传学”的专项技能，用于处理 `depmap` 相关任务。 |
+| [`$dnanexus-integration`](#skill-dnanexus-integration) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 围绕 `dnanexus-integration` 的专项能力，主要用于处理生物信息与组学数据。 |
+| [`$esm`](#skill-esm) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 围绕 `esm` 的专项能力，主要用于处理生物信息与组学数据。 |
+| [`$etetoolkit`](#skill-etetoolkit) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 围绕 `etetoolkit` 的专项能力，主要用于处理生物信息与组学数据，并可开展系统发育或分类学分析。 |
+| [`$geniml`](#skill-geniml) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 围绕 `geniml` 的专项能力，主要用于处理生物信息与组学数据。 |
+| [`$genomic-intelligence`](#skill-genomic-intelligence) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 围绕 `genomic-intelligence` 的专项能力，主要用于处理生物信息与组学数据。 |
+| [`$gget`](#skill-gget) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 围绕 `gget` 的专项能力，主要用于处理生物信息与组学数据。 |
+| [`$gtars`](#skill-gtars) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 围绕 `gtars` 的专项能力，主要用于处理生物信息与组学数据。 |
+| [`$hugging-science`](#skill-hugging-science) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 围绕 `hugging-science` 的专项能力，主要用于处理生物信息与组学数据。 |
+| [`$lamindb`](#skill-lamindb) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 这是一个面向“生物信息、组学与遗传学”的专项技能，用于处理 `lamindb` 相关任务。 |
+| [`$latchbio-integration`](#skill-latchbio-integration) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 这是一个面向“生物信息、组学与遗传学”的专项技能，用于处理 `latchbio-integration` 相关任务。 |
+| [`$mageck`](#skill-mageck) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 这是一个面向“生物信息、组学与遗传学”的专项技能，用于处理 `mageck` 相关任务。 |
+| [`$pathogen-variant-surveillance`](#skill-pathogen-variant-surveillance) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 围绕 `pathogen-variant-surveillance` 的专项能力，主要用于处理生物信息与组学数据，并可分析遗传变异及其影响。 |
+| [`$pathway-enrichment`](#skill-pathway-enrichment) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 围绕 `pathway-enrichment` 的专项能力，主要用于处理质谱、蛋白组或代谢组数据。 |
+| [`$phylogenetics`](#skill-phylogenetics) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 围绕 `phylogenetics` 的专项能力，主要用于处理生物信息与组学数据，并可开展系统发育或分类学分析。 |
+| [`$polars-bio`](#skill-polars-bio) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 围绕 `polars-bio` 的专项能力，主要用于处理生物信息与组学数据，并可分析遗传变异及其影响。 |
+| [`$primekg`](#skill-primekg) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 这是一个面向“生物信息、组学与遗传学”的专项技能，用于处理 `primekg` 相关任务。 |
+| [`$pydeseq2`](#skill-pydeseq2) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 围绕 `pydeseq2` 的专项能力，主要用于处理生物信息与组学数据。 |
+| [`$pysam`](#skill-pysam) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 围绕 `pysam` 的专项能力，主要用于处理生物信息与组学数据，并可分析遗传变异及其影响。 |
+| [`$scanpy`](#skill-scanpy) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 围绕 `scanpy` 的专项能力，主要用于处理生物信息与组学数据。 |
+| [`$scikit-bio`](#skill-scikit-bio) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 围绕 `scikit-bio` 的专项能力，主要用于处理生物信息与组学数据，并可开展系统发育或分类学分析。 |
+| [`$scvelo`](#skill-scvelo) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 围绕 `scvelo` 的专项能力，主要用于处理生物信息与组学数据。 |
+| [`$scvi-tools`](#skill-scvi-tools) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 围绕 `scvi-tools` 的专项能力，主要用于处理生物信息与组学数据。 |
+| [`$tamarind`](#skill-tamarind) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 围绕 `tamarind` 的专项能力，主要用于处理生物信息与组学数据。 |
+| [`$tiledbvcf`](#skill-tiledbvcf) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 围绕 `tiledbvcf` 的专项能力，主要用于处理生物信息与组学数据，并可分析遗传变异及其影响。 |
+| [`$torchdrug`](#skill-torchdrug) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 围绕 `torchdrug` 的专项能力，主要用于处理生物信息与组学数据。 |
+| [`$waypoint-bio`](#skill-waypoint-bio) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 这是一个面向“生物信息、组学与遗传学”的专项技能，用于处理 `waypoint-bio` 相关任务。 |
 
 ## 详细说明
 
@@ -50,6 +50,8 @@
 ### `$anndata`
 
 - 全局目录：`~/.codex/skills/anndata/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：围绕 `anndata` 的专项能力，主要用于处理生物信息与组学数据。
 - 适合何时使用：处理序列、单细胞、转录组、基因组、系统生物学和公共生物数据库。
 - 使用前注意：技能说明不代表依赖、模型、数据或凭据已经安装；首次使用先让 Codex 检查环境。
@@ -76,6 +78,8 @@ Handles annotated matrices in single-cell analysis, .h5ad and Zarr files, and in
 ### `$arboreto`
 
 - 全局目录：`~/.codex/skills/arboreto/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：围绕 `arboreto` 的专项能力，主要用于处理生物信息与组学数据。
 - 适合何时使用：处理序列、单细胞、转录组、基因组、系统生物学和公共生物数据库。
 - 使用前注意：技能说明不代表依赖、模型、数据或凭据已经安装；首次使用先让 Codex 检查环境。
@@ -102,6 +106,8 @@ Infers candidate gene regulatory networks from bulk or single-cell expression da
 ### `$biopython`
 
 - 全局目录：`~/.codex/skills/biopython/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：围绕 `biopython` 的专项能力，主要用于处理生物信息与组学数据，并可开展系统发育或分类学分析。
 - 适合何时使用：处理序列、单细胞、转录组、基因组、系统生物学和公共生物数据库。
 - 使用前注意：技能说明不代表依赖、模型、数据或凭据已经安装；首次使用先让 Codex 检查环境。
@@ -128,6 +134,8 @@ Provides Biopython workflows for sequence manipulation, file parsing (FASTA/GenB
 ### `$bioservices`
 
 - 全局目录：`~/.codex/skills/bioservices/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：围绕 `bioservices` 的专项能力，主要用于处理生物信息与组学数据。
 - 适合何时使用：处理序列、单细胞、转录组、基因组、系统生物学和公共生物数据库。
 - 使用前注意：技能说明不代表依赖、模型、数据或凭据已经安装；首次使用先让 Codex 检查环境。
@@ -152,6 +160,8 @@ Provides a Python interface to bioinformatics services including UniProt, KEGG, 
 ### `$bulk-rnaseq`
 
 - 全局目录：`~/.codex/skills/bulk-rnaseq/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：围绕 `bulk-rnaseq` 的专项能力，主要用于处理生物信息与组学数据。
 - 适合何时使用：处理序列、单细胞、转录组、基因组、系统生物学和公共生物数据库。
 - 使用前注意：技能说明不代表依赖、模型、数据或凭据已经安装；首次使用先让 Codex 检查环境。
@@ -178,6 +188,8 @@ Prepares bulk RNA-seq FASTQ, Salmon, STAR or featureCounts output for gene-level
 ### `$cobrapy`
 
 - 全局目录：`~/.codex/skills/cobrapy/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：围绕 `cobrapy` 的专项能力，主要用于进行代谢网络与通量分析。
 - 适合何时使用：处理序列、单细胞、转录组、基因组、系统生物学和公共生物数据库。
 - 使用前注意：技能说明不代表依赖、模型、数据或凭据已经安装；首次使用先让 Codex 检查环境。
@@ -204,6 +216,8 @@ Performs constraint-based metabolic modeling with COBRApy, including FBA, pFBA, 
 ### `$deepspot-m`
 
 - 全局目录：`~/.codex/skills/deepspot-m/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：围绕 `deepspot-m` 的专项能力，主要用于处理生物信息与组学数据，并可处理科研或医学影像。
 - 适合何时使用：处理序列、单细胞、转录组、基因组、系统生物学和公共生物数据库。
 - 使用前注意：技能说明不代表依赖、模型、数据或凭据已经安装；首次使用先让 Codex 检查环境。
@@ -230,6 +244,8 @@ Generates transcriptome-wide virtual spatial transcriptomics from H&E histology 
 ### `$deeptools`
 
 - 全局目录：`~/.codex/skills/deeptools/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：围绕 `deeptools` 的专项能力，主要用于处理生物信息与组学数据。
 - 适合何时使用：处理序列、单细胞、转录组、基因组、系统生物学和公共生物数据库。
 - 使用前注意：技能说明不代表依赖、模型、数据或凭据已经安装；首次使用先让 Codex 检查环境。
@@ -254,6 +270,8 @@ NGS analysis toolkit. BAM to bigWig conversion, QC (correlation, PCA, fingerprin
 ### `$depmap`
 
 - 全局目录：`~/.codex/skills/depmap/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：这是一个面向“生物信息、组学与遗传学”的专项技能，用于处理 `depmap` 相关任务。
 - 适合何时使用：处理序列、单细胞、转录组、基因组、系统生物学和公共生物数据库。
 - 使用前注意：技能说明不代表依赖、模型、数据或凭据已经安装；首次使用先让 Codex 检查环境。
@@ -280,6 +298,8 @@ Retrieves and analyzes Cancer Dependency Map (DepMap) release data, including CR
 ### `$dnanexus-integration`
 
 - 全局目录：`~/.codex/skills/dnanexus-integration/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：围绕 `dnanexus-integration` 的专项能力，主要用于处理生物信息与组学数据。
 - 适合何时使用：处理序列、单细胞、转录组、基因组、系统生物学和公共生物数据库。
 - 使用前注意：技能说明不代表依赖、模型、数据或凭据已经安装；首次使用先让 Codex 检查环境。
@@ -304,6 +324,8 @@ Builds and operates reproducible genomics workloads on DNAnexus with the dx CLI,
 ### `$esm`
 
 - 全局目录：`~/.codex/skills/esm/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：围绕 `esm` 的专项能力，主要用于处理生物信息与组学数据。
 - 适合何时使用：处理序列、单细胞、转录组、基因组、系统生物学和公共生物数据库。
 - 使用前注意：可能需要账号、API 凭据、联网权限或付费资源；执行外部写入前先确认。
@@ -328,6 +350,8 @@ Uses the Biohub esm Python SDK for ESM3 protein generation, ESMC embeddings, and
 ### `$etetoolkit`
 
 - 全局目录：`~/.codex/skills/etetoolkit/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：围绕 `etetoolkit` 的专项能力，主要用于处理生物信息与组学数据，并可开展系统发育或分类学分析。
 - 适合何时使用：处理序列、单细胞、转录组、基因组、系统生物学和公共生物数据库。
 - 使用前注意：技能说明不代表依赖、模型、数据或凭据已经安装；首次使用先让 Codex 检查环境。
@@ -354,6 +378,8 @@ Analyzes, manipulates, compares, annotates, and visualizes phylogenetic or other
 ### `$geniml`
 
 - 全局目录：`~/.codex/skills/geniml/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：围绕 `geniml` 的专项能力，主要用于处理生物信息与组学数据。
 - 适合何时使用：处理序列、单细胞、转录组、基因组、系统生物学和公共生物数据库。
 - 使用前注意：技能说明不代表依赖、模型、数据或凭据已经安装；首次使用先让 Codex 检查环境。
@@ -380,6 +406,8 @@ Supports audited local Geniml genomic-interval workflows: validate BED and unive
 ### `$genomic-intelligence`
 
 - 全局目录：`~/.codex/skills/genomic-intelligence/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：围绕 `genomic-intelligence` 的专项能力，主要用于处理生物信息与组学数据。
 - 适合何时使用：处理序列、单细胞、转录组、基因组、系统生物学和公共生物数据库。
 - 使用前注意：可能需要账号、API 凭据、联网权限或付费资源；执行外部写入前先确认。 先核对硬件、依赖版本、运行时间和预算，再启动长任务。
@@ -404,6 +432,8 @@ Predicts regulatory features, gene structure, and expression directly from DNA s
 ### `$gget`
 
 - 全局目录：`~/.codex/skills/gget/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：围绕 `gget` 的专项能力，主要用于处理生物信息与组学数据。
 - 适合何时使用：处理序列、单细胞、转录组、基因组、系统生物学和公共生物数据库。
 - 使用前注意：技能说明不代表依赖、模型、数据或凭据已经安装；首次使用先让 Codex 检查环境。
@@ -430,6 +460,8 @@ Queries 20+ bioinformatics resources through CLI/Python. Supports quick lookups 
 ### `$gtars`
 
 - 全局目录：`~/.codex/skills/gtars/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：围绕 `gtars` 的专项能力，主要用于处理生物信息与组学数据。
 - 适合何时使用：处理序列、单细胞、转录组、基因组、系统生物学和公共生物数据库。
 - 使用前注意：技能说明不代表依赖、模型、数据或凭据已经安装；首次使用先让 Codex 检查环境。
@@ -456,6 +488,8 @@ Supports Gtars for local genomic interval models and set algebra, overlaps and c
 ### `$hugging-science`
 
 - 全局目录：`~/.codex/skills/hugging-science/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：围绕 `hugging-science` 的专项能力，主要用于处理生物信息与组学数据。
 - 适合何时使用：处理序列、单细胞、转录组、基因组、系统生物学和公共生物数据库。
 - 使用前注意：技能说明不代表依赖、模型、数据或凭据已经安装；首次使用先让 Codex 检查环境。
@@ -480,6 +514,8 @@ Discovers and evaluates scientific datasets, models, methodology posts, and Spac
 ### `$lamindb`
 
 - 全局目录：`~/.codex/skills/lamindb/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：这是一个面向“生物信息、组学与遗传学”的专项技能，用于处理 `lamindb` 相关任务。
 - 适合何时使用：处理序列、单细胞、转录组、基因组、系统生物学和公共生物数据库。
 - 使用前注意：技能说明不代表依赖、模型、数据或凭据已经安装；首次使用先让 Codex 检查环境。
@@ -504,6 +540,8 @@ Manages biological datasets and models with LaminDB, including artifact registra
 ### `$latchbio-integration`
 
 - 全局目录：`~/.codex/skills/latchbio-integration/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：这是一个面向“生物信息、组学与遗传学”的专项技能，用于处理 `latchbio-integration` 相关任务。
 - 适合何时使用：处理序列、单细胞、转录组、基因组、系统生物学和公共生物数据库。
 - 使用前注意：可能需要账号、API 凭据、联网权限或付费资源；执行外部写入前先确认。
@@ -530,6 +568,8 @@ Builds, registers, debugs, and operates bioinformatics workflows on Latch using 
 ### `$mageck`
 
 - 全局目录：`~/.codex/skills/mageck/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：这是一个面向“生物信息、组学与遗传学”的专项技能，用于处理 `mageck` 相关任务。
 - 适合何时使用：处理序列、单细胞、转录组、基因组、系统生物学和公共生物数据库。
 - 使用前注意：技能说明不代表依赖、模型、数据或凭据已经安装；首次使用先让 Codex 检查环境。
@@ -556,6 +596,8 @@ Analyzes pooled CRISPR screen FASTQ reads and guide-count matrices with MAGeCK, 
 ### `$pathogen-variant-surveillance`
 
 - 全局目录：`~/.codex/skills/pathogen-variant-surveillance/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：围绕 `pathogen-variant-surveillance` 的专项能力，主要用于处理生物信息与组学数据，并可分析遗传变异及其影响。
 - 适合何时使用：处理序列、单细胞、转录组、基因组、系统生物学和公共生物数据库。
 - 使用前注意：可能需要账号、API 凭据、联网权限或付费资源；执行外部写入前先确认。
@@ -580,6 +622,8 @@ Queries public GenSpectrum LAPIS data for pathogen genomic surveillance, current
 ### `$pathway-enrichment`
 
 - 全局目录：`~/.codex/skills/pathway-enrichment/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：围绕 `pathway-enrichment` 的专项能力，主要用于处理质谱、蛋白组或代谢组数据。
 - 适合何时使用：处理序列、单细胞、转录组、基因组、系统生物学和公共生物数据库。
 - 使用前注意：技能说明不代表依赖、模型、数据或凭据已经安装；首次使用先让 Codex 检查环境。
@@ -606,6 +650,8 @@ Performs pathway and gene-set enrichment analysis on gene lists or ranked gene d
 ### `$phylogenetics`
 
 - 全局目录：`~/.codex/skills/phylogenetics/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：围绕 `phylogenetics` 的专项能力，主要用于处理生物信息与组学数据，并可开展系统发育或分类学分析。
 - 适合何时使用：处理序列、单细胞、转录组、基因组、系统生物学和公共生物数据库。
 - 使用前注意：技能说明不代表依赖、模型、数据或凭据已经安装；首次使用先让 Codex 检查环境。
@@ -632,6 +678,8 @@ Builds and analyzes phylogenetic trees using MAFFT multiple sequence alignment, 
 ### `$polars-bio`
 
 - 全局目录：`~/.codex/skills/polars-bio/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：围绕 `polars-bio` 的专项能力，主要用于处理生物信息与组学数据，并可分析遗传变异及其影响。
 - 适合何时使用：处理序列、单细胞、转录组、基因组、系统生物学和公共生物数据库。
 - 使用前注意：技能说明不代表依赖、模型、数据或凭据已经安装；首次使用先让 Codex 检查环境。
@@ -658,6 +706,8 @@ Performs genomic interval overlap, nearest, merge, coverage, complement and subt
 ### `$primekg`
 
 - 全局目录：`~/.codex/skills/primekg/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：这是一个面向“生物信息、组学与遗传学”的专项技能，用于处理 `primekg` 相关任务。
 - 适合何时使用：处理序列、单细胞、转录组、基因组、系统生物学和公共生物数据库。
 - 使用前注意：技能说明不代表依赖、模型、数据或凭据已经安装；首次使用先让 Codex 检查环境。
@@ -684,6 +734,8 @@ Queries a pinned Precision Medicine Knowledge Graph (PrimeKG) CSV for typed gene
 ### `$pydeseq2`
 
 - 全局目录：`~/.codex/skills/pydeseq2/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：围绕 `pydeseq2` 的专项能力，主要用于处理生物信息与组学数据。
 - 适合何时使用：处理序列、单细胞、转录组、基因组、系统生物学和公共生物数据库。
 - 使用前注意：技能说明不代表依赖、模型、数据或凭据已经安装；首次使用先让 Codex 检查环境。
@@ -710,6 +762,8 @@ Performs bulk RNA-seq differential expression analysis with PyDESeq2, including 
 ### `$pysam`
 
 - 全局目录：`~/.codex/skills/pysam/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：围绕 `pysam` 的专项能力，主要用于处理生物信息与组学数据，并可分析遗传变异及其影响。
 - 适合何时使用：处理序列、单细胞、转录组、基因组、系统生物学和公共生物数据库。
 - 使用前注意：技能说明不代表依赖、模型、数据或凭据已经安装；首次使用先让 Codex 检查环境。
@@ -734,6 +788,8 @@ Provides Python/HTSlib workflows for genomic files. Used when reading, querying,
 ### `$scanpy`
 
 - 全局目录：`~/.codex/skills/scanpy/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：围绕 `scanpy` 的专项能力，主要用于处理生物信息与组学数据。
 - 适合何时使用：处理序列、单细胞、转录组、基因组、系统生物学和公共生物数据库。
 - 使用前注意：技能说明不代表依赖、模型、数据或凭据已经安装；首次使用先让 Codex 检查环境。
@@ -758,6 +814,8 @@ Performs Scanpy single-cell RNA-seq QC, normalization, HVG selection, PCA/UMAP/t
 ### `$scikit-bio`
 
 - 全局目录：`~/.codex/skills/scikit-bio/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：围绕 `scikit-bio` 的专项能力，主要用于处理生物信息与组学数据，并可开展系统发育或分类学分析。
 - 适合何时使用：处理序列、单细胞、转录组、基因组、系统生物学和公共生物数据库。
 - 使用前注意：技能说明不代表依赖、模型、数据或凭据已经安装；首次使用先让 Codex 检查环境。
@@ -784,6 +842,8 @@ Biological data toolkit. Sequence analysis, alignments, phylogenetic trees, dive
 ### `$scvelo`
 
 - 全局目录：`~/.codex/skills/scvelo/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：围绕 `scvelo` 的专项能力，主要用于处理生物信息与组学数据。
 - 适合何时使用：处理序列、单细胞、转录组、基因组、系统生物学和公共生物数据库。
 - 使用前注意：医学输出仅用于科研和信息整理，不能替代临床判断。
@@ -810,6 +870,8 @@ Performs RNA velocity analysis with scVelo from spliced and unspliced single-cel
 ### `$scvi-tools`
 
 - 全局目录：`~/.codex/skills/scvi-tools/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：围绕 `scvi-tools` 的专项能力，主要用于处理生物信息与组学数据。
 - 适合何时使用：处理序列、单细胞、转录组、基因组、系统生物学和公共生物数据库。
 - 使用前注意：技能说明不代表依赖、模型、数据或凭据已经安装；首次使用先让 Codex 检查环境。
@@ -836,6 +898,8 @@ Fits probabilistic models for single-cell omics, including scVI batch integratio
 ### `$tamarind`
 
 - 全局目录：`~/.codex/skills/tamarind/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：围绕 `tamarind` 的专项能力，主要用于处理生物信息与组学数据。
 - 适合何时使用：处理序列、单细胞、转录组、基因组、系统生物学和公共生物数据库。
 - 使用前注意：可能需要账号、API 凭据、联网权限或付费资源；执行外部写入前先确认。 先核对硬件、依赖版本、运行时间和预算，再启动长任务。
@@ -860,6 +924,8 @@ Provides access to a collection of open-source molecular design and structural b
 ### `$tiledbvcf`
 
 - 全局目录：`~/.codex/skills/tiledbvcf/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：围绕 `tiledbvcf` 的专项能力，主要用于处理生物信息与组学数据，并可分析遗传变异及其影响。
 - 适合何时使用：处理序列、单细胞、转录组、基因组、系统生物学和公共生物数据库。
 - 使用前注意：可能需要账号、API 凭据、联网权限或付费资源；执行外部写入前先确认。
@@ -886,6 +952,8 @@ Stores and retrieves genomic variant calls with TileDB-VCF. Use for indexed sing
 ### `$torchdrug`
 
 - 全局目录：`~/.codex/skills/torchdrug/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：围绕 `torchdrug` 的专项能力，主要用于处理生物信息与组学数据。
 - 适合何时使用：处理序列、单细胞、转录组、基因组、系统生物学和公共生物数据库。
 - 使用前注意：先核对硬件、依赖版本、运行时间和预算，再启动长任务。
@@ -912,6 +980,8 @@ Builds and troubleshoots TorchDrug 0.2.1 workflows for molecular graphs, propert
 ### `$waypoint-bio`
 
 - 全局目录：`~/.codex/skills/waypoint-bio/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：这是一个面向“生物信息、组学与遗传学”的专项技能，用于处理 `waypoint-bio` 相关任务。
 - 适合何时使用：处理序列、单细胞、转录组、基因组、系统生物学和公共生物数据库。
 - 使用前注意：先核对硬件、依赖版本、运行时间和预算，再启动长任务。

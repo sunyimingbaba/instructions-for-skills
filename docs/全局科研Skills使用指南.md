@@ -14,6 +14,26 @@
 
 如果不知道技能名，先从下面的分类进入。一个任务通常只需一个主 skill；需要跨阶段工作时，再按“检索 → 分析 → 写作 → 审核”的顺序组合。
 
+## 先找大套件还是直接找小 Skill
+
+- 任务跨度很大，例如“从找选题一直做到论文”，先用大套件的总入口。
+- 任务很具体，例如“核对 DOI”或“分析单细胞数据”，直接调用对应小 skill。
+- 不清楚小 skill 属于哪里时，打开[技能套件与总入口导航](技能套件导航.md)。
+
+| 主要技能套件 | 数量 | 推荐总入口 |
+| --- | ---: | --- |
+| [Scientific Agent Skills（K-Dense）](技能套件导航.md#suite-scientific-agent-skills) | 177 | 按任务直接调用对应小 skill |
+| [Auto Claude Code Research in Sleep（ARIS）](技能套件导航.md#suite-aris) | 82 | `$research-pipeline` |
+| [AI Research SKILLs（Orchestra Research）](技能套件导航.md#suite-orchestra) | 96 | `$autoresearch` |
+| [ARS-Codex 学术研究套件](技能套件导航.md#suite-academic-research-suite) | 1 | `$academic-research-suite` |
+| [Codex Autoresearch](技能套件导航.md#suite-codex-autoresearch) | 1 | `$codex-autoresearch` |
+| [Nature Research Skills](技能套件导航.md#suite-nature) | 20 | 按任务直接调用对应的 $nature-* skill |
+| [BZD 数学建模 Skills](技能套件导航.md#suite-bzd) | 16 | `$bzd-modeling-workflow` |
+| [HWB 华为杯数学建模 Skills](技能套件导航.md#suite-hwb) | 16 | `$hwb-modeling-workflow` |
+| [MathModel 数学建模工作流](技能套件导航.md#suite-mathmodel) | 8 | `$1start-mathmodel` |
+| [Scientific Toolkit 科研计算套件](技能套件导航.md#suite-scientific-toolkit) | 3 | `$scientific-toolkit-skill` |
+| [独立或暂未归入大型套件](技能套件导航.md#suite-standalone) | 8 | 直接调用当前小 skill |
+
 ## 分类导航
 
 | 分类 | 数量 | 适合解决的问题 |

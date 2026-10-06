@@ -6,44 +6,44 @@
 
 ## 本页索引
 
-| Skill | 一句话理解 |
-| --- | --- |
-| [`$auto-paper-improvement-loop`](#skill-auto-paper-improvement-loop) | Autonomously improve a generated paper via GPT-6-Astra xhigh review → implement fixes → recompile, for 2 rounds. |
-| [`$claims-drafting`](#skill-claims-drafting) | Draft patent claims for an invention. |
-| [`$embodiment-description`](#skill-embodiment-description) | Write detailed embodiment descriptions for patent specifications. |
-| [`$figure-description`](#skill-figure-description) | Process user-provided patent figures and generate formal drawing descriptions. |
-| [`$humanizer`](#skill-humanizer) | 围绕 `humanizer` 的专项能力，主要用于检查问题并给出修改建议。 |
-| [`$invention-structuring`](#skill-invention-structuring) | Structure a raw invention idea into a formal invention disclosure. |
-| [`$jurisdiction-format`](#skill-jurisdiction-format) | Compile patent application into jurisdiction-specific filing format. |
-| [`$kill-argument`](#skill-kill-argument) | 围绕 `kill-argument` 的专项能力，主要用于检查问题并给出修改建议。 |
-| [`$meta-optimize`](#skill-meta-optimize) | Analyze ARIS usage logs and propose optimizations to SKILL.md files, reviewer prompts, and workflow defaults. |
-| [`$ml-paper-writing`](#skill-ml-paper-writing) | 围绕 `ml-paper-writing` 的专项能力，主要用于核对引用与来源。 |
-| [`$nature-paper-card`](#skill-nature-paper-card) | Build a structured deep-reading Paper Card for one scientific paper, analysing methods, experiment-to-claim evidence, limitations, and research ideas. |
-| [`$nature-paper-to-patent`](#skill-nature-paper-to-patent) | Turn research papers or inventor materials into evidence-grounded Chinese invention patent drafts and technical disclosures. |
-| [`$nature-paper2ppt`](#skill-nature-paper2ppt) | Create or improve a Chinese academic PPTX from a scientific paper or research reading notes, with source figures and speaker notes. |
-| [`$nature-polishing`](#skill-nature-polishing) | Polish, translate, or tighten existing academic prose while preserving facts, terminology, and evidence boundaries. |
-| [`$nature-reader`](#skill-nature-reader) | Create source-grounded Chinese-English paper readers with aligned text, figures, tables, and equations. |
-| [`$nature-response`](#skill-nature-response) | Draft, audit, or revise responses to peer review, revision cover letters, and marked-manuscript or LaTeX revision packages. |
-| [`$nature-reviewer`](#skill-nature-reviewer) | Provide evidence-grounded mock peer review of scientific manuscripts or excerpts, covering significance, validity, and major/minor concerns. |
-| [`$nature-statistics`](#skill-nature-statistics) | Audit or improve manuscript statistical reporting, including experimental units, replication, uncertainty, tests, and figure statistics. |
-| [`$nature-writing`](#skill-nature-writing) | Draft or restructure scientific manuscript arguments, sections, and initial-submission materials from author-provided evidence. |
-| [`$paper-claim-audit`](#skill-paper-claim-audit) | Zero-context verification that every number, comparison, and scope claim in the paper matches raw result files. |
-| [`$paper-compile`](#skill-paper-compile) | 围绕 `paper-compile` 的专项能力，主要用于处理科研文档与结构化内容。 |
-| [`$paper-plan`](#skill-paper-plan) | 围绕 `paper-plan` 的专项能力，主要用于检查问题并给出修改建议。 |
-| [`$paper-write`](#skill-paper-write) | 这是一个面向“论文写作、审稿与出版”的专项技能，用于处理 `paper-write` 相关任务。 |
-| [`$paper-writing`](#skill-paper-writing) | Workflow 3: Full paper writing pipeline that goes from a narrative report to a polished, submission-ready PDF. |
-| [`$patent-novelty-check`](#skill-patent-novelty-check) | Assess patent novelty and non-obviousness against prior art. |
-| [`$patent-pipeline`](#skill-patent-pipeline) | Full patent drafting pipeline from invention description to jurisdiction-formatted filing documents. |
-| [`$patent-review`](#skill-patent-review) | Get an external patent examiner review of a patent application. |
-| [`$presenting-conference-talks`](#skill-presenting-conference-talks) | 围绕 `presenting-conference-talks` 的专项能力，主要用于处理科研文档与结构化内容。 |
-| [`$rebuttal`](#skill-rebuttal) | 围绕 `rebuttal` 的专项能力，主要用于检查问题并给出修改建议。 |
-| [`$researchwrite`](#skill-nature-proposal-writer) | Compose, revise, or audit research proposals, opening reports, and research plans from supporting evidence. |
-| [`$scientific-critical-thinking`](#skill-scientific-critical-thinking) | 围绕 `scientific-critical-thinking` 的专项能力，主要用于检查问题并给出修改建议。 |
-| [`$scientific-writing`](#skill-scientific-writing) | 围绕 `scientific-writing` 的专项能力，主要用于起草和修改论文，并可检查问题并给出修改建议。 |
-| [`$specification-writing`](#skill-specification-writing) | Write the full patent specification from claims and invention disclosure. |
-| [`$systems-paper-writing`](#skill-systems-paper-writing) | 围绕 `systems-paper-writing` 的专项能力，主要用于起草和修改论文，并可检查问题并给出修改建议。 |
-| [`$venue-templates`](#skill-venue-templates) | 围绕 `venue-templates` 的专项能力，主要用于起草和修改论文，并可处理科研文档与结构化内容。 |
-| [`$writing-systems-papers`](#skill-writing-systems-papers) | 这是一个面向“论文写作、审稿与出版”的专项技能，用于处理 `writing-systems-papers` 相关任务。 |
+| Skill | 所属技能套件 | 一句话理解 |
+| --- | --- | --- |
+| [`$auto-paper-improvement-loop`](#skill-auto-paper-improvement-loop) | [Auto Claude Code Research in Sleep（ARIS）](../技能套件导航.md#suite-aris) | 围绕 `auto-paper-improvement-loop` 的专项能力，主要用于检查问题并给出修改建议。 |
+| [`$claims-drafting`](#skill-claims-drafting) | [Auto Claude Code Research in Sleep（ARIS）](../技能套件导航.md#suite-aris) | 这是一个面向“论文写作、审稿与出版”的专项技能，用于处理 `claims-drafting` 相关任务。 |
+| [`$embodiment-description`](#skill-embodiment-description) | [Auto Claude Code Research in Sleep（ARIS）](../技能套件导航.md#suite-aris) | 这是一个面向“论文写作、审稿与出版”的专项技能，用于处理 `embodiment-description` 相关任务。 |
+| [`$figure-description`](#skill-figure-description) | [Auto Claude Code Research in Sleep（ARIS）](../技能套件导航.md#suite-aris) | 围绕 `figure-description` 的专项能力，主要用于生成或检查科研图表。 |
+| [`$humanizer`](#skill-humanizer) | [独立或暂未归入大型套件](../技能套件导航.md#suite-standalone) | 围绕 `humanizer` 的专项能力，主要用于检查问题并给出修改建议。 |
+| [`$invention-structuring`](#skill-invention-structuring) | [Auto Claude Code Research in Sleep（ARIS）](../技能套件导航.md#suite-aris) | 这是一个面向“论文写作、审稿与出版”的专项技能，用于处理 `invention-structuring` 相关任务。 |
+| [`$jurisdiction-format`](#skill-jurisdiction-format) | [Auto Claude Code Research in Sleep（ARIS）](../技能套件导航.md#suite-aris) | 围绕 `jurisdiction-format` 的专项能力，主要用于处理科研文档与结构化内容。 |
+| [`$kill-argument`](#skill-kill-argument) | [Auto Claude Code Research in Sleep（ARIS）](../技能套件导航.md#suite-aris) | 围绕 `kill-argument` 的专项能力，主要用于检查问题并给出修改建议。 |
+| [`$meta-optimize`](#skill-meta-optimize) | [Auto Claude Code Research in Sleep（ARIS）](../技能套件导航.md#suite-aris) | 围绕 `meta-optimize` 的专项能力，主要用于检查问题并给出修改建议。 |
+| [`$ml-paper-writing`](#skill-ml-paper-writing) | [AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra) | 围绕 `ml-paper-writing` 的专项能力，主要用于核对引用与来源。 |
+| [`$nature-paper-card`](#skill-nature-paper-card) | [Nature Research Skills](../技能套件导航.md#suite-nature) | 围绕 `nature-paper-card` 的专项能力，主要用于检查问题并给出修改建议。 |
+| [`$nature-paper-to-patent`](#skill-nature-paper-to-patent) | [Nature Research Skills](../技能套件导航.md#suite-nature) | 围绕 `nature-paper-to-patent` 的专项能力，主要用于起草和修改论文。 |
+| [`$nature-paper2ppt`](#skill-nature-paper2ppt) | [Nature Research Skills](../技能套件导航.md#suite-nature) | 围绕 `nature-paper2ppt` 的专项能力，主要用于生成或检查科研图表。 |
+| [`$nature-polishing`](#skill-nature-polishing) | [Nature Research Skills](../技能套件导航.md#suite-nature) | 围绕 `nature-polishing` 的专项能力，主要用于起草和修改论文。 |
+| [`$nature-reader`](#skill-nature-reader) | [Nature Research Skills](../技能套件导航.md#suite-nature) | 围绕 `nature-reader` 的专项能力，主要用于生成或检查科研图表。 |
+| [`$nature-response`](#skill-nature-response) | [Nature Research Skills](../技能套件导航.md#suite-nature) | 围绕 `nature-response` 的专项能力，主要用于起草和修改论文，并可检查问题并给出修改建议。 |
+| [`$nature-reviewer`](#skill-nature-reviewer) | [Nature Research Skills](../技能套件导航.md#suite-nature) | 围绕 `nature-reviewer` 的专项能力，主要用于起草和修改论文，并可检查问题并给出修改建议。 |
+| [`$nature-statistics`](#skill-nature-statistics) | [Nature Research Skills](../技能套件导航.md#suite-nature) | 围绕 `nature-statistics` 的专项能力，主要用于起草和修改论文，并可检查问题并给出修改建议。 |
+| [`$nature-writing`](#skill-nature-writing) | [Nature Research Skills](../技能套件导航.md#suite-nature) | 围绕 `nature-writing` 的专项能力，主要用于起草和修改论文。 |
+| [`$paper-claim-audit`](#skill-paper-claim-audit) | [Auto Claude Code Research in Sleep（ARIS）](../技能套件导航.md#suite-aris) | 围绕 `paper-claim-audit` 的专项能力，主要用于检查问题并给出修改建议。 |
+| [`$paper-compile`](#skill-paper-compile) | [Auto Claude Code Research in Sleep（ARIS）](../技能套件导航.md#suite-aris) | 围绕 `paper-compile` 的专项能力，主要用于处理科研文档与结构化内容。 |
+| [`$paper-plan`](#skill-paper-plan) | [Auto Claude Code Research in Sleep（ARIS）](../技能套件导航.md#suite-aris) | 围绕 `paper-plan` 的专项能力，主要用于检查问题并给出修改建议。 |
+| [`$paper-write`](#skill-paper-write) | [Auto Claude Code Research in Sleep（ARIS）](../技能套件导航.md#suite-aris) | 这是一个面向“论文写作、审稿与出版”的专项技能，用于处理 `paper-write` 相关任务。 |
+| [`$paper-writing`](#skill-paper-writing) | [Auto Claude Code Research in Sleep（ARIS）](../技能套件导航.md#suite-aris) | 围绕 `paper-writing` 的专项能力，主要用于起草和修改论文，并可处理科研文档与结构化内容。 |
+| [`$patent-novelty-check`](#skill-patent-novelty-check) | [Auto Claude Code Research in Sleep（ARIS）](../技能套件导航.md#suite-aris) | 这是一个面向“论文写作、审稿与出版”的专项技能，用于处理 `patent-novelty-check` 相关任务。 |
+| [`$patent-pipeline`](#skill-patent-pipeline) | [Auto Claude Code Research in Sleep（ARIS）](../技能套件导航.md#suite-aris) | 围绕 `patent-pipeline` 的专项能力，主要用于处理科研文档与结构化内容。 |
+| [`$patent-review`](#skill-patent-review) | [Auto Claude Code Research in Sleep（ARIS）](../技能套件导航.md#suite-aris) | 围绕 `patent-review` 的专项能力，主要用于检查问题并给出修改建议。 |
+| [`$presenting-conference-talks`](#skill-presenting-conference-talks) | [AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra) | 围绕 `presenting-conference-talks` 的专项能力，主要用于处理科研文档与结构化内容。 |
+| [`$rebuttal`](#skill-rebuttal) | [Auto Claude Code Research in Sleep（ARIS）](../技能套件导航.md#suite-aris) | 围绕 `rebuttal` 的专项能力，主要用于检查问题并给出修改建议。 |
+| [`$researchwrite`](#skill-nature-proposal-writer) | [Nature Research Skills](../技能套件导航.md#suite-nature) | 围绕 `researchwrite` 的专项能力，主要用于起草和修改论文，并可检查问题并给出修改建议。 |
+| [`$scientific-critical-thinking`](#skill-scientific-critical-thinking) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 围绕 `scientific-critical-thinking` 的专项能力，主要用于检查问题并给出修改建议。 |
+| [`$scientific-writing`](#skill-scientific-writing) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 围绕 `scientific-writing` 的专项能力，主要用于起草和修改论文，并可检查问题并给出修改建议。 |
+| [`$specification-writing`](#skill-specification-writing) | [Auto Claude Code Research in Sleep（ARIS）](../技能套件导航.md#suite-aris) | 这是一个面向“论文写作、审稿与出版”的专项技能，用于处理 `specification-writing` 相关任务。 |
+| [`$systems-paper-writing`](#skill-systems-paper-writing) | [AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra) | 围绕 `systems-paper-writing` 的专项能力，主要用于起草和修改论文，并可检查问题并给出修改建议。 |
+| [`$venue-templates`](#skill-venue-templates) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 围绕 `venue-templates` 的专项能力，主要用于起草和修改论文，并可处理科研文档与结构化内容。 |
+| [`$writing-systems-papers`](#skill-writing-systems-papers) | [Auto Claude Code Research in Sleep（ARIS）](../技能套件导航.md#suite-aris) | 这是一个面向“论文写作、审稿与出版”的专项技能，用于处理 `writing-systems-papers` 相关任务。 |
 
 ## 详细说明
 
@@ -51,7 +51,9 @@
 ### `$auto-paper-improvement-loop`
 
 - 全局目录：`~/.codex/skills/auto-paper-improvement-loop/`
-- 中文理解：Autonomously improve a generated paper via GPT-6-Astra xhigh review → implement fixes → recompile, for 2 rounds.
+- 所属技能套件：[Auto Claude Code Research in Sleep（ARIS）](../技能套件导航.md#suite-aris)
+- 推荐总入口：`$research-pipeline`
+- 中文理解：围绕 `auto-paper-improvement-loop` 的专项能力，主要用于检查问题并给出修改建议。
 - 适合何时使用：帮助组织论文、改写段落、审稿、回复意见、制作投稿材料。
 - 使用前注意：论文、引用和结论必须回到原始来源核验，不要把摘要或模型回答当作最终证据。
 
@@ -75,7 +77,9 @@ Autonomously improve a generated paper via GPT-6-Astra xhigh review → implemen
 ### `$claims-drafting`
 
 - 全局目录：`~/.codex/skills/claims-drafting/`
-- 中文理解：Draft patent claims for an invention.
+- 所属技能套件：[Auto Claude Code Research in Sleep（ARIS）](../技能套件导航.md#suite-aris)
+- 推荐总入口：`$research-pipeline`
+- 中文理解：这是一个面向“论文写作、审稿与出版”的专项技能，用于处理 `claims-drafting` 相关任务。
 - 适合何时使用：帮助组织论文、改写段落、审稿、回复意见、制作投稿材料。
 - 使用前注意：格式与证据整理不等于法律、合规、认证或专利意见。
 
@@ -99,7 +103,9 @@ Draft patent claims for an invention. Use when user says "撰写权利要求", "
 ### `$embodiment-description`
 
 - 全局目录：`~/.codex/skills/embodiment-description/`
-- 中文理解：Write detailed embodiment descriptions for patent specifications.
+- 所属技能套件：[Auto Claude Code Research in Sleep（ARIS）](../技能套件导航.md#suite-aris)
+- 推荐总入口：`$research-pipeline`
+- 中文理解：这是一个面向“论文写作、审稿与出版”的专项技能，用于处理 `embodiment-description` 相关任务。
 - 适合何时使用：帮助组织论文、改写段落、审稿、回复意见、制作投稿材料。
 - 使用前注意：格式与证据整理不等于法律、合规、认证或专利意见。
 
@@ -123,7 +129,9 @@ Write detailed embodiment descriptions for patent specifications. Use when user 
 ### `$figure-description`
 
 - 全局目录：`~/.codex/skills/figure-description/`
-- 中文理解：Process user-provided patent figures and generate formal drawing descriptions.
+- 所属技能套件：[Auto Claude Code Research in Sleep（ARIS）](../技能套件导航.md#suite-aris)
+- 推荐总入口：`$research-pipeline`
+- 中文理解：围绕 `figure-description` 的专项能力，主要用于生成或检查科研图表。
 - 适合何时使用：帮助组织论文、改写段落、审稿、回复意见、制作投稿材料。
 - 使用前注意：格式与证据整理不等于法律、合规、认证或专利意见。
 
@@ -147,6 +155,8 @@ Process user-provided patent figures and generate formal drawing descriptions. U
 ### `$humanizer`
 
 - 全局目录：`~/.codex/skills/humanizer/`
+- 所属技能套件：[独立或暂未归入大型套件](../技能套件导航.md#suite-standalone)
+- 推荐总入口：直接调用当前小 skill
 - 中文理解：围绕 `humanizer` 的专项能力，主要用于检查问题并给出修改建议。
 - 适合何时使用：帮助组织论文、改写段落、审稿、回复意见、制作投稿材料。
 - 使用前注意：技能说明不代表依赖、模型、数据或凭据已经安装；首次使用先让 Codex 检查环境。
@@ -171,7 +181,9 @@ Rewrite AI-sounding text so it reads like the writer without changing what it sa
 ### `$invention-structuring`
 
 - 全局目录：`~/.codex/skills/invention-structuring/`
-- 中文理解：Structure a raw invention idea into a formal invention disclosure.
+- 所属技能套件：[Auto Claude Code Research in Sleep（ARIS）](../技能套件导航.md#suite-aris)
+- 推荐总入口：`$research-pipeline`
+- 中文理解：这是一个面向“论文写作、审稿与出版”的专项技能，用于处理 `invention-structuring` 相关任务。
 - 适合何时使用：帮助组织论文、改写段落、审稿、回复意见、制作投稿材料。
 - 使用前注意：格式与证据整理不等于法律、合规、认证或专利意见。
 
@@ -195,7 +207,9 @@ Structure a raw invention idea into a formal invention disclosure. Use when user
 ### `$jurisdiction-format`
 
 - 全局目录：`~/.codex/skills/jurisdiction-format/`
-- 中文理解：Compile patent application into jurisdiction-specific filing format.
+- 所属技能套件：[Auto Claude Code Research in Sleep（ARIS）](../技能套件导航.md#suite-aris)
+- 推荐总入口：`$research-pipeline`
+- 中文理解：围绕 `jurisdiction-format` 的专项能力，主要用于处理科研文档与结构化内容。
 - 适合何时使用：帮助组织论文、改写段落、审稿、回复意见、制作投稿材料。
 - 使用前注意：格式与证据整理不等于法律、合规、认证或专利意见。
 
@@ -219,6 +233,8 @@ Compile patent application into jurisdiction-specific filing format. Use when us
 ### `$kill-argument`
 
 - 全局目录：`~/.codex/skills/kill-argument/`
+- 所属技能套件：[Auto Claude Code Research in Sleep（ARIS）](../技能套件导航.md#suite-aris)
+- 推荐总入口：`$research-pipeline`
 - 中文理解：围绕 `kill-argument` 的专项能力，主要用于检查问题并给出修改建议。
 - 适合何时使用：帮助组织论文、改写段落、审稿、回复意见、制作投稿材料。
 - 使用前注意：可能需要账号、API 凭据、联网权限或付费资源；执行外部写入前先确认。 先核对硬件、依赖版本、运行时间和预算，再启动长任务。
@@ -243,7 +259,9 @@ Two-thread adversarial review: a fresh reviewer constructs the strongest 200-wor
 ### `$meta-optimize`
 
 - 全局目录：`~/.codex/skills/meta-optimize/`
-- 中文理解：Analyze ARIS usage logs and propose optimizations to SKILL.md files, reviewer prompts, and workflow defaults.
+- 所属技能套件：[Auto Claude Code Research in Sleep（ARIS）](../技能套件导航.md#suite-aris)
+- 推荐总入口：`$research-pipeline`
+- 中文理解：围绕 `meta-optimize` 的专项能力，主要用于检查问题并给出修改建议。
 - 适合何时使用：帮助组织论文、改写段落、审稿、回复意见、制作投稿材料。
 - 使用前注意：技能说明不代表依赖、模型、数据或凭据已经安装；首次使用先让 Codex 检查环境。
 
@@ -267,6 +285,8 @@ Analyze ARIS usage logs and propose optimizations to SKILL.md files, reviewer pr
 ### `$ml-paper-writing`
 
 - 全局目录：`~/.codex/skills/ml-paper-writing/`
+- 所属技能套件：[AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra)
+- 推荐总入口：`$autoresearch`
 - 中文理解：围绕 `ml-paper-writing` 的专项能力，主要用于核对引用与来源。
 - 适合何时使用：帮助组织论文、改写段落、审稿、回复意见、制作投稿材料。
 - 使用前注意：论文、引用和结论必须回到原始来源核验，不要把摘要或模型回答当作最终证据。
@@ -293,7 +313,9 @@ Write publication-ready ML/AI papers for NeurIPS, ICML, ICLR, ACL, AAAI, COLM. U
 ### `$nature-paper-card`
 
 - 全局目录：`~/.codex/skills/nature-paper-card/`
-- 中文理解：Build a structured deep-reading Paper Card for one scientific paper, analysing methods, experiment-to-claim evidence, limitations, and research ideas.
+- 所属技能套件：[Nature Research Skills](../技能套件导航.md#suite-nature)
+- 推荐总入口：按任务直接调用对应的 $nature-* skill
+- 中文理解：围绕 `nature-paper-card` 的专项能力，主要用于检查问题并给出修改建议。
 - 适合何时使用：帮助组织论文、改写段落、审稿、回复意见、制作投稿材料。
 - 使用前注意：论文、引用和结论必须回到原始来源核验，不要把摘要或模型回答当作最终证据。
 
@@ -317,7 +339,9 @@ Build a structured deep-reading Paper Card for one scientific paper, analysing m
 ### `$nature-paper-to-patent`
 
 - 全局目录：`~/.codex/skills/nature-paper-to-patent/`
-- 中文理解：Turn research papers or inventor materials into evidence-grounded Chinese invention patent drafts and technical disclosures.
+- 所属技能套件：[Nature Research Skills](../技能套件导航.md#suite-nature)
+- 推荐总入口：按任务直接调用对应的 $nature-* skill
+- 中文理解：围绕 `nature-paper-to-patent` 的专项能力，主要用于起草和修改论文。
 - 适合何时使用：帮助组织论文、改写段落、审稿、回复意见、制作投稿材料。
 - 使用前注意：论文、引用和结论必须回到原始来源核验，不要把摘要或模型回答当作最终证据。 格式与证据整理不等于法律、合规、认证或专利意见。
 
@@ -341,7 +365,9 @@ Turn research papers or inventor materials into evidence-grounded Chinese invent
 ### `$nature-paper2ppt`
 
 - 全局目录：`~/.codex/skills/nature-paper2ppt/`
-- 中文理解：Create or improve a Chinese academic PPTX from a scientific paper or research reading notes, with source figures and speaker notes.
+- 所属技能套件：[Nature Research Skills](../技能套件导航.md#suite-nature)
+- 推荐总入口：按任务直接调用对应的 $nature-* skill
+- 中文理解：围绕 `nature-paper2ppt` 的专项能力，主要用于生成或检查科研图表。
 - 适合何时使用：帮助组织论文、改写段落、审稿、回复意见、制作投稿材料。
 - 使用前注意：论文、引用和结论必须回到原始来源核验，不要把摘要或模型回答当作最终证据。
 
@@ -365,7 +391,9 @@ Create or improve a Chinese academic PPTX from a scientific paper or research re
 ### `$nature-polishing`
 
 - 全局目录：`~/.codex/skills/nature-polishing/`
-- 中文理解：Polish, translate, or tighten existing academic prose while preserving facts, terminology, and evidence boundaries.
+- 所属技能套件：[Nature Research Skills](../技能套件导航.md#suite-nature)
+- 推荐总入口：按任务直接调用对应的 $nature-* skill
+- 中文理解：围绕 `nature-polishing` 的专项能力，主要用于起草和修改论文。
 - 适合何时使用：帮助组织论文、改写段落、审稿、回复意见、制作投稿材料。
 - 使用前注意：论文、引用和结论必须回到原始来源核验，不要把摘要或模型回答当作最终证据。
 
@@ -389,7 +417,9 @@ Polish, translate, or tighten existing academic prose while preserving facts, te
 ### `$nature-reader`
 
 - 全局目录：`~/.codex/skills/nature-reader/`
-- 中文理解：Create source-grounded Chinese-English paper readers with aligned text, figures, tables, and equations.
+- 所属技能套件：[Nature Research Skills](../技能套件导航.md#suite-nature)
+- 推荐总入口：按任务直接调用对应的 $nature-* skill
+- 中文理解：围绕 `nature-reader` 的专项能力，主要用于生成或检查科研图表。
 - 适合何时使用：帮助组织论文、改写段落、审稿、回复意见、制作投稿材料。
 - 使用前注意：论文、引用和结论必须回到原始来源核验，不要把摘要或模型回答当作最终证据。
 
@@ -413,7 +443,9 @@ Create source-grounded Chinese-English paper readers with aligned text, figures,
 ### `$nature-response`
 
 - 全局目录：`~/.codex/skills/nature-response/`
-- 中文理解：Draft, audit, or revise responses to peer review, revision cover letters, and marked-manuscript or LaTeX revision packages.
+- 所属技能套件：[Nature Research Skills](../技能套件导航.md#suite-nature)
+- 推荐总入口：按任务直接调用对应的 $nature-* skill
+- 中文理解：围绕 `nature-response` 的专项能力，主要用于起草和修改论文，并可检查问题并给出修改建议。
 - 适合何时使用：帮助组织论文、改写段落、审稿、回复意见、制作投稿材料。
 - 使用前注意：技能说明不代表依赖、模型、数据或凭据已经安装；首次使用先让 Codex 检查环境。
 
@@ -437,7 +469,9 @@ Draft, audit, or revise responses to peer review, revision cover letters, and ma
 ### `$nature-reviewer`
 
 - 全局目录：`~/.codex/skills/nature-reviewer/`
-- 中文理解：Provide evidence-grounded mock peer review of scientific manuscripts or excerpts, covering significance, validity, and major/minor concerns.
+- 所属技能套件：[Nature Research Skills](../技能套件导航.md#suite-nature)
+- 推荐总入口：按任务直接调用对应的 $nature-* skill
+- 中文理解：围绕 `nature-reviewer` 的专项能力，主要用于起草和修改论文，并可检查问题并给出修改建议。
 - 适合何时使用：帮助组织论文、改写段落、审稿、回复意见、制作投稿材料。
 - 使用前注意：论文、引用和结论必须回到原始来源核验，不要把摘要或模型回答当作最终证据。
 
@@ -461,7 +495,9 @@ Provide evidence-grounded mock peer review of scientific manuscripts or excerpts
 ### `$nature-statistics`
 
 - 全局目录：`~/.codex/skills/nature-statistics/`
-- 中文理解：Audit or improve manuscript statistical reporting, including experimental units, replication, uncertainty, tests, and figure statistics.
+- 所属技能套件：[Nature Research Skills](../技能套件导航.md#suite-nature)
+- 推荐总入口：按任务直接调用对应的 $nature-* skill
+- 中文理解：围绕 `nature-statistics` 的专项能力，主要用于起草和修改论文，并可检查问题并给出修改建议。
 - 适合何时使用：帮助组织论文、改写段落、审稿、回复意见、制作投稿材料。
 - 使用前注意：技能说明不代表依赖、模型、数据或凭据已经安装；首次使用先让 Codex 检查环境。
 
@@ -485,7 +521,9 @@ Audit or improve manuscript statistical reporting, including experimental units,
 ### `$nature-writing`
 
 - 全局目录：`~/.codex/skills/nature-writing/`
-- 中文理解：Draft or restructure scientific manuscript arguments, sections, and initial-submission materials from author-provided evidence.
+- 所属技能套件：[Nature Research Skills](../技能套件导航.md#suite-nature)
+- 推荐总入口：按任务直接调用对应的 $nature-* skill
+- 中文理解：围绕 `nature-writing` 的专项能力，主要用于起草和修改论文。
 - 适合何时使用：帮助组织论文、改写段落、审稿、回复意见、制作投稿材料。
 - 使用前注意：论文、引用和结论必须回到原始来源核验，不要把摘要或模型回答当作最终证据。
 
@@ -509,7 +547,9 @@ Draft or restructure scientific manuscript arguments, sections, and initial-subm
 ### `$paper-claim-audit`
 
 - 全局目录：`~/.codex/skills/paper-claim-audit/`
-- 中文理解：Zero-context verification that every number, comparison, and scope claim in the paper matches raw result files.
+- 所属技能套件：[Auto Claude Code Research in Sleep（ARIS）](../技能套件导航.md#suite-aris)
+- 推荐总入口：`$research-pipeline`
+- 中文理解：围绕 `paper-claim-audit` 的专项能力，主要用于检查问题并给出修改建议。
 - 适合何时使用：帮助组织论文、改写段落、审稿、回复意见、制作投稿材料。
 - 使用前注意：论文、引用和结论必须回到原始来源核验，不要把摘要或模型回答当作最终证据。
 
@@ -533,6 +573,8 @@ Zero-context verification that every number, comparison, and scope claim in the 
 ### `$paper-compile`
 
 - 全局目录：`~/.codex/skills/paper-compile/`
+- 所属技能套件：[Auto Claude Code Research in Sleep（ARIS）](../技能套件导航.md#suite-aris)
+- 推荐总入口：`$research-pipeline`
 - 中文理解：围绕 `paper-compile` 的专项能力，主要用于处理科研文档与结构化内容。
 - 适合何时使用：帮助组织论文、改写段落、审稿、回复意见、制作投稿材料。
 - 使用前注意：论文、引用和结论必须回到原始来源核验，不要把摘要或模型回答当作最终证据。
@@ -557,6 +599,8 @@ Compile LaTeX paper to PDF, fix errors, and verify output. Use when user says \"
 ### `$paper-plan`
 
 - 全局目录：`~/.codex/skills/paper-plan/`
+- 所属技能套件：[Auto Claude Code Research in Sleep（ARIS）](../技能套件导航.md#suite-aris)
+- 推荐总入口：`$research-pipeline`
 - 中文理解：围绕 `paper-plan` 的专项能力，主要用于检查问题并给出修改建议。
 - 适合何时使用：帮助组织论文、改写段落、审稿、回复意见、制作投稿材料。
 - 使用前注意：论文、引用和结论必须回到原始来源核验，不要把摘要或模型回答当作最终证据。
@@ -583,6 +627,8 @@ Generate a structured paper outline from review conclusions and experiment resul
 ### `$paper-write`
 
 - 全局目录：`~/.codex/skills/paper-write/`
+- 所属技能套件：[Auto Claude Code Research in Sleep（ARIS）](../技能套件导航.md#suite-aris)
+- 推荐总入口：`$research-pipeline`
 - 中文理解：这是一个面向“论文写作、审稿与出版”的专项技能，用于处理 `paper-write` 相关任务。
 - 适合何时使用：帮助组织论文、改写段落、审稿、回复意见、制作投稿材料。
 - 使用前注意：论文、引用和结论必须回到原始来源核验，不要把摘要或模型回答当作最终证据。
@@ -609,7 +655,9 @@ Draft LaTeX paper section by section from an outline. Use when user says \"写�
 ### `$paper-writing`
 
 - 全局目录：`~/.codex/skills/paper-writing/`
-- 中文理解：Workflow 3: Full paper writing pipeline that goes from a narrative report to a polished, submission-ready PDF.
+- 所属技能套件：[Auto Claude Code Research in Sleep（ARIS）](../技能套件导航.md#suite-aris)
+- 推荐总入口：`$research-pipeline`
+- 中文理解：围绕 `paper-writing` 的专项能力，主要用于起草和修改论文，并可处理科研文档与结构化内容。
 - 适合何时使用：帮助组织论文、改写段落、审稿、回复意见、制作投稿材料。
 - 使用前注意：论文、引用和结论必须回到原始来源核验，不要把摘要或模型回答当作最终证据。
 
@@ -633,7 +681,9 @@ Workflow 3: Full paper writing pipeline that goes from a narrative report to a p
 ### `$patent-novelty-check`
 
 - 全局目录：`~/.codex/skills/patent-novelty-check/`
-- 中文理解：Assess patent novelty and non-obviousness against prior art.
+- 所属技能套件：[Auto Claude Code Research in Sleep（ARIS）](../技能套件导航.md#suite-aris)
+- 推荐总入口：`$research-pipeline`
+- 中文理解：这是一个面向“论文写作、审稿与出版”的专项技能，用于处理 `patent-novelty-check` 相关任务。
 - 适合何时使用：帮助组织论文、改写段落、审稿、回复意见、制作投稿材料。
 - 使用前注意：格式与证据整理不等于法律、合规、认证或专利意见。
 
@@ -657,7 +707,9 @@ Assess patent novelty and non-obviousness against prior art. Use when user says 
 ### `$patent-pipeline`
 
 - 全局目录：`~/.codex/skills/patent-pipeline/`
-- 中文理解：Full patent drafting pipeline from invention description to jurisdiction-formatted filing documents.
+- 所属技能套件：[Auto Claude Code Research in Sleep（ARIS）](../技能套件导航.md#suite-aris)
+- 推荐总入口：`$research-pipeline`
+- 中文理解：围绕 `patent-pipeline` 的专项能力，主要用于处理科研文档与结构化内容。
 - 适合何时使用：帮助组织论文、改写段落、审稿、回复意见、制作投稿材料。
 - 使用前注意：格式与证据整理不等于法律、合规、认证或专利意见。
 
@@ -681,7 +733,9 @@ Full patent drafting pipeline from invention description to jurisdiction-formatt
 ### `$patent-review`
 
 - 全局目录：`~/.codex/skills/patent-review/`
-- 中文理解：Get an external patent examiner review of a patent application.
+- 所属技能套件：[Auto Claude Code Research in Sleep（ARIS）](../技能套件导航.md#suite-aris)
+- 推荐总入口：`$research-pipeline`
+- 中文理解：围绕 `patent-review` 的专项能力，主要用于检查问题并给出修改建议。
 - 适合何时使用：帮助组织论文、改写段落、审稿、回复意见、制作投稿材料。
 - 使用前注意：格式与证据整理不等于法律、合规、认证或专利意见。
 
@@ -705,6 +759,8 @@ Get an external patent examiner review of a patent application. Use when user sa
 ### `$presenting-conference-talks`
 
 - 全局目录：`~/.codex/skills/presenting-conference-talks/`
+- 所属技能套件：[AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra)
+- 推荐总入口：`$autoresearch`
 - 中文理解：围绕 `presenting-conference-talks` 的专项能力，主要用于处理科研文档与结构化内容。
 - 适合何时使用：帮助组织论文、改写段落、审稿、回复意见、制作投稿材料。
 - 使用前注意：论文、引用和结论必须回到原始来源核验，不要把摘要或模型回答当作最终证据。
@@ -729,6 +785,8 @@ Generates conference presentation slides (Beamer LaTeX PDF and editable PPTX) fr
 ### `$rebuttal`
 
 - 全局目录：`~/.codex/skills/rebuttal/`
+- 所属技能套件：[Auto Claude Code Research in Sleep（ARIS）](../技能套件导航.md#suite-aris)
+- 推荐总入口：`$research-pipeline`
 - 中文理解：围绕 `rebuttal` 的专项能力，主要用于检查问题并给出修改建议。
 - 适合何时使用：帮助组织论文、改写段落、审稿、回复意见、制作投稿材料。
 - 使用前注意：技能说明不代表依赖、模型、数据或凭据已经安装；首次使用先让 Codex 检查环境。
@@ -753,7 +811,9 @@ Workflow 4: Submission rebuttal pipeline. Parses external reviews, enforces cove
 ### `$researchwrite`
 
 - 全局目录：`~/.codex/skills/nature-proposal-writer/`
-- 中文理解：Compose, revise, or audit research proposals, opening reports, and research plans from supporting evidence.
+- 所属技能套件：[Nature Research Skills](../技能套件导航.md#suite-nature)
+- 推荐总入口：按任务直接调用对应的 $nature-* skill
+- 中文理解：围绕 `researchwrite` 的专项能力，主要用于起草和修改论文，并可检查问题并给出修改建议。
 - 适合何时使用：帮助组织论文、改写段落、审稿、回复意见、制作投稿材料。
 - 使用前注意：论文、引用和结论必须回到原始来源核验，不要把摘要或模型回答当作最终证据。
 
@@ -777,6 +837,8 @@ Compose, revise, or audit research proposals, opening reports, and research plan
 ### `$scientific-critical-thinking`
 
 - 全局目录：`~/.codex/skills/scientific-critical-thinking/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：围绕 `scientific-critical-thinking` 的专项能力，主要用于检查问题并给出修改建议。
 - 适合何时使用：帮助组织论文、改写段落、审稿、回复意见、制作投稿材料。
 - 使用前注意：论文、引用和结论必须回到原始来源核验，不要把摘要或模型回答当作最终证据。
@@ -801,6 +863,8 @@ Evaluates scientific claims and evidence quality. Applies to experimental design
 ### `$scientific-writing`
 
 - 全局目录：`~/.codex/skills/scientific-writing/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：围绕 `scientific-writing` 的专项能力，主要用于起草和修改论文，并可检查问题并给出修改建议。
 - 适合何时使用：帮助组织论文、改写段落、审稿、回复意见、制作投稿材料。
 - 使用前注意：论文、引用和结论必须回到原始来源核验，不要把摘要或模型回答当作最终证据。
@@ -825,7 +889,9 @@ Drafts, revises, and audits scientific manuscripts or reports with explicit evid
 ### `$specification-writing`
 
 - 全局目录：`~/.codex/skills/specification-writing/`
-- 中文理解：Write the full patent specification from claims and invention disclosure.
+- 所属技能套件：[Auto Claude Code Research in Sleep（ARIS）](../技能套件导航.md#suite-aris)
+- 推荐总入口：`$research-pipeline`
+- 中文理解：这是一个面向“论文写作、审稿与出版”的专项技能，用于处理 `specification-writing` 相关任务。
 - 适合何时使用：帮助组织论文、改写段落、审稿、回复意见、制作投稿材料。
 - 使用前注意：格式与证据整理不等于法律、合规、认证或专利意见。
 
@@ -849,6 +915,8 @@ Write the full patent specification from claims and invention disclosure. Use wh
 ### `$systems-paper-writing`
 
 - 全局目录：`~/.codex/skills/systems-paper-writing/`
+- 所属技能套件：[AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra)
+- 推荐总入口：`$autoresearch`
 - 中文理解：围绕 `systems-paper-writing` 的专项能力，主要用于起草和修改论文，并可检查问题并给出修改建议。
 - 适合何时使用：帮助组织论文、改写段落、审稿、回复意见、制作投稿材料。
 - 使用前注意：论文、引用和结论必须回到原始来源核验，不要把摘要或模型回答当作最终证据。
@@ -873,6 +941,8 @@ Comprehensive guide for writing systems papers targeting OSDI, SOSP, ASPLOS, NSD
 ### `$venue-templates`
 
 - 全局目录：`~/.codex/skills/venue-templates/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：围绕 `venue-templates` 的专项能力，主要用于起草和修改论文，并可处理科研文档与结构化内容。
 - 适合何时使用：帮助组织论文、改写段落、审稿、回复意见、制作投稿材料。
 - 使用前注意：论文、引用和结论必须回到原始来源核验，不要把摘要或模型回答当作最终证据。
@@ -897,6 +967,8 @@ Prepares journal manuscripts, conference papers, research posters, and grant doc
 ### `$writing-systems-papers`
 
 - 全局目录：`~/.codex/skills/writing-systems-papers/`
+- 所属技能套件：[Auto Claude Code Research in Sleep（ARIS）](../技能套件导航.md#suite-aris)
+- 推荐总入口：`$research-pipeline`
 - 中文理解：这是一个面向“论文写作、审稿与出版”的专项技能，用于处理 `writing-systems-papers` 相关任务。
 - 适合何时使用：帮助组织论文、改写段落、审稿、回复意见、制作投稿材料。
 - 使用前注意：论文、引用和结论必须回到原始来源核验，不要把摘要或模型回答当作最终证据。

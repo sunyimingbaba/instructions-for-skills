@@ -6,12 +6,12 @@
 
 ## 本页索引
 
-| Skill | 一句话理解 |
-| --- | --- |
-| [`$astropy`](#skill-astropy) | 围绕 `astropy` 的专项能力，主要用于处理天文与天体物理数据。 |
-| [`$geopandas`](#skill-geopandas) | 围绕 `geopandas` 的专项能力，主要用于处理空间数据与坐标关系。 |
-| [`$lab-hardware-cad`](#skill-lab-hardware-cad) | 围绕 `lab-hardware-cad` 的专项能力，主要用于开展流体或工程仿真分析。 |
-| [`$openpiv`](#skill-openpiv) | 围绕 `openpiv` 的专项能力，主要用于开展流体或工程仿真分析。 |
+| Skill | 所属技能套件 | 一句话理解 |
+| --- | --- | --- |
+| [`$astropy`](#skill-astropy) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 围绕 `astropy` 的专项能力，主要用于处理天文与天体物理数据。 |
+| [`$geopandas`](#skill-geopandas) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 围绕 `geopandas` 的专项能力，主要用于处理空间数据与坐标关系。 |
+| [`$lab-hardware-cad`](#skill-lab-hardware-cad) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 围绕 `lab-hardware-cad` 的专项能力，主要用于开展流体或工程仿真分析。 |
+| [`$openpiv`](#skill-openpiv) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 围绕 `openpiv` 的专项能力，主要用于开展流体或工程仿真分析。 |
 
 ## 详细说明
 
@@ -19,6 +19,8 @@
 ### `$astropy`
 
 - 全局目录：`~/.codex/skills/astropy/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：围绕 `astropy` 的专项能力，主要用于处理天文与天体物理数据。
 - 适合何时使用：处理地理空间、遥感、海洋、天文、物理和工程科学问题。
 - 使用前注意：可能需要账号、API 凭据、联网权限或付费资源；执行外部写入前先确认。
@@ -45,6 +47,8 @@ Core Python library for astronomy and astrophysics workflows that need Astropy A
 ### `$geopandas`
 
 - 全局目录：`~/.codex/skills/geopandas/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：围绕 `geopandas` 的专项能力，主要用于处理空间数据与坐标关系。
 - 适合何时使用：处理地理空间、遥感、海洋、天文、物理和工程科学问题。
 - 使用前注意：技能说明不代表依赖、模型、数据或凭据已经安装；首次使用先让 Codex 检查环境。
@@ -71,6 +75,8 @@ Guidance and local audit tools for Python workflows that directly use GeoPandas 
 ### `$lab-hardware-cad`
 
 - 全局目录：`~/.codex/skills/lab-hardware-cad/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：围绕 `lab-hardware-cad` 的专项能力，主要用于开展流体或工程仿真分析。
 - 适合何时使用：处理地理空间、遥感、海洋、天文、物理和工程科学问题。
 - 使用前注意：技能说明不代表依赖、模型、数据或凭据已经安装；首次使用先让 Codex 检查环境。
@@ -95,6 +101,8 @@ Designs custom laboratory hardware as parametric build123d models and exports fa
 ### `$openpiv`
 
 - 全局目录：`~/.codex/skills/openpiv/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：围绕 `openpiv` 的专项能力，主要用于开展流体或工程仿真分析。
 - 适合何时使用：处理地理空间、遥感、海洋、天文、物理和工程科学问题。
 - 使用前注意：技能说明不代表依赖、模型、数据或凭据已经安装；首次使用先让 Codex 检查环境。

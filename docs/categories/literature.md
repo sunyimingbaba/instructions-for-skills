@@ -6,41 +6,41 @@
 
 ## 本页索引
 
-| Skill | 一句话理解 |
-| --- | --- |
-| [`$alphaxiv`](#skill-alphaxiv) | 围绕 `alphaxiv` 的专项能力，主要用于检索和筛选科研文献。 |
-| [`$arxiv`](#skill-arxiv) | 围绕 `arxiv` 的专项能力，主要用于检索和筛选科研文献，并可处理科研文档与结构化内容。 |
-| [`$bgpt-paper-search`](#skill-bgpt-paper-search) | 围绕 `bgpt-paper-search` 的专项能力，主要用于检索和筛选科研文献，并可核对引用与来源。 |
-| [`$citation-audit`](#skill-citation-audit) | Zero-context verification that every bibliographic entry in the paper is real, correctly attributed, and used in a context the cited paper actually supports — catching hallucinate… |
-| [`$citation-management`](#skill-citation-management) | 围绕 `citation-management` 的专项能力，主要用于检索和筛选科研文献，并可核对引用与来源。 |
-| [`$comm-lit-review`](#skill-comm-lit-review) | 围绕 `comm-lit-review` 的专项能力，主要用于检索和筛选科研文献。 |
-| [`$deepxiv`](#skill-deepxiv) | 围绕 `deepxiv` 的专项能力，主要用于检索和筛选科研文献。 |
-| [`$folklore-variant-evidence`](#skill-folklore-variant-evidence) | 围绕 `folklore-variant-evidence` 的专项能力，主要用于检索和筛选科研文献。 |
-| [`$gemini-search`](#skill-gemini-search) | 围绕 `gemini-search` 的专项能力，主要用于检索和筛选科研文献。 |
-| [`$grant-proposal`](#skill-grant-proposal) | Draft a structured grant proposal from research ideas and literature. |
-| [`$imaging-data-commons`](#skill-imaging-data-commons) | 围绕 `imaging-data-commons` 的专项能力，主要用于核对引用与来源。 |
-| [`$literature-review`](#skill-literature-review) | 围绕 `literature-review` 的专项能力，主要用于检索和筛选科研文献，并可核对引用与来源。 |
-| [`$nature-academic-search`](#skill-nature-academic-search) | Search literature across sources, verify or manage citations, and build MeSH strategies or citation-impact audits. |
-| [`$nature-citation`](#skill-nature-citation) | Find and verify Nature/CNS-family literature supporting manuscript claims, with claim-to-source mapping and reference-manager export. |
-| [`$nature-data`](#skill-nature-data) | Draft or audit manuscript Data/Code Availability statements, dataset access routes, repository plans, and FAIR metadata. |
-| [`$nature-literature-pipeline`](#skill-nature-literature-pipeline) | 围绕 `nature-literature-pipeline` 的专项能力，主要用于检索和筛选科研文献。 |
-| [`$nature-ref-verifier`](#skill-nature-ref-verifier) | 对学术文献逐条执行多源交叉验证，逐字段对比作者、标题、年份、卷期、页码， 标记卷年/DOI年冲突、作者顺序异常、页码偏差等问题，输出结构化验证报告。 |
-| [`$networkx`](#skill-networkx) | 围绕 `networkx` 的专项能力，主要用于核对引用与来源。 |
-| [`$novelty-check`](#skill-novelty-check) | Verify research idea novelty against recent literature. |
-| [`$openalex`](#skill-openalex) | 围绕 `openalex` 的专项能力，主要用于检索和筛选科研文献，并可核对引用与来源。 |
-| [`$paper-lookup`](#skill-paper-lookup) | 围绕 `paper-lookup` 的专项能力，主要用于检索和筛选科研文献，并可核对引用与来源。 |
-| [`$paper-talk`](#skill-paper-talk) | End-to-end conference talk pipeline: paper → slide outline → Beamer + PPTX → per-page polish → assurance checks (claim / citation / anonymity) → final export and report. |
-| [`$paperclip`](#skill-paperclip) | 围绕 `paperclip` 的专项能力，主要用于检索和筛选科研文献，并可核对引用与来源。 |
-| [`$peer-review`](#skill-peer-review) | 围绕 `peer-review` 的专项能力，主要用于核对引用与来源。 |
-| [`$prior-art-search`](#skill-prior-art-search) | Search patent databases and academic literature for prior art relevant to an invention. |
-| [`$pyzotero`](#skill-pyzotero) | 围绕 `pyzotero` 的专项能力，主要用于核对引用与来源，并可处理科研文档与结构化内容。 |
-| [`$research-lit`](#skill-research-lit) | 围绕 `research-lit` 的专项能力，主要用于检索和筛选科研文献。 |
-| [`$research-lookup`](#skill-research-lookup) | 围绕 `research-lookup` 的专项能力，主要用于检索和筛选科研文献。 |
-| [`$research-writing-skill`](#skill-research-writing-skill) | 围绕 `research-writing-skill` 的专项能力，主要用于核对引用与来源。 |
-| [`$scientific-toolkit-skill`](#skill-scientific-toolkit-skill) | 围绕 `scientific-toolkit-skill` 的专项能力，主要用于核对引用与来源。 |
-| [`$semantic-scholar`](#skill-semantic-scholar) | 围绕 `semantic-scholar` 的专项能力，主要用于检索和筛选科研文献，并可核对引用与来源。 |
-| [`$web-debug-search`](#skill-web-debug-search) | 围绕 `web-debug-search` 的专项能力，主要用于核对引用与来源，并可处理科研文档与结构化内容。 |
-| [`$wiki-enrich`](#skill-wiki-enrich) | Fill in the per-paper TODO sections of research-wiki/papers/<slug>.md pages that literature-ingest skills leave as bare scaffolds. |
+| Skill | 所属技能套件 | 一句话理解 |
+| --- | --- | --- |
+| [`$alphaxiv`](#skill-alphaxiv) | [Auto Claude Code Research in Sleep（ARIS）](../技能套件导航.md#suite-aris) | 围绕 `alphaxiv` 的专项能力，主要用于检索和筛选科研文献。 |
+| [`$arxiv`](#skill-arxiv) | [Auto Claude Code Research in Sleep（ARIS）](../技能套件导航.md#suite-aris) | 围绕 `arxiv` 的专项能力，主要用于检索和筛选科研文献，并可处理科研文档与结构化内容。 |
+| [`$bgpt-paper-search`](#skill-bgpt-paper-search) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 围绕 `bgpt-paper-search` 的专项能力，主要用于检索和筛选科研文献，并可核对引用与来源。 |
+| [`$citation-audit`](#skill-citation-audit) | [Auto Claude Code Research in Sleep（ARIS）](../技能套件导航.md#suite-aris) | 围绕 `citation-audit` 的专项能力，主要用于核对引用与来源。 |
+| [`$citation-management`](#skill-citation-management) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 围绕 `citation-management` 的专项能力，主要用于检索和筛选科研文献，并可核对引用与来源。 |
+| [`$comm-lit-review`](#skill-comm-lit-review) | [Auto Claude Code Research in Sleep（ARIS）](../技能套件导航.md#suite-aris) | 围绕 `comm-lit-review` 的专项能力，主要用于检索和筛选科研文献。 |
+| [`$deepxiv`](#skill-deepxiv) | [Auto Claude Code Research in Sleep（ARIS）](../技能套件导航.md#suite-aris) | 围绕 `deepxiv` 的专项能力，主要用于检索和筛选科研文献。 |
+| [`$folklore-variant-evidence`](#skill-folklore-variant-evidence) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 围绕 `folklore-variant-evidence` 的专项能力，主要用于检索和筛选科研文献。 |
+| [`$gemini-search`](#skill-gemini-search) | [Auto Claude Code Research in Sleep（ARIS）](../技能套件导航.md#suite-aris) | 围绕 `gemini-search` 的专项能力，主要用于检索和筛选科研文献。 |
+| [`$grant-proposal`](#skill-grant-proposal) | [Auto Claude Code Research in Sleep（ARIS）](../技能套件导航.md#suite-aris) | 围绕 `grant-proposal` 的专项能力，主要用于检索和筛选科研文献。 |
+| [`$imaging-data-commons`](#skill-imaging-data-commons) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 围绕 `imaging-data-commons` 的专项能力，主要用于核对引用与来源。 |
+| [`$literature-review`](#skill-literature-review) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 围绕 `literature-review` 的专项能力，主要用于检索和筛选科研文献，并可核对引用与来源。 |
+| [`$nature-academic-search`](#skill-nature-academic-search) | [Nature Research Skills](../技能套件导航.md#suite-nature) | 围绕 `nature-academic-search` 的专项能力，主要用于检索和筛选科研文献，并可核对引用与来源。 |
+| [`$nature-citation`](#skill-nature-citation) | [Nature Research Skills](../技能套件导航.md#suite-nature) | 围绕 `nature-citation` 的专项能力，主要用于检索和筛选科研文献。 |
+| [`$nature-data`](#skill-nature-data) | [Nature Research Skills](../技能套件导航.md#suite-nature) | 围绕 `nature-data` 的专项能力，主要用于核对引用与来源。 |
+| [`$nature-literature-pipeline`](#skill-nature-literature-pipeline) | [Nature Research Skills](../技能套件导航.md#suite-nature) | 围绕 `nature-literature-pipeline` 的专项能力，主要用于检索和筛选科研文献。 |
+| [`$nature-ref-verifier`](#skill-nature-ref-verifier) | [Nature Research Skills](../技能套件导航.md#suite-nature) | 对学术文献逐条执行多源交叉验证，逐字段对比作者、标题、年份、卷期、页码， 标记卷年/DOI年冲突、作者顺序异常、页码偏差等问题，输出结构化验证报告。 |
+| [`$networkx`](#skill-networkx) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 围绕 `networkx` 的专项能力，主要用于核对引用与来源。 |
+| [`$novelty-check`](#skill-novelty-check) | [Auto Claude Code Research in Sleep（ARIS）](../技能套件导航.md#suite-aris) | 围绕 `novelty-check` 的专项能力，主要用于检索和筛选科研文献。 |
+| [`$openalex`](#skill-openalex) | [Auto Claude Code Research in Sleep（ARIS）](../技能套件导航.md#suite-aris) | 围绕 `openalex` 的专项能力，主要用于检索和筛选科研文献，并可核对引用与来源。 |
+| [`$paper-lookup`](#skill-paper-lookup) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 围绕 `paper-lookup` 的专项能力，主要用于检索和筛选科研文献，并可核对引用与来源。 |
+| [`$paper-talk`](#skill-paper-talk) | [Auto Claude Code Research in Sleep（ARIS）](../技能套件导航.md#suite-aris) | 围绕 `paper-talk` 的专项能力，主要用于核对引用与来源。 |
+| [`$paperclip`](#skill-paperclip) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 围绕 `paperclip` 的专项能力，主要用于检索和筛选科研文献，并可核对引用与来源。 |
+| [`$peer-review`](#skill-peer-review) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 围绕 `peer-review` 的专项能力，主要用于核对引用与来源。 |
+| [`$prior-art-search`](#skill-prior-art-search) | [Auto Claude Code Research in Sleep（ARIS）](../技能套件导航.md#suite-aris) | 围绕 `prior-art-search` 的专项能力，主要用于检索和筛选科研文献。 |
+| [`$pyzotero`](#skill-pyzotero) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 围绕 `pyzotero` 的专项能力，主要用于核对引用与来源，并可处理科研文档与结构化内容。 |
+| [`$research-lit`](#skill-research-lit) | [Auto Claude Code Research in Sleep（ARIS）](../技能套件导航.md#suite-aris) | 围绕 `research-lit` 的专项能力，主要用于检索和筛选科研文献。 |
+| [`$research-lookup`](#skill-research-lookup) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 围绕 `research-lookup` 的专项能力，主要用于检索和筛选科研文献。 |
+| [`$research-writing-skill`](#skill-research-writing-skill) | [Scientific Toolkit 科研计算套件](../技能套件导航.md#suite-scientific-toolkit) | 围绕 `research-writing-skill` 的专项能力，主要用于核对引用与来源。 |
+| [`$scientific-toolkit-skill`](#skill-scientific-toolkit-skill) | [Scientific Toolkit 科研计算套件](../技能套件导航.md#suite-scientific-toolkit) | 围绕 `scientific-toolkit-skill` 的专项能力，主要用于核对引用与来源。 |
+| [`$semantic-scholar`](#skill-semantic-scholar) | [Auto Claude Code Research in Sleep（ARIS）](../技能套件导航.md#suite-aris) | 围绕 `semantic-scholar` 的专项能力，主要用于检索和筛选科研文献，并可核对引用与来源。 |
+| [`$web-debug-search`](#skill-web-debug-search) | [Auto Claude Code Research in Sleep（ARIS）](../技能套件导航.md#suite-aris) | 围绕 `web-debug-search` 的专项能力，主要用于核对引用与来源，并可处理科研文档与结构化内容。 |
+| [`$wiki-enrich`](#skill-wiki-enrich) | [Auto Claude Code Research in Sleep（ARIS）](../技能套件导航.md#suite-aris) | 围绕 `wiki-enrich` 的专项能力，主要用于检索和筛选科研文献。 |
 
 ## 详细说明
 
@@ -48,6 +48,8 @@
 ### `$alphaxiv`
 
 - 全局目录：`~/.codex/skills/alphaxiv/`
+- 所属技能套件：[Auto Claude Code Research in Sleep（ARIS）](../技能套件导航.md#suite-aris)
+- 推荐总入口：`$research-pipeline`
 - 中文理解：围绕 `alphaxiv` 的专项能力，主要用于检索和筛选科研文献。
 - 适合何时使用：用于找论文、核对出处、整理证据、管理引用和撰写综述。
 - 使用前注意：论文、引用和结论必须回到原始来源核验，不要把摘要或模型回答当作最终证据。
@@ -72,6 +74,8 @@ Quick single-paper lookup via AlphaXiv LLM-optimized summaries with tiered sourc
 ### `$arxiv`
 
 - 全局目录：`~/.codex/skills/arxiv/`
+- 所属技能套件：[Auto Claude Code Research in Sleep（ARIS）](../技能套件导航.md#suite-aris)
+- 推荐总入口：`$research-pipeline`
 - 中文理解：围绕 `arxiv` 的专项能力，主要用于检索和筛选科研文献，并可处理科研文档与结构化内容。
 - 适合何时使用：用于找论文、核对出处、整理证据、管理引用和撰写综述。
 - 使用前注意：论文、引用和结论必须回到原始来源核验，不要把摘要或模型回答当作最终证据。
@@ -96,6 +100,8 @@ Search, download, and summarize academic papers from arXiv. Use when user says "
 ### `$bgpt-paper-search`
 
 - 全局目录：`~/.codex/skills/bgpt-paper-search/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：围绕 `bgpt-paper-search` 的专项能力，主要用于检索和筛选科研文献，并可核对引用与来源。
 - 适合何时使用：用于找论文、核对出处、整理证据、管理引用和撰写综述。
 - 使用前注意：论文、引用和结论必须回到原始来源核验，不要把摘要或模型回答当作最终证据。
@@ -122,7 +128,9 @@ Searches BGPT scientific papers by topic or DOI and retrieves claim-level eviden
 ### `$citation-audit`
 
 - 全局目录：`~/.codex/skills/citation-audit/`
-- 中文理解：Zero-context verification that every bibliographic entry in the paper is real, correctly attributed, and used in a context the cited paper actually supports — catching hallucinate…
+- 所属技能套件：[Auto Claude Code Research in Sleep（ARIS）](../技能套件导航.md#suite-aris)
+- 推荐总入口：`$research-pipeline`
+- 中文理解：围绕 `citation-audit` 的专项能力，主要用于核对引用与来源。
 - 适合何时使用：用于找论文、核对出处、整理证据、管理引用和撰写综述。
 - 使用前注意：论文、引用和结论必须回到原始来源核验，不要把摘要或模型回答当作最终证据。
 
@@ -146,6 +154,8 @@ Zero-context verification that every bibliographic entry in the paper is real, c
 ### `$citation-management`
 
 - 全局目录：`~/.codex/skills/citation-management/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：围绕 `citation-management` 的专项能力，主要用于检索和筛选科研文献，并可核对引用与来源。
 - 适合何时使用：用于找论文、核对出处、整理证据、管理引用和撰写综述。
 - 使用前注意：论文、引用和结论必须回到原始来源核验，不要把摘要或模型回答当作最终证据。
@@ -170,6 +180,8 @@ Comprehensive citation management for academic research. Search OpenAlex, PubMed
 ### `$comm-lit-review`
 
 - 全局目录：`~/.codex/skills/comm-lit-review/`
+- 所属技能套件：[Auto Claude Code Research in Sleep（ARIS）](../技能套件导航.md#suite-aris)
+- 推荐总入口：`$research-pipeline`
 - 中文理解：围绕 `comm-lit-review` 的专项能力，主要用于检索和筛选科研文献。
 - 适合何时使用：用于找论文、核对出处、整理证据、管理引用和撰写综述。
 - 使用前注意：论文、引用和结论必须回到原始来源核验，不要把摘要或模型回答当作最终证据。
@@ -194,6 +206,8 @@ Communications-domain literature review with Claude-style knowledge-base-first r
 ### `$deepxiv`
 
 - 全局目录：`~/.codex/skills/deepxiv/`
+- 所属技能套件：[Auto Claude Code Research in Sleep（ARIS）](../技能套件导航.md#suite-aris)
+- 推荐总入口：`$research-pipeline`
 - 中文理解：围绕 `deepxiv` 的专项能力，主要用于检索和筛选科研文献。
 - 适合何时使用：用于找论文、核对出处、整理证据、管理引用和撰写综述。
 - 使用前注意：论文、引用和结论必须回到原始来源核验，不要把摘要或模型回答当作最终证据。
@@ -218,6 +232,8 @@ Search and progressively read open-access academic papers through DeepXiv. Use w
 ### `$folklore-variant-evidence`
 
 - 全局目录：`~/.codex/skills/folklore-variant-evidence/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：围绕 `folklore-variant-evidence` 的专项能力，主要用于检索和筛选科研文献。
 - 适合何时使用：用于找论文、核对出处、整理证据、管理引用和撰写综述。
 - 使用前注意：医学输出仅用于科研和信息整理，不能替代临床判断。 论文、引用和结论必须回到原始来源核验，不要把摘要或模型回答当作最终证据。
@@ -244,6 +260,8 @@ Retrieves ClinGen gene-disease validity assertions for a public gene or disease,
 ### `$gemini-search`
 
 - 全局目录：`~/.codex/skills/gemini-search/`
+- 所属技能套件：[Auto Claude Code Research in Sleep（ARIS）](../技能套件导航.md#suite-aris)
+- 推荐总入口：`$research-pipeline`
 - 中文理解：围绕 `gemini-search` 的专项能力，主要用于检索和筛选科研文献。
 - 适合何时使用：用于找论文、核对出处、整理证据、管理引用和撰写综述。
 - 使用前注意：论文、引用和结论必须回到原始来源核验，不要把摘要或模型回答当作最终证据。
@@ -270,7 +288,9 @@ Search research papers via Gemini for broad literature discovery. Use when user 
 ### `$grant-proposal`
 
 - 全局目录：`~/.codex/skills/grant-proposal/`
-- 中文理解：Draft a structured grant proposal from research ideas and literature.
+- 所属技能套件：[Auto Claude Code Research in Sleep（ARIS）](../技能套件导航.md#suite-aris)
+- 推荐总入口：`$research-pipeline`
+- 中文理解：围绕 `grant-proposal` 的专项能力，主要用于检索和筛选科研文献。
 - 适合何时使用：用于找论文、核对出处、整理证据、管理引用和撰写综述。
 - 使用前注意：论文、引用和结论必须回到原始来源核验，不要把摘要或模型回答当作最终证据。
 
@@ -294,6 +314,8 @@ Draft a structured grant proposal from research ideas and literature. Supports K
 ### `$imaging-data-commons`
 
 - 全局目录：`~/.codex/skills/imaging-data-commons/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：围绕 `imaging-data-commons` 的专项能力，主要用于核对引用与来源。
 - 适合何时使用：用于找论文、核对出处、整理证据、管理引用和撰写综述。
 - 使用前注意：论文、引用和结论必须回到原始来源核验，不要把摘要或模型回答当作最终证据。
@@ -320,6 +342,8 @@ Queries and downloads public cancer imaging data from NCI Imaging Data Commons. 
 ### `$literature-review`
 
 - 全局目录：`~/.codex/skills/literature-review/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：围绕 `literature-review` 的专项能力，主要用于检索和筛选科研文献，并可核对引用与来源。
 - 适合何时使用：用于找论文、核对出处、整理证据、管理引用和撰写综述。
 - 使用前注意：论文、引用和结论必须回到原始来源核验，不要把摘要或模型回答当作最终证据。
@@ -344,7 +368,9 @@ Conducts systematic, scoping, and narrative literature reviews using PubMed, arX
 ### `$nature-academic-search`
 
 - 全局目录：`~/.codex/skills/nature-academic-search/`
-- 中文理解：Search literature across sources, verify or manage citations, and build MeSH strategies or citation-impact audits.
+- 所属技能套件：[Nature Research Skills](../技能套件导航.md#suite-nature)
+- 推荐总入口：按任务直接调用对应的 $nature-* skill
+- 中文理解：围绕 `nature-academic-search` 的专项能力，主要用于检索和筛选科研文献，并可核对引用与来源。
 - 适合何时使用：用于找论文、核对出处、整理证据、管理引用和撰写综述。
 - 使用前注意：论文、引用和结论必须回到原始来源核验，不要把摘要或模型回答当作最终证据。
 
@@ -368,7 +394,9 @@ Search literature across sources, verify or manage citations, and build MeSH str
 ### `$nature-citation`
 
 - 全局目录：`~/.codex/skills/nature-citation/`
-- 中文理解：Find and verify Nature/CNS-family literature supporting manuscript claims, with claim-to-source mapping and reference-manager export.
+- 所属技能套件：[Nature Research Skills](../技能套件导航.md#suite-nature)
+- 推荐总入口：按任务直接调用对应的 $nature-* skill
+- 中文理解：围绕 `nature-citation` 的专项能力，主要用于检索和筛选科研文献。
 - 适合何时使用：用于找论文、核对出处、整理证据、管理引用和撰写综述。
 - 使用前注意：论文、引用和结论必须回到原始来源核验，不要把摘要或模型回答当作最终证据。
 
@@ -392,7 +420,9 @@ Find and verify Nature/CNS-family literature supporting manuscript claims, with 
 ### `$nature-data`
 
 - 全局目录：`~/.codex/skills/nature-data/`
-- 中文理解：Draft or audit manuscript Data/Code Availability statements, dataset access routes, repository plans, and FAIR metadata.
+- 所属技能套件：[Nature Research Skills](../技能套件导航.md#suite-nature)
+- 推荐总入口：按任务直接调用对应的 $nature-* skill
+- 中文理解：围绕 `nature-data` 的专项能力，主要用于核对引用与来源。
 - 适合何时使用：用于找论文、核对出处、整理证据、管理引用和撰写综述。
 - 使用前注意：论文、引用和结论必须回到原始来源核验，不要把摘要或模型回答当作最终证据。
 
@@ -416,6 +446,8 @@ Draft or audit manuscript Data/Code Availability statements, dataset access rout
 ### `$nature-literature-pipeline`
 
 - 全局目录：`~/.codex/skills/nature-literature-pipeline/`
+- 所属技能套件：[Nature Research Skills](../技能套件导航.md#suite-nature)
+- 推荐总入口：按任务直接调用对应的 $nature-* skill
 - 中文理解：围绕 `nature-literature-pipeline` 的专项能力，主要用于检索和筛选科研文献。
 - 适合何时使用：用于找论文、核对出处、整理证据、管理引用和撰写综述。
 - 使用前注意：论文、引用和结论必须回到原始来源核验，不要把摘要或模型回答当作最终证据。
@@ -440,6 +472,8 @@ Complete automated literature discovery pipeline: multi-source search → six-di
 ### `$nature-ref-verifier`
 
 - 全局目录：`~/.codex/skills/nature-ref-verifier/`
+- 所属技能套件：[Nature Research Skills](../技能套件导航.md#suite-nature)
+- 推荐总入口：按任务直接调用对应的 $nature-* skill
 - 中文理解：对学术文献逐条执行多源交叉验证，逐字段对比作者、标题、年份、卷期、页码， 标记卷年/DOI年冲突、作者顺序异常、页码偏差等问题，输出结构化验证报告。
 - 适合何时使用：用于找论文、核对出处、整理证据、管理引用和撰写综述。
 - 使用前注意：技能说明不代表依赖、模型、数据或凭据已经安装；首次使用先让 Codex 检查环境。
@@ -464,6 +498,8 @@ Complete automated literature discovery pipeline: multi-source search → six-di
 ### `$networkx`
 
 - 全局目录：`~/.codex/skills/networkx/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：围绕 `networkx` 的专项能力，主要用于核对引用与来源。
 - 适合何时使用：用于找论文、核对出处、整理证据、管理引用和撰写综述。
 - 使用前注意：论文、引用和结论必须回到原始来源核验，不要把摘要或模型回答当作最终证据。
@@ -490,7 +526,9 @@ Creates, analyzes, and visualizes complex networks and graphs in Python with Net
 ### `$novelty-check`
 
 - 全局目录：`~/.codex/skills/novelty-check/`
-- 中文理解：Verify research idea novelty against recent literature.
+- 所属技能套件：[Auto Claude Code Research in Sleep（ARIS）](../技能套件导航.md#suite-aris)
+- 推荐总入口：`$research-pipeline`
+- 中文理解：围绕 `novelty-check` 的专项能力，主要用于检索和筛选科研文献。
 - 适合何时使用：用于找论文、核对出处、整理证据、管理引用和撰写综述。
 - 使用前注意：论文、引用和结论必须回到原始来源核验，不要把摘要或模型回答当作最终证据。
 
@@ -514,6 +552,8 @@ Verify research idea novelty against recent literature. Use when user says "查�
 ### `$openalex`
 
 - 全局目录：`~/.codex/skills/openalex/`
+- 所属技能套件：[Auto Claude Code Research in Sleep（ARIS）](../技能套件导航.md#suite-aris)
+- 推荐总入口：`$research-pipeline`
 - 中文理解：围绕 `openalex` 的专项能力，主要用于检索和筛选科研文献，并可核对引用与来源。
 - 适合何时使用：用于找论文、核对出处、整理证据、管理引用和撰写综述。
 - 使用前注意：可能需要账号、API 凭据、联网权限或付费资源；执行外部写入前先确认。 论文、引用和结论必须回到原始来源核验，不要把摘要或模型回答当作最终证据。
@@ -538,9 +578,11 @@ Search academic papers via OpenAlex API for open citation data, institutional af
 ### `$paper-lookup`
 
 - 全局目录：`~/.codex/skills/paper-lookup/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：围绕 `paper-lookup` 的专项能力，主要用于检索和筛选科研文献，并可核对引用与来源。
 - 适合何时使用：用于找论文、核对出处、整理证据、管理引用和撰写综述。
-- 使用前注意：医学输出仅用于科研和信息整理，不能替代临床判断。 可能需要账号、API 凭据、联网权限或付费资源；执行外部写入前先确认。
+- 使用前注意：可能需要账号、API 凭据、联网权限或付费资源；执行外部写入前先确认。 论文、引用和结论必须回到原始来源核验，不要把摘要或模型回答当作最终证据。
 
 可复制提示词：
 
@@ -562,7 +604,9 @@ Searches 18 scholarly APIs for papers, preprints, citations, open-access full te
 ### `$paper-talk`
 
 - 全局目录：`~/.codex/skills/paper-talk/`
-- 中文理解：End-to-end conference talk pipeline: paper → slide outline → Beamer + PPTX → per-page polish → assurance checks (claim / citation / anonymity) → final export and report.
+- 所属技能套件：[Auto Claude Code Research in Sleep（ARIS）](../技能套件导航.md#suite-aris)
+- 推荐总入口：`$research-pipeline`
+- 中文理解：围绕 `paper-talk` 的专项能力，主要用于核对引用与来源。
 - 适合何时使用：用于找论文、核对出处、整理证据、管理引用和撰写综述。
 - 使用前注意：论文、引用和结论必须回到原始来源核验，不要把摘要或模型回答当作最终证据。
 
@@ -586,9 +630,11 @@ End-to-end conference talk pipeline: paper → slide outline → Beamer + PPTX �
 ### `$paperclip`
 
 - 全局目录：`~/.codex/skills/paperclip/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：围绕 `paperclip` 的专项能力，主要用于检索和筛选科研文献，并可核对引用与来源。
 - 适合何时使用：用于找论文、核对出处、整理证据、管理引用和撰写综述。
-- 使用前注意：医学输出仅用于科研和信息整理，不能替代临床判断。 可能需要账号、API 凭据、联网权限或付费资源；执行外部写入前先确认。
+- 使用前注意：可能需要账号、API 凭据、联网权限或付费资源；执行外部写入前先确认。 论文、引用和结论必须回到原始来源核验，不要把摘要或模型回答当作最终证据。
 
 可复制提示词：
 
@@ -610,6 +656,8 @@ Searches and reads biomedical papers, FDA/PMDA/EMA documents, clinical trials, a
 ### `$peer-review`
 
 - 全局目录：`~/.codex/skills/peer-review/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：围绕 `peer-review` 的专项能力，主要用于核对引用与来源。
 - 适合何时使用：用于找论文、核对出处、整理证据、管理引用和撰写综述。
 - 使用前注意：论文、引用和结论必须回到原始来源核验，不要把摘要或模型回答当作最终证据。
@@ -634,7 +682,9 @@ Prepares evidence-bounded, constructive peer-review drafts and structured manusc
 ### `$prior-art-search`
 
 - 全局目录：`~/.codex/skills/prior-art-search/`
-- 中文理解：Search patent databases and academic literature for prior art relevant to an invention.
+- 所属技能套件：[Auto Claude Code Research in Sleep（ARIS）](../技能套件导航.md#suite-aris)
+- 推荐总入口：`$research-pipeline`
+- 中文理解：围绕 `prior-art-search` 的专项能力，主要用于检索和筛选科研文献。
 - 适合何时使用：用于找论文、核对出处、整理证据、管理引用和撰写综述。
 - 使用前注意：论文、引用和结论必须回到原始来源核验，不要把摘要或模型回答当作最终证据。 格式与证据整理不等于法律、合规、认证或专利意见。
 
@@ -658,6 +708,8 @@ Search patent databases and academic literature for prior art relevant to an inv
 ### `$pyzotero`
 
 - 全局目录：`~/.codex/skills/pyzotero/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：围绕 `pyzotero` 的专项能力，主要用于核对引用与来源，并可处理科研文档与结构化内容。
 - 适合何时使用：用于找论文、核对出处、整理证据、管理引用和撰写综述。
 - 使用前注意：可能需要账号、API 凭据、联网权限或付费资源；执行外部写入前先确认。 论文、引用和结论必须回到原始来源核验，不要把摘要或模型回答当作最终证据。
@@ -682,6 +734,8 @@ Manages Zotero reference libraries using the pyzotero Python client: retrieves, 
 ### `$research-lit`
 
 - 全局目录：`~/.codex/skills/research-lit/`
+- 所属技能套件：[Auto Claude Code Research in Sleep（ARIS）](../技能套件导航.md#suite-aris)
+- 推荐总入口：`$research-pipeline`
 - 中文理解：围绕 `research-lit` 的专项能力，主要用于检索和筛选科研文献。
 - 适合何时使用：用于找论文、核对出处、整理证据、管理引用和撰写综述。
 - 使用前注意：论文、引用和结论必须回到原始来源核验，不要把摘要或模型回答当作最终证据。
@@ -706,6 +760,8 @@ Search and analyze research papers, find related work, summarize key ideas. Use 
 ### `$research-lookup`
 
 - 全局目录：`~/.codex/skills/research-lookup/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：围绕 `research-lookup` 的专项能力，主要用于检索和筛选科研文献。
 - 适合何时使用：用于找论文、核对出处、整理证据、管理引用和撰写综述。
 - 使用前注意：论文、引用和结论必须回到原始来源核验，不要把摘要或模型回答当作最终证据。
@@ -730,6 +786,8 @@ Compiles current scholarly evidence for a scientific manuscript or research brie
 ### `$research-writing-skill`
 
 - 全局目录：`~/.codex/skills/research-writing-skill/`
+- 所属技能套件：[Scientific Toolkit 科研计算套件](../技能套件导航.md#suite-scientific-toolkit)
+- 推荐总入口：`$scientific-toolkit-skill`
 - 中文理解：围绕 `research-writing-skill` 的专项能力，主要用于核对引用与来源。
 - 适合何时使用：用于找论文、核对出处、整理证据、管理引用和撰写综述。
 - 使用前注意：论文、引用和结论必须回到原始来源核验，不要把摘要或模型回答当作最终证据。
@@ -754,6 +812,8 @@ Chinese-first research paper writing, revision, polishing, section drafting, reb
 ### `$scientific-toolkit-skill`
 
 - 全局目录：`~/.codex/skills/scientific-toolkit-skill/`
+- 所属技能套件：[Scientific Toolkit 科研计算套件](../技能套件导航.md#suite-scientific-toolkit)
+- 推荐总入口：`$scientific-toolkit-skill`
 - 中文理解：围绕 `scientific-toolkit-skill` 的专项能力，主要用于核对引用与来源。
 - 适合何时使用：用于找论文、核对出处、整理证据、管理引用和撰写综述。
 - 使用前注意：先核对硬件、依赖版本、运行时间和预算，再启动长任务。 论文、引用和结论必须回到原始来源核验，不要把摘要或模型回答当作最终证据。
@@ -778,6 +838,8 @@ Research computing toolkit for optoelectronic information science and engineerin
 ### `$semantic-scholar`
 
 - 全局目录：`~/.codex/skills/semantic-scholar/`
+- 所属技能套件：[Auto Claude Code Research in Sleep（ARIS）](../技能套件导航.md#suite-aris)
+- 推荐总入口：`$research-pipeline`
 - 中文理解：围绕 `semantic-scholar` 的专项能力，主要用于检索和筛选科研文献，并可核对引用与来源。
 - 适合何时使用：用于找论文、核对出处、整理证据、管理引用和撰写综述。
 - 使用前注意：可能需要账号、API 凭据、联网权限或付费资源；执行外部写入前先确认。 论文、引用和结论必须回到原始来源核验，不要把摘要或模型回答当作最终证据。
@@ -802,6 +864,8 @@ Search published venue papers (IEEE, ACM, Springer, etc.) via Semantic Scholar A
 ### `$web-debug-search`
 
 - 全局目录：`~/.codex/skills/web-debug-search/`
+- 所属技能套件：[Auto Claude Code Research in Sleep（ARIS）](../技能套件导航.md#suite-aris)
+- 推荐总入口：`$research-pipeline`
 - 中文理解：围绕 `web-debug-search` 的专项能力，主要用于核对引用与来源，并可处理科研文档与结构化内容。
 - 适合何时使用：用于找论文、核对出处、整理证据、管理引用和撰写综述。
 - 使用前注意：可能需要账号、API 凭据、联网权限或付费资源；执行外部写入前先确认。 论文、引用和结论必须回到原始来源核验，不要把摘要或模型回答当作最终证据。
@@ -826,7 +890,9 @@ Search GitHub, Stack Exchange, Chinese technical communities, official documenta
 ### `$wiki-enrich`
 
 - 全局目录：`~/.codex/skills/wiki-enrich/`
-- 中文理解：Fill in the per-paper TODO sections of research-wiki/papers/<slug>.md pages that literature-ingest skills leave as bare scaffolds.
+- 所属技能套件：[Auto Claude Code Research in Sleep（ARIS）](../技能套件导航.md#suite-aris)
+- 推荐总入口：`$research-pipeline`
+- 中文理解：围绕 `wiki-enrich` 的专项能力，主要用于检索和筛选科研文献。
 - 适合何时使用：用于找论文、核对出处、整理证据、管理引用和撰写综述。
 - 使用前注意：论文、引用和结论必须回到原始来源核验，不要把摘要或模型回答当作最终证据。
 

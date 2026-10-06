@@ -6,27 +6,27 @@
 
 ## 本页索引
 
-| Skill | 一句话理解 |
-| --- | --- |
-| [`$cantera`](#skill-cantera) | 围绕 `cantera` 的专项能力，主要用于处理化学、药物或材料问题。 |
-| [`$datamol`](#skill-datamol) | 围绕 `datamol` 的专项能力，主要用于处理化学、药物或材料问题。 |
-| [`$deepchem`](#skill-deepchem) | 围绕 `deepchem` 的专项能力，主要用于处理化学、药物或材料问题。 |
-| [`$diffdock`](#skill-diffdock) | 围绕 `diffdock` 的专项能力，主要用于处理化学、药物或材料问题。 |
-| [`$geomaster`](#skill-geomaster) | 这是一个面向“化学、药物、材料与分子模拟”的专项技能，用于处理 `geomaster` 相关任务。 |
-| [`$marine-carbonate-chemistry`](#skill-marine-carbonate-chemistry) | 围绕 `marine-carbonate-chemistry` 的专项能力，主要用于处理化学、药物或材料问题。 |
-| [`$matchms`](#skill-matchms) | 围绕 `matchms` 的专项能力，主要用于处理质谱、蛋白组或代谢组数据。 |
-| [`$medchem`](#skill-medchem) | 围绕 `medchem` 的专项能力，主要用于处理化学、药物或材料问题。 |
-| [`$molecular-dynamics`](#skill-molecular-dynamics) | 围绕 `molecular-dynamics` 的专项能力，主要用于处理化学、药物或材料问题。 |
-| [`$molfeat`](#skill-molfeat) | 围绕 `molfeat` 的专项能力，主要用于处理化学、药物或材料问题。 |
-| [`$nmrglue`](#skill-nmrglue) | 这是一个面向“化学、药物、材料与分子模拟”的专项技能，用于处理 `nmrglue` 相关任务。 |
-| [`$office-academic-skill`](#skill-office-academic-skill) | 围绕 `office-academic-skill` 的专项能力，主要用于处理化学、药物或材料问题。 |
-| [`$pybamm`](#skill-pybamm) | 围绕 `pybamm` 的专项能力，主要用于处理化学、药物或材料问题，并可规划、运行或复盘实验。 |
-| [`$pycalphad`](#skill-pycalphad) | 这是一个面向“化学、药物、材料与分子模拟”的专项技能，用于处理 `pycalphad` 相关任务。 |
-| [`$pymatgen`](#skill-pymatgen) | 围绕 `pymatgen` 的专项能力，主要用于处理化学、药物或材料问题。 |
-| [`$pyopenms`](#skill-pyopenms) | 围绕 `pyopenms` 的专项能力，主要用于处理质谱、蛋白组或代谢组数据，并可处理化学、药物或材料问题。 |
-| [`$rdkit`](#skill-rdkit) | 这是一个面向“化学、药物、材料与分子模拟”的专项技能，用于处理 `rdkit` 相关任务。 |
-| [`$rowan`](#skill-rowan) | 围绕 `rowan` 的专项能力，主要用于处理化学、药物或材料问题。 |
-| [`$tellurium`](#skill-tellurium) | 围绕 `tellurium` 的专项能力，主要用于进行代谢网络与通量分析，并可处理化学、药物或材料问题。 |
+| Skill | 所属技能套件 | 一句话理解 |
+| --- | --- | --- |
+| [`$cantera`](#skill-cantera) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 围绕 `cantera` 的专项能力，主要用于处理化学、药物或材料问题。 |
+| [`$datamol`](#skill-datamol) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 围绕 `datamol` 的专项能力，主要用于处理化学、药物或材料问题。 |
+| [`$deepchem`](#skill-deepchem) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 围绕 `deepchem` 的专项能力，主要用于处理化学、药物或材料问题。 |
+| [`$diffdock`](#skill-diffdock) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 围绕 `diffdock` 的专项能力，主要用于处理化学、药物或材料问题。 |
+| [`$geomaster`](#skill-geomaster) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 这是一个面向“化学、药物、材料与分子模拟”的专项技能，用于处理 `geomaster` 相关任务。 |
+| [`$marine-carbonate-chemistry`](#skill-marine-carbonate-chemistry) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 围绕 `marine-carbonate-chemistry` 的专项能力，主要用于处理化学、药物或材料问题。 |
+| [`$matchms`](#skill-matchms) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 围绕 `matchms` 的专项能力，主要用于处理质谱、蛋白组或代谢组数据。 |
+| [`$medchem`](#skill-medchem) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 围绕 `medchem` 的专项能力，主要用于处理化学、药物或材料问题。 |
+| [`$molecular-dynamics`](#skill-molecular-dynamics) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 围绕 `molecular-dynamics` 的专项能力，主要用于处理化学、药物或材料问题。 |
+| [`$molfeat`](#skill-molfeat) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 围绕 `molfeat` 的专项能力，主要用于处理化学、药物或材料问题。 |
+| [`$nmrglue`](#skill-nmrglue) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 这是一个面向“化学、药物、材料与分子模拟”的专项技能，用于处理 `nmrglue` 相关任务。 |
+| [`$office-academic-skill`](#skill-office-academic-skill) | [Scientific Toolkit 科研计算套件](../技能套件导航.md#suite-scientific-toolkit) | 围绕 `office-academic-skill` 的专项能力，主要用于处理化学、药物或材料问题。 |
+| [`$pybamm`](#skill-pybamm) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 围绕 `pybamm` 的专项能力，主要用于处理化学、药物或材料问题，并可规划、运行或复盘实验。 |
+| [`$pycalphad`](#skill-pycalphad) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 这是一个面向“化学、药物、材料与分子模拟”的专项技能，用于处理 `pycalphad` 相关任务。 |
+| [`$pymatgen`](#skill-pymatgen) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 围绕 `pymatgen` 的专项能力，主要用于处理化学、药物或材料问题。 |
+| [`$pyopenms`](#skill-pyopenms) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 围绕 `pyopenms` 的专项能力，主要用于处理质谱、蛋白组或代谢组数据，并可处理化学、药物或材料问题。 |
+| [`$rdkit`](#skill-rdkit) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 这是一个面向“化学、药物、材料与分子模拟”的专项技能，用于处理 `rdkit` 相关任务。 |
+| [`$rowan`](#skill-rowan) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 围绕 `rowan` 的专项能力，主要用于处理化学、药物或材料问题。 |
+| [`$tellurium`](#skill-tellurium) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 围绕 `tellurium` 的专项能力，主要用于进行代谢网络与通量分析，并可处理化学、药物或材料问题。 |
 
 ## 详细说明
 
@@ -34,6 +34,8 @@
 ### `$cantera`
 
 - 全局目录：`~/.codex/skills/cantera/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：围绕 `cantera` 的专项能力，主要用于处理化学、药物或材料问题。
 - 适合何时使用：用于化学信息学、药物发现、质谱、结构、材料和分子模拟。
 - 使用前注意：技能说明不代表依赖、模型、数据或凭据已经安装；首次使用先让 Codex 检查环境。
@@ -58,6 +60,8 @@ Runs Cantera homogeneous chemical reactors and evaluates ignition delay with mec
 ### `$datamol`
 
 - 全局目录：`~/.codex/skills/datamol/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：围绕 `datamol` 的专项能力，主要用于处理化学、药物或材料问题。
 - 适合何时使用：用于化学信息学、药物发现、质谱、结构、材料和分子模拟。
 - 使用前注意：技能说明不代表依赖、模型、数据或凭据已经安装；首次使用先让 Codex 检查环境。
@@ -84,6 +88,8 @@ Pythonic wrapper around RDKit with simplified interface and sensible defaults. P
 ### `$deepchem`
 
 - 全局目录：`~/.codex/skills/deepchem/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：围绕 `deepchem` 的专项能力，主要用于处理化学、药物或材料问题。
 - 适合何时使用：用于化学信息学、药物发现、质谱、结构、材料和分子模拟。
 - 使用前注意：技能说明不代表依赖、模型、数据或凭据已经安装；首次使用先让 Codex 检查环境。
@@ -108,6 +114,8 @@ Builds molecular property prediction and MoleculeNet workflows with DeepChem, in
 ### `$diffdock`
 
 - 全局目录：`~/.codex/skills/diffdock/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：围绕 `diffdock` 的专项能力，主要用于处理化学、药物或材料问题。
 - 适合何时使用：用于化学信息学、药物发现、质谱、结构、材料和分子模拟。
 - 使用前注意：技能说明不代表依赖、模型、数据或凭据已经安装；首次使用先让 Codex 检查环境。
@@ -134,6 +142,8 @@ Predicts protein-small-molecule binding poses with DiffDock and DiffDock-L from 
 ### `$geomaster`
 
 - 全局目录：`~/.codex/skills/geomaster/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：这是一个面向“化学、药物、材料与分子模拟”的专项技能，用于处理 `geomaster` 相关任务。
 - 适合何时使用：用于化学信息学、药物发现、质谱、结构、材料和分子模拟。
 - 使用前注意：技能说明不代表依赖、模型、数据或凭据已经安装；首次使用先让 Codex 检查环境。
@@ -158,6 +168,8 @@ Supports geospatial research workflows for remote sensing, vector and raster GIS
 ### `$marine-carbonate-chemistry`
 
 - 全局目录：`~/.codex/skills/marine-carbonate-chemistry/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：围绕 `marine-carbonate-chemistry` 的专项能力，主要用于处理化学、药物或材料问题。
 - 适合何时使用：用于化学信息学、药物发现、质谱、结构、材料和分子模拟。
 - 使用前注意：技能说明不代表依赖、模型、数据或凭据已经安装；首次使用先让 Codex 检查环境。
@@ -184,6 +196,8 @@ Solves seawater carbonate chemistry with PyCO2SYS for chemical oceanography, oce
 ### `$matchms`
 
 - 全局目录：`~/.codex/skills/matchms/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：围绕 `matchms` 的专项能力，主要用于处理质谱、蛋白组或代谢组数据。
 - 适合何时使用：用于化学信息学、药物发现、质谱、结构、材料和分子模拟。
 - 使用前注意：技能说明不代表依赖、模型、数据或凭据已经安装；首次使用先让 Codex 检查环境。
@@ -208,6 +222,8 @@ Processes, cleans, compares, and searches tandem mass spectra with matchms. Use 
 ### `$medchem`
 
 - 全局目录：`~/.codex/skills/medchem/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：围绕 `medchem` 的专项能力，主要用于处理化学、药物或材料问题。
 - 适合何时使用：用于化学信息学、药物发现、质谱、结构、材料和分子模拟。
 - 使用前注意：技能说明不代表依赖、模型、数据或凭据已经安装；首次使用先让 Codex 检查环境。
@@ -234,6 +250,8 @@ Applies medicinal chemistry filters for compound triage, using drug-likeness rul
 ### `$molecular-dynamics`
 
 - 全局目录：`~/.codex/skills/molecular-dynamics/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：围绕 `molecular-dynamics` 的专项能力，主要用于处理化学、药物或材料问题。
 - 适合何时使用：用于化学信息学、药物发现、质谱、结构、材料和分子模拟。
 - 使用前注意：先核对硬件、依赖版本、运行时间和预算，再启动长任务。
@@ -258,6 +276,8 @@ Runs and analyzes molecular dynamics simulations with OpenMM and MDAnalysis. Set
 ### `$molfeat`
 
 - 全局目录：`~/.codex/skills/molfeat/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：围绕 `molfeat` 的专项能力，主要用于处理化学、药物或材料问题。
 - 适合何时使用：用于化学信息学、药物发现、质谱、结构、材料和分子模拟。
 - 使用前注意：技能说明不代表依赖、模型、数据或凭据已经安装；首次使用先让 Codex 检查环境。
@@ -284,6 +304,8 @@ Featurizes small molecules with Molfeat for QSAR/QSPR, chemical similarity, virt
 ### `$nmrglue`
 
 - 全局目录：`~/.codex/skills/nmrglue/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：这是一个面向“化学、药物、材料与分子模拟”的专项技能，用于处理 `nmrglue` 相关任务。
 - 适合何时使用：用于化学信息学、药物发现、质谱、结构、材料和分子模拟。
 - 使用前注意：技能说明不代表依赖、模型、数据或凭据已经安装；首次使用先让 Codex 检查环境。
@@ -310,6 +332,8 @@ Processes calibrated one-dimensional complex NMR free-induction decays with nmrg
 ### `$office-academic-skill`
 
 - 全局目录：`~/.codex/skills/office-academic-skill/`
+- 所属技能套件：[Scientific Toolkit 科研计算套件](../技能套件导航.md#suite-scientific-toolkit)
+- 推荐总入口：`$scientific-toolkit-skill`
 - 中文理解：围绕 `office-academic-skill` 的专项能力，主要用于处理化学、药物或材料问题。
 - 适合何时使用：用于化学信息学、药物发现、质谱、结构、材料和分子模拟。
 - 使用前注意：论文、引用和结论必须回到原始来源核验，不要把摘要或模型回答当作最终证据。
@@ -334,6 +358,8 @@ Chinese-first academic Word and PowerPoint workflow for paper reading reports, t
 ### `$pybamm`
 
 - 全局目录：`~/.codex/skills/pybamm/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：围绕 `pybamm` 的专项能力，主要用于处理化学、药物或材料问题，并可规划、运行或复盘实验。
 - 适合何时使用：用于化学信息学、药物发现、质谱、结构、材料和分子模拟。
 - 使用前注意：先核对硬件、依赖版本、运行时间和预算，再启动长任务。
@@ -360,6 +386,8 @@ Simulates lithium-ion battery charge, discharge and rest experiments with PyBaMM
 ### `$pycalphad`
 
 - 全局目录：`~/.codex/skills/pycalphad/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：这是一个面向“化学、药物、材料与分子模拟”的专项技能，用于处理 `pycalphad` 相关任务。
 - 适合何时使用：用于化学信息学、药物发现、质谱、结构、材料和分子模拟。
 - 使用前注意：技能说明不代表依赖、模型、数据或凭据已经安装；首次使用先让 Codex 检查环境。
@@ -386,6 +414,8 @@ Computes finite-temperature CALPHAD equilibria, phase fractions, and phase compo
 ### `$pymatgen`
 
 - 全局目录：`~/.codex/skills/pymatgen/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：围绕 `pymatgen` 的专项能力，主要用于处理化学、药物或材料问题。
 - 适合何时使用：用于化学信息学、药物发现、质谱、结构、材料和分子模拟。
 - 使用前注意：技能说明不代表依赖、模型、数据或凭据已经安装；首次使用先让 Codex 检查环境。
@@ -412,6 +442,8 @@ Analyzes, validates, converts, and transforms materials structures and computed 
 ### `$pyopenms`
 
 - 全局目录：`~/.codex/skills/pyopenms/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：围绕 `pyopenms` 的专项能力，主要用于处理质谱、蛋白组或代谢组数据，并可处理化学、药物或材料问题。
 - 适合何时使用：用于化学信息学、药物发现、质谱、结构、材料和分子模拟。
 - 使用前注意：技能说明不代表依赖、模型、数据或凭据已经安装；首次使用先让 Codex 检查环境。
@@ -438,6 +470,8 @@ Processes mass spectrometry data with pyOpenMS. Supports proteomics and metabolo
 ### `$rdkit`
 
 - 全局目录：`~/.codex/skills/rdkit/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：这是一个面向“化学、药物、材料与分子模拟”的专项技能，用于处理 `rdkit` 相关任务。
 - 适合何时使用：用于化学信息学、药物发现、质谱、结构、材料和分子模拟。
 - 使用前注意：技能说明不代表依赖、模型、数据或凭据已经安装；首次使用先让 Codex 检查环境。
@@ -462,6 +496,8 @@ Cheminformatics toolkit for fine-grained molecular control. SMILES/SDF parsing, 
 ### `$rowan`
 
 - 全局目录：`~/.codex/skills/rowan/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：围绕 `rowan` 的专项能力，主要用于处理化学、药物或材料问题。
 - 适合何时使用：用于化学信息学、药物发现、质谱、结构、材料和分子模拟。
 - 使用前注意：可能需要账号、API 凭据、联网权限或付费资源；执行外部写入前先确认。 先核对硬件、依赖版本、运行时间和预算，再启动长任务。
@@ -486,6 +522,8 @@ Rowan is a cloud-native molecular modeling and medicinal-chemistry workflow plat
 ### `$tellurium`
 
 - 全局目录：`~/.codex/skills/tellurium/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：围绕 `tellurium` 的专项能力，主要用于进行代谢网络与通量分析，并可处理化学、药物或材料问题。
 - 适合何时使用：用于化学信息学、药物发现、质谱、结构、材料和分子模拟。
 - 使用前注意：先核对硬件、依赖版本、运行时间和预算，再启动长任务。

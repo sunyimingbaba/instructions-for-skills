@@ -6,35 +6,35 @@
 
 ## 本页索引
 
-| Skill | 一句话理解 |
-| --- | --- |
-| [`$academic-plotting`](#skill-academic-plotting) | 围绕 `academic-plotting` 的专项能力，主要用于生成或检查科研图表。 |
-| [`$auto-review-loop-llm`](#skill-auto-review-loop-llm) | 围绕 `auto-review-loop-llm` 的专项能力，主要用于生成或检查科研图表。 |
-| [`$figure-spec`](#skill-figure-spec) | Generate deterministic publication-quality architecture, workflow, and pipeline diagrams from structured JSON (FigureSpec) into editable SVG. |
-| [`$generate-image`](#skill-generate-image) | 这是一个面向“科学可视化、文档与演示”的专项技能，用于处理 `generate-image` 相关任务。 |
-| [`$infographics`](#skill-infographics) | 这是一个面向“科学可视化、文档与演示”的专项技能，用于处理 `infographics` 相关任务。 |
-| [`$latex-posters`](#skill-latex-posters) | 围绕 `latex-posters` 的专项能力，主要用于生成或检查科研图表，并可处理科研文档与结构化内容。 |
-| [`$markdown-mermaid-writing`](#skill-markdown-mermaid-writing) | 围绕 `markdown-mermaid-writing` 的专项能力，主要用于生成或检查科研图表，并可处理科研文档与结构化内容。 |
-| [`$matplotlib`](#skill-matplotlib) | 围绕 `matplotlib` 的专项能力，主要用于生成或检查科研图表，并可处理科研文档与结构化内容。 |
-| [`$mermaid-diagram`](#skill-mermaid-diagram) | 围绕 `mermaid-diagram` 的专项能力，主要用于生成或检查科研图表。 |
-| [`$meta-apply`](#skill-meta-apply) | 这是一个面向“科学可视化、文档与演示”的专项技能，用于处理 `meta-apply` 相关任务。 |
-| [`$nature-figure`](#skill-nature-figure) | Create, revise, audit, and export manuscript scientific figures in Python or R. |
-| [`$nature-image2ppt`](#skill-nature-image2ppt) | Reconstruct slide images, screenshots, scanned PDFs, or image-only PPTX files as object-level editable PowerPoint. |
-| [`$paper-figure`](#skill-paper-figure) | 围绕 `paper-figure` 的专项能力，主要用于生成或检查科研图表。 |
-| [`$paper-illustration`](#skill-paper-illustration) | Generate publication-quality AI illustrations for academic papers using Gemini image generation. |
-| [`$paper-poster`](#skill-paper-poster) | 这是一个面向“科学可视化、文档与演示”的专项技能，用于处理 `paper-poster` 相关任务。 |
-| [`$paper-poster-html`](#skill-paper-poster-html) | 围绕 `paper-poster-html` 的专项能力，主要用于生成或检查科研图表，并可处理科研文档与结构化内容。 |
-| [`$paper-slides`](#skill-paper-slides) | Generate conference presentation slides (beamer LaTeX → PDF + editable PPTX) from a compiled paper, with speaker notes and full talk script. |
-| [`$pixel-art`](#skill-pixel-art) | 这是一个面向“科学可视化、文档与演示”的专项技能，用于处理 `pixel-art` 相关任务。 |
-| [`$pptx-posters`](#skill-pptx-posters) | 这是一个面向“科学可视化、文档与演示”的专项技能，用于处理 `pptx-posters` 相关任务。 |
-| [`$research-implement-feature`](#skill-research-implement-feature) | Build a working artifact from a plain "implement X for me" request: a running end-to-end spine first, then one feature per rung, with every under-determined decision written to an… |
-| [`$scientific-figure-making`](#skill-scientific-figure-making) | 围绕 `scientific-figure-making` 的专项能力，主要用于生成或检查科研图表。 |
-| [`$scientific-schematics`](#skill-scientific-schematics) | 围绕 `scientific-schematics` 的专项能力，主要用于生成或检查科研图表。 |
-| [`$scientific-slides`](#skill-scientific-slides) | 这是一个面向“科学可视化、文档与演示”的专项技能，用于处理 `scientific-slides` 相关任务。 |
-| [`$scientific-visualization`](#skill-scientific-visualization) | 围绕 `scientific-visualization` 的专项能力，主要用于生成或检查科研图表。 |
-| [`$seaborn`](#skill-seaborn) | 围绕 `seaborn` 的专项能力，主要用于生成或检查科研图表。 |
-| [`$slides-polish`](#skill-slides-polish) | Per-page Codex review + targeted python-pptx / Beamer fixes for academic talk slides. |
-| [`$visiomaster`](#skill-visiomaster) | 围绕 `visiomaster` 的专项能力，主要用于生成或检查科研图表。 |
+| Skill | 所属技能套件 | 一句话理解 |
+| --- | --- | --- |
+| [`$academic-plotting`](#skill-academic-plotting) | [AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra) | 围绕 `academic-plotting` 的专项能力，主要用于生成或检查科研图表。 |
+| [`$auto-review-loop-llm`](#skill-auto-review-loop-llm) | [Auto Claude Code Research in Sleep（ARIS）](../技能套件导航.md#suite-aris) | 围绕 `auto-review-loop-llm` 的专项能力，主要用于生成或检查科研图表。 |
+| [`$figure-spec`](#skill-figure-spec) | [Auto Claude Code Research in Sleep（ARIS）](../技能套件导航.md#suite-aris) | 围绕 `figure-spec` 的专项能力，主要用于生成或检查科研图表。 |
+| [`$generate-image`](#skill-generate-image) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 这是一个面向“科学可视化、文档与演示”的专项技能，用于处理 `generate-image` 相关任务。 |
+| [`$infographics`](#skill-infographics) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 这是一个面向“科学可视化、文档与演示”的专项技能，用于处理 `infographics` 相关任务。 |
+| [`$latex-posters`](#skill-latex-posters) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 围绕 `latex-posters` 的专项能力，主要用于生成或检查科研图表，并可处理科研文档与结构化内容。 |
+| [`$markdown-mermaid-writing`](#skill-markdown-mermaid-writing) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 围绕 `markdown-mermaid-writing` 的专项能力，主要用于生成或检查科研图表，并可处理科研文档与结构化内容。 |
+| [`$matplotlib`](#skill-matplotlib) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 围绕 `matplotlib` 的专项能力，主要用于生成或检查科研图表，并可处理科研文档与结构化内容。 |
+| [`$mermaid-diagram`](#skill-mermaid-diagram) | [Auto Claude Code Research in Sleep（ARIS）](../技能套件导航.md#suite-aris) | 围绕 `mermaid-diagram` 的专项能力，主要用于生成或检查科研图表。 |
+| [`$meta-apply`](#skill-meta-apply) | [Auto Claude Code Research in Sleep（ARIS）](../技能套件导航.md#suite-aris) | 这是一个面向“科学可视化、文档与演示”的专项技能，用于处理 `meta-apply` 相关任务。 |
+| [`$nature-figure`](#skill-nature-figure) | [Nature Research Skills](../技能套件导航.md#suite-nature) | 围绕 `nature-figure` 的专项能力，主要用于起草和修改论文，并可生成或检查科研图表。 |
+| [`$nature-image2ppt`](#skill-nature-image2ppt) | [Nature Research Skills](../技能套件导航.md#suite-nature) | 围绕 `nature-image2ppt` 的专项能力，主要用于处理科研文档与结构化内容。 |
+| [`$paper-figure`](#skill-paper-figure) | [Auto Claude Code Research in Sleep（ARIS）](../技能套件导航.md#suite-aris) | 围绕 `paper-figure` 的专项能力，主要用于生成或检查科研图表。 |
+| [`$paper-illustration`](#skill-paper-illustration) | [Auto Claude Code Research in Sleep（ARIS）](../技能套件导航.md#suite-aris) | 围绕 `paper-illustration` 的专项能力，主要用于生成或检查科研图表。 |
+| [`$paper-poster`](#skill-paper-poster) | [Auto Claude Code Research in Sleep（ARIS）](../技能套件导航.md#suite-aris) | 这是一个面向“科学可视化、文档与演示”的专项技能，用于处理 `paper-poster` 相关任务。 |
+| [`$paper-poster-html`](#skill-paper-poster-html) | [Auto Claude Code Research in Sleep（ARIS）](../技能套件导航.md#suite-aris) | 围绕 `paper-poster-html` 的专项能力，主要用于生成或检查科研图表，并可处理科研文档与结构化内容。 |
+| [`$paper-slides`](#skill-paper-slides) | [Auto Claude Code Research in Sleep（ARIS）](../技能套件导航.md#suite-aris) | 围绕 `paper-slides` 的专项能力，主要用于处理科研文档与结构化内容。 |
+| [`$pixel-art`](#skill-pixel-art) | [Auto Claude Code Research in Sleep（ARIS）](../技能套件导航.md#suite-aris) | 这是一个面向“科学可视化、文档与演示”的专项技能，用于处理 `pixel-art` 相关任务。 |
+| [`$pptx-posters`](#skill-pptx-posters) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 这是一个面向“科学可视化、文档与演示”的专项技能，用于处理 `pptx-posters` 相关任务。 |
+| [`$research-implement-feature`](#skill-research-implement-feature) | [Auto Claude Code Research in Sleep（ARIS）](../技能套件导航.md#suite-aris) | 这是一个面向“科学可视化、文档与演示”的专项技能，用于处理 `research-implement-feature` 相关任务。 |
+| [`$scientific-figure-making`](#skill-scientific-figure-making) | [独立或暂未归入大型套件](../技能套件导航.md#suite-standalone) | 围绕 `scientific-figure-making` 的专项能力，主要用于生成或检查科研图表。 |
+| [`$scientific-schematics`](#skill-scientific-schematics) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 围绕 `scientific-schematics` 的专项能力，主要用于生成或检查科研图表。 |
+| [`$scientific-slides`](#skill-scientific-slides) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 这是一个面向“科学可视化、文档与演示”的专项技能，用于处理 `scientific-slides` 相关任务。 |
+| [`$scientific-visualization`](#skill-scientific-visualization) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 围绕 `scientific-visualization` 的专项能力，主要用于生成或检查科研图表。 |
+| [`$seaborn`](#skill-seaborn) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 围绕 `seaborn` 的专项能力，主要用于生成或检查科研图表。 |
+| [`$slides-polish`](#skill-slides-polish) | [Auto Claude Code Research in Sleep（ARIS）](../技能套件导航.md#suite-aris) | 这是一个面向“科学可视化、文档与演示”的专项技能，用于处理 `slides-polish` 相关任务。 |
+| [`$visiomaster`](#skill-visiomaster) | [独立或暂未归入大型套件](../技能套件导航.md#suite-standalone) | 围绕 `visiomaster` 的专项能力，主要用于生成或检查科研图表。 |
 
 ## 详细说明
 
@@ -42,6 +42,8 @@
 ### `$academic-plotting`
 
 - 全局目录：`~/.codex/skills/academic-plotting/`
+- 所属技能套件：[AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra)
+- 推荐总入口：`$autoresearch`
 - 中文理解：围绕 `academic-plotting` 的专项能力，主要用于生成或检查科研图表。
 - 适合何时使用：生成或检查论文图表、流程图、海报、幻灯片和技术文档。
 - 使用前注意：论文、引用和结论必须回到原始来源核验，不要把摘要或模型回答当作最终证据。
@@ -66,6 +68,8 @@ Generates publication-quality figures for ML papers from research context. Given
 ### `$auto-review-loop-llm`
 
 - 全局目录：`~/.codex/skills/auto-review-loop-llm/`
+- 所属技能套件：[Auto Claude Code Research in Sleep（ARIS）](../技能套件导航.md#suite-aris)
+- 推荐总入口：`$research-pipeline`
 - 中文理解：围绕 `auto-review-loop-llm` 的专项能力，主要用于生成或检查科研图表。
 - 适合何时使用：生成或检查论文图表、流程图、海报、幻灯片和技术文档。
 - 使用前注意：可能需要账号、API 凭据、联网权限或付费资源；执行外部写入前先确认。
@@ -90,7 +94,9 @@ Autonomous research review loop using any OpenAI-compatible LLM API. Configure v
 ### `$figure-spec`
 
 - 全局目录：`~/.codex/skills/figure-spec/`
-- 中文理解：Generate deterministic publication-quality architecture, workflow, and pipeline diagrams from structured JSON (FigureSpec) into editable SVG.
+- 所属技能套件：[Auto Claude Code Research in Sleep（ARIS）](../技能套件导航.md#suite-aris)
+- 推荐总入口：`$research-pipeline`
+- 中文理解：围绕 `figure-spec` 的专项能力，主要用于生成或检查科研图表。
 - 适合何时使用：生成或检查论文图表、流程图、海报、幻灯片和技术文档。
 - 使用前注意：技能说明不代表依赖、模型、数据或凭据已经安装；首次使用先让 Codex 检查环境。
 
@@ -114,6 +120,8 @@ Generate deterministic publication-quality architecture, workflow, and pipeline 
 ### `$generate-image`
 
 - 全局目录：`~/.codex/skills/generate-image/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：这是一个面向“科学可视化、文档与演示”的专项技能，用于处理 `generate-image` 相关任务。
 - 适合何时使用：生成或检查论文图表、流程图、海报、幻灯片和技术文档。
 - 使用前注意：可能需要账号、API 凭据、联网权限或付费资源；执行外部写入前先确认。
@@ -138,6 +146,8 @@ Generates or edits images with AI models through the OpenRouter Image API (Gemin
 ### `$infographics`
 
 - 全局目录：`~/.codex/skills/infographics/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：这是一个面向“科学可视化、文档与演示”的专项技能，用于处理 `infographics` 相关任务。
 - 适合何时使用：生成或检查论文图表、流程图、海报、幻灯片和技术文档。
 - 使用前注意：技能说明不代表依赖、模型、数据或凭据已经安装；首次使用先让 Codex 检查环境。
@@ -162,6 +172,8 @@ Creates and reviews infographics with Nano Banana 2 via OpenRouter. Use for stat
 ### `$latex-posters`
 
 - 全局目录：`~/.codex/skills/latex-posters/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：围绕 `latex-posters` 的专项能力，主要用于生成或检查科研图表，并可处理科研文档与结构化内容。
 - 适合何时使用：生成或检查论文图表、流程图、海报、幻灯片和技术文档。
 - 使用前注意：技能说明不代表依赖、模型、数据或凭据已经安装；首次使用先让 Codex 检查环境。
@@ -186,6 +198,8 @@ Creates research posters in LaTeX using beamerposter, tikzposter, or baposter. U
 ### `$markdown-mermaid-writing`
 
 - 全局目录：`~/.codex/skills/markdown-mermaid-writing/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：围绕 `markdown-mermaid-writing` 的专项能力，主要用于生成或检查科研图表，并可处理科研文档与结构化内容。
 - 适合何时使用：生成或检查论文图表、流程图、海报、幻灯片和技术文档。
 - 使用前注意：技能说明不代表依赖、模型、数据或凭据已经安装；首次使用先让 Codex 检查环境。
@@ -212,6 +226,8 @@ Writes scientific Markdown documentation and Mermaid diagrams for workflows, rel
 ### `$matplotlib`
 
 - 全局目录：`~/.codex/skills/matplotlib/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：围绕 `matplotlib` 的专项能力，主要用于生成或检查科研图表，并可处理科研文档与结构化内容。
 - 适合何时使用：生成或检查论文图表、流程图、海报、幻灯片和技术文档。
 - 使用前注意：技能说明不代表依赖、模型、数据或凭据已经安装；首次使用先让 Codex 检查环境。
@@ -238,6 +254,8 @@ Creates and customizes scientific plots with Matplotlib. Used for fine-grained c
 ### `$mermaid-diagram`
 
 - 全局目录：`~/.codex/skills/mermaid-diagram/`
+- 所属技能套件：[Auto Claude Code Research in Sleep（ARIS）](../技能套件导航.md#suite-aris)
+- 推荐总入口：`$research-pipeline`
 - 中文理解：围绕 `mermaid-diagram` 的专项能力，主要用于生成或检查科研图表。
 - 适合何时使用：生成或检查论文图表、流程图、海报、幻灯片和技术文档。
 - 使用前注意：技能说明不代表依赖、模型、数据或凭据已经安装；首次使用先让 Codex 检查环境。
@@ -262,6 +280,8 @@ Generate Mermaid diagrams from user requirements. Save .mmd and .md files to fig
 ### `$meta-apply`
 
 - 全局目录：`~/.codex/skills/meta-apply/`
+- 所属技能套件：[Auto Claude Code Research in Sleep（ARIS）](../技能套件导航.md#suite-aris)
+- 推荐总入口：`$research-pipeline`
 - 中文理解：这是一个面向“科学可视化、文档与演示”的专项技能，用于处理 `meta-apply` 相关任务。
 - 适合何时使用：生成或检查论文图表、流程图、海报、幻灯片和技术文档。
 - 使用前注意：技能说明不代表依赖、模型、数据或凭据已经安装；首次使用先让 Codex 检查环境。
@@ -286,7 +306,9 @@ Privileged applier that LANDS meta-optimize / corpus-audit patches the user appr
 ### `$nature-figure`
 
 - 全局目录：`~/.codex/skills/nature-figure/`
-- 中文理解：Create, revise, audit, and export manuscript scientific figures in Python or R.
+- 所属技能套件：[Nature Research Skills](../技能套件导航.md#suite-nature)
+- 推荐总入口：按任务直接调用对应的 $nature-* skill
+- 中文理解：围绕 `nature-figure` 的专项能力，主要用于起草和修改论文，并可生成或检查科研图表。
 - 适合何时使用：生成或检查论文图表、流程图、海报、幻灯片和技术文档。
 - 使用前注意：技能说明不代表依赖、模型、数据或凭据已经安装；首次使用先让 Codex 检查环境。
 
@@ -310,7 +332,9 @@ Create, revise, audit, and export manuscript scientific figures in Python or R. 
 ### `$nature-image2ppt`
 
 - 全局目录：`~/.codex/skills/nature-image2ppt/`
-- 中文理解：Reconstruct slide images, screenshots, scanned PDFs, or image-only PPTX files as object-level editable PowerPoint.
+- 所属技能套件：[Nature Research Skills](../技能套件导航.md#suite-nature)
+- 推荐总入口：按任务直接调用对应的 $nature-* skill
+- 中文理解：围绕 `nature-image2ppt` 的专项能力，主要用于处理科研文档与结构化内容。
 - 适合何时使用：生成或检查论文图表、流程图、海报、幻灯片和技术文档。
 - 使用前注意：技能说明不代表依赖、模型、数据或凭据已经安装；首次使用先让 Codex 检查环境。
 
@@ -334,6 +358,8 @@ Reconstruct slide images, screenshots, scanned PDFs, or image-only PPTX files as
 ### `$paper-figure`
 
 - 全局目录：`~/.codex/skills/paper-figure/`
+- 所属技能套件：[Auto Claude Code Research in Sleep（ARIS）](../技能套件导航.md#suite-aris)
+- 推荐总入口：`$research-pipeline`
 - 中文理解：围绕 `paper-figure` 的专项能力，主要用于生成或检查科研图表。
 - 适合何时使用：生成或检查论文图表、流程图、海报、幻灯片和技术文档。
 - 使用前注意：论文、引用和结论必须回到原始来源核验，不要把摘要或模型回答当作最终证据。
@@ -360,7 +386,9 @@ Generate publication-quality figures and tables from experiment results. Use whe
 ### `$paper-illustration`
 
 - 全局目录：`~/.codex/skills/paper-illustration/`
-- 中文理解：Generate publication-quality AI illustrations for academic papers using Gemini image generation.
+- 所属技能套件：[Auto Claude Code Research in Sleep（ARIS）](../技能套件导航.md#suite-aris)
+- 推荐总入口：`$research-pipeline`
+- 中文理解：围绕 `paper-illustration` 的专项能力，主要用于生成或检查科研图表。
 - 适合何时使用：生成或检查论文图表、流程图、海报、幻灯片和技术文档。
 - 使用前注意：论文、引用和结论必须回到原始来源核验，不要把摘要或模型回答当作最终证据。
 
@@ -384,6 +412,8 @@ Generate publication-quality AI illustrations for academic papers using Gemini i
 ### `$paper-poster`
 
 - 全局目录：`~/.codex/skills/paper-poster/`
+- 所属技能套件：[Auto Claude Code Research in Sleep（ARIS）](../技能套件导航.md#suite-aris)
+- 推荐总入口：`$research-pipeline`
 - 中文理解：这是一个面向“科学可视化、文档与演示”的专项技能，用于处理 `paper-poster` 相关任务。
 - 适合何时使用：生成或检查论文图表、流程图、海报、幻灯片和技术文档。
 - 使用前注意：论文、引用和结论必须回到原始来源核验，不要把摘要或模型回答当作最终证据。
@@ -408,6 +438,8 @@ DEPRECATED — superseded by /paper-poster-html. Kept only as a redirect for mus
 ### `$paper-poster-html`
 
 - 全局目录：`~/.codex/skills/paper-poster-html/`
+- 所属技能套件：[Auto Claude Code Research in Sleep（ARIS）](../技能套件导航.md#suite-aris)
+- 推荐总入口：`$research-pipeline`
 - 中文理解：围绕 `paper-poster-html` 的专项能力，主要用于生成或检查科研图表，并可处理科研文档与结构化内容。
 - 适合何时使用：生成或检查论文图表、流程图、海报、幻灯片和技术文档。
 - 使用前注意：论文、引用和结论必须回到原始来源核验，不要把摘要或模型回答当作最终证据。
@@ -434,7 +466,9 @@ DEFAULT poster pipeline — build an academic conference poster (ICML/NeurIPS/IC
 ### `$paper-slides`
 
 - 全局目录：`~/.codex/skills/paper-slides/`
-- 中文理解：Generate conference presentation slides (beamer LaTeX → PDF + editable PPTX) from a compiled paper, with speaker notes and full talk script.
+- 所属技能套件：[Auto Claude Code Research in Sleep（ARIS）](../技能套件导航.md#suite-aris)
+- 推荐总入口：`$research-pipeline`
+- 中文理解：围绕 `paper-slides` 的专项能力，主要用于处理科研文档与结构化内容。
 - 适合何时使用：生成或检查论文图表、流程图、海报、幻灯片和技术文档。
 - 使用前注意：论文、引用和结论必须回到原始来源核验，不要把摘要或模型回答当作最终证据。
 
@@ -458,6 +492,8 @@ Generate conference presentation slides (beamer LaTeX → PDF + editable PPTX) f
 ### `$pixel-art`
 
 - 全局目录：`~/.codex/skills/pixel-art/`
+- 所属技能套件：[Auto Claude Code Research in Sleep（ARIS）](../技能套件导航.md#suite-aris)
+- 推荐总入口：`$research-pipeline`
 - 中文理解：这是一个面向“科学可视化、文档与演示”的专项技能，用于处理 `pixel-art` 相关任务。
 - 适合何时使用：生成或检查论文图表、流程图、海报、幻灯片和技术文档。
 - 使用前注意：技能说明不代表依赖、模型、数据或凭据已经安装；首次使用先让 Codex 检查环境。
@@ -482,6 +518,8 @@ Generate pixel art SVG illustrations for READMEs, docs, or slides. Use when user
 ### `$pptx-posters`
 
 - 全局目录：`~/.codex/skills/pptx-posters/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：这是一个面向“科学可视化、文档与演示”的专项技能，用于处理 `pptx-posters` 相关任务。
 - 适合何时使用：生成或检查论文图表、流程图、海报、幻灯片和技术文档。
 - 使用前注意：技能说明不代表依赖、模型、数据或凭据已经安装；首次使用先让 Codex 检查环境。
@@ -506,7 +544,9 @@ Creates and audits editable scientific posters in macro-free PowerPoint (.pptx) 
 ### `$research-implement-feature`
 
 - 全局目录：`~/.codex/skills/research-implement-feature/`
-- 中文理解：Build a working artifact from a plain "implement X for me" request: a running end-to-end spine first, then one feature per rung, with every under-determined decision written to an…
+- 所属技能套件：[Auto Claude Code Research in Sleep（ARIS）](../技能套件导航.md#suite-aris)
+- 推荐总入口：`$research-pipeline`
+- 中文理解：这是一个面向“科学可视化、文档与演示”的专项技能，用于处理 `research-implement-feature` 相关任务。
 - 适合何时使用：生成或检查论文图表、流程图、海报、幻灯片和技术文档。
 - 使用前注意：技能说明不代表依赖、模型、数据或凭据已经安装；首次使用先让 Codex 检查环境。
 
@@ -530,6 +570,8 @@ Build a working artifact from a plain "implement X for me" request: a running en
 ### `$scientific-figure-making`
 
 - 全局目录：`~/.codex/skills/scientific-figure-making/`
+- 所属技能套件：[独立或暂未归入大型套件](../技能套件导航.md#suite-standalone)
+- 推荐总入口：直接调用当前小 skill
 - 中文理解：围绕 `scientific-figure-making` 的专项能力，主要用于生成或检查科研图表。
 - 适合何时使用：生成或检查论文图表、流程图、海报、幻灯片和技术文档。
 - 使用前注意：论文、引用和结论必须回到原始来源核验，不要把摘要或模型回答当作最终证据。
@@ -554,6 +596,8 @@ Covers publication-ready matplotlib figures for academic papers, slides, and rep
 ### `$scientific-schematics`
 
 - 全局目录：`~/.codex/skills/scientific-schematics/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：围绕 `scientific-schematics` 的专项能力，主要用于生成或检查科研图表。
 - 适合何时使用：生成或检查论文图表、流程图、海报、幻灯片和技术文档。
 - 使用前注意：技能说明不代表依赖、模型、数据或凭据已经安装；首次使用先让 Codex 检查环境。
@@ -578,6 +622,8 @@ Generates scientific diagram drafts using Nano Banana 2 AI with smart iterative 
 ### `$scientific-slides`
 
 - 全局目录：`~/.codex/skills/scientific-slides/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：这是一个面向“科学可视化、文档与演示”的专项技能，用于处理 `scientific-slides` 相关任务。
 - 适合何时使用：生成或检查论文图表、流程图、海报、幻灯片和技术文档。
 - 使用前注意：技能说明不代表依赖、模型、数据或凭据已经安装；首次使用先让 Codex 检查环境。
@@ -602,6 +648,8 @@ Builds slide decks and presentations for research talks. Used for making PowerPo
 ### `$scientific-visualization`
 
 - 全局目录：`~/.codex/skills/scientific-visualization/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：围绕 `scientific-visualization` 的专项能力，主要用于生成或检查科研图表。
 - 适合何时使用：生成或检查论文图表、流程图、海报、幻灯片和技术文档。
 - 使用前注意：技能说明不代表依赖、模型、数据或凭据已经安装；首次使用先让 Codex 检查环境。
@@ -626,6 +674,8 @@ Creates and audits truthful, accessible, publication-ready scientific figures wi
 ### `$seaborn`
 
 - 全局目录：`~/.codex/skills/seaborn/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：围绕 `seaborn` 的专项能力，主要用于生成或检查科研图表。
 - 适合何时使用：生成或检查论文图表、流程图、海报、幻灯片和技术文档。
 - 使用前注意：技能说明不代表依赖、模型、数据或凭据已经安装；首次使用先让 Codex 检查环境。
@@ -650,7 +700,9 @@ Creates Seaborn statistical visualizations with pandas integration for distribut
 ### `$slides-polish`
 
 - 全局目录：`~/.codex/skills/slides-polish/`
-- 中文理解：Per-page Codex review + targeted python-pptx / Beamer fixes for academic talk slides.
+- 所属技能套件：[Auto Claude Code Research in Sleep（ARIS）](../技能套件导航.md#suite-aris)
+- 推荐总入口：`$research-pipeline`
+- 中文理解：这是一个面向“科学可视化、文档与演示”的专项技能，用于处理 `slides-polish` 相关任务。
 - 适合何时使用：生成或检查论文图表、流程图、海报、幻灯片和技术文档。
 - 使用前注意：论文、引用和结论必须回到原始来源核验，不要把摘要或模型回答当作最终证据。
 
@@ -674,6 +726,8 @@ Per-page Codex review + targeted python-pptx / Beamer fixes for academic talk sl
 ### `$visiomaster`
 
 - 全局目录：`~/.codex/skills/Visiomaster/`
+- 所属技能套件：[独立或暂未归入大型套件](../技能套件导航.md#suite-standalone)
+- 推荐总入口：直接调用当前小 skill
 - 中文理解：围绕 `visiomaster` 的专项能力，主要用于生成或检查科研图表。
 - 适合何时使用：生成或检查论文图表、流程图、海报、幻灯片和技术文档。
 - 使用前注意：论文、引用和结论必须回到原始来源核验，不要把摘要或模型回答当作最终证据。

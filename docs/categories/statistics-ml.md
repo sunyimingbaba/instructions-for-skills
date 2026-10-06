@@ -6,32 +6,32 @@
 
 ## 本页索引
 
-| Skill | 一句话理解 |
-| --- | --- |
-| [`$aeon`](#skill-aeon) | 围绕 `aeon` 的专项能力，主要用于分析时间序列并进行预测，并可完成机器学习建模与评估。 |
-| [`$cirq`](#skill-cirq) | 围绕 `cirq` 的专项能力，主要用于规划、运行或复盘实验。 |
-| [`$codex-autoresearch`](#skill-codex-autoresearch) | 围绕 `codex-autoresearch` 的专项能力，主要用于规划、运行或复盘实验。 |
-| [`$exploratory-data-analysis`](#skill-exploratory-data-analysis) | 这是一个面向“统计、机器学习与时序分析”的专项技能，用于处理 `exploratory-data-analysis` 相关任务。 |
-| [`$hypothesis-generation`](#skill-hypothesis-generation) | 这是一个面向“统计、机器学习与时序分析”的专项技能，用于处理 `hypothesis-generation` 相关任务。 |
-| [`$market-research-reports`](#skill-market-research-reports) | 围绕 `market-research-reports` 的专项能力，主要用于分析时间序列并进行预测。 |
-| [`$optimize-for-gpu`](#skill-optimize-for-gpu) | 这是一个面向“统计、机器学习与时序分析”的专项技能，用于处理 `optimize-for-gpu` 相关任务。 |
-| [`$pennylane`](#skill-pennylane) | 这是一个面向“统计、机器学习与时序分析”的专项技能，用于处理 `pennylane` 相关任务。 |
-| [`$pylabrobot`](#skill-pylabrobot) | 这是一个面向“统计、机器学习与时序分析”的专项技能，用于处理 `pylabrobot` 相关任务。 |
-| [`$pymc`](#skill-pymc) | 这是一个面向“统计、机器学习与时序分析”的专项技能，用于处理 `pymc` 相关任务。 |
-| [`$pymoo`](#skill-pymoo) | 这是一个面向“统计、机器学习与时序分析”的专项技能，用于处理 `pymoo` 相关任务。 |
-| [`$qiskit`](#skill-qiskit) | 这是一个面向“统计、机器学习与时序分析”的专项技能，用于处理 `qiskit` 相关任务。 |
-| [`$scikit-learn`](#skill-scikit-learn) | 围绕 `scikit-learn` 的专项能力，主要用于完成机器学习建模与评估。 |
-| [`$scikit-survival`](#skill-scikit-survival) | 这是一个面向“统计、机器学习与时序分析”的专项技能，用于处理 `scikit-survival` 相关任务。 |
-| [`$shap`](#skill-shap) | 围绕 `shap` 的专项能力，主要用于生成或检查科研图表。 |
-| [`$simpy`](#skill-simpy) | 这是一个面向“统计、机器学习与时序分析”的专项技能，用于处理 `simpy` 相关任务。 |
-| [`$statistical-analysis`](#skill-statistical-analysis) | 围绕 `statistical-analysis` 的专项能力，主要用于完成机器学习建模与评估，并可规划、运行或复盘实验。 |
-| [`$statistical-power`](#skill-statistical-power) | 围绕 `statistical-power` 的专项能力，主要用于完成机器学习建模与评估，并可规划、运行或复盘实验。 |
-| [`$statsmodels`](#skill-statsmodels) | 围绕 `statsmodels` 的专项能力，主要用于分析时间序列并进行预测。 |
-| [`$timesfm-forecasting`](#skill-timesfm-forecasting) | 围绕 `timesfm-forecasting` 的专项能力，主要用于分析时间序列并进行预测。 |
-| [`$torch-geometric`](#skill-torch-geometric) | 围绕 `torch-geometric` 的专项能力，主要用于完成机器学习建模与评估。 |
-| [`$umap-learn`](#skill-umap-learn) | 围绕 `umap-learn` 的专项能力，主要用于完成机器学习建模与评估。 |
-| [`$usfiscaldata`](#skill-usfiscaldata) | 这是一个面向“统计、机器学习与时序分析”的专项技能，用于处理 `usfiscaldata` 相关任务。 |
-| [`$what-if-oracle`](#skill-what-if-oracle) | 围绕 `what-if-oracle` 的专项能力，主要用于分析时间序列并进行预测，并可规划、运行或复盘实验。 |
+| Skill | 所属技能套件 | 一句话理解 |
+| --- | --- | --- |
+| [`$aeon`](#skill-aeon) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 围绕 `aeon` 的专项能力，主要用于分析时间序列并进行预测，并可完成机器学习建模与评估。 |
+| [`$cirq`](#skill-cirq) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 围绕 `cirq` 的专项能力，主要用于规划、运行或复盘实验。 |
+| [`$codex-autoresearch`](#skill-codex-autoresearch) | [Codex Autoresearch](../技能套件导航.md#suite-codex-autoresearch) | 围绕 `codex-autoresearch` 的专项能力，主要用于规划、运行或复盘实验。 |
+| [`$exploratory-data-analysis`](#skill-exploratory-data-analysis) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 这是一个面向“统计、机器学习与时序分析”的专项技能，用于处理 `exploratory-data-analysis` 相关任务。 |
+| [`$hypothesis-generation`](#skill-hypothesis-generation) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 这是一个面向“统计、机器学习与时序分析”的专项技能，用于处理 `hypothesis-generation` 相关任务。 |
+| [`$market-research-reports`](#skill-market-research-reports) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 围绕 `market-research-reports` 的专项能力，主要用于分析时间序列并进行预测。 |
+| [`$optimize-for-gpu`](#skill-optimize-for-gpu) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 这是一个面向“统计、机器学习与时序分析”的专项技能，用于处理 `optimize-for-gpu` 相关任务。 |
+| [`$pennylane`](#skill-pennylane) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 这是一个面向“统计、机器学习与时序分析”的专项技能，用于处理 `pennylane` 相关任务。 |
+| [`$pylabrobot`](#skill-pylabrobot) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 这是一个面向“统计、机器学习与时序分析”的专项技能，用于处理 `pylabrobot` 相关任务。 |
+| [`$pymc`](#skill-pymc) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 这是一个面向“统计、机器学习与时序分析”的专项技能，用于处理 `pymc` 相关任务。 |
+| [`$pymoo`](#skill-pymoo) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 这是一个面向“统计、机器学习与时序分析”的专项技能，用于处理 `pymoo` 相关任务。 |
+| [`$qiskit`](#skill-qiskit) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 这是一个面向“统计、机器学习与时序分析”的专项技能，用于处理 `qiskit` 相关任务。 |
+| [`$scikit-learn`](#skill-scikit-learn) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 围绕 `scikit-learn` 的专项能力，主要用于完成机器学习建模与评估。 |
+| [`$scikit-survival`](#skill-scikit-survival) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 这是一个面向“统计、机器学习与时序分析”的专项技能，用于处理 `scikit-survival` 相关任务。 |
+| [`$shap`](#skill-shap) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 围绕 `shap` 的专项能力，主要用于生成或检查科研图表。 |
+| [`$simpy`](#skill-simpy) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 这是一个面向“统计、机器学习与时序分析”的专项技能，用于处理 `simpy` 相关任务。 |
+| [`$statistical-analysis`](#skill-statistical-analysis) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 围绕 `statistical-analysis` 的专项能力，主要用于完成机器学习建模与评估，并可规划、运行或复盘实验。 |
+| [`$statistical-power`](#skill-statistical-power) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 围绕 `statistical-power` 的专项能力，主要用于完成机器学习建模与评估，并可规划、运行或复盘实验。 |
+| [`$statsmodels`](#skill-statsmodels) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 围绕 `statsmodels` 的专项能力，主要用于分析时间序列并进行预测。 |
+| [`$timesfm-forecasting`](#skill-timesfm-forecasting) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 围绕 `timesfm-forecasting` 的专项能力，主要用于分析时间序列并进行预测。 |
+| [`$torch-geometric`](#skill-torch-geometric) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 围绕 `torch-geometric` 的专项能力，主要用于完成机器学习建模与评估。 |
+| [`$umap-learn`](#skill-umap-learn) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 围绕 `umap-learn` 的专项能力，主要用于完成机器学习建模与评估。 |
+| [`$usfiscaldata`](#skill-usfiscaldata) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 这是一个面向“统计、机器学习与时序分析”的专项技能，用于处理 `usfiscaldata` 相关任务。 |
+| [`$what-if-oracle`](#skill-what-if-oracle) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 围绕 `what-if-oracle` 的专项能力，主要用于分析时间序列并进行预测，并可规划、运行或复盘实验。 |
 
 ## 详细说明
 
@@ -39,6 +39,8 @@
 ### `$aeon`
 
 - 全局目录：`~/.codex/skills/aeon/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：围绕 `aeon` 的专项能力，主要用于分析时间序列并进行预测，并可完成机器学习建模与评估。
 - 适合何时使用：用于统计建模、预测、分类、聚类、因果或不确定性分析。
 - 使用前注意：可能需要账号、API 凭据、联网权限或付费资源；执行外部写入前先确认。
@@ -65,6 +67,8 @@ This skill should be used for time series machine learning tasks including class
 ### `$cirq`
 
 - 全局目录：`~/.codex/skills/cirq/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：围绕 `cirq` 的专项能力，主要用于规划、运行或复盘实验。
 - 适合何时使用：用于统计建模、预测、分类、聚类、因果或不确定性分析。
 - 使用前注意：先核对硬件、依赖版本、运行时间和预算，再启动长任务。
@@ -91,6 +95,8 @@ Google quantum computing framework. Use when targeting Google Quantum AI hardwar
 ### `$codex-autoresearch`
 
 - 全局目录：`~/.codex/skills/codex-autoresearch/`
+- 所属技能套件：[Codex Autoresearch](../技能套件导航.md#suite-codex-autoresearch)
+- 推荐总入口：`$codex-autoresearch`
 - 中文理解：围绕 `codex-autoresearch` 的专项能力，主要用于规划、运行或复盘实验。
 - 适合何时使用：用于统计建模、预测、分类、聚类、因果或不确定性分析。
 - 使用前注意：技能说明不代表依赖、模型、数据或凭据已经安装；首次使用先让 Codex 检查环境。
@@ -115,6 +121,8 @@ Run repeated, measured Git experiments toward a numeric target; keep improvement
 ### `$exploratory-data-analysis`
 
 - 全局目录：`~/.codex/skills/exploratory-data-analysis/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：这是一个面向“统计、机器学习与时序分析”的专项技能，用于处理 `exploratory-data-analysis` 相关任务。
 - 适合何时使用：用于统计建模、预测、分类、聚类、因果或不确定性分析。
 - 使用前注意：技能说明不代表依赖、模型、数据或凭据已经安装；首次使用先让 Codex 检查环境。
@@ -139,6 +147,8 @@ Performs bounded, local exploratory analysis of explicitly supported scientific 
 ### `$hypothesis-generation`
 
 - 全局目录：`~/.codex/skills/hypothesis-generation/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：这是一个面向“统计、机器学习与时序分析”的专项技能，用于处理 `hypothesis-generation` 相关任务。
 - 适合何时使用：用于统计建模、预测、分类、聚类、因果或不确定性分析。
 - 使用前注意：论文、引用和结论必须回到原始来源核验，不要把摘要或模型回答当作最终证据。
@@ -163,6 +173,8 @@ Formulates evidence-bounded scientific questions, candidate hypotheses, rival ex
 ### `$market-research-reports`
 
 - 全局目录：`~/.codex/skills/market-research-reports/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：围绕 `market-research-reports` 的专项能力，主要用于分析时间序列并进行预测。
 - 适合何时使用：用于统计建模、预测、分类、聚类、因果或不确定性分析。
 - 使用前注意：论文、引用和结论必须回到原始来源核验，不要把摘要或模型回答当作最终证据。
@@ -187,6 +199,8 @@ Builds evidence-traceable market research reports and assumption-driven market s
 ### `$optimize-for-gpu`
 
 - 全局目录：`~/.codex/skills/optimize-for-gpu/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：这是一个面向“统计、机器学习与时序分析”的专项技能，用于处理 `optimize-for-gpu` 相关任务。
 - 适合何时使用：用于统计建模、预测、分类、聚类、因果或不确定性分析。
 - 使用前注意：先核对硬件、依赖版本、运行时间和预算，再启动长任务。
@@ -211,6 +225,8 @@ GPU-accelerates scientific Python on NVIDIA hardware and verifies that the resul
 ### `$pennylane`
 
 - 全局目录：`~/.codex/skills/pennylane/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：这是一个面向“统计、机器学习与时序分析”的专项技能，用于处理 `pennylane` 相关任务。
 - 适合何时使用：用于统计建模、预测、分类、聚类、因果或不确定性分析。
 - 使用前注意：技能说明不代表依赖、模型、数据或凭据已经安装；首次使用先让 Codex 检查环境。
@@ -237,6 +253,8 @@ Builds and differentiates PennyLane quantum circuits, hybrid PyTorch or JAX mode
 ### `$pylabrobot`
 
 - 全局目录：`~/.codex/skills/pylabrobot/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：这是一个面向“统计、机器学习与时序分析”的专项技能，用于处理 `pylabrobot` 相关任务。
 - 适合何时使用：用于统计建模、预测、分类、聚类、因果或不确定性分析。
 - 使用前注意：可能需要账号、API 凭据、联网权限或付费资源；执行外部写入前先确认。 先核对硬件、依赖版本、运行时间和预算，再启动长任务。
@@ -263,6 +281,8 @@ Develops and reviews PyLabRobot lab-automation resources, liquid-handling plans,
 ### `$pymc`
 
 - 全局目录：`~/.codex/skills/pymc/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：这是一个面向“统计、机器学习与时序分析”的专项技能，用于处理 `pymc` 相关任务。
 - 适合何时使用：用于统计建模、预测、分类、聚类、因果或不确定性分析。
 - 使用前注意：医学输出仅用于科研和信息整理，不能替代临床判断。
@@ -287,6 +307,8 @@ Builds and checks Bayesian models with PyMC, including hierarchical models, NUTS
 ### `$pymoo`
 
 - 全局目录：`~/.codex/skills/pymoo/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：这是一个面向“统计、机器学习与时序分析”的专项技能，用于处理 `pymoo` 相关任务。
 - 适合何时使用：用于统计建模、预测、分类、聚类、因果或不确定性分析。
 - 使用前注意：技能说明不代表依赖、模型、数据或凭据已经安装；首次使用先让 Codex 检查环境。
@@ -311,6 +333,8 @@ Solves and validates single-, multi-, and many-objective optimization with pymoo
 ### `$qiskit`
 
 - 全局目录：`~/.codex/skills/qiskit/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：这是一个面向“统计、机器学习与时序分析”的专项技能，用于处理 `qiskit` 相关任务。
 - 适合何时使用：用于统计建模、预测、分类、聚类、因果或不确定性分析。
 - 使用前注意：先核对硬件、依赖版本、运行时间和预算，再启动长任务。
@@ -335,6 +359,8 @@ Builds, simulates, transpiles, and executes quantum circuits with Qiskit and IBM
 ### `$scikit-learn`
 
 - 全局目录：`~/.codex/skills/scikit-learn/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：围绕 `scikit-learn` 的专项能力，主要用于完成机器学习建模与评估。
 - 适合何时使用：用于统计建模、预测、分类、聚类、因果或不确定性分析。
 - 使用前注意：技能说明不代表依赖、模型、数据或凭据已经安装；首次使用先让 Codex 检查环境。
@@ -359,6 +385,8 @@ Supports machine learning in Python with scikit-learn. Applies when working with
 ### `$scikit-survival`
 
 - 全局目录：`~/.codex/skills/scikit-survival/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：这是一个面向“统计、机器学习与时序分析”的专项技能，用于处理 `scikit-survival` 相关任务。
 - 适合何时使用：用于统计建模、预测、分类、聚类、因果或不确定性分析。
 - 使用前注意：技能说明不代表依赖、模型、数据或凭据已经安装；首次使用先让 Codex 检查环境。
@@ -385,6 +413,8 @@ Builds, evaluates, and audits right-censored or competing-risk survival workflow
 ### `$shap`
 
 - 全局目录：`~/.codex/skills/shap/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：围绕 `shap` 的专项能力，主要用于生成或检查科研图表。
 - 适合何时使用：用于统计建模、预测、分类、聚类、因果或不确定性分析。
 - 使用前注意：技能说明不代表依赖、模型、数据或凭据已经安装；首次使用先让 Codex 检查环境。
@@ -411,6 +441,8 @@ Explain and audit machine-learning predictions with SHAP. Use for selecting SHAP
 ### `$simpy`
 
 - 全局目录：`~/.codex/skills/simpy/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：这是一个面向“统计、机器学习与时序分析”的专项技能，用于处理 `simpy` 相关任务。
 - 适合何时使用：用于统计建模、预测、分类、聚类、因果或不确定性分析。
 - 使用前注意：先核对硬件、依赖版本、运行时间和预算，再启动长任务。
@@ -435,6 +467,8 @@ Builds, inspects, tests, and analyzes bounded process-based discrete-event simul
 ### `$statistical-analysis`
 
 - 全局目录：`~/.codex/skills/statistical-analysis/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：围绕 `statistical-analysis` 的专项能力，主要用于完成机器学习建模与评估，并可规划、运行或复盘实验。
 - 适合何时使用：用于统计建模、预测、分类、聚类、因果或不确定性分析。
 - 使用前注意：可能需要账号、API 凭据、联网权限或付费资源；执行外部写入前先确认。
@@ -459,6 +493,8 @@ Guided statistical analysis for research data - test selection, assumption check
 ### `$statistical-power`
 
 - 全局目录：`~/.codex/skills/statistical-power/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：围绕 `statistical-power` 的专项能力，主要用于完成机器学习建模与评估，并可规划、运行或复盘实验。
 - 适合何时使用：用于统计建模、预测、分类、聚类、因果或不确定性分析。
 - 使用前注意：先核对硬件、依赖版本、运行时间和预算，再启动长任务。
@@ -483,6 +519,8 @@ Calculates sample sizes and statistical power for study planning. Applies when s
 ### `$statsmodels`
 
 - 全局目录：`~/.codex/skills/statsmodels/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：围绕 `statsmodels` 的专项能力，主要用于分析时间序列并进行预测。
 - 适合何时使用：用于统计建模、预测、分类、聚类、因果或不确定性分析。
 - 使用前注意：医学输出仅用于科研和信息整理，不能替代临床判断。
@@ -507,6 +545,8 @@ Fits and diagnoses Python statistical models including OLS, GLM, discrete and mi
 ### `$timesfm-forecasting`
 
 - 全局目录：`~/.codex/skills/timesfm-forecasting/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：围绕 `timesfm-forecasting` 的专项能力，主要用于分析时间序列并进行预测。
 - 适合何时使用：用于统计建模、预测、分类、聚类、因果或不确定性分析。
 - 使用前注意：可能需要账号、API 凭据、联网权限或付费资源；执行外部写入前先确认。
@@ -533,6 +573,8 @@ Performs zero-shot time-series forecasting with Google's TimesFM, including regu
 ### `$torch-geometric`
 
 - 全局目录：`~/.codex/skills/torch-geometric/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：围绕 `torch-geometric` 的专项能力，主要用于完成机器学习建模与评估。
 - 适合何时使用：用于统计建模、预测、分类、聚类、因果或不确定性分析。
 - 使用前注意：技能说明不代表依赖、模型、数据或凭据已经安装；首次使用先让 Codex 检查环境。
@@ -559,6 +601,8 @@ Supports PyTorch Geometric (PyG) graph neural networks — node/link/graph class
 ### `$umap-learn`
 
 - 全局目录：`~/.codex/skills/umap-learn/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：围绕 `umap-learn` 的专项能力，主要用于完成机器学习建模与评估。
 - 适合何时使用：用于统计建模、预测、分类、聚类、因果或不确定性分析。
 - 使用前注意：技能说明不代表依赖、模型、数据或凭据已经安装；首次使用先让 Codex 检查环境。
@@ -585,6 +629,8 @@ Applies UMAP-learn to nonlinear dimensionality reduction, 2D/3D embeddings, clus
 ### `$usfiscaldata`
 
 - 全局目录：`~/.codex/skills/usfiscaldata/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：这是一个面向“统计、机器学习与时序分析”的专项技能，用于处理 `usfiscaldata` 相关任务。
 - 适合何时使用：用于统计建模、预测、分类、聚类、因果或不确定性分析。
 - 使用前注意：可能需要账号、API 凭据、联网权限或付费资源；执行外部写入前先确认。
@@ -609,6 +655,8 @@ Queries the U.S. Treasury Fiscal Data REST API for federal financial data. No AP
 ### `$what-if-oracle`
 
 - 全局目录：`~/.codex/skills/what-if-oracle/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：围绕 `what-if-oracle` 的专项能力，主要用于分析时间序列并进行预测，并可规划、运行或复盘实验。
 - 适合何时使用：用于统计建模、预测、分类、聚类、因果或不确定性分析。
 - 使用前注意：论文、引用和结论必须回到原始来源核验，不要把摘要或模型回答当作最终证据。

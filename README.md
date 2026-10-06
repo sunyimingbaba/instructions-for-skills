@@ -5,6 +5,7 @@
 ## 从这里开始
 
 - [按研究任务选择 Skill](docs/全局科研Skills使用指南.md)
+- [按所属技能套件和总入口查找](docs/技能套件导航.md)
 - [查看全部 Skills 字母索引](docs/技能总索引.md)
 - [查看生成规则与维护方法](docs/维护与更新.md)
 
@@ -26,6 +27,22 @@
 | 做生物信息分析 | `scanpy / biopython / bulk-rnaseq / pathway-enrichment` |
 | 训练与评测 LLM | `transformers / axolotl / deepspeed / vllm / lm-evaluation-harness` |
 | 参加数学建模竞赛 | `1start-mathmodel / bzd-modeling-workflow / hwb-modeling-workflow` |
+
+## 主要技能套件与总入口
+
+| 技能套件 | 小 Skills 数量 | 推荐总入口 |
+| --- | ---: | --- |
+| [Scientific Agent Skills（K-Dense）](docs/技能套件导航.md#suite-scientific-agent-skills) | 177 | 按任务直接调用对应小 skill |
+| [Auto Claude Code Research in Sleep（ARIS）](docs/技能套件导航.md#suite-aris) | 82 | `$research-pipeline` |
+| [AI Research SKILLs（Orchestra Research）](docs/技能套件导航.md#suite-orchestra) | 96 | `$autoresearch` |
+| [ARS-Codex 学术研究套件](docs/技能套件导航.md#suite-academic-research-suite) | 1 | `$academic-research-suite` |
+| [Codex Autoresearch](docs/技能套件导航.md#suite-codex-autoresearch) | 1 | `$codex-autoresearch` |
+| [Nature Research Skills](docs/技能套件导航.md#suite-nature) | 20 | 按任务直接调用对应的 $nature-* skill |
+| [BZD 数学建模 Skills](docs/技能套件导航.md#suite-bzd) | 16 | `$bzd-modeling-workflow` |
+| [HWB 华为杯数学建模 Skills](docs/技能套件导航.md#suite-hwb) | 16 | `$hwb-modeling-workflow` |
+| [MathModel 数学建模工作流](docs/技能套件导航.md#suite-mathmodel) | 8 | `$1start-mathmodel` |
+| [Scientific Toolkit 科研计算套件](docs/技能套件导航.md#suite-scientific-toolkit) | 3 | `$scientific-toolkit-skill` |
+| [独立或暂未归入大型套件](docs/技能套件导航.md#suite-standalone) | 8 | 直接调用当前小 skill |
 
 ## 分类
 

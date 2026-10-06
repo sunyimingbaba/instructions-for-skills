@@ -6,30 +6,30 @@
 
 ## 本页索引
 
-| Skill | 一句话理解 |
-| --- | --- |
-| [`$ablation-planner`](#skill-ablation-planner) | 围绕 `ablation-planner` 的专项能力，主要用于检查问题并给出修改建议，并可构建或评估智能体工作流。 |
-| [`$academic-research-suite`](#skill-academic-research-suite) | ARS-Codex research, writing, manuscript review, study screening, and experiments. |
-| [`$analyze-results`](#skill-analyze-results) | 围绕 `analyze-results` 的专项能力，主要用于规划、运行或复盘实验。 |
-| [`$ara-compiler`](#skill-compiler) | 围绕 `ara-compiler` 的专项能力，主要用于构建或评估智能体工作流，并可规划、运行或复盘实验。 |
-| [`$ara-research-manager`](#skill-research-manager) | 围绕 `ara-research-manager` 的专项能力，主要用于检查问题并给出修改建议，并可规划、运行或复盘实验。 |
-| [`$ara-rigor-reviewer`](#skill-rigor-reviewer) | 围绕 `ara-rigor-reviewer` 的专项能力，主要用于检查问题并给出修改建议，并可构建或评估智能体工作流。 |
-| [`$autoresearch`](#skill-0-autoresearch-skill) | 围绕 `autoresearch` 的专项能力，主要用于构建或评估智能体工作流，并可规划、运行或复盘实验。 |
-| [`$autoskill`](#skill-autoskill) | 围绕 `autoskill` 的专项能力，主要用于检查问题并给出修改建议，并可组织可复现的科研流程。 |
-| [`$brainstorming-research-ideas`](#skill-brainstorming-research-ideas) | 这是一个面向“科研工作流与自治实验”的专项技能，用于处理 `brainstorming-research-ideas` 相关任务。 |
-| [`$creative-thinking-for-research`](#skill-creative-thinking-for-research) | 这是一个面向“科研工作流与自治实验”的专项技能，用于处理 `creative-thinking-for-research` 相关任务。 |
-| [`$experiment-audit`](#skill-experiment-audit) | Audit experiment integrity before claiming results. |
-| [`$experiment-bridge`](#skill-experiment-bridge) | Workflow 1.5: Bridge between idea discovery and auto review. |
-| [`$experiment-plan`](#skill-experiment-plan) | 围绕 `experiment-plan` 的专项能力，主要用于规划、运行或复盘实验。 |
-| [`$experiment-queue`](#skill-experiment-queue) | 围绕 `experiment-queue` 的专项能力，主要用于规划、运行或复盘实验。 |
-| [`$hypogenic`](#skill-hypogenic) | 围绕 `hypogenic` 的专项能力，主要用于检查问题并给出修改建议，并可规划、运行或复盘实验。 |
-| [`$idea-creator`](#skill-idea-creator) | 这是一个面向“科研工作流与自治实验”的专项技能，用于处理 `idea-creator` 相关任务。 |
-| [`$idea-discovery`](#skill-idea-discovery) | Workflow 1: Full idea discovery pipeline to go from a broad research direction to validated, pilot-tested ideas. |
-| [`$idea-discovery-robot`](#skill-idea-discovery-robot) | Workflow 1 adaptation for robotics and embodied AI. |
-| [`$monitor-experiment`](#skill-monitor-experiment) | 围绕 `monitor-experiment` 的专项能力，主要用于规划、运行或复盘实验。 |
-| [`$research-pipeline`](#skill-research-pipeline) | Full end-to-end research pipeline: from a broad research direction through idea discovery, experiments, and review all the way to a polished paper PDF. |
-| [`$research-refine-pipeline`](#skill-research-refine-pipeline) | 围绕 `research-refine-pipeline` 的专项能力，主要用于组织可复现的科研流程，并可规划、运行或复盘实验。 |
-| [`$run-experiment`](#skill-run-experiment) | 围绕 `run-experiment` 的专项能力，主要用于规划、运行或复盘实验。 |
+| Skill | 所属技能套件 | 一句话理解 |
+| --- | --- | --- |
+| [`$ablation-planner`](#skill-ablation-planner) | [Auto Claude Code Research in Sleep（ARIS）](../技能套件导航.md#suite-aris) | 围绕 `ablation-planner` 的专项能力，主要用于检查问题并给出修改建议，并可构建或评估智能体工作流。 |
+| [`$academic-research-suite`](#skill-academic-research-suite) | [ARS-Codex 学术研究套件](../技能套件导航.md#suite-academic-research-suite) | 围绕 `academic-research-suite` 的专项能力，主要用于检查问题并给出修改建议，并可规划、运行或复盘实验。 |
+| [`$analyze-results`](#skill-analyze-results) | [Auto Claude Code Research in Sleep（ARIS）](../技能套件导航.md#suite-aris) | 围绕 `analyze-results` 的专项能力，主要用于规划、运行或复盘实验。 |
+| [`$ara-compiler`](#skill-compiler) | [AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra) | 围绕 `ara-compiler` 的专项能力，主要用于构建或评估智能体工作流，并可规划、运行或复盘实验。 |
+| [`$ara-research-manager`](#skill-research-manager) | [AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra) | 围绕 `ara-research-manager` 的专项能力，主要用于检查问题并给出修改建议，并可规划、运行或复盘实验。 |
+| [`$ara-rigor-reviewer`](#skill-rigor-reviewer) | [AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra) | 围绕 `ara-rigor-reviewer` 的专项能力，主要用于检查问题并给出修改建议，并可构建或评估智能体工作流。 |
+| [`$autoresearch`](#skill-0-autoresearch-skill) | [AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra) | 围绕 `autoresearch` 的专项能力，主要用于构建或评估智能体工作流，并可规划、运行或复盘实验。 |
+| [`$autoskill`](#skill-autoskill) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 围绕 `autoskill` 的专项能力，主要用于检查问题并给出修改建议，并可组织可复现的科研流程。 |
+| [`$brainstorming-research-ideas`](#skill-brainstorming-research-ideas) | [AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra) | 这是一个面向“科研工作流与自治实验”的专项技能，用于处理 `brainstorming-research-ideas` 相关任务。 |
+| [`$creative-thinking-for-research`](#skill-creative-thinking-for-research) | [AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra) | 这是一个面向“科研工作流与自治实验”的专项技能，用于处理 `creative-thinking-for-research` 相关任务。 |
+| [`$experiment-audit`](#skill-experiment-audit) | [Auto Claude Code Research in Sleep（ARIS）](../技能套件导航.md#suite-aris) | 围绕 `experiment-audit` 的专项能力，主要用于检查问题并给出修改建议，并可构建或评估智能体工作流。 |
+| [`$experiment-bridge`](#skill-experiment-bridge) | [Auto Claude Code Research in Sleep（ARIS）](../技能套件导航.md#suite-aris) | 围绕 `experiment-bridge` 的专项能力，主要用于检查问题并给出修改建议，并可组织可复现的科研流程。 |
+| [`$experiment-plan`](#skill-experiment-plan) | [Auto Claude Code Research in Sleep（ARIS）](../技能套件导航.md#suite-aris) | 围绕 `experiment-plan` 的专项能力，主要用于规划、运行或复盘实验。 |
+| [`$experiment-queue`](#skill-experiment-queue) | [Auto Claude Code Research in Sleep（ARIS）](../技能套件导航.md#suite-aris) | 围绕 `experiment-queue` 的专项能力，主要用于规划、运行或复盘实验。 |
+| [`$hypogenic`](#skill-hypogenic) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 围绕 `hypogenic` 的专项能力，主要用于检查问题并给出修改建议，并可规划、运行或复盘实验。 |
+| [`$idea-creator`](#skill-idea-creator) | [Auto Claude Code Research in Sleep（ARIS）](../技能套件导航.md#suite-aris) | 这是一个面向“科研工作流与自治实验”的专项技能，用于处理 `idea-creator` 相关任务。 |
+| [`$idea-discovery`](#skill-idea-discovery) | [Auto Claude Code Research in Sleep（ARIS）](../技能套件导航.md#suite-aris) | 围绕 `idea-discovery` 的专项能力，主要用于组织可复现的科研流程。 |
+| [`$idea-discovery-robot`](#skill-idea-discovery-robot) | [Auto Claude Code Research in Sleep（ARIS）](../技能套件导航.md#suite-aris) | 围绕 `idea-discovery-robot` 的专项能力，主要用于检查问题并给出修改建议，并可组织可复现的科研流程。 |
+| [`$monitor-experiment`](#skill-monitor-experiment) | [Auto Claude Code Research in Sleep（ARIS）](../技能套件导航.md#suite-aris) | 围绕 `monitor-experiment` 的专项能力，主要用于规划、运行或复盘实验。 |
+| [`$research-pipeline`](#skill-research-pipeline) | [Auto Claude Code Research in Sleep（ARIS）](../技能套件导航.md#suite-aris) | 围绕 `research-pipeline` 的专项能力，主要用于检查问题并给出修改建议，并可构建或评估智能体工作流。 |
+| [`$research-refine-pipeline`](#skill-research-refine-pipeline) | [Auto Claude Code Research in Sleep（ARIS）](../技能套件导航.md#suite-aris) | 围绕 `research-refine-pipeline` 的专项能力，主要用于组织可复现的科研流程，并可规划、运行或复盘实验。 |
+| [`$run-experiment`](#skill-run-experiment) | [Auto Claude Code Research in Sleep（ARIS）](../技能套件导航.md#suite-aris) | 围绕 `run-experiment` 的专项能力，主要用于规划、运行或复盘实验。 |
 
 ## 详细说明
 
@@ -37,6 +37,8 @@
 ### `$ablation-planner`
 
 - 全局目录：`~/.codex/skills/ablation-planner/`
+- 所属技能套件：[Auto Claude Code Research in Sleep（ARIS）](../技能套件导航.md#suite-aris)
+- 推荐总入口：`$research-pipeline`
 - 中文理解：围绕 `ablation-planner` 的专项能力，主要用于检查问题并给出修改建议，并可构建或评估智能体工作流。
 - 适合何时使用：把研究目标拆成可追踪步骤，管理假设、实验、结果与迭代。
 - 使用前注意：论文、引用和结论必须回到原始来源核验，不要把摘要或模型回答当作最终证据。
@@ -61,7 +63,9 @@ Use when main results pass result-to-claim (`claim_supported = yes` or `partial`
 ### `$academic-research-suite`
 
 - 全局目录：`~/.codex/skills/academic-research-suite/`
-- 中文理解：ARS-Codex research, writing, manuscript review, study screening, and experiments.
+- 所属技能套件：[ARS-Codex 学术研究套件](../技能套件导航.md#suite-academic-research-suite)
+- 推荐总入口：`$academic-research-suite`
+- 中文理解：围绕 `academic-research-suite` 的专项能力，主要用于检查问题并给出修改建议，并可规划、运行或复盘实验。
 - 适合何时使用：把研究目标拆成可追踪步骤，管理假设、实验、结果与迭代。
 - 使用前注意：论文、引用和结论必须回到原始来源核验，不要把摘要或模型回答当作最终证据。
 
@@ -85,6 +89,8 @@ ARS-Codex research, writing, manuscript review, study screening, and experiments
 ### `$analyze-results`
 
 - 全局目录：`~/.codex/skills/analyze-results/`
+- 所属技能套件：[Auto Claude Code Research in Sleep（ARIS）](../技能套件导航.md#suite-aris)
+- 推荐总入口：`$research-pipeline`
 - 中文理解：围绕 `analyze-results` 的专项能力，主要用于规划、运行或复盘实验。
 - 适合何时使用：把研究目标拆成可追踪步骤，管理假设、实验、结果与迭代。
 - 使用前注意：技能说明不代表依赖、模型、数据或凭据已经安装；首次使用先让 Codex 检查环境。
@@ -109,6 +115,8 @@ Analyze ML experiment results, compute statistics, generate comparison tables an
 ### `$ara-compiler`
 
 - 全局目录：`~/.codex/skills/compiler/`
+- 所属技能套件：[AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra)
+- 推荐总入口：`$autoresearch`
 - 中文理解：围绕 `ara-compiler` 的专项能力，主要用于构建或评估智能体工作流，并可规划、运行或复盘实验。
 - 适合何时使用：把研究目标拆成可追踪步骤，管理假设、实验、结果与迭代。
 - 使用前注意：论文、引用和结论必须回到原始来源核验，不要把摘要或模型回答当作最终证据。
@@ -133,6 +141,8 @@ Compiles any research input — PDF papers, GitHub repositories, experiment logs
 ### `$ara-research-manager`
 
 - 全局目录：`~/.codex/skills/research-manager/`
+- 所属技能套件：[AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra)
+- 推荐总入口：`$autoresearch`
 - 中文理解：围绕 `ara-research-manager` 的专项能力，主要用于检查问题并给出修改建议，并可规划、运行或复盘实验。
 - 适合何时使用：把研究目标拆成可追踪步骤，管理假设、实验、结果与迭代。
 - 使用前注意：技能说明不代表依赖、模型、数据或凭据已经安装；首次使用先让 Codex 检查环境。
@@ -157,6 +167,8 @@ Records research provenance as a post-task epilogue, scanning conversation histo
 ### `$ara-rigor-reviewer`
 
 - 全局目录：`~/.codex/skills/rigor-reviewer/`
+- 所属技能套件：[AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra)
+- 推荐总入口：`$autoresearch`
 - 中文理解：围绕 `ara-rigor-reviewer` 的专项能力，主要用于检查问题并给出修改建议，并可构建或评估智能体工作流。
 - 适合何时使用：把研究目标拆成可追踪步骤，管理假设、实验、结果与迭代。
 - 使用前注意：论文、引用和结论必须回到原始来源核验，不要把摘要或模型回答当作最终证据。
@@ -181,6 +193,8 @@ Performs ARA Seal Level 2 semantic epistemic review on Agent-Native Research Art
 ### `$autoresearch`
 
 - 全局目录：`~/.codex/skills/0-autoresearch-skill/`
+- 所属技能套件：[AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra)
+- 推荐总入口：`$autoresearch`
 - 中文理解：围绕 `autoresearch` 的专项能力，主要用于构建或评估智能体工作流，并可规划、运行或复盘实验。
 - 适合何时使用：把研究目标拆成可追踪步骤，管理假设、实验、结果与迭代。
 - 使用前注意：可能需要账号、API 凭据、联网权限或付费资源；执行外部写入前先确认。 论文、引用和结论必须回到原始来源核验，不要把摘要或模型回答当作最终证据。
@@ -205,6 +219,8 @@ Orchestrates end-to-end autonomous AI research projects using a two-loop archite
 ### `$autoskill`
 
 - 全局目录：`~/.codex/skills/autoskill/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：围绕 `autoskill` 的专项能力，主要用于检查问题并给出修改建议，并可组织可复现的科研流程。
 - 适合何时使用：把研究目标拆成可追踪步骤，管理假设、实验、结果与迭代。
 - 使用前注意：可能需要账号、API 凭据、联网权限或付费资源；执行外部写入前先确认。
@@ -231,6 +247,8 @@ Analyzes user-requested Screenpipe history windows to detect repeated research w
 ### `$brainstorming-research-ideas`
 
 - 全局目录：`~/.codex/skills/brainstorming-research-ideas/`
+- 所属技能套件：[AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra)
+- 推荐总入口：`$autoresearch`
 - 中文理解：这是一个面向“科研工作流与自治实验”的专项技能，用于处理 `brainstorming-research-ideas` 相关任务。
 - 适合何时使用：把研究目标拆成可追踪步骤，管理假设、实验、结果与迭代。
 - 使用前注意：技能说明不代表依赖、模型、数据或凭据已经安装；首次使用先让 Codex 检查环境。
@@ -255,6 +273,8 @@ Guides researchers through structured ideation frameworks to discover high-impac
 ### `$creative-thinking-for-research`
 
 - 全局目录：`~/.codex/skills/creative-thinking-for-research/`
+- 所属技能套件：[AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra)
+- 推荐总入口：`$autoresearch`
 - 中文理解：这是一个面向“科研工作流与自治实验”的专项技能，用于处理 `creative-thinking-for-research` 相关任务。
 - 适合何时使用：把研究目标拆成可追踪步骤，管理假设、实验、结果与迭代。
 - 使用前注意：技能说明不代表依赖、模型、数据或凭据已经安装；首次使用先让 Codex 检查环境。
@@ -279,7 +299,9 @@ Applies cognitive science frameworks for creative thinking to CS and AI research
 ### `$experiment-audit`
 
 - 全局目录：`~/.codex/skills/experiment-audit/`
-- 中文理解：Audit experiment integrity before claiming results.
+- 所属技能套件：[Auto Claude Code Research in Sleep（ARIS）](../技能套件导航.md#suite-aris)
+- 推荐总入口：`$research-pipeline`
+- 中文理解：围绕 `experiment-audit` 的专项能力，主要用于检查问题并给出修改建议，并可构建或评估智能体工作流。
 - 适合何时使用：把研究目标拆成可追踪步骤，管理假设、实验、结果与迭代。
 - 使用前注意：技能说明不代表依赖、模型、数据或凭据已经安装；首次使用先让 Codex 检查环境。
 
@@ -303,7 +325,9 @@ Audit experiment integrity before claiming results. Uses fresh-agent GPT-6-Astra
 ### `$experiment-bridge`
 
 - 全局目录：`~/.codex/skills/experiment-bridge/`
-- 中文理解：Workflow 1.5: Bridge between idea discovery and auto review.
+- 所属技能套件：[Auto Claude Code Research in Sleep（ARIS）](../技能套件导航.md#suite-aris)
+- 推荐总入口：`$research-pipeline`
+- 中文理解：围绕 `experiment-bridge` 的专项能力，主要用于检查问题并给出修改建议，并可组织可复现的科研流程。
 - 适合何时使用：把研究目标拆成可追踪步骤，管理假设、实验、结果与迭代。
 - 使用前注意：可能需要账号、API 凭据、联网权限或付费资源；执行外部写入前先确认。 先核对硬件、依赖版本、运行时间和预算，再启动长任务。
 
@@ -329,6 +353,8 @@ Workflow 1.5: Bridge between idea discovery and auto review. Reads EXPERIMENT_PL
 ### `$experiment-plan`
 
 - 全局目录：`~/.codex/skills/experiment-plan/`
+- 所属技能套件：[Auto Claude Code Research in Sleep（ARIS）](../技能套件导航.md#suite-aris)
+- 推荐总入口：`$research-pipeline`
 - 中文理解：围绕 `experiment-plan` 的专项能力，主要用于规划、运行或复盘实验。
 - 适合何时使用：把研究目标拆成可追踪步骤，管理假设、实验、结果与迭代。
 - 使用前注意：论文、引用和结论必须回到原始来源核验，不要把摘要或模型回答当作最终证据。
@@ -353,6 +379,8 @@ Turn a refined research proposal or method idea into a detailed, claim-driven ex
 ### `$experiment-queue`
 
 - 全局目录：`~/.codex/skills/experiment-queue/`
+- 所属技能套件：[Auto Claude Code Research in Sleep（ARIS）](../技能套件导航.md#suite-aris)
+- 推荐总入口：`$research-pipeline`
 - 中文理解：围绕 `experiment-queue` 的专项能力，主要用于规划、运行或复盘实验。
 - 适合何时使用：把研究目标拆成可追踪步骤，管理假设、实验、结果与迭代。
 - 使用前注意：技能说明不代表依赖、模型、数据或凭据已经安装；首次使用先让 Codex 检查环境。
@@ -377,6 +405,8 @@ SSH job queue for multi-seed/multi-config ML experiments with OOM-aware retry, s
 ### `$hypogenic`
 
 - 全局目录：`~/.codex/skills/hypogenic/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：围绕 `hypogenic` 的专项能力，主要用于检查问题并给出修改建议，并可规划、运行或复盘实验。
 - 适合何时使用：把研究目标拆成可追踪步骤，管理假设、实验、结果与迭代。
 - 使用前注意：技能说明不代表依赖、模型、数据或凭据已经安装；首次使用先让 Codex 检查环境。
@@ -403,6 +433,8 @@ Plans and audits use of ChicagoHAI HypoGeniC/HypoRefine for LLM-assisted hypothe
 ### `$idea-creator`
 
 - 全局目录：`~/.codex/skills/idea-creator/`
+- 所属技能套件：[Auto Claude Code Research in Sleep（ARIS）](../技能套件导航.md#suite-aris)
+- 推荐总入口：`$research-pipeline`
 - 中文理解：这是一个面向“科研工作流与自治实验”的专项技能，用于处理 `idea-creator` 相关任务。
 - 适合何时使用：把研究目标拆成可追踪步骤，管理假设、实验、结果与迭代。
 - 使用前注意：技能说明不代表依赖、模型、数据或凭据已经安装；首次使用先让 Codex 检查环境。
@@ -427,7 +459,9 @@ Generate and rank research ideas given a broad direction. Use when user says "�
 ### `$idea-discovery`
 
 - 全局目录：`~/.codex/skills/idea-discovery/`
-- 中文理解：Workflow 1: Full idea discovery pipeline to go from a broad research direction to validated, pilot-tested ideas.
+- 所属技能套件：[Auto Claude Code Research in Sleep（ARIS）](../技能套件导航.md#suite-aris)
+- 推荐总入口：`$research-pipeline`
+- 中文理解：围绕 `idea-discovery` 的专项能力，主要用于组织可复现的科研流程。
 - 适合何时使用：把研究目标拆成可追踪步骤，管理假设、实验、结果与迭代。
 - 使用前注意：技能说明不代表依赖、模型、数据或凭据已经安装；首次使用先让 Codex 检查环境。
 
@@ -451,7 +485,9 @@ Workflow 1: Full idea discovery pipeline to go from a broad research direction t
 ### `$idea-discovery-robot`
 
 - 全局目录：`~/.codex/skills/idea-discovery-robot/`
-- 中文理解：Workflow 1 adaptation for robotics and embodied AI.
+- 所属技能套件：[Auto Claude Code Research in Sleep（ARIS）](../技能套件导航.md#suite-aris)
+- 推荐总入口：`$research-pipeline`
+- 中文理解：围绕 `idea-discovery-robot` 的专项能力，主要用于检查问题并给出修改建议，并可组织可复现的科研流程。
 - 适合何时使用：把研究目标拆成可追踪步骤，管理假设、实验、结果与迭代。
 - 使用前注意：先核对硬件、依赖版本、运行时间和预算，再启动长任务。 论文、引用和结论必须回到原始来源核验，不要把摘要或模型回答当作最终证据。
 
@@ -475,6 +511,8 @@ Workflow 1 adaptation for robotics and embodied AI. Orchestrates robotics-aware 
 ### `$monitor-experiment`
 
 - 全局目录：`~/.codex/skills/monitor-experiment/`
+- 所属技能套件：[Auto Claude Code Research in Sleep（ARIS）](../技能套件导航.md#suite-aris)
+- 推荐总入口：`$research-pipeline`
 - 中文理解：围绕 `monitor-experiment` 的专项能力，主要用于规划、运行或复盘实验。
 - 适合何时使用：把研究目标拆成可追踪步骤，管理假设、实验、结果与迭代。
 - 使用前注意：技能说明不代表依赖、模型、数据或凭据已经安装；首次使用先让 Codex 检查环境。
@@ -499,7 +537,9 @@ Monitor running experiments, check progress, collect results. Use when user says
 ### `$research-pipeline`
 
 - 全局目录：`~/.codex/skills/research-pipeline/`
-- 中文理解：Full end-to-end research pipeline: from a broad research direction through idea discovery, experiments, and review all the way to a polished paper PDF.
+- 所属技能套件：[Auto Claude Code Research in Sleep（ARIS）](../技能套件导航.md#suite-aris)
+- 推荐总入口：`$research-pipeline`
+- 中文理解：围绕 `research-pipeline` 的专项能力，主要用于检查问题并给出修改建议，并可构建或评估智能体工作流。
 - 适合何时使用：把研究目标拆成可追踪步骤，管理假设、实验、结果与迭代。
 - 使用前注意：论文、引用和结论必须回到原始来源核验，不要把摘要或模型回答当作最终证据。
 
@@ -525,6 +565,8 @@ Full end-to-end research pipeline: from a broad research direction through idea 
 ### `$research-refine-pipeline`
 
 - 全局目录：`~/.codex/skills/research-refine-pipeline/`
+- 所属技能套件：[Auto Claude Code Research in Sleep（ARIS）](../技能套件导航.md#suite-aris)
+- 推荐总入口：`$research-pipeline`
 - 中文理解：围绕 `research-refine-pipeline` 的专项能力，主要用于组织可复现的科研流程，并可规划、运行或复盘实验。
 - 适合何时使用：把研究目标拆成可追踪步骤，管理假设、实验、结果与迭代。
 - 使用前注意：技能说明不代表依赖、模型、数据或凭据已经安装；首次使用先让 Codex 检查环境。
@@ -549,6 +591,8 @@ Run an end-to-end workflow that chains `research-refine` and `experiment-plan`. 
 ### `$run-experiment`
 
 - 全局目录：`~/.codex/skills/run-experiment/`
+- 所属技能套件：[Auto Claude Code Research in Sleep（ARIS）](../技能套件导航.md#suite-aris)
+- 推荐总入口：`$research-pipeline`
 - 中文理解：围绕 `run-experiment` 的专项能力，主要用于规划、运行或复盘实验。
 - 适合何时使用：把研究目标拆成可追踪步骤，管理假设、实验、结果与迭代。
 - 使用前注意：可能需要账号、API 凭据、联网权限或付费资源；执行外部写入前先确认。 先核对硬件、依赖版本、运行时间和预算，再启动长任务。

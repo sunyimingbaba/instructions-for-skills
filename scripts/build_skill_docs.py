@@ -32,6 +32,15 @@ class Category:
     prompt: str
 
 
+@dataclass(frozen=True)
+class Suite:
+    slug: str
+    title: str
+    entry: str
+    explanation: str
+    url: str | None = None
+
+
 CATEGORIES = [
     Category("workflow", "科研工作流与自治实验", "把研究目标拆成可追踪步骤，管理假设、实验、结果与迭代。", "说明研究目标、已有材料、可修改范围、评价指标和停止条件；先给计划，再执行。"),
     Category("literature", "文献检索、证据与引用", "用于找论文、核对出处、整理证据、管理引用和撰写综述。", "说明主题、时间范围、数据库偏好和纳排标准；要求逐条给来源，未核实内容明确标记。"),
@@ -50,6 +59,42 @@ CATEGORIES = [
     Category("general", "通用科研工具与质量保障", "无法归入单一学科、但可支撑科研质量、文件处理、复现或效率的工具。", "说明当前材料、想得到的结果和输出格式；要求列出假设、缺失信息和验证方法。"),
 ]
 CATEGORY_BY_SLUG = {item.slug: item for item in CATEGORIES}
+
+
+SUITES = [
+    Suite("scientific-agent-skills", "Scientific Agent Skills（K-Dense）", "按任务直接调用对应小 skill", "覆盖文献、科研计算、统计、生物信息、实验室规范等大量独立专项能力。", "https://github.com/K-Dense-AI/scientific-agent-skills"),
+    Suite("aris", "Auto Claude Code Research in Sleep（ARIS）", "$research-pipeline", "覆盖选题、文献、实验、写作、审稿和论文改进的端到端研究工作流。", "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep"),
+    Suite("orchestra", "AI Research SKILLs（Orchestra Research）", "$autoresearch", "面向 AI 研究的模型架构、训练、后训练、推理、智能体和论文写作技能集合。", "https://github.com/Orchestra-Research/AI-Research-SKILLs"),
+    Suite("academic-research-suite", "ARS-Codex 学术研究套件", "$academic-research-suite", "统一入口，内部路由文献综述、论文写作、审稿、筛选和实验工作流。", "https://github.com/Imbad0202/academic-research-skills-codex"),
+    Suite("codex-autoresearch", "Codex Autoresearch", "$codex-autoresearch", "针对可量化指标反复修改、测量、保留改进并回退失败实验。", "https://github.com/leo-lilinxiao/codex-autoresearch"),
+    Suite("nature", "Nature Research Skills", "按任务直接调用对应的 $nature-* skill", "覆盖学术检索、写作、审稿、统计、图表、回应审稿人和科研资料处理。"),
+    Suite("bzd", "BZD 数学建模 Skills", "$bzd-modeling-workflow", "数学建模竞赛的读题、建模、写作、格式、引用、AIGC 和评审工作流。"),
+    Suite("hwb", "HWB 华为杯数学建模 Skills", "$hwb-modeling-workflow", "针对华为杯研究生数学建模竞赛的完整流程和专项检查。"),
+    Suite("mathmodel", "MathModel 数学建模工作流", "$1start-mathmodel", "从赛题分析、编程求解、图表到论文撰写和最终验收的阶段式工作流。"),
+    Suite("scientific-toolkit", "Scientific Toolkit 科研计算套件", "$scientific-toolkit-skill", "面向 MATLAB、Python 科研计算、信号图像、统计、仿真和可复现分析。"),
+    Suite("standalone", "独立或暂未归入大型套件", "直接调用当前小 skill", "这些 skill 可以独立使用，或其本地文件中没有足够信息可靠判断上级套件。"),
+]
+SUITE_BY_SLUG = {item.slug: item for item in SUITES}
+
+
+ARIS_SKILLS = set("""
+ablation-planner alphaxiv analyze-results arxiv auto-paper-improvement-loop
+auto-review-loop auto-review-loop-llm auto-review-loop-minimax citation-audit
+claims-drafting comm-lit-review deepxiv dse-loop embodiment-description experiment-audit
+experiment-bridge experiment-plan experiment-queue feishu-notify figure-description
+figure-spec formula-derivation gemini-search grant-proposal idea-creator idea-discovery
+idea-discovery-robot integrity-forensics interview-cheatsheet invention-structuring
+jurisdiction-format kill-argument mermaid-diagram meta-apply meta-optimize
+monitor-experiment novelty-check openalex overleaf-sync paper-claim-audit paper-compile
+paper-figure paper-illustration paper-illustration-image2 paper-plan paper-poster
+paper-poster-html paper-slides paper-talk paper-write paper-writing patent-novelty-check
+patent-pipeline patent-review pixel-art prior-art-search proof-checker proof-orchestrator
+proof-writer qzcli rebuttal render-html research-implement-feature research-lit
+research-pipeline research-refine research-refine-pipeline research-review research-wiki
+resubmit-pipeline result-to-claim run-experiment semantic-scholar serverless-modal
+slides-polish specification-writing system-profile training-check vast-gpu
+web-debug-search wiki-enrich writing-systems-papers
+""".split())
 
 
 EXACT_CATEGORY = {
@@ -216,6 +261,7 @@ class Skill:
     name: str
     description: str
     category: str
+    suite: str
     source_file: str
     upstream: str | None
 
@@ -267,6 +313,34 @@ def category_for(directory: str, name: str, description: str) -> str:
     return "general"
 
 
+def suite_for(directory: str, meta: dict) -> str:
+    metadata = meta.get("metadata") if isinstance(meta.get("metadata"), dict) else {}
+    author = compact(meta.get("author") or metadata.get("author"))
+    skill_author = compact(meta.get("skill-author") or metadata.get("skill-author"))
+
+    if directory == "academic-research-suite":
+        return "academic-research-suite"
+    if directory == "codex-autoresearch":
+        return "codex-autoresearch"
+    if directory.startswith("bzd-"):
+        return "bzd"
+    if directory.startswith("hwb-"):
+        return "hwb"
+    if directory.startswith("nature-") or directory == "nature-proposal-writer":
+        return "nature"
+    if directory in {"1start-mathmodel", "2analysis-modeling", "3coding-visual", "4drawio", "5writing", "6verity", "_references", "mathmodel-figure-templates"}:
+        return "mathmodel"
+    if directory in {"scientific-toolkit-skill", "research-writing-skill", "office-academic-skill"}:
+        return "scientific-toolkit"
+    if author == "Orchestra Research" or directory in {"ml-training-recipes", "a-evolve"}:
+        return "orchestra"
+    if skill_author:
+        return "scientific-agent-skills"
+    if directory in ARIS_SKILLS:
+        return "aris"
+    return "standalone"
+
+
 def first_github_url(path: Path) -> str | None:
     text = path.read_text(encoding="utf-8", errors="replace")
     match = re.search(r"https://github\.com/[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+", text)
@@ -285,12 +359,14 @@ def load_skills() -> list[Skill]:
         if not description:
             description = "该技能未在 frontmatter 中提供简介，请在调用前阅读它的 SKILL.md。"
         category = category_for(directory, name, description)
+        suite = suite_for(directory, meta)
         skills.append(
             Skill(
                 directory=directory,
                 name=name,
                 description=description,
                 category=category,
+                suite=suite,
                 source_file=str(path),
                 upstream=first_github_url(path),
             )
@@ -312,8 +388,9 @@ def trim_sentence(text: str, limit: int = 180) -> str:
 
 
 def chinese_summary(skill: Skill) -> str:
-    if has_chinese(skill.description):
-        return trim_sentence(skill.description)
+    first_sentence = trim_sentence(skill.description)
+    if has_chinese(first_sentence):
+        return first_sentence
     lowered = skill.description.lower()
     matched: list[str] = []
     allowed = CATEGORY_ALLOWED_PHRASES[skill.category]
@@ -332,7 +409,7 @@ def chinese_summary(skill: Skill) -> str:
 def caution_for(skill: Skill) -> str:
     text = skill.description.lower()
     cautions: list[str] = []
-    if any(word in text for word in ("clinical", "patient", "medical", "diagnos")):
+    if skill.category == "clinical-lab" or any(word in text for word in ("clinical decision", "patient", "diagnos")):
         cautions.append("医学输出仅用于科研和信息整理，不能替代临床判断。")
     if any(word in text for word in ("api", "sdk", "cloud", "submit", "deploy")):
         cautions.append("可能需要账号、API 凭据、联网权限或付费资源；执行外部写入前先确认。")
@@ -368,6 +445,10 @@ def md_cell(text: str) -> str:
     return text.replace("|", "\\|").replace("\n", " ")
 
 
+def suite_anchor(slug: str) -> str:
+    return f"suite-{slug}"
+
+
 def render_category(category: Category, skills: list[Skill]) -> str:
     lines = [
         f"# {category.title}",
@@ -378,19 +459,23 @@ def render_category(category: Category, skills: list[Skill]) -> str:
         "",
         "## 本页索引",
         "",
-        "| Skill | 一句话理解 |",
-        "| --- | --- |",
+        "| Skill | 所属技能套件 | 一句话理解 |",
+        "| --- | --- | --- |",
     ]
     for skill in skills:
-        lines.append(f"| [`${md_cell(skill.name)}`](#{anchor(skill)}) | {md_cell(chinese_summary(skill))} |")
+        suite = SUITE_BY_SLUG[skill.suite]
+        lines.append(f"| [`${md_cell(skill.name)}`](#{anchor(skill)}) | [{suite.title}](../技能套件导航.md#{suite_anchor(skill.suite)}) | {md_cell(chinese_summary(skill))} |")
     lines.extend(["", "## 详细说明", ""])
     for skill in skills:
+        suite = SUITE_BY_SLUG[skill.suite]
         lines.extend(
             [
                 f'<a id="{anchor(skill)}"></a>',
                 f"### `${skill.name}`",
                 "",
                 f"- 全局目录：`~/.codex/skills/{skill.directory}/`",
+                f"- 所属技能套件：[{suite.title}](../技能套件导航.md#{suite_anchor(skill.suite)})",
+                f"- 推荐总入口：`{suite.entry}`" if suite.entry.startswith("$") else f"- 推荐总入口：{suite.entry}",
                 f"- 中文理解：{chinese_summary(skill)}",
                 f"- 适合何时使用：{category.explanation}",
                 f"- 使用前注意：{caution_for(skill)}",
@@ -423,22 +508,55 @@ def render_index(skills: list[Skill]) -> str:
         "",
         f"本索引来自 `{SKILLS_DISPLAY}/*/SKILL.md` 的实际扫描，共 **{len(skills)}** 个 skills。",
         "",
-        "| Skill | 分类 | 全局目录 |",
-        "| --- | --- | --- |",
+        "| Skill | 所属技能套件 | 推荐总入口 | 分类 | 全局目录 |",
+        "| --- | --- | --- | --- | --- |",
     ]
     for skill in sorted(skills, key=lambda item: (item.name.lower(), item.directory.lower())):
         category = CATEGORY_BY_SLUG[skill.category]
+        suite = SUITE_BY_SLUG[skill.suite]
         link = f"categories/{category.slug}.md#{anchor(skill)}"
         directory_note = skill.directory if skill.directory == skill.name else f"{skill.directory}（调用名：{skill.name}）"
-        lines.append(f"| [`${md_cell(skill.name)}`]({link}) | [{category.title}](categories/{category.slug}.md) | `{md_cell(directory_note)}` |")
+        entry = f"`{suite.entry}`" if suite.entry.startswith("$") else suite.entry
+        lines.append(f"| [`${md_cell(skill.name)}`]({link}) | [{suite.title}](技能套件导航.md#{suite_anchor(skill.suite)}) | {entry} | [{category.title}](categories/{category.slug}.md) | `{md_cell(directory_note)}` |")
     lines.extend(["", "## 分类统计", "", "| 分类 | 数量 |", "| --- | ---: |"])
     for category in CATEGORIES:
         lines.append(f"| [{category.title}](categories/{category.slug}.md) | {counts[category.slug]} |")
     return "\n".join(lines) + "\n"
 
 
+def render_suites(skills: list[Skill]) -> str:
+    counts = Counter(skill.suite for skill in skills)
+    lines = [
+        "# 技能套件与总入口导航",
+        "",
+        "这里回答“这个小 skill 属于哪个大套件、应该从哪个总入口开始”。总入口不是必须使用；任务很明确时，直接调用小 skill 通常更快。",
+        "",
+        "| 技能套件 | 小 Skills 数量 | 推荐总入口 | 什么时候从总入口开始 |",
+        "| --- | ---: | --- | --- |",
+    ]
+    for suite in SUITES:
+        entry = f"`{suite.entry}`" if suite.entry.startswith("$") else suite.entry
+        lines.append(f"| [{suite.title}](#{suite_anchor(suite.slug)}) | {counts[suite.slug]} | {entry} | {suite.explanation} |")
+
+    for suite in SUITES:
+        members = sorted((skill for skill in skills if skill.suite == suite.slug), key=lambda item: item.name.lower())
+        lines.extend(["", f'<a id="{suite_anchor(suite.slug)}"></a>', f"## {suite.title}", ""])
+        if suite.url:
+            lines.append(f"项目地址：[{suite.url}]({suite.url})")
+            lines.append("")
+        entry = f"`{suite.entry}`" if suite.entry.startswith("$") else suite.entry
+        lines.extend([f"- 推荐总入口：{entry}", f"- 套件定位：{suite.explanation}", f"- 当前收录：{len(members)} 个小 skills", "", "| 小 Skill | 分类 | 中文理解 |", "| --- | --- | --- |"])
+        for skill in members:
+            category = CATEGORY_BY_SLUG[skill.category]
+            link = f"categories/{category.slug}.md#{anchor(skill)}"
+            lines.append(f"| [`${md_cell(skill.name)}`]({link}) | [{category.title}](categories/{category.slug}.md) | {md_cell(chinese_summary(skill))} |")
+    lines.extend(["", "---", "", "[返回完整使用指南](全局科研Skills使用指南.md) · [返回全部技能索引](技能总索引.md)", ""])
+    return "\n".join(lines)
+
+
 def render_guide(skills: list[Skill]) -> str:
     counts = Counter(skill.category for skill in skills)
+    suite_counts = Counter(skill.suite for skill in skills)
     lines = [
         "# 全局科研 Skills 使用指南",
         "",
@@ -456,11 +574,25 @@ def render_guide(skills: list[Skill]) -> str:
         "",
         "如果不知道技能名，先从下面的分类进入。一个任务通常只需一个主 skill；需要跨阶段工作时，再按“检索 → 分析 → 写作 → 审核”的顺序组合。",
         "",
+        "## 先找大套件还是直接找小 Skill",
+        "",
+        "- 任务跨度很大，例如“从找选题一直做到论文”，先用大套件的总入口。",
+        "- 任务很具体，例如“核对 DOI”或“分析单细胞数据”，直接调用对应小 skill。",
+        "- 不清楚小 skill 属于哪里时，打开[技能套件与总入口导航](技能套件导航.md)。",
+        "",
+        "| 主要技能套件 | 数量 | 推荐总入口 |",
+        "| --- | ---: | --- |",
+    ]
+    for suite in SUITES:
+        entry = f"`{suite.entry}`" if suite.entry.startswith("$") else suite.entry
+        lines.append(f"| [{suite.title}](技能套件导航.md#{suite_anchor(suite.slug)}) | {suite_counts[suite.slug]} | {entry} |")
+    lines.extend([
+        "",
         "## 分类导航",
         "",
         "| 分类 | 数量 | 适合解决的问题 |",
         "| --- | ---: | --- |",
-    ]
+    ])
     for category in CATEGORIES:
         lines.append(f"| [{category.title}](categories/{category.slug}.md) | {counts[category.slug]} | {category.explanation} |")
     lines.extend(
@@ -500,6 +632,7 @@ def render_guide(skills: list[Skill]) -> str:
 
 def render_readme(skills: list[Skill]) -> str:
     counts = Counter(skill.category for skill in skills)
+    suite_counts = Counter(skill.suite for skill in skills)
     popular = [
         ("查论文与核对 DOI", "paper-lookup / literature-review / arxiv / nature-academic-search"),
         ("写论文与审稿", "scientific-writing / nature-writing / ml-paper-writing / peer-review"),
@@ -516,6 +649,7 @@ def render_readme(skills: list[Skill]) -> str:
         "## 从这里开始",
         "",
         "- [按研究任务选择 Skill](docs/全局科研Skills使用指南.md)",
+        "- [按所属技能套件和总入口查找](docs/技能套件导航.md)",
         "- [查看全部 Skills 字母索引](docs/技能总索引.md)",
         "- [查看生成规则与维护方法](docs/维护与更新.md)",
         "",
@@ -534,6 +668,10 @@ def render_readme(skills: list[Skill]) -> str:
     ]
     for task, names in popular:
         lines.append(f"| {task} | `{names}` |")
+    lines.extend(["", "## 主要技能套件与总入口", "", "| 技能套件 | 小 Skills 数量 | 推荐总入口 |", "| --- | ---: | --- |"])
+    for suite in SUITES:
+        entry = f"`{suite.entry}`" if suite.entry.startswith("$") else suite.entry
+        lines.append(f"| [{suite.title}](docs/技能套件导航.md#{suite_anchor(suite.slug)}) | {suite_counts[suite.slug]} | {entry} |")
     lines.extend(["", "## 分类", "", "| 分类 | Skills 数量 |", "| --- | ---: |"])
     for category in CATEGORIES:
         lines.append(f"| [{category.title}](docs/categories/{category.slug}.md) | {counts[category.slug]} |")
@@ -562,6 +700,7 @@ def render_maintenance(skills: list[Skill]) -> str:
 - 收录数量：{len(skills)}
 - 排除项：`.system` 内置目录
 - 分类依据：目录名、frontmatter 中的 `name` 与 `description`
+- 套件归属：优先读取作者/套件元数据，再使用明确的目录前缀和已知安装清单；无法可靠判断时标为“独立或暂未归入大型套件”
 - 原始说明：完整保留在每个 skill 的折叠区域，便于核对自动中文解释
 
 ## 刷新方法
@@ -607,6 +746,7 @@ def main() -> None:
     write(REPO_ROOT / "README.md", render_readme(skills))
     write(DOCS_ROOT / "全局科研Skills使用指南.md", render_guide(skills))
     write(DOCS_ROOT / "技能总索引.md", render_index(skills))
+    write(DOCS_ROOT / "技能套件导航.md", render_suites(skills))
     write(DOCS_ROOT / "维护与更新.md", render_maintenance(skills))
 
     for category in CATEGORIES:
@@ -619,6 +759,9 @@ def main() -> None:
             "name": skill.name,
             "description": skill.description,
             "category": skill.category,
+            "suite": skill.suite,
+            "suite_title": SUITE_BY_SLUG[skill.suite].title,
+            "recommended_entry": SUITE_BY_SLUG[skill.suite].entry,
             "upstream": skill.upstream,
         }
         for skill in skills
@@ -632,6 +775,7 @@ def main() -> None:
 本仓库现已从“三套技能”扩展为全部全局科研及科研支撑 skills 的中文指南。
 
 - [进入新的完整使用指南](全局科研Skills使用指南.md)
+- [按所属技能套件和总入口查找](技能套件导航.md)
 - [查看全部 Skills 字母索引](技能总索引.md)
 
 保留本页面是为了让旧链接仍然可用。

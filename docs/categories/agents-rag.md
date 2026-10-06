@@ -6,41 +6,41 @@
 
 ## 本页索引
 
-| Skill | 一句话理解 |
-| --- | --- |
-| [`$arbor`](#skill-arbor) | 围绕 `arbor` 的专项能力，主要用于构建或评估智能体工作流。 |
-| [`$auto-review-loop`](#skill-auto-review-loop) | 围绕 `auto-review-loop` 的专项能力，主要用于构建或评估智能体工作流。 |
-| [`$autogpt-agents`](#skill-autogpt) | 围绕 `autogpt-agents` 的专项能力，主要用于构建或评估智能体工作流，并可组织可复现的科研流程。 |
-| [`$chroma`](#skill-chroma) | 围绕 `chroma` 的专项能力，主要用于构建检索增强与知识问答系统。 |
-| [`$constitutional-ai`](#skill-constitutional-ai) | 围绕 `constitutional-ai` 的专项能力，主要用于增加内容安全检查与防护。 |
-| [`$crewai-multi-agent`](#skill-crewai) | 围绕 `crewai-multi-agent` 的专项能力，主要用于构建或评估智能体工作流，并可组织可复现的科研流程。 |
-| [`$datalad`](#skill-datalad) | 围绕 `datalad` 的专项能力，主要用于构建检索增强与知识问答系统。 |
-| [`$dspy`](#skill-dspy) | 围绕 `dspy` 的专项能力，主要用于构建或评估智能体工作流，并可构建检索增强与知识问答系统。 |
-| [`$evaluating-code-models`](#skill-bigcode-evaluation-harness) | 这是一个面向“智能体、RAG、安全与评测”的专项技能，用于处理 `evaluating-code-models` 相关任务。 |
-| [`$evaluating-llms-harness`](#skill-lm-evaluation-harness) | 这是一个面向“智能体、RAG、安全与评测”的专项技能，用于处理 `evaluating-llms-harness` 相关任务。 |
-| [`$evolving-ai-agents`](#skill-a-evolve) | 围绕 `evolving-ai-agents` 的专项能力，主要用于构建或评估智能体工作流。 |
-| [`$faiss`](#skill-faiss) | 围绕 `faiss` 的专项能力，主要用于完成机器学习建模与评估，并可构建检索增强与知识问答系统。 |
-| [`$guidance`](#skill-guidance) | 围绕 `guidance` 的专项能力，主要用于组织可复现的科研流程。 |
-| [`$instructor`](#skill-instructor) | 围绕 `instructor` 的专项能力，主要用于增加内容安全检查与防护。 |
-| [`$langchain`](#skill-langchain) | 围绕 `langchain` 的专项能力，主要用于构建或评估智能体工作流，并可构建检索增强与知识问答系统。 |
-| [`$langsmith-observability`](#skill-langsmith) | 围绕 `langsmith-observability` 的专项能力，主要用于追踪、评测和监控 LLM 应用，并可组织可复现的科研流程。 |
-| [`$llamaguard`](#skill-llamaguard) | 围绕 `llamaguard` 的专项能力，主要用于增加内容安全检查与防护。 |
-| [`$llamaindex`](#skill-llamaindex) | 围绕 `llamaindex` 的专项能力，主要用于构建或评估智能体工作流，并可构建检索增强与知识问答系统。 |
-| [`$nemo-evaluator-sdk`](#skill-nemo-evaluator) | 围绕 `nemo-evaluator-sdk` 的专项能力，主要用于增加内容安全检查与防护。 |
-| [`$nemo-guardrails`](#skill-nemo-guardrails) | 围绕 `nemo-guardrails` 的专项能力，主要用于增加内容安全检查与防护。 |
-| [`$outlines`](#skill-outlines) | 这是一个面向“智能体、RAG、安全与评测”的专项技能，用于处理 `outlines` 相关任务。 |
-| [`$pathml`](#skill-pathml) | 围绕 `pathml` 的专项能力，主要用于构建检索增强与知识问答系统，并可组织可复现的科研流程。 |
-| [`$phoenix-observability`](#skill-phoenix) | 围绕 `phoenix-observability` 的专项能力，主要用于追踪、评测和监控 LLM 应用。 |
-| [`$pi-agent`](#skill-pi-agent) | 围绕 `pi-agent` 的专项能力，主要用于构建或评估智能体工作流。 |
-| [`$pinecone`](#skill-pinecone) | 围绕 `pinecone` 的专项能力，主要用于构建检索增强与知识问答系统，并可构建向量检索与相似度搜索。 |
-| [`$prompt-guard`](#skill-prompt-guard) | 围绕 `prompt-guard` 的专项能力，主要用于构建检索增强与知识问答系统。 |
-| [`$proof-checker`](#skill-proof-checker) | 围绕 `proof-checker` 的专项能力，主要用于构建或评估智能体工作流，并可组织可复现的科研流程。 |
-| [`$qdrant-vector-search`](#skill-qdrant) | 围绕 `qdrant-vector-search` 的专项能力，主要用于构建检索增强与知识问答系统，并可构建向量检索与相似度搜索。 |
-| [`$research-review`](#skill-research-review) | 围绕 `research-review` 的专项能力，主要用于构建或评估智能体工作流。 |
-| [`$result-to-claim`](#skill-result-to-claim) | 围绕 `result-to-claim` 的专项能力，主要用于构建或评估智能体工作流。 |
-| [`$sentence-transformers`](#skill-sentence-transformers) | 围绕 `sentence-transformers` 的专项能力，主要用于完成机器学习建模与评估，并可构建检索增强与知识问答系统。 |
-| [`$stable-baselines3`](#skill-stable-baselines3) | 围绕 `stable-baselines3` 的专项能力，主要用于构建或评估智能体工作流。 |
-| [`$uncertainty-and-units`](#skill-uncertainty-and-units) | 围绕 `uncertainty-and-units` 的专项能力，主要用于构建检索增强与知识问答系统。 |
+| Skill | 所属技能套件 | 一句话理解 |
+| --- | --- | --- |
+| [`$arbor`](#skill-arbor) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 围绕 `arbor` 的专项能力，主要用于构建或评估智能体工作流。 |
+| [`$auto-review-loop`](#skill-auto-review-loop) | [Auto Claude Code Research in Sleep（ARIS）](../技能套件导航.md#suite-aris) | 围绕 `auto-review-loop` 的专项能力，主要用于构建或评估智能体工作流。 |
+| [`$autogpt-agents`](#skill-autogpt) | [AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra) | 围绕 `autogpt-agents` 的专项能力，主要用于构建或评估智能体工作流，并可组织可复现的科研流程。 |
+| [`$chroma`](#skill-chroma) | [AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra) | 围绕 `chroma` 的专项能力，主要用于构建检索增强与知识问答系统。 |
+| [`$constitutional-ai`](#skill-constitutional-ai) | [AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra) | 围绕 `constitutional-ai` 的专项能力，主要用于增加内容安全检查与防护。 |
+| [`$crewai-multi-agent`](#skill-crewai) | [AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra) | 围绕 `crewai-multi-agent` 的专项能力，主要用于构建或评估智能体工作流，并可组织可复现的科研流程。 |
+| [`$datalad`](#skill-datalad) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 围绕 `datalad` 的专项能力，主要用于构建检索增强与知识问答系统。 |
+| [`$dspy`](#skill-dspy) | [AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra) | 围绕 `dspy` 的专项能力，主要用于构建或评估智能体工作流，并可构建检索增强与知识问答系统。 |
+| [`$evaluating-code-models`](#skill-bigcode-evaluation-harness) | [AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra) | 这是一个面向“智能体、RAG、安全与评测”的专项技能，用于处理 `evaluating-code-models` 相关任务。 |
+| [`$evaluating-llms-harness`](#skill-lm-evaluation-harness) | [AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra) | 这是一个面向“智能体、RAG、安全与评测”的专项技能，用于处理 `evaluating-llms-harness` 相关任务。 |
+| [`$evolving-ai-agents`](#skill-a-evolve) | [AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra) | 围绕 `evolving-ai-agents` 的专项能力，主要用于构建或评估智能体工作流。 |
+| [`$faiss`](#skill-faiss) | [AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra) | 围绕 `faiss` 的专项能力，主要用于完成机器学习建模与评估，并可构建检索增强与知识问答系统。 |
+| [`$guidance`](#skill-guidance) | [AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra) | 围绕 `guidance` 的专项能力，主要用于组织可复现的科研流程。 |
+| [`$instructor`](#skill-instructor) | [AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra) | 围绕 `instructor` 的专项能力，主要用于增加内容安全检查与防护。 |
+| [`$langchain`](#skill-langchain) | [AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra) | 围绕 `langchain` 的专项能力，主要用于构建或评估智能体工作流，并可构建检索增强与知识问答系统。 |
+| [`$langsmith-observability`](#skill-langsmith) | [AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra) | 围绕 `langsmith-observability` 的专项能力，主要用于追踪、评测和监控 LLM 应用，并可组织可复现的科研流程。 |
+| [`$llamaguard`](#skill-llamaguard) | [AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra) | 围绕 `llamaguard` 的专项能力，主要用于增加内容安全检查与防护。 |
+| [`$llamaindex`](#skill-llamaindex) | [AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra) | 围绕 `llamaindex` 的专项能力，主要用于构建或评估智能体工作流，并可构建检索增强与知识问答系统。 |
+| [`$nemo-evaluator-sdk`](#skill-nemo-evaluator) | [AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra) | 围绕 `nemo-evaluator-sdk` 的专项能力，主要用于增加内容安全检查与防护。 |
+| [`$nemo-guardrails`](#skill-nemo-guardrails) | [AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra) | 围绕 `nemo-guardrails` 的专项能力，主要用于增加内容安全检查与防护。 |
+| [`$outlines`](#skill-outlines) | [AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra) | 这是一个面向“智能体、RAG、安全与评测”的专项技能，用于处理 `outlines` 相关任务。 |
+| [`$pathml`](#skill-pathml) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 围绕 `pathml` 的专项能力，主要用于构建检索增强与知识问答系统，并可组织可复现的科研流程。 |
+| [`$phoenix-observability`](#skill-phoenix) | [AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra) | 围绕 `phoenix-observability` 的专项能力，主要用于追踪、评测和监控 LLM 应用。 |
+| [`$pi-agent`](#skill-pi-agent) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 围绕 `pi-agent` 的专项能力，主要用于构建或评估智能体工作流。 |
+| [`$pinecone`](#skill-pinecone) | [AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra) | 围绕 `pinecone` 的专项能力，主要用于构建检索增强与知识问答系统，并可构建向量检索与相似度搜索。 |
+| [`$prompt-guard`](#skill-prompt-guard) | [AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra) | 围绕 `prompt-guard` 的专项能力，主要用于构建检索增强与知识问答系统。 |
+| [`$proof-checker`](#skill-proof-checker) | [Auto Claude Code Research in Sleep（ARIS）](../技能套件导航.md#suite-aris) | 围绕 `proof-checker` 的专项能力，主要用于构建或评估智能体工作流，并可组织可复现的科研流程。 |
+| [`$qdrant-vector-search`](#skill-qdrant) | [AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra) | 围绕 `qdrant-vector-search` 的专项能力，主要用于构建检索增强与知识问答系统，并可构建向量检索与相似度搜索。 |
+| [`$research-review`](#skill-research-review) | [Auto Claude Code Research in Sleep（ARIS）](../技能套件导航.md#suite-aris) | 围绕 `research-review` 的专项能力，主要用于构建或评估智能体工作流。 |
+| [`$result-to-claim`](#skill-result-to-claim) | [Auto Claude Code Research in Sleep（ARIS）](../技能套件导航.md#suite-aris) | 围绕 `result-to-claim` 的专项能力，主要用于构建或评估智能体工作流。 |
+| [`$sentence-transformers`](#skill-sentence-transformers) | [AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra) | 围绕 `sentence-transformers` 的专项能力，主要用于完成机器学习建模与评估，并可构建检索增强与知识问答系统。 |
+| [`$stable-baselines3`](#skill-stable-baselines3) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 围绕 `stable-baselines3` 的专项能力，主要用于构建或评估智能体工作流。 |
+| [`$uncertainty-and-units`](#skill-uncertainty-and-units) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 围绕 `uncertainty-and-units` 的专项能力，主要用于构建检索增强与知识问答系统。 |
 
 ## 详细说明
 
@@ -48,6 +48,8 @@
 ### `$arbor`
 
 - 全局目录：`~/.codex/skills/arbor/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：围绕 `arbor` 的专项能力，主要用于构建或评估智能体工作流。
 - 适合何时使用：用于构建智能体、检索增强系统、评测框架、安全护栏和可观测性。
 - 使用前注意：先核对硬件、依赖版本、运行时间和预算，再启动长任务。 论文、引用和结论必须回到原始来源核验，不要把摘要或模型回答当作最终证据。
@@ -72,6 +74,8 @@ Applies Arbor Hypothesis Tree Refinement to research artifacts with repeatable e
 ### `$auto-review-loop`
 
 - 全局目录：`~/.codex/skills/auto-review-loop/`
+- 所属技能套件：[Auto Claude Code Research in Sleep（ARIS）](../技能套件导航.md#suite-aris)
+- 推荐总入口：`$research-pipeline`
 - 中文理解：围绕 `auto-review-loop` 的专项能力，主要用于构建或评估智能体工作流。
 - 适合何时使用：用于构建智能体、检索增强系统、评测框架、安全护栏和可观测性。
 - 使用前注意：技能说明不代表依赖、模型、数据或凭据已经安装；首次使用先让 Codex 检查环境。
@@ -96,6 +100,8 @@ Autonomous multi-round research review loop. Repeatedly reviews using a secondar
 ### `$autogpt-agents`
 
 - 全局目录：`~/.codex/skills/autogpt/`
+- 所属技能套件：[AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra)
+- 推荐总入口：`$autoresearch`
 - 中文理解：围绕 `autogpt-agents` 的专项能力，主要用于构建或评估智能体工作流，并可组织可复现的科研流程。
 - 适合何时使用：用于构建智能体、检索增强系统、评测框架、安全护栏和可观测性。
 - 使用前注意：可能需要账号、API 凭据、联网权限或付费资源；执行外部写入前先确认。
@@ -122,6 +128,8 @@ Autonomous AI agent platform for building and deploying continuous agents. Use w
 ### `$chroma`
 
 - 全局目录：`~/.codex/skills/chroma/`
+- 所属技能套件：[AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra)
+- 推荐总入口：`$autoresearch`
 - 中文理解：围绕 `chroma` 的专项能力，主要用于构建检索增强与知识问答系统。
 - 适合何时使用：用于构建智能体、检索增强系统、评测框架、安全护栏和可观测性。
 - 使用前注意：可能需要账号、API 凭据、联网权限或付费资源；执行外部写入前先确认。
@@ -148,6 +156,8 @@ Open-source embedding database for AI applications. Store embeddings and metadat
 ### `$constitutional-ai`
 
 - 全局目录：`~/.codex/skills/constitutional-ai/`
+- 所属技能套件：[AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra)
+- 推荐总入口：`$autoresearch`
 - 中文理解：围绕 `constitutional-ai` 的专项能力，主要用于增加内容安全检查与防护。
 - 适合何时使用：用于构建智能体、检索增强系统、评测框架、安全护栏和可观测性。
 - 使用前注意：先核对硬件、依赖版本、运行时间和预算，再启动长任务。
@@ -172,6 +182,8 @@ Anthropic's method for training harmless AI through self-improvement. Two-phase 
 ### `$crewai-multi-agent`
 
 - 全局目录：`~/.codex/skills/crewai/`
+- 所属技能套件：[AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra)
+- 推荐总入口：`$autoresearch`
 - 中文理解：围绕 `crewai-multi-agent` 的专项能力，主要用于构建或评估智能体工作流，并可组织可复现的科研流程。
 - 适合何时使用：用于构建智能体、检索增强系统、评测框架、安全护栏和可观测性。
 - 使用前注意：技能说明不代表依赖、模型、数据或凭据已经安装；首次使用先让 Codex 检查环境。
@@ -198,6 +210,8 @@ Multi-agent orchestration framework for autonomous AI collaboration. Use when bu
 ### `$datalad`
 
 - 全局目录：`~/.codex/skills/datalad/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：围绕 `datalad` 的专项能力，主要用于构建检索增强与知识问答系统。
 - 适合何时使用：用于构建智能体、检索增强系统、评测框架、安全护栏和可观测性。
 - 使用前注意：技能说明不代表依赖、模型、数据或凭据已经安装；首次使用先让 Codex 检查环境。
@@ -224,6 +238,8 @@ Retrieves, versions, and publishes scientific datasets with DataLad and git-anne
 ### `$dspy`
 
 - 全局目录：`~/.codex/skills/dspy/`
+- 所属技能套件：[AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra)
+- 推荐总入口：`$autoresearch`
 - 中文理解：围绕 `dspy` 的专项能力，主要用于构建或评估智能体工作流，并可构建检索增强与知识问答系统。
 - 适合何时使用：用于构建智能体、检索增强系统、评测框架、安全护栏和可观测性。
 - 使用前注意：技能说明不代表依赖、模型、数据或凭据已经安装；首次使用先让 Codex 检查环境。
@@ -250,6 +266,8 @@ Build complex AI systems with declarative programming, optimize prompts automati
 ### `$evaluating-code-models`
 
 - 全局目录：`~/.codex/skills/bigcode-evaluation-harness/`
+- 所属技能套件：[AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra)
+- 推荐总入口：`$autoresearch`
 - 中文理解：这是一个面向“智能体、RAG、安全与评测”的专项技能，用于处理 `evaluating-code-models` 相关任务。
 - 适合何时使用：用于构建智能体、检索增强系统、评测框架、安全护栏和可观测性。
 - 使用前注意：技能说明不代表依赖、模型、数据或凭据已经安装；首次使用先让 Codex 检查环境。
@@ -276,6 +294,8 @@ Evaluates code generation models across HumanEval, MBPP, MultiPL-E, and 15+ benc
 ### `$evaluating-llms-harness`
 
 - 全局目录：`~/.codex/skills/lm-evaluation-harness/`
+- 所属技能套件：[AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra)
+- 推荐总入口：`$autoresearch`
 - 中文理解：这是一个面向“智能体、RAG、安全与评测”的专项技能，用于处理 `evaluating-llms-harness` 相关任务。
 - 适合何时使用：用于构建智能体、检索增强系统、评测框架、安全护栏和可观测性。
 - 使用前注意：可能需要账号、API 凭据、联网权限或付费资源；执行外部写入前先确认。 先核对硬件、依赖版本、运行时间和预算，再启动长任务。
@@ -302,6 +322,8 @@ Evaluates LLMs across 60+ academic benchmarks (MMLU, HumanEval, GSM8K, TruthfulQ
 ### `$evolving-ai-agents`
 
 - 全局目录：`~/.codex/skills/a-evolve/`
+- 所属技能套件：[AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra)
+- 推荐总入口：`$autoresearch`
 - 中文理解：围绕 `evolving-ai-agents` 的专项能力，主要用于构建或评估智能体工作流。
 - 适合何时使用：用于构建智能体、检索增强系统、评测框架、安全护栏和可观测性。
 - 使用前注意：技能说明不代表依赖、模型、数据或凭据已经安装；首次使用先让 Codex 检查环境。
@@ -326,6 +348,8 @@ Provides guidance for automatically evolving and optimizing AI agents across any
 ### `$faiss`
 
 - 全局目录：`~/.codex/skills/faiss/`
+- 所属技能套件：[AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra)
+- 推荐总入口：`$autoresearch`
 - 中文理解：围绕 `faiss` 的专项能力，主要用于完成机器学习建模与评估，并可构建检索增强与知识问答系统。
 - 适合何时使用：用于构建智能体、检索增强系统、评测框架、安全护栏和可观测性。
 - 使用前注意：先核对硬件、依赖版本、运行时间和预算，再启动长任务。
@@ -352,6 +376,8 @@ Facebook's library for efficient similarity search and clustering of dense vecto
 ### `$guidance`
 
 - 全局目录：`~/.codex/skills/guidance/`
+- 所属技能套件：[AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra)
+- 推荐总入口：`$autoresearch`
 - 中文理解：围绕 `guidance` 的专项能力，主要用于组织可复现的科研流程。
 - 适合何时使用：用于构建智能体、检索增强系统、评测框架、安全护栏和可观测性。
 - 使用前注意：技能说明不代表依赖、模型、数据或凭据已经安装；首次使用先让 Codex 检查环境。
@@ -378,6 +404,8 @@ Control LLM output with regex and grammars, guarantee valid JSON/XML/code genera
 ### `$instructor`
 
 - 全局目录：`~/.codex/skills/instructor/`
+- 所属技能套件：[AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra)
+- 推荐总入口：`$autoresearch`
 - 中文理解：围绕 `instructor` 的专项能力，主要用于增加内容安全检查与防护。
 - 适合何时使用：用于构建智能体、检索增强系统、评测框架、安全护栏和可观测性。
 - 使用前注意：技能说明不代表依赖、模型、数据或凭据已经安装；首次使用先让 Codex 检查环境。
@@ -404,6 +432,8 @@ Extract structured data from LLM responses with Pydantic validation, retry faile
 ### `$langchain`
 
 - 全局目录：`~/.codex/skills/langchain/`
+- 所属技能套件：[AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra)
+- 推荐总入口：`$autoresearch`
 - 中文理解：围绕 `langchain` 的专项能力，主要用于构建或评估智能体工作流，并可构建检索增强与知识问答系统。
 - 适合何时使用：用于构建智能体、检索增强系统、评测框架、安全护栏和可观测性。
 - 使用前注意：可能需要账号、API 凭据、联网权限或付费资源；执行外部写入前先确认。
@@ -430,6 +460,8 @@ Framework for building LLM-powered applications with agents, chains, and RAG. Su
 ### `$langsmith-observability`
 
 - 全局目录：`~/.codex/skills/langsmith/`
+- 所属技能套件：[AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra)
+- 推荐总入口：`$autoresearch`
 - 中文理解：围绕 `langsmith-observability` 的专项能力，主要用于追踪、评测和监控 LLM 应用，并可组织可复现的科研流程。
 - 适合何时使用：用于构建智能体、检索增强系统、评测框架、安全护栏和可观测性。
 - 使用前注意：技能说明不代表依赖、模型、数据或凭据已经安装；首次使用先让 Codex 检查环境。
@@ -456,6 +488,8 @@ LLM observability platform for tracing, evaluation, and monitoring. Use when deb
 ### `$llamaguard`
 
 - 全局目录：`~/.codex/skills/llamaguard/`
+- 所属技能套件：[AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra)
+- 推荐总入口：`$autoresearch`
 - 中文理解：围绕 `llamaguard` 的专项能力，主要用于增加内容安全检查与防护。
 - 适合何时使用：用于构建智能体、检索增强系统、评测框架、安全护栏和可观测性。
 - 使用前注意：可能需要账号、API 凭据、联网权限或付费资源；执行外部写入前先确认。
@@ -480,6 +514,8 @@ Meta's 7-8B specialized moderation model for LLM input/output filtering. 6 safet
 ### `$llamaindex`
 
 - 全局目录：`~/.codex/skills/llamaindex/`
+- 所属技能套件：[AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra)
+- 推荐总入口：`$autoresearch`
 - 中文理解：围绕 `llamaindex` 的专项能力，主要用于构建或评估智能体工作流，并可构建检索增强与知识问答系统。
 - 适合何时使用：用于构建智能体、检索增强系统、评测框架、安全护栏和可观测性。
 - 使用前注意：技能说明不代表依赖、模型、数据或凭据已经安装；首次使用先让 Codex 检查环境。
@@ -506,6 +542,8 @@ Data framework for building LLM applications with RAG. Specializes in document i
 ### `$nemo-evaluator-sdk`
 
 - 全局目录：`~/.codex/skills/nemo-evaluator/`
+- 所属技能套件：[AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra)
+- 推荐总入口：`$autoresearch`
 - 中文理解：围绕 `nemo-evaluator-sdk` 的专项能力，主要用于增加内容安全检查与防护。
 - 适合何时使用：用于构建智能体、检索增强系统、评测框架、安全护栏和可观测性。
 - 使用前注意：可能需要账号、API 凭据、联网权限或付费资源；执行外部写入前先确认。
@@ -532,6 +570,8 @@ Evaluates LLMs across 100+ benchmarks from 18+ harnesses (MMLU, HumanEval, GSM8K
 ### `$nemo-guardrails`
 
 - 全局目录：`~/.codex/skills/nemo-guardrails/`
+- 所属技能套件：[AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra)
+- 推荐总入口：`$autoresearch`
 - 中文理解：围绕 `nemo-guardrails` 的专项能力，主要用于增加内容安全检查与防护。
 - 适合何时使用：用于构建智能体、检索增强系统、评测框架、安全护栏和可观测性。
 - 使用前注意：先核对硬件、依赖版本、运行时间和预算，再启动长任务。
@@ -558,6 +598,8 @@ NVIDIA's runtime safety framework for LLM applications. Features jailbreak detec
 ### `$outlines`
 
 - 全局目录：`~/.codex/skills/outlines/`
+- 所属技能套件：[AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra)
+- 推荐总入口：`$autoresearch`
 - 中文理解：这是一个面向“智能体、RAG、安全与评测”的专项技能，用于处理 `outlines` 相关任务。
 - 适合何时使用：用于构建智能体、检索增强系统、评测框架、安全护栏和可观测性。
 - 使用前注意：技能说明不代表依赖、模型、数据或凭据已经安装；首次使用先让 Codex 检查环境。
@@ -584,6 +626,8 @@ Guarantee valid JSON/XML/code structure during generation, use Pydantic models f
 ### `$pathml`
 
 - 全局目录：`~/.codex/skills/pathml/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：围绕 `pathml` 的专项能力，主要用于构建检索增强与知识问答系统，并可组织可复现的科研流程。
 - 适合何时使用：用于构建智能体、检索增强系统、评测框架、安全护栏和可观测性。
 - 使用前注意：技能说明不代表依赖、模型、数据或凭据已经安装；首次使用先让 Codex 检查环境。
@@ -610,6 +654,8 @@ Supports local computational pathology research with PathML: slide loading and t
 ### `$phoenix-observability`
 
 - 全局目录：`~/.codex/skills/phoenix/`
+- 所属技能套件：[AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra)
+- 推荐总入口：`$autoresearch`
 - 中文理解：围绕 `phoenix-observability` 的专项能力，主要用于追踪、评测和监控 LLM 应用。
 - 适合何时使用：用于构建智能体、检索增强系统、评测框架、安全护栏和可观测性。
 - 使用前注意：技能说明不代表依赖、模型、数据或凭据已经安装；首次使用先让 Codex 检查环境。
@@ -636,6 +682,8 @@ Open-source AI observability platform for LLM tracing, evaluation, and monitorin
 ### `$pi-agent`
 
 - 全局目录：`~/.codex/skills/pi-agent/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：围绕 `pi-agent` 的专项能力，主要用于构建或评估智能体工作流。
 - 适合何时使用：用于构建智能体、检索增强系统、评测框架、安全护栏和可观测性。
 - 使用前注意：可能需要账号、API 凭据、联网权限或付费资源；执行外部写入前先确认。
@@ -662,6 +710,8 @@ Builds with and operates Pi, the minimal terminal coding harness. Use for instal
 ### `$pinecone`
 
 - 全局目录：`~/.codex/skills/pinecone/`
+- 所属技能套件：[AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra)
+- 推荐总入口：`$autoresearch`
 - 中文理解：围绕 `pinecone` 的专项能力，主要用于构建检索增强与知识问答系统，并可构建向量检索与相似度搜索。
 - 适合何时使用：用于构建智能体、检索增强系统、评测框架、安全护栏和可观测性。
 - 使用前注意：技能说明不代表依赖、模型、数据或凭据已经安装；首次使用先让 Codex 检查环境。
@@ -686,6 +736,8 @@ Managed vector database for production AI applications. Fully managed, auto-scal
 ### `$prompt-guard`
 
 - 全局目录：`~/.codex/skills/prompt-guard/`
+- 所属技能套件：[AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra)
+- 推荐总入口：`$autoresearch`
 - 中文理解：围绕 `prompt-guard` 的专项能力，主要用于构建检索增强与知识问答系统。
 - 适合何时使用：用于构建智能体、检索增强系统、评测框架、安全护栏和可观测性。
 - 使用前注意：可能需要账号、API 凭据、联网权限或付费资源；执行外部写入前先确认。 先核对硬件、依赖版本、运行时间和预算，再启动长任务。
@@ -712,6 +764,8 @@ Meta's 86M prompt injection and jailbreak detector. Filters malicious prompts an
 ### `$proof-checker`
 
 - 全局目录：`~/.codex/skills/proof-checker/`
+- 所属技能套件：[Auto Claude Code Research in Sleep（ARIS）](../技能套件导航.md#suite-aris)
+- 推荐总入口：`$research-pipeline`
 - 中文理解：围绕 `proof-checker` 的专项能力，主要用于构建或评估智能体工作流，并可组织可复现的科研流程。
 - 适合何时使用：用于构建智能体、检索增强系统、评测框架、安全护栏和可观测性。
 - 使用前注意：论文、引用和结论必须回到原始来源核验，不要把摘要或模型回答当作最终证据。
@@ -736,6 +790,8 @@ Rigorous mathematical proof verification and fixing workflow. Reads a LaTeX proo
 ### `$qdrant-vector-search`
 
 - 全局目录：`~/.codex/skills/qdrant/`
+- 所属技能套件：[AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra)
+- 推荐总入口：`$autoresearch`
 - 中文理解：围绕 `qdrant-vector-search` 的专项能力，主要用于构建检索增强与知识问答系统，并可构建向量检索与相似度搜索。
 - 适合何时使用：用于构建智能体、检索增强系统、评测框架、安全护栏和可观测性。
 - 使用前注意：技能说明不代表依赖、模型、数据或凭据已经安装；首次使用先让 Codex 检查环境。
@@ -762,6 +818,8 @@ High-performance vector similarity search engine for RAG and semantic search. Us
 ### `$research-review`
 
 - 全局目录：`~/.codex/skills/research-review/`
+- 所属技能套件：[Auto Claude Code Research in Sleep（ARIS）](../技能套件导航.md#suite-aris)
+- 推荐总入口：`$research-pipeline`
 - 中文理解：围绕 `research-review` 的专项能力，主要用于构建或评估智能体工作流。
 - 适合何时使用：用于构建智能体、检索增强系统、评测框架、安全护栏和可观测性。
 - 使用前注意：论文、引用和结论必须回到原始来源核验，不要把摘要或模型回答当作最终证据。
@@ -786,6 +844,8 @@ Get a deep critical review of research from GPT using a secondary Codex agent. U
 ### `$result-to-claim`
 
 - 全局目录：`~/.codex/skills/result-to-claim/`
+- 所属技能套件：[Auto Claude Code Research in Sleep（ARIS）](../技能套件导航.md#suite-aris)
+- 推荐总入口：`$research-pipeline`
 - 中文理解：围绕 `result-to-claim` 的专项能力，主要用于构建或评估智能体工作流。
 - 适合何时使用：用于构建智能体、检索增强系统、评测框架、安全护栏和可观测性。
 - 使用前注意：论文、引用和结论必须回到原始来源核验，不要把摘要或模型回答当作最终证据。
@@ -810,6 +870,8 @@ Use when experiments complete to judge what claims the results support, what the
 ### `$sentence-transformers`
 
 - 全局目录：`~/.codex/skills/sentence-transformers/`
+- 所属技能套件：[AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra)
+- 推荐总入口：`$autoresearch`
 - 中文理解：围绕 `sentence-transformers` 的专项能力，主要用于完成机器学习建模与评估，并可构建检索增强与知识问答系统。
 - 适合何时使用：用于构建智能体、检索增强系统、评测框架、安全护栏和可观测性。
 - 使用前注意：技能说明不代表依赖、模型、数据或凭据已经安装；首次使用先让 Codex 检查环境。
@@ -836,6 +898,8 @@ Framework for state-of-the-art sentence, text, and image embeddings. Provides 50
 ### `$stable-baselines3`
 
 - 全局目录：`~/.codex/skills/stable-baselines3/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：围绕 `stable-baselines3` 的专项能力，主要用于构建或评估智能体工作流。
 - 适合何时使用：用于构建智能体、检索增强系统、评测框架、安全护栏和可观测性。
 - 使用前注意：技能说明不代表依赖、模型、数据或凭据已经安装；首次使用先让 Codex 检查环境。
@@ -862,6 +926,8 @@ Trains and evaluates single-agent reinforcement learning with Stable Baselines3 
 ### `$uncertainty-and-units`
 
 - 全局目录：`~/.codex/skills/uncertainty-and-units/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：围绕 `uncertainty-and-units` 的专项能力，主要用于构建检索增强与知识问答系统。
 - 适合何时使用：用于构建智能体、检索增强系统、评测框架、安全护栏和可观测性。
 - 使用前注意：技能说明不代表依赖、模型、数据或凭据已经安装；首次使用先让 Codex 检查环境。

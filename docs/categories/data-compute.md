@@ -6,33 +6,33 @@
 
 ## 本页索引
 
-| Skill | 一句话理解 |
-| --- | --- |
-| [`$dask`](#skill-dask) | 围绕 `dask` 的专项能力，主要用于组织可复现的科研流程。 |
-| [`$database-lookup`](#skill-database-lookup) | 围绕 `database-lookup` 的专项能力，主要用于处理科研文档与结构化内容。 |
-| [`$experiment-tracking-swanlab`](#skill-swanlab) | 围绕 `experiment-tracking-swanlab` 的专项能力，主要用于组织可复现的科研流程。 |
-| [`$hatch-pet`](#skill-hatch-pet) | 围绕 `hatch-pet` 的专项能力，主要用于组织可复现的科研流程。 |
-| [`$lambda-labs-gpu-cloud`](#skill-lambda-labs) | 围绕 `lambda-labs-gpu-cloud` 的专项能力，主要用于使用云端或 GPU 计算资源。 |
-| [`$matlab`](#skill-matlab) | 围绕 `matlab` 的专项能力，主要用于组织可复现的科研流程。 |
-| [`$mlflow`](#skill-mlflow) | 这是一个面向“数据工程、计算与云平台”的专项技能，用于处理 `mlflow` 相关任务。 |
-| [`$modal`](#skill-modal) | 围绕 `modal` 的专项能力，主要用于使用云端或 GPU 计算资源。 |
-| [`$nature-shared`](#skill-nature-shared) | 围绕 `nature-shared` 的专项能力，主要用于组织可复现的科研流程。 |
-| [`$nemo-curator`](#skill-nemo-curator) | 围绕 `nemo-curator` 的专项能力，主要用于使用云端或 GPU 计算资源。 |
-| [`$nextflow`](#skill-nextflow) | 围绕 `nextflow` 的专项能力，主要用于组织可复现的科研流程，并可使用云端或 GPU 计算资源。 |
-| [`$overleaf-sync`](#skill-overleaf-sync) | 围绕 `overleaf-sync` 的专项能力，主要用于组织可复现的科研流程。 |
-| [`$parallel-web`](#skill-parallel-web) | 这是一个面向“数据工程、计算与云平台”的专项技能，用于处理 `parallel-web` 相关任务。 |
-| [`$polars`](#skill-polars) | 围绕 `polars` 的专项能力，主要用于使用云端或 GPU 计算资源。 |
-| [`$pytdc`](#skill-pytdc) | 围绕 `pytdc` 的专项能力，主要用于组织可复现的科研流程。 |
-| [`$qutip`](#skill-qutip) | 围绕 `qutip` 的专项能力，主要用于组织可复现的科研流程。 |
-| [`$qzcli`](#skill-qzcli) | Manage GPU compute jobs on the Qizhi (启智) platform using qzcli — a kubectl-style CLI tool. |
-| [`$ray-data`](#skill-ray-data) | 围绕 `ray-data` 的专项能力，主要用于组织可复现的科研流程，并可使用云端或 GPU 计算资源。 |
-| [`$resubmit-pipeline`](#skill-resubmit-pipeline) | 围绕 `resubmit-pipeline` 的专项能力，主要用于组织可复现的科研流程。 |
-| [`$serverless-modal`](#skill-serverless-modal) | 围绕 `serverless-modal` 的专项能力，主要用于使用云端或 GPU 计算资源。 |
-| [`$skypilot-multi-cloud-orchestration`](#skill-skypilot) | 围绕 `skypilot-multi-cloud-orchestration` 的专项能力，主要用于使用云端或 GPU 计算资源。 |
-| [`$tensorboard`](#skill-tensorboard) | 这是一个面向“数据工程、计算与云平台”的专项技能，用于处理 `tensorboard` 相关任务。 |
-| [`$vaex`](#skill-vaex) | 这是一个面向“数据工程、计算与云平台”的专项技能，用于处理 `vaex` 相关任务。 |
-| [`$weights-and-biases`](#skill-weights-and-biases) | 这是一个面向“数据工程、计算与云平台”的专项技能，用于处理 `weights-and-biases` 相关任务。 |
-| [`$zarr-python`](#skill-zarr-python) | 这是一个面向“数据工程、计算与云平台”的专项技能，用于处理 `zarr-python` 相关任务。 |
+| Skill | 所属技能套件 | 一句话理解 |
+| --- | --- | --- |
+| [`$dask`](#skill-dask) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 围绕 `dask` 的专项能力，主要用于组织可复现的科研流程。 |
+| [`$database-lookup`](#skill-database-lookup) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 围绕 `database-lookup` 的专项能力，主要用于处理科研文档与结构化内容。 |
+| [`$experiment-tracking-swanlab`](#skill-swanlab) | [AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra) | 围绕 `experiment-tracking-swanlab` 的专项能力，主要用于组织可复现的科研流程。 |
+| [`$hatch-pet`](#skill-hatch-pet) | [独立或暂未归入大型套件](../技能套件导航.md#suite-standalone) | 围绕 `hatch-pet` 的专项能力，主要用于组织可复现的科研流程。 |
+| [`$lambda-labs-gpu-cloud`](#skill-lambda-labs) | [AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra) | 围绕 `lambda-labs-gpu-cloud` 的专项能力，主要用于使用云端或 GPU 计算资源。 |
+| [`$matlab`](#skill-matlab) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 围绕 `matlab` 的专项能力，主要用于组织可复现的科研流程。 |
+| [`$mlflow`](#skill-mlflow) | [AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra) | 这是一个面向“数据工程、计算与云平台”的专项技能，用于处理 `mlflow` 相关任务。 |
+| [`$modal`](#skill-modal) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 围绕 `modal` 的专项能力，主要用于使用云端或 GPU 计算资源。 |
+| [`$nature-shared`](#skill-nature-shared) | [Nature Research Skills](../技能套件导航.md#suite-nature) | 围绕 `nature-shared` 的专项能力，主要用于组织可复现的科研流程。 |
+| [`$nemo-curator`](#skill-nemo-curator) | [AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra) | 围绕 `nemo-curator` 的专项能力，主要用于使用云端或 GPU 计算资源。 |
+| [`$nextflow`](#skill-nextflow) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 围绕 `nextflow` 的专项能力，主要用于组织可复现的科研流程，并可使用云端或 GPU 计算资源。 |
+| [`$overleaf-sync`](#skill-overleaf-sync) | [Auto Claude Code Research in Sleep（ARIS）](../技能套件导航.md#suite-aris) | 围绕 `overleaf-sync` 的专项能力，主要用于组织可复现的科研流程。 |
+| [`$parallel-web`](#skill-parallel-web) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 这是一个面向“数据工程、计算与云平台”的专项技能，用于处理 `parallel-web` 相关任务。 |
+| [`$polars`](#skill-polars) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 围绕 `polars` 的专项能力，主要用于使用云端或 GPU 计算资源。 |
+| [`$pytdc`](#skill-pytdc) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 围绕 `pytdc` 的专项能力，主要用于组织可复现的科研流程。 |
+| [`$qutip`](#skill-qutip) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 围绕 `qutip` 的专项能力，主要用于组织可复现的科研流程。 |
+| [`$qzcli`](#skill-qzcli) | [Auto Claude Code Research in Sleep（ARIS）](../技能套件导航.md#suite-aris) | 围绕 `qzcli` 的专项能力，主要用于使用云端或 GPU 计算资源。 |
+| [`$ray-data`](#skill-ray-data) | [AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra) | 围绕 `ray-data` 的专项能力，主要用于组织可复现的科研流程，并可使用云端或 GPU 计算资源。 |
+| [`$resubmit-pipeline`](#skill-resubmit-pipeline) | [Auto Claude Code Research in Sleep（ARIS）](../技能套件导航.md#suite-aris) | 围绕 `resubmit-pipeline` 的专项能力，主要用于组织可复现的科研流程。 |
+| [`$serverless-modal`](#skill-serverless-modal) | [Auto Claude Code Research in Sleep（ARIS）](../技能套件导航.md#suite-aris) | 围绕 `serverless-modal` 的专项能力，主要用于使用云端或 GPU 计算资源。 |
+| [`$skypilot-multi-cloud-orchestration`](#skill-skypilot) | [AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra) | 围绕 `skypilot-multi-cloud-orchestration` 的专项能力，主要用于使用云端或 GPU 计算资源。 |
+| [`$tensorboard`](#skill-tensorboard) | [AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra) | 这是一个面向“数据工程、计算与云平台”的专项技能，用于处理 `tensorboard` 相关任务。 |
+| [`$vaex`](#skill-vaex) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 这是一个面向“数据工程、计算与云平台”的专项技能，用于处理 `vaex` 相关任务。 |
+| [`$weights-and-biases`](#skill-weights-and-biases) | [AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra) | 这是一个面向“数据工程、计算与云平台”的专项技能，用于处理 `weights-and-biases` 相关任务。 |
+| [`$zarr-python`](#skill-zarr-python) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 这是一个面向“数据工程、计算与云平台”的专项技能，用于处理 `zarr-python` 相关任务。 |
 
 ## 详细说明
 
@@ -40,6 +40,8 @@
 ### `$dask`
 
 - 全局目录：`~/.codex/skills/dask/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：围绕 `dask` 的专项能力，主要用于组织可复现的科研流程。
 - 适合何时使用：处理数据格式、并行计算、工作流编排、GPU 云和科研计算基础设施。
 - 使用前注意：医学输出仅用于科研和信息整理，不能替代临床判断。
@@ -64,6 +66,8 @@ Scales pandas, NumPy, and custom Python research workflows beyond memory or acro
 ### `$database-lookup`
 
 - 全局目录：`~/.codex/skills/database-lookup/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：围绕 `database-lookup` 的专项能力，主要用于处理科研文档与结构化内容。
 - 适合何时使用：处理数据格式、并行计算、工作流编排、GPU 云和科研计算基础设施。
 - 使用前注意：可能需要账号、API 凭据、联网权限或付费资源；执行外部写入前先确认。
@@ -88,6 +92,8 @@ Queries documented public database APIs with explicit endpoints, filters, pagina
 ### `$experiment-tracking-swanlab`
 
 - 全局目录：`~/.codex/skills/swanlab/`
+- 所属技能套件：[AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra)
+- 推荐总入口：`$autoresearch`
 - 中文理解：围绕 `experiment-tracking-swanlab` 的专项能力，主要用于组织可复现的科研流程。
 - 适合何时使用：处理数据格式、并行计算、工作流编排、GPU 云和科研计算基础设施。
 - 使用前注意：技能说明不代表依赖、模型、数据或凭据已经安装；首次使用先让 Codex 检查环境。
@@ -114,6 +120,8 @@ Provides guidance for experiment tracking with SwanLab. Use when you need open-s
 ### `$hatch-pet`
 
 - 全局目录：`~/.codex/skills/hatch-pet/`
+- 所属技能套件：[独立或暂未归入大型套件](../技能套件导航.md#suite-standalone)
+- 推荐总入口：直接调用当前小 skill
 - 中文理解：围绕 `hatch-pet` 的专项能力，主要用于组织可复现的科研流程。
 - 适合何时使用：处理数据格式、并行计算、工作流编排、GPU 云和科研计算基础设施。
 - 使用前注意：技能说明不代表依赖、模型、数据或凭据已经安装；首次使用先让 Codex 检查环境。
@@ -138,6 +146,8 @@ Create, repair, validate, visually QA, and package Codex-compatible v2 animated 
 ### `$lambda-labs-gpu-cloud`
 
 - 全局目录：`~/.codex/skills/lambda-labs/`
+- 所属技能套件：[AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra)
+- 推荐总入口：`$autoresearch`
 - 中文理解：围绕 `lambda-labs-gpu-cloud` 的专项能力，主要用于使用云端或 GPU 计算资源。
 - 适合何时使用：处理数据格式、并行计算、工作流编排、GPU 云和科研计算基础设施。
 - 使用前注意：可能需要账号、API 凭据、联网权限或付费资源；执行外部写入前先确认。 先核对硬件、依赖版本、运行时间和预算，再启动长任务。
@@ -164,6 +174,8 @@ Reserved and on-demand GPU cloud instances for ML training and inference. Use wh
 ### `$matlab`
 
 - 全局目录：`~/.codex/skills/matlab/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：围绕 `matlab` 的专项能力，主要用于组织可复现的科研流程。
 - 适合何时使用：处理数据格式、并行计算、工作流编排、GPU 云和科研计算基础设施。
 - 使用前注意：技能说明不代表依赖、模型、数据或凭据已经安装；首次使用先让 Codex 检查环境。
@@ -188,6 +200,8 @@ Builds, reviews, migrates, and plans MATLAB or GNU Octave numerical workflows. U
 ### `$mlflow`
 
 - 全局目录：`~/.codex/skills/mlflow/`
+- 所属技能套件：[AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra)
+- 推荐总入口：`$autoresearch`
 - 中文理解：这是一个面向“数据工程、计算与云平台”的专项技能，用于处理 `mlflow` 相关任务。
 - 适合何时使用：处理数据格式、并行计算、工作流编排、GPU 云和科研计算基础设施。
 - 使用前注意：可能需要账号、API 凭据、联网权限或付费资源；执行外部写入前先确认。
@@ -214,6 +228,8 @@ Track ML experiments, manage model registry with versioning, deploy models to pr
 ### `$modal`
 
 - 全局目录：`~/.codex/skills/modal/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：围绕 `modal` 的专项能力，主要用于使用云端或 GPU 计算资源。
 - 适合何时使用：处理数据格式、并行计算、工作流编排、GPU 云和科研计算基础设施。
 - 使用前注意：可能需要账号、API 凭据、联网权限或付费资源；执行外部写入前先确认。 先核对硬件、依赖版本、运行时间和预算，再启动长任务。
@@ -238,6 +254,8 @@ Modal is a serverless cloud platform for running Python on demand, including on-
 ### `$nature-shared`
 
 - 全局目录：`~/.codex/skills/nature-shared/`
+- 所属技能套件：[Nature Research Skills](../技能套件导航.md#suite-nature)
+- 推荐总入口：按任务直接调用对应的 $nature-* skill
 - 中文理解：围绕 `nature-shared` 的专项能力，主要用于组织可复现的科研流程。
 - 适合何时使用：处理数据格式、并行计算、工作流编排、GPU 云和科研计算基础设施。
 - 使用前注意：论文、引用和结论必须回到原始来源核验，不要把摘要或模型回答当作最终证据。
@@ -262,6 +280,8 @@ Internal shared-reference support package for installed Nature Skills, including
 ### `$nemo-curator`
 
 - 全局目录：`~/.codex/skills/nemo-curator/`
+- 所属技能套件：[AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra)
+- 推荐总入口：`$autoresearch`
 - 中文理解：围绕 `nemo-curator` 的专项能力，主要用于使用云端或 GPU 计算资源。
 - 适合何时使用：处理数据格式、并行计算、工作流编排、GPU 云和科研计算基础设施。
 - 使用前注意：可能需要账号、API 凭据、联网权限或付费资源；执行外部写入前先确认。 先核对硬件、依赖版本、运行时间和预算，再启动长任务。
@@ -288,6 +308,8 @@ GPU-accelerated data curation for LLM training. Supports text/image/video/audio.
 ### `$nextflow`
 
 - 全局目录：`~/.codex/skills/nextflow/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：围绕 `nextflow` 的专项能力，主要用于组织可复现的科研流程，并可使用云端或 GPU 计算资源。
 - 适合何时使用：处理数据格式、并行计算、工作流编排、GPU 云和科研计算基础设施。
 - 使用前注意：可能需要账号、API 凭据、联网权限或付费资源；执行外部写入前先确认。
@@ -314,6 +336,8 @@ Builds, runs, and debugs Nextflow DSL2 pipelines and nf-core workflows. Use for 
 ### `$overleaf-sync`
 
 - 全局目录：`~/.codex/skills/overleaf-sync/`
+- 所属技能套件：[Auto Claude Code Research in Sleep（ARIS）](../技能套件导航.md#suite-aris)
+- 推荐总入口：`$research-pipeline`
 - 中文理解：围绕 `overleaf-sync` 的专项能力，主要用于组织可复现的科研流程。
 - 适合何时使用：处理数据格式、并行计算、工作流编排、GPU 云和科研计算基础设施。
 - 使用前注意：论文、引用和结论必须回到原始来源核验，不要把摘要或模型回答当作最终证据。
@@ -338,6 +362,8 @@ Two-way sync between a local paper directory and an Overleaf project, so ARIS au
 ### `$parallel-web`
 
 - 全局目录：`~/.codex/skills/parallel-web/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：这是一个面向“数据工程、计算与云平台”的专项技能，用于处理 `parallel-web` 相关任务。
 - 适合何时使用：处理数据格式、并行计算、工作流编排、GPU 云和科研计算基础设施。
 - 使用前注意：论文、引用和结论必须回到原始来源核验，不要把摘要或模型回答当作最终证据。
@@ -362,6 +388,8 @@ Uses Parallel CLI for web search, URL extraction, deep research, structured data
 ### `$polars`
 
 - 全局目录：`~/.codex/skills/polars/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：围绕 `polars` 的专项能力，主要用于使用云端或 GPU 计算资源。
 - 适合何时使用：处理数据格式、并行计算、工作流编排、GPU 云和科研计算基础设施。
 - 使用前注意：先核对硬件、依赖版本、运行时间和预算，再启动长任务。
@@ -388,6 +416,8 @@ High-performance DataFrame library for Python ETL, analytics, and pandas migrati
 ### `$pytdc`
 
 - 全局目录：`~/.codex/skills/pytdc/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：围绕 `pytdc` 的专项能力，主要用于组织可复现的科研流程。
 - 适合何时使用：处理数据格式、并行计算、工作流编排、GPU 云和科研计算基础设施。
 - 使用前注意：技能说明不代表依赖、模型、数据或凭据已经安装；首次使用先让 Codex 检查环境。
@@ -412,6 +442,8 @@ Provides Therapeutics Data Commons workflows through PyTDC for registry discover
 ### `$qutip`
 
 - 全局目录：`~/.codex/skills/qutip/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：围绕 `qutip` 的专项能力，主要用于组织可复现的科研流程。
 - 适合何时使用：处理数据格式、并行计算、工作流编排、GPU 云和科研计算基础设施。
 - 使用前注意：技能说明不代表依赖、模型、数据或凭据已经安装；首次使用先让 Codex 检查环境。
@@ -438,7 +470,9 @@ Simulate and audit closed and open quantum-system models with QuTiP 5, including
 ### `$qzcli`
 
 - 全局目录：`~/.codex/skills/qzcli/`
-- 中文理解：Manage GPU compute jobs on the Qizhi (启智) platform using qzcli — a kubectl-style CLI tool.
+- 所属技能套件：[Auto Claude Code Research in Sleep（ARIS）](../技能套件导航.md#suite-aris)
+- 推荐总入口：`$research-pipeline`
+- 中文理解：围绕 `qzcli` 的专项能力，主要用于使用云端或 GPU 计算资源。
 - 适合何时使用：处理数据格式、并行计算、工作流编排、GPU 云和科研计算基础设施。
 - 使用前注意：可能需要账号、API 凭据、联网权限或付费资源；执行外部写入前先确认。 先核对硬件、依赖版本、运行时间和预算，再启动长任务。
 
@@ -464,6 +498,8 @@ Manage GPU compute jobs on the Qizhi (启智) platform using qzcli — a kubectl
 ### `$ray-data`
 
 - 全局目录：`~/.codex/skills/ray-data/`
+- 所属技能套件：[AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra)
+- 推荐总入口：`$autoresearch`
 - 中文理解：围绕 `ray-data` 的专项能力，主要用于组织可复现的科研流程，并可使用云端或 GPU 计算资源。
 - 适合何时使用：处理数据格式、并行计算、工作流编排、GPU 云和科研计算基础设施。
 - 使用前注意：先核对硬件、依赖版本、运行时间和预算，再启动长任务。
@@ -490,6 +526,8 @@ Scalable data processing for ML workloads. Streaming execution across CPU/GPU, s
 ### `$resubmit-pipeline`
 
 - 全局目录：`~/.codex/skills/resubmit-pipeline/`
+- 所属技能套件：[Auto Claude Code Research in Sleep（ARIS）](../技能套件导航.md#suite-aris)
+- 推荐总入口：`$research-pipeline`
 - 中文理解：围绕 `resubmit-pipeline` 的专项能力，主要用于组织可复现的科研流程。
 - 适合何时使用：处理数据格式、并行计算、工作流编排、GPU 云和科研计算基础设施。
 - 使用前注意：可能需要账号、API 凭据、联网权限或付费资源；执行外部写入前先确认。 论文、引用和结论必须回到原始来源核验，不要把摘要或模型回答当作最终证据。
@@ -514,6 +552,8 @@ Workflow 5: orchestrate a text-only resubmit of a polished paper to a different 
 ### `$serverless-modal`
 
 - 全局目录：`~/.codex/skills/serverless-modal/`
+- 所属技能套件：[Auto Claude Code Research in Sleep（ARIS）](../技能套件导航.md#suite-aris)
+- 推荐总入口：`$research-pipeline`
 - 中文理解：围绕 `serverless-modal` 的专项能力，主要用于使用云端或 GPU 计算资源。
 - 适合何时使用：处理数据格式、并行计算、工作流编排、GPU 云和科研计算基础设施。
 - 使用前注意：可能需要账号、API 凭据、联网权限或付费资源；执行外部写入前先确认。 先核对硬件、依赖版本、运行时间和预算，再启动长任务。
@@ -538,6 +578,8 @@ Run GPU workloads on Modal — training, fine-tuning, inference, batch processin
 ### `$skypilot-multi-cloud-orchestration`
 
 - 全局目录：`~/.codex/skills/skypilot/`
+- 所属技能套件：[AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra)
+- 推荐总入口：`$autoresearch`
 - 中文理解：围绕 `skypilot-multi-cloud-orchestration` 的专项能力，主要用于使用云端或 GPU 计算资源。
 - 适合何时使用：处理数据格式、并行计算、工作流编排、GPU 云和科研计算基础设施。
 - 使用前注意：可能需要账号、API 凭据、联网权限或付费资源；执行外部写入前先确认。 先核对硬件、依赖版本、运行时间和预算，再启动长任务。
@@ -564,6 +606,8 @@ Multi-cloud orchestration for ML workloads with automatic cost optimization. Use
 ### `$tensorboard`
 
 - 全局目录：`~/.codex/skills/tensorboard/`
+- 所属技能套件：[AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra)
+- 推荐总入口：`$autoresearch`
 - 中文理解：这是一个面向“数据工程、计算与云平台”的专项技能，用于处理 `tensorboard` 相关任务。
 - 适合何时使用：处理数据格式、并行计算、工作流编排、GPU 云和科研计算基础设施。
 - 使用前注意：先核对硬件、依赖版本、运行时间和预算，再启动长任务。
@@ -590,6 +634,8 @@ Visualize training metrics, debug models with histograms, compare experiments, v
 ### `$vaex`
 
 - 全局目录：`~/.codex/skills/vaex/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：这是一个面向“数据工程、计算与云平台”的专项技能，用于处理 `vaex` 相关任务。
 - 适合何时使用：处理数据格式、并行计算、工作流编排、GPU 云和科研计算基础设施。
 - 使用前注意：技能说明不代表依赖、模型、数据或凭据已经安装；首次使用先让 Codex 检查环境。
@@ -614,6 +660,8 @@ Processes large tabular scientific datasets with Vaex expressions, filtered view
 ### `$weights-and-biases`
 
 - 全局目录：`~/.codex/skills/weights-and-biases/`
+- 所属技能套件：[AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra)
+- 推荐总入口：`$autoresearch`
 - 中文理解：这是一个面向“数据工程、计算与云平台”的专项技能，用于处理 `weights-and-biases` 相关任务。
 - 适合何时使用：处理数据格式、并行计算、工作流编排、GPU 云和科研计算基础设施。
 - 使用前注意：先核对硬件、依赖版本、运行时间和预算，再启动长任务。
@@ -640,6 +688,8 @@ Track ML experiments with automatic logging, visualize training in real-time, op
 ### `$zarr-python`
 
 - 全局目录：`~/.codex/skills/zarr-python/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：这是一个面向“数据工程、计算与云平台”的专项技能，用于处理 `zarr-python` 相关任务。
 - 适合何时使用：处理数据格式、并行计算、工作流编排、GPU 云和科研计算基础设施。
 - 使用前注意：技能说明不代表依赖、模型、数据或凭据已经安装；首次使用先让 Codex 检查环境。

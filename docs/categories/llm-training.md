@@ -6,68 +6,68 @@
 
 ## 本页索引
 
-| Skill | 一句话理解 |
-| --- | --- |
-| [`$audiocraft-audio-generation`](#skill-audiocraft) | 围绕 `audiocraft-audio-generation` 的专项能力，主要用于生成音乐、语音或音效。 |
-| [`$awq-quantization`](#skill-awq) | 围绕 `awq-quantization` 的专项能力，主要用于分析模型内部机制与可解释性，并可部署模型并优化推理。 |
-| [`$axolotl`](#skill-axolotl) | 围绕 `axolotl` 的专项能力，主要用于配置和执行模型微调，并可进行模型后训练或强化学习。 |
-| [`$blip-2-vision-language`](#skill-blip-2) | 围绕 `blip-2-vision-language` 的专项能力，主要用于处理图像与文本的多模态任务。 |
-| [`$clip`](#skill-clip) | 围绕 `clip` 的专项能力，主要用于完成机器学习建模与评估，并可配置和执行模型微调。 |
-| [`$deepspeed`](#skill-deepspeed) | 围绕 `deepspeed` 的专项能力，主要用于配置分布式或多 GPU 训练。 |
-| [`$dhdna-profiler`](#skill-dhdna-profiler) | 围绕 `dhdna-profiler` 的专项能力，主要用于配置和执行模型微调。 |
-| [`$distributed-llm-pretraining-torchtitan`](#skill-torchtitan) | 围绕 `distributed-llm-pretraining-torchtitan` 的专项能力，主要用于配置分布式或多 GPU 训练，并可使用云端或 GPU 计算资源。 |
-| [`$dse-loop`](#skill-dse-loop) | 围绕 `dse-loop` 的专项能力，主要用于配置和执行模型微调。 |
-| [`$evaluating-cosmos-policy`](#skill-cosmos-policy) | 围绕 `evaluating-cosmos-policy` 的专项能力，主要用于部署模型并优化推理，并可使用云端或 GPU 计算资源。 |
-| [`$fine-tuning-openvla-oft`](#skill-openvla-oft) | 围绕 `fine-tuning-openvla-oft` 的专项能力，主要用于配置和执行模型微调，并可部署模型并优化推理。 |
-| [`$fine-tuning-serving-openpi`](#skill-openpi) | 围绕 `fine-tuning-serving-openpi` 的专项能力，主要用于配置和执行模型微调，并可部署模型并优化推理。 |
-| [`$fine-tuning-with-trl`](#skill-trl-fine-tuning) | 围绕 `fine-tuning-with-trl` 的专项能力，主要用于配置和执行模型微调，并可进行模型后训练或强化学习。 |
-| [`$gguf-quantization`](#skill-gguf) | 围绕 `gguf-quantization` 的专项能力，主要用于部署模型并优化推理，并可压缩模型并优化推理资源。 |
-| [`$gptq`](#skill-gptq) | 围绕 `gptq` 的专项能力，主要用于配置和执行模型微调，并可进行模型后训练或强化学习。 |
-| [`$grpo-rl-training`](#skill-grpo-rl-training) | 围绕 `grpo-rl-training` 的专项能力，主要用于配置和执行模型微调，并可进行模型后训练或强化学习。 |
-| [`$hqq-quantization`](#skill-hqq) | 围绕 `hqq-quantization` 的专项能力，主要用于部署模型并优化推理，并可压缩模型并优化推理资源。 |
-| [`$huggingface-accelerate`](#skill-accelerate) | 围绕 `huggingface-accelerate` 的专项能力，主要用于配置分布式或多 GPU 训练。 |
-| [`$huggingface-tokenizers`](#skill-huggingface-tokenizers) | 围绕 `huggingface-tokenizers` 的专项能力，主要用于训练或使用文本分词器。 |
-| [`$implementing-llms-litgpt`](#skill-litgpt) | 围绕 `implementing-llms-litgpt` 的专项能力，主要用于配置和执行模型微调。 |
-| [`$knowledge-distillation`](#skill-knowledge-distillation) | 围绕 `knowledge-distillation` 的专项能力，主要用于部署模型并优化推理，并可压缩模型并优化推理资源。 |
-| [`$llama-cpp`](#skill-llama-cpp) | 围绕 `llama-cpp` 的专项能力，主要用于部署模型并优化推理，并可压缩模型并优化推理资源。 |
-| [`$llama-factory`](#skill-llama-factory) | 围绕 `llama-factory` 的专项能力，主要用于配置和执行模型微调。 |
-| [`$llava`](#skill-llava) | 围绕 `llava` 的专项能力，主要用于处理图像与文本的多模态任务。 |
-| [`$long-context`](#skill-long-context) | 这是一个面向“AI/LLM 模型训练、压缩与推理”的专项技能，用于处理 `long-context` 相关任务。 |
-| [`$mamba-architecture`](#skill-mamba) | 围绕 `mamba-architecture` 的专项能力，主要用于理解或实现模型架构，并可部署模型并优化推理。 |
-| [`$miles-rl-training`](#skill-miles) | 围绕 `miles-rl-training` 的专项能力，主要用于进行模型后训练或强化学习，并可部署模型并优化推理。 |
-| [`$ml-training-recipes`](#skill-ml-training-recipes) | 围绕 `ml-training-recipes` 的专项能力，主要用于配置和执行模型微调，并可使用云端或 GPU 计算资源。 |
-| [`$model-merging`](#skill-model-merging) | 围绕 `model-merging` 的专项能力，主要用于配置和执行模型微调，并可部署模型并优化推理。 |
-| [`$model-pruning`](#skill-model-pruning) | 围绕 `model-pruning` 的专项能力，主要用于部署模型并优化推理，并可压缩模型并优化推理资源。 |
-| [`$moe-training`](#skill-moe-training) | 围绕 `moe-training` 的专项能力，主要用于部署模型并优化推理，并可配置分布式或多 GPU 训练。 |
-| [`$nanogpt`](#skill-nanogpt) | 围绕 `nanogpt` 的专项能力，主要用于理解或实现模型架构，并可配置分布式或多 GPU 训练。 |
-| [`$nnsight-remote-interpretability`](#skill-nnsight) | 围绕 `nnsight-remote-interpretability` 的专项能力，主要用于分析模型内部机制与可解释性，并可使用云端或 GPU 计算资源。 |
-| [`$openrlhf-training`](#skill-openrlhf) | 围绕 `openrlhf-training` 的专项能力，主要用于进行模型后训练或强化学习，并可配置分布式或多 GPU 训练。 |
-| [`$optimizing-attention-flash`](#skill-flash-attention) | 围绕 `optimizing-attention-flash` 的专项能力，主要用于部署模型并优化推理，并可使用云端或 GPU 计算资源。 |
-| [`$peft-fine-tuning`](#skill-peft) | 围绕 `peft-fine-tuning` 的专项能力，主要用于配置和执行模型微调，并可部署模型并优化推理。 |
-| [`$pufferlib`](#skill-pufferlib) | 围绕 `pufferlib` 的专项能力，主要用于进行模型后训练或强化学习。 |
-| [`$pytorch-fsdp2`](#skill-pytorch-fsdp2) | 围绕 `pytorch-fsdp2` 的专项能力，主要用于配置分布式或多 GPU 训练，并可使用云端或 GPU 计算资源。 |
-| [`$pytorch-lightning`](#skill-pytorch-lightning) | 围绕 `pytorch-lightning` 的专项能力，主要用于配置分布式或多 GPU 训练，并可使用云端或 GPU 计算资源。 |
-| [`$pyvene-interventions`](#skill-pyvene) | 围绕 `pyvene-interventions` 的专项能力，主要用于分析模型内部机制与可解释性。 |
-| [`$quantizing-models-bitsandbytes`](#skill-bitsandbytes) | 围绕 `quantizing-models-bitsandbytes` 的专项能力，主要用于配置和执行模型微调，并可部署模型并优化推理。 |
-| [`$ray-train`](#skill-ray-train) | 围绕 `ray-train` 的专项能力，主要用于配置分布式或多 GPU 训练。 |
-| [`$rwkv-architecture`](#skill-rwkv) | 围绕 `rwkv-architecture` 的专项能力，主要用于部署模型并优化推理。 |
-| [`$segment-anything-model`](#skill-segment-anything) | 这是一个面向“AI/LLM 模型训练、压缩与推理”的专项技能，用于处理 `segment-anything-model` 相关任务。 |
-| [`$sentencepiece`](#skill-sentencepiece) | 围绕 `sentencepiece` 的专项能力，主要用于训练或使用文本分词器。 |
-| [`$serving-llms-vllm`](#skill-vllm) | 围绕 `serving-llms-vllm` 的专项能力，主要用于进行模型后训练或强化学习，并可部署模型并优化推理。 |
-| [`$sglang`](#skill-sglang) | 围绕 `sglang` 的专项能力，主要用于部署模型并优化推理，并可使用云端或 GPU 计算资源。 |
-| [`$simpo-training`](#skill-simpo) | 围绕 `simpo-training` 的专项能力，主要用于进行模型后训练或强化学习。 |
-| [`$slime-rl-training`](#skill-slime) | 围绕 `slime-rl-training` 的专项能力，主要用于进行模型后训练或强化学习。 |
-| [`$sparse-autoencoder-training`](#skill-saelens) | 围绕 `sparse-autoencoder-training` 的专项能力，主要用于分析模型内部机制与可解释性。 |
-| [`$speculative-decoding`](#skill-speculative-decoding) | 围绕 `speculative-decoding` 的专项能力，主要用于部署模型并优化推理。 |
-| [`$stable-diffusion-image-generation`](#skill-stable-diffusion) | 围绕 `stable-diffusion-image-generation` 的专项能力，主要用于生成或编辑图像。 |
-| [`$tensorrt-llm`](#skill-tensorrt-llm) | 围绕 `tensorrt-llm` 的专项能力，主要用于部署模型并优化推理，并可压缩模型并优化推理资源。 |
-| [`$torchforge-rl-training`](#skill-torchforge) | 这是一个面向“AI/LLM 模型训练、压缩与推理”的专项技能，用于处理 `torchforge-rl-training` 相关任务。 |
-| [`$training-llms-megatron`](#skill-megatron-core) | 围绕 `training-llms-megatron` 的专项能力，主要用于配置分布式或多 GPU 训练，并可使用云端或 GPU 计算资源。 |
-| [`$transformer-lens-interpretability`](#skill-transformer-lens) | 围绕 `transformer-lens-interpretability` 的专项能力，主要用于分析模型内部机制与可解释性。 |
-| [`$transformers`](#skill-transformers) | 围绕 `transformers` 的专项能力，主要用于配置和执行模型微调，并可训练或使用文本分词器。 |
-| [`$unsloth`](#skill-unsloth) | 围绕 `unsloth` 的专项能力，主要用于配置和执行模型微调。 |
-| [`$verl-rl-training`](#skill-verl) | 围绕 `verl-rl-training` 的专项能力，主要用于进行模型后训练或强化学习。 |
-| [`$whisper`](#skill-whisper) | 这是一个面向“AI/LLM 模型训练、压缩与推理”的专项技能，用于处理 `whisper` 相关任务。 |
+| Skill | 所属技能套件 | 一句话理解 |
+| --- | --- | --- |
+| [`$audiocraft-audio-generation`](#skill-audiocraft) | [AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra) | 围绕 `audiocraft-audio-generation` 的专项能力，主要用于生成音乐、语音或音效。 |
+| [`$awq-quantization`](#skill-awq) | [AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra) | 围绕 `awq-quantization` 的专项能力，主要用于分析模型内部机制与可解释性，并可部署模型并优化推理。 |
+| [`$axolotl`](#skill-axolotl) | [AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra) | 围绕 `axolotl` 的专项能力，主要用于配置和执行模型微调，并可进行模型后训练或强化学习。 |
+| [`$blip-2-vision-language`](#skill-blip-2) | [AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra) | 围绕 `blip-2-vision-language` 的专项能力，主要用于处理图像与文本的多模态任务。 |
+| [`$clip`](#skill-clip) | [AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra) | 围绕 `clip` 的专项能力，主要用于完成机器学习建模与评估，并可配置和执行模型微调。 |
+| [`$deepspeed`](#skill-deepspeed) | [AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra) | 围绕 `deepspeed` 的专项能力，主要用于配置分布式或多 GPU 训练。 |
+| [`$dhdna-profiler`](#skill-dhdna-profiler) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 围绕 `dhdna-profiler` 的专项能力，主要用于配置和执行模型微调。 |
+| [`$distributed-llm-pretraining-torchtitan`](#skill-torchtitan) | [AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra) | 围绕 `distributed-llm-pretraining-torchtitan` 的专项能力，主要用于配置分布式或多 GPU 训练，并可使用云端或 GPU 计算资源。 |
+| [`$dse-loop`](#skill-dse-loop) | [Auto Claude Code Research in Sleep（ARIS）](../技能套件导航.md#suite-aris) | 围绕 `dse-loop` 的专项能力，主要用于配置和执行模型微调。 |
+| [`$evaluating-cosmos-policy`](#skill-cosmos-policy) | [AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra) | 围绕 `evaluating-cosmos-policy` 的专项能力，主要用于部署模型并优化推理，并可使用云端或 GPU 计算资源。 |
+| [`$fine-tuning-openvla-oft`](#skill-openvla-oft) | [AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra) | 围绕 `fine-tuning-openvla-oft` 的专项能力，主要用于配置和执行模型微调，并可部署模型并优化推理。 |
+| [`$fine-tuning-serving-openpi`](#skill-openpi) | [AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra) | 围绕 `fine-tuning-serving-openpi` 的专项能力，主要用于配置和执行模型微调，并可部署模型并优化推理。 |
+| [`$fine-tuning-with-trl`](#skill-trl-fine-tuning) | [AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra) | 围绕 `fine-tuning-with-trl` 的专项能力，主要用于配置和执行模型微调，并可进行模型后训练或强化学习。 |
+| [`$gguf-quantization`](#skill-gguf) | [AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra) | 围绕 `gguf-quantization` 的专项能力，主要用于部署模型并优化推理，并可压缩模型并优化推理资源。 |
+| [`$gptq`](#skill-gptq) | [AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra) | 围绕 `gptq` 的专项能力，主要用于配置和执行模型微调，并可进行模型后训练或强化学习。 |
+| [`$grpo-rl-training`](#skill-grpo-rl-training) | [AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra) | 围绕 `grpo-rl-training` 的专项能力，主要用于配置和执行模型微调，并可进行模型后训练或强化学习。 |
+| [`$hqq-quantization`](#skill-hqq) | [AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra) | 围绕 `hqq-quantization` 的专项能力，主要用于部署模型并优化推理，并可压缩模型并优化推理资源。 |
+| [`$huggingface-accelerate`](#skill-accelerate) | [AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra) | 围绕 `huggingface-accelerate` 的专项能力，主要用于配置分布式或多 GPU 训练。 |
+| [`$huggingface-tokenizers`](#skill-huggingface-tokenizers) | [AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra) | 围绕 `huggingface-tokenizers` 的专项能力，主要用于训练或使用文本分词器。 |
+| [`$implementing-llms-litgpt`](#skill-litgpt) | [AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra) | 围绕 `implementing-llms-litgpt` 的专项能力，主要用于配置和执行模型微调。 |
+| [`$knowledge-distillation`](#skill-knowledge-distillation) | [AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra) | 围绕 `knowledge-distillation` 的专项能力，主要用于部署模型并优化推理，并可压缩模型并优化推理资源。 |
+| [`$llama-cpp`](#skill-llama-cpp) | [AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra) | 围绕 `llama-cpp` 的专项能力，主要用于部署模型并优化推理，并可压缩模型并优化推理资源。 |
+| [`$llama-factory`](#skill-llama-factory) | [AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra) | 围绕 `llama-factory` 的专项能力，主要用于配置和执行模型微调。 |
+| [`$llava`](#skill-llava) | [AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra) | 围绕 `llava` 的专项能力，主要用于处理图像与文本的多模态任务。 |
+| [`$long-context`](#skill-long-context) | [AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra) | 这是一个面向“AI/LLM 模型训练、压缩与推理”的专项技能，用于处理 `long-context` 相关任务。 |
+| [`$mamba-architecture`](#skill-mamba) | [AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra) | 围绕 `mamba-architecture` 的专项能力，主要用于理解或实现模型架构，并可部署模型并优化推理。 |
+| [`$miles-rl-training`](#skill-miles) | [AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra) | 围绕 `miles-rl-training` 的专项能力，主要用于进行模型后训练或强化学习，并可部署模型并优化推理。 |
+| [`$ml-training-recipes`](#skill-ml-training-recipes) | [AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra) | 围绕 `ml-training-recipes` 的专项能力，主要用于配置和执行模型微调，并可使用云端或 GPU 计算资源。 |
+| [`$model-merging`](#skill-model-merging) | [AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra) | 围绕 `model-merging` 的专项能力，主要用于配置和执行模型微调，并可部署模型并优化推理。 |
+| [`$model-pruning`](#skill-model-pruning) | [AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra) | 围绕 `model-pruning` 的专项能力，主要用于部署模型并优化推理，并可压缩模型并优化推理资源。 |
+| [`$moe-training`](#skill-moe-training) | [AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra) | 围绕 `moe-training` 的专项能力，主要用于部署模型并优化推理，并可配置分布式或多 GPU 训练。 |
+| [`$nanogpt`](#skill-nanogpt) | [AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra) | 围绕 `nanogpt` 的专项能力，主要用于理解或实现模型架构，并可配置分布式或多 GPU 训练。 |
+| [`$nnsight-remote-interpretability`](#skill-nnsight) | [AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra) | 围绕 `nnsight-remote-interpretability` 的专项能力，主要用于分析模型内部机制与可解释性，并可使用云端或 GPU 计算资源。 |
+| [`$openrlhf-training`](#skill-openrlhf) | [AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra) | 围绕 `openrlhf-training` 的专项能力，主要用于进行模型后训练或强化学习，并可配置分布式或多 GPU 训练。 |
+| [`$optimizing-attention-flash`](#skill-flash-attention) | [AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra) | 围绕 `optimizing-attention-flash` 的专项能力，主要用于部署模型并优化推理，并可使用云端或 GPU 计算资源。 |
+| [`$peft-fine-tuning`](#skill-peft) | [AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra) | 围绕 `peft-fine-tuning` 的专项能力，主要用于配置和执行模型微调，并可部署模型并优化推理。 |
+| [`$pufferlib`](#skill-pufferlib) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 围绕 `pufferlib` 的专项能力，主要用于进行模型后训练或强化学习。 |
+| [`$pytorch-fsdp2`](#skill-pytorch-fsdp2) | [AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra) | 围绕 `pytorch-fsdp2` 的专项能力，主要用于配置分布式或多 GPU 训练，并可使用云端或 GPU 计算资源。 |
+| [`$pytorch-lightning`](#skill-pytorch-lightning) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 围绕 `pytorch-lightning` 的专项能力，主要用于配置分布式或多 GPU 训练，并可使用云端或 GPU 计算资源。 |
+| [`$pyvene-interventions`](#skill-pyvene) | [AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra) | 围绕 `pyvene-interventions` 的专项能力，主要用于分析模型内部机制与可解释性。 |
+| [`$quantizing-models-bitsandbytes`](#skill-bitsandbytes) | [AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra) | 围绕 `quantizing-models-bitsandbytes` 的专项能力，主要用于配置和执行模型微调，并可部署模型并优化推理。 |
+| [`$ray-train`](#skill-ray-train) | [AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra) | 围绕 `ray-train` 的专项能力，主要用于配置分布式或多 GPU 训练。 |
+| [`$rwkv-architecture`](#skill-rwkv) | [AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra) | 围绕 `rwkv-architecture` 的专项能力，主要用于部署模型并优化推理。 |
+| [`$segment-anything-model`](#skill-segment-anything) | [AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra) | 这是一个面向“AI/LLM 模型训练、压缩与推理”的专项技能，用于处理 `segment-anything-model` 相关任务。 |
+| [`$sentencepiece`](#skill-sentencepiece) | [AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra) | 围绕 `sentencepiece` 的专项能力，主要用于训练或使用文本分词器。 |
+| [`$serving-llms-vllm`](#skill-vllm) | [AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra) | 围绕 `serving-llms-vllm` 的专项能力，主要用于进行模型后训练或强化学习，并可部署模型并优化推理。 |
+| [`$sglang`](#skill-sglang) | [AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra) | 围绕 `sglang` 的专项能力，主要用于部署模型并优化推理，并可使用云端或 GPU 计算资源。 |
+| [`$simpo-training`](#skill-simpo) | [AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra) | 围绕 `simpo-training` 的专项能力，主要用于进行模型后训练或强化学习。 |
+| [`$slime-rl-training`](#skill-slime) | [AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra) | 围绕 `slime-rl-training` 的专项能力，主要用于进行模型后训练或强化学习。 |
+| [`$sparse-autoencoder-training`](#skill-saelens) | [AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra) | 围绕 `sparse-autoencoder-training` 的专项能力，主要用于分析模型内部机制与可解释性。 |
+| [`$speculative-decoding`](#skill-speculative-decoding) | [AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra) | 围绕 `speculative-decoding` 的专项能力，主要用于部署模型并优化推理。 |
+| [`$stable-diffusion-image-generation`](#skill-stable-diffusion) | [AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra) | 围绕 `stable-diffusion-image-generation` 的专项能力，主要用于生成或编辑图像。 |
+| [`$tensorrt-llm`](#skill-tensorrt-llm) | [AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra) | 围绕 `tensorrt-llm` 的专项能力，主要用于部署模型并优化推理，并可压缩模型并优化推理资源。 |
+| [`$torchforge-rl-training`](#skill-torchforge) | [AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra) | 这是一个面向“AI/LLM 模型训练、压缩与推理”的专项技能，用于处理 `torchforge-rl-training` 相关任务。 |
+| [`$training-llms-megatron`](#skill-megatron-core) | [AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra) | 围绕 `training-llms-megatron` 的专项能力，主要用于配置分布式或多 GPU 训练，并可使用云端或 GPU 计算资源。 |
+| [`$transformer-lens-interpretability`](#skill-transformer-lens) | [AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra) | 围绕 `transformer-lens-interpretability` 的专项能力，主要用于分析模型内部机制与可解释性。 |
+| [`$transformers`](#skill-transformers) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 围绕 `transformers` 的专项能力，主要用于配置和执行模型微调，并可训练或使用文本分词器。 |
+| [`$unsloth`](#skill-unsloth) | [AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra) | 围绕 `unsloth` 的专项能力，主要用于配置和执行模型微调。 |
+| [`$verl-rl-training`](#skill-verl) | [AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra) | 围绕 `verl-rl-training` 的专项能力，主要用于进行模型后训练或强化学习。 |
+| [`$whisper`](#skill-whisper) | [AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra) | 这是一个面向“AI/LLM 模型训练、压缩与推理”的专项技能，用于处理 `whisper` 相关任务。 |
 
 ## 详细说明
 
@@ -75,6 +75,8 @@
 ### `$audiocraft-audio-generation`
 
 - 全局目录：`~/.codex/skills/audiocraft/`
+- 所属技能套件：[AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra)
+- 推荐总入口：`$autoresearch`
 - 中文理解：围绕 `audiocraft-audio-generation` 的专项能力，主要用于生成音乐、语音或音效。
 - 适合何时使用：覆盖模型架构、微调、分布式训练、强化学习、量化、推理和部署。
 - 使用前注意：技能说明不代表依赖、模型、数据或凭据已经安装；首次使用先让 Codex 检查环境。
@@ -101,6 +103,8 @@ PyTorch library for audio generation including text-to-music (MusicGen) and text
 ### `$awq-quantization`
 
 - 全局目录：`~/.codex/skills/awq/`
+- 所属技能套件：[AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra)
+- 推荐总入口：`$autoresearch`
 - 中文理解：围绕 `awq-quantization` 的专项能力，主要用于分析模型内部机制与可解释性，并可部署模型并优化推理。
 - 适合何时使用：覆盖模型架构、微调、分布式训练、强化学习、量化、推理和部署。
 - 使用前注意：可能需要账号、API 凭据、联网权限或付费资源；执行外部写入前先确认。 先核对硬件、依赖版本、运行时间和预算，再启动长任务。
@@ -127,6 +131,8 @@ Activation-aware weight quantization for 4-bit LLM compression with 3x speedup a
 ### `$axolotl`
 
 - 全局目录：`~/.codex/skills/axolotl/`
+- 所属技能套件：[AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra)
+- 推荐总入口：`$autoresearch`
 - 中文理解：围绕 `axolotl` 的专项能力，主要用于配置和执行模型微调，并可进行模型后训练或强化学习。
 - 适合何时使用：覆盖模型架构、微调、分布式训练、强化学习、量化、推理和部署。
 - 使用前注意：先核对硬件、依赖版本、运行时间和预算，再启动长任务。
@@ -153,6 +159,8 @@ Expert guidance for fine-tuning LLMs with Axolotl - YAML configs, 100+ models, L
 ### `$blip-2-vision-language`
 
 - 全局目录：`~/.codex/skills/blip-2/`
+- 所属技能套件：[AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra)
+- 推荐总入口：`$autoresearch`
 - 中文理解：围绕 `blip-2-vision-language` 的专项能力，主要用于处理图像与文本的多模态任务。
 - 适合何时使用：覆盖模型架构、微调、分布式训练、强化学习、量化、推理和部署。
 - 使用前注意：先核对硬件、依赖版本、运行时间和预算，再启动长任务。
@@ -179,6 +187,8 @@ Vision-language pre-training framework bridging frozen image encoders and LLMs. 
 ### `$clip`
 
 - 全局目录：`~/.codex/skills/clip/`
+- 所属技能套件：[AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra)
+- 推荐总入口：`$autoresearch`
 - 中文理解：围绕 `clip` 的专项能力，主要用于完成机器学习建模与评估，并可配置和执行模型微调。
 - 适合何时使用：覆盖模型架构、微调、分布式训练、强化学习、量化、推理和部署。
 - 使用前注意：先核对硬件、依赖版本、运行时间和预算，再启动长任务。
@@ -205,6 +215,8 @@ OpenAI's model connecting vision and language. Enables zero-shot image classific
 ### `$deepspeed`
 
 - 全局目录：`~/.codex/skills/deepspeed/`
+- 所属技能套件：[AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra)
+- 推荐总入口：`$autoresearch`
 - 中文理解：围绕 `deepspeed` 的专项能力，主要用于配置分布式或多 GPU 训练。
 - 适合何时使用：覆盖模型架构、微调、分布式训练、强化学习、量化、推理和部署。
 - 使用前注意：先核对硬件、依赖版本、运行时间和预算，再启动长任务。
@@ -229,6 +241,8 @@ Expert guidance for distributed training with DeepSpeed - ZeRO optimization stag
 ### `$dhdna-profiler`
 
 - 全局目录：`~/.codex/skills/dhdna-profiler/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：围绕 `dhdna-profiler` 的专项能力，主要用于配置和执行模型微调。
 - 适合何时使用：覆盖模型架构、微调、分布式训练、强化学习、量化、推理和部署。
 - 使用前注意：论文、引用和结论必须回到原始来源核验，不要把摘要或模型回答当作最终证据。
@@ -253,6 +267,8 @@ Applies the DHDNA framework as an exploratory rubric for reasoning and writing p
 ### `$distributed-llm-pretraining-torchtitan`
 
 - 全局目录：`~/.codex/skills/torchtitan/`
+- 所属技能套件：[AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra)
+- 推荐总入口：`$autoresearch`
 - 中文理解：围绕 `distributed-llm-pretraining-torchtitan` 的专项能力，主要用于配置分布式或多 GPU 训练，并可使用云端或 GPU 计算资源。
 - 适合何时使用：覆盖模型架构、微调、分布式训练、强化学习、量化、推理和部署。
 - 使用前注意：先核对硬件、依赖版本、运行时间和预算，再启动长任务。
@@ -279,6 +295,8 @@ Provides PyTorch-native distributed LLM pretraining using torchtitan with 4D par
 ### `$dse-loop`
 
 - 全局目录：`~/.codex/skills/dse-loop/`
+- 所属技能套件：[Auto Claude Code Research in Sleep（ARIS）](../技能套件导航.md#suite-aris)
+- 推荐总入口：`$research-pipeline`
 - 中文理解：围绕 `dse-loop` 的专项能力，主要用于配置和执行模型微调。
 - 适合何时使用：覆盖模型架构、微调、分布式训练、强化学习、量化、推理和部署。
 - 使用前注意：技能说明不代表依赖、模型、数据或凭据已经安装；首次使用先让 Codex 检查环境。
@@ -303,6 +321,8 @@ Autonomous design space exploration loop for computer architecture and EDA. Runs
 ### `$evaluating-cosmos-policy`
 
 - 全局目录：`~/.codex/skills/cosmos-policy/`
+- 所属技能套件：[AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra)
+- 推荐总入口：`$autoresearch`
 - 中文理解：围绕 `evaluating-cosmos-policy` 的专项能力，主要用于部署模型并优化推理，并可使用云端或 GPU 计算资源。
 - 适合何时使用：覆盖模型架构、微调、分布式训练、强化学习、量化、推理和部署。
 - 使用前注意：先核对硬件、依赖版本、运行时间和预算，再启动长任务。
@@ -329,6 +349,8 @@ Evaluates NVIDIA Cosmos Policy on LIBERO and RoboCasa simulation environments. U
 ### `$fine-tuning-openvla-oft`
 
 - 全局目录：`~/.codex/skills/openvla-oft/`
+- 所属技能套件：[AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra)
+- 推荐总入口：`$autoresearch`
 - 中文理解：围绕 `fine-tuning-openvla-oft` 的专项能力，主要用于配置和执行模型微调，并可部署模型并优化推理。
 - 适合何时使用：覆盖模型架构、微调、分布式训练、强化学习、量化、推理和部署。
 - 使用前注意：可能需要账号、API 凭据、联网权限或付费资源；执行外部写入前先确认。 先核对硬件、依赖版本、运行时间和预算，再启动长任务。
@@ -355,6 +377,8 @@ Fine-tunes and evaluates OpenVLA-OFT and OpenVLA-OFT+ policies for robot action 
 ### `$fine-tuning-serving-openpi`
 
 - 全局目录：`~/.codex/skills/openpi/`
+- 所属技能套件：[AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra)
+- 推荐总入口：`$autoresearch`
 - 中文理解：围绕 `fine-tuning-serving-openpi` 的专项能力，主要用于配置和执行模型微调，并可部署模型并优化推理。
 - 适合何时使用：覆盖模型架构、微调、分布式训练、强化学习、量化、推理和部署。
 - 使用前注意：先核对硬件、依赖版本、运行时间和预算，再启动长任务。
@@ -381,6 +405,8 @@ Fine-tune and serve Physical Intelligence OpenPI models (pi0, pi0-fast, pi0.5) u
 ### `$fine-tuning-with-trl`
 
 - 全局目录：`~/.codex/skills/trl-fine-tuning/`
+- 所属技能套件：[AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra)
+- 推荐总入口：`$autoresearch`
 - 中文理解：围绕 `fine-tuning-with-trl` 的专项能力，主要用于配置和执行模型微调，并可进行模型后训练或强化学习。
 - 适合何时使用：覆盖模型架构、微调、分布式训练、强化学习、量化、推理和部署。
 - 使用前注意：先核对硬件、依赖版本、运行时间和预算，再启动长任务。
@@ -407,6 +433,8 @@ Fine-tune LLMs using reinforcement learning with TRL - SFT for instruction tunin
 ### `$gguf-quantization`
 
 - 全局目录：`~/.codex/skills/gguf/`
+- 所属技能套件：[AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra)
+- 推荐总入口：`$autoresearch`
 - 中文理解：围绕 `gguf-quantization` 的专项能力，主要用于部署模型并优化推理，并可压缩模型并优化推理资源。
 - 适合何时使用：覆盖模型架构、微调、分布式训练、强化学习、量化、推理和部署。
 - 使用前注意：可能需要账号、API 凭据、联网权限或付费资源；执行外部写入前先确认。 先核对硬件、依赖版本、运行时间和预算，再启动长任务。
@@ -433,6 +461,8 @@ GGUF format and llama.cpp quantization for efficient CPU/GPU inference. Use when
 ### `$gptq`
 
 - 全局目录：`~/.codex/skills/gptq/`
+- 所属技能套件：[AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra)
+- 推荐总入口：`$autoresearch`
 - 中文理解：围绕 `gptq` 的专项能力，主要用于配置和执行模型微调，并可进行模型后训练或强化学习。
 - 适合何时使用：覆盖模型架构、微调、分布式训练、强化学习、量化、推理和部署。
 - 使用前注意：可能需要账号、API 凭据、联网权限或付费资源；执行外部写入前先确认。 先核对硬件、依赖版本、运行时间和预算，再启动长任务。
@@ -459,6 +489,8 @@ Post-training 4-bit quantization for LLMs with minimal accuracy loss. Use for de
 ### `$grpo-rl-training`
 
 - 全局目录：`~/.codex/skills/grpo-rl-training/`
+- 所属技能套件：[AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra)
+- 推荐总入口：`$autoresearch`
 - 中文理解：围绕 `grpo-rl-training` 的专项能力，主要用于配置和执行模型微调，并可进行模型后训练或强化学习。
 - 适合何时使用：覆盖模型架构、微调、分布式训练、强化学习、量化、推理和部署。
 - 使用前注意：先核对硬件、依赖版本、运行时间和预算，再启动长任务。
@@ -485,6 +517,8 @@ Expert guidance for GRPO/RL fine-tuning with TRL for reasoning and task-specific
 ### `$hqq-quantization`
 
 - 全局目录：`~/.codex/skills/hqq/`
+- 所属技能套件：[AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra)
+- 推荐总入口：`$autoresearch`
 - 中文理解：围绕 `hqq-quantization` 的专项能力，主要用于部署模型并优化推理，并可压缩模型并优化推理资源。
 - 适合何时使用：覆盖模型架构、微调、分布式训练、强化学习、量化、推理和部署。
 - 使用前注意：可能需要账号、API 凭据、联网权限或付费资源；执行外部写入前先确认。
@@ -511,6 +545,8 @@ Half-Quadratic Quantization for LLMs without calibration data. Use when quantizi
 ### `$huggingface-accelerate`
 
 - 全局目录：`~/.codex/skills/accelerate/`
+- 所属技能套件：[AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra)
+- 推荐总入口：`$autoresearch`
 - 中文理解：围绕 `huggingface-accelerate` 的专项能力，主要用于配置分布式或多 GPU 训练。
 - 适合何时使用：覆盖模型架构、微调、分布式训练、强化学习、量化、推理和部署。
 - 使用前注意：可能需要账号、API 凭据、联网权限或付费资源；执行外部写入前先确认。 先核对硬件、依赖版本、运行时间和预算，再启动长任务。
@@ -537,6 +573,8 @@ Simplest distributed training API. 4 lines to add distributed support to any PyT
 ### `$huggingface-tokenizers`
 
 - 全局目录：`~/.codex/skills/huggingface-tokenizers/`
+- 所属技能套件：[AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra)
+- 推荐总入口：`$autoresearch`
 - 中文理解：围绕 `huggingface-tokenizers` 的专项能力，主要用于训练或使用文本分词器。
 - 适合何时使用：覆盖模型架构、微调、分布式训练、强化学习、量化、推理和部署。
 - 使用前注意：先核对硬件、依赖版本、运行时间和预算，再启动长任务。
@@ -563,6 +601,8 @@ Fast tokenizers optimized for research and production. Rust-based implementation
 ### `$implementing-llms-litgpt`
 
 - 全局目录：`~/.codex/skills/litgpt/`
+- 所属技能套件：[AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra)
+- 推荐总入口：`$autoresearch`
 - 中文理解：围绕 `implementing-llms-litgpt` 的专项能力，主要用于配置和执行模型微调。
 - 适合何时使用：覆盖模型架构、微调、分布式训练、强化学习、量化、推理和部署。
 - 使用前注意：先核对硬件、依赖版本、运行时间和预算，再启动长任务。
@@ -589,6 +629,8 @@ Implements and trains LLMs using Lightning AI's LitGPT with 20+ pretrained archi
 ### `$knowledge-distillation`
 
 - 全局目录：`~/.codex/skills/knowledge-distillation/`
+- 所属技能套件：[AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra)
+- 推荐总入口：`$autoresearch`
 - 中文理解：围绕 `knowledge-distillation` 的专项能力，主要用于部署模型并优化推理，并可压缩模型并优化推理资源。
 - 适合何时使用：覆盖模型架构、微调、分布式训练、强化学习、量化、推理和部署。
 - 使用前注意：可能需要账号、API 凭据、联网权限或付费资源；执行外部写入前先确认。 先核对硬件、依赖版本、运行时间和预算，再启动长任务。
@@ -615,6 +657,8 @@ Compress large language models using knowledge distillation from teacher to stud
 ### `$llama-cpp`
 
 - 全局目录：`~/.codex/skills/llama-cpp/`
+- 所属技能套件：[AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra)
+- 推荐总入口：`$autoresearch`
 - 中文理解：围绕 `llama-cpp` 的专项能力，主要用于部署模型并优化推理，并可压缩模型并优化推理资源。
 - 适合何时使用：覆盖模型架构、微调、分布式训练、强化学习、量化、推理和部署。
 - 使用前注意：可能需要账号、API 凭据、联网权限或付费资源；执行外部写入前先确认。 先核对硬件、依赖版本、运行时间和预算，再启动长任务。
@@ -641,6 +685,8 @@ Runs LLM inference on CPU, Apple Silicon, and consumer GPUs without NVIDIA hardw
 ### `$llama-factory`
 
 - 全局目录：`~/.codex/skills/llama-factory/`
+- 所属技能套件：[AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra)
+- 推荐总入口：`$autoresearch`
 - 中文理解：围绕 `llama-factory` 的专项能力，主要用于配置和执行模型微调。
 - 适合何时使用：覆盖模型架构、微调、分布式训练、强化学习、量化、推理和部署。
 - 使用前注意：先核对硬件、依赖版本、运行时间和预算，再启动长任务。
@@ -665,6 +711,8 @@ Expert guidance for fine-tuning LLMs with LLaMA-Factory - WebUI no-code, 100+ mo
 ### `$llava`
 
 - 全局目录：`~/.codex/skills/llava/`
+- 所属技能套件：[AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra)
+- 推荐总入口：`$autoresearch`
 - 中文理解：围绕 `llava` 的专项能力，主要用于处理图像与文本的多模态任务。
 - 适合何时使用：覆盖模型架构、微调、分布式训练、强化学习、量化、推理和部署。
 - 使用前注意：技能说明不代表依赖、模型、数据或凭据已经安装；首次使用先让 Codex 检查环境。
@@ -691,6 +739,8 @@ Large Language and Vision Assistant. Enables visual instruction tuning and image
 ### `$long-context`
 
 - 全局目录：`~/.codex/skills/long-context/`
+- 所属技能套件：[AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra)
+- 推荐总入口：`$autoresearch`
 - 中文理解：这是一个面向“AI/LLM 模型训练、压缩与推理”的专项技能，用于处理 `long-context` 相关任务。
 - 适合何时使用：覆盖模型架构、微调、分布式训练、强化学习、量化、推理和部署。
 - 使用前注意：技能说明不代表依赖、模型、数据或凭据已经安装；首次使用先让 Codex 检查环境。
@@ -717,6 +767,8 @@ Extend context windows of transformer models using RoPE, YaRN, ALiBi, and positi
 ### `$mamba-architecture`
 
 - 全局目录：`~/.codex/skills/mamba/`
+- 所属技能套件：[AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra)
+- 推荐总入口：`$autoresearch`
 - 中文理解：围绕 `mamba-architecture` 的专项能力，主要用于理解或实现模型架构，并可部署模型并优化推理。
 - 适合何时使用：覆盖模型架构、微调、分布式训练、强化学习、量化、推理和部署。
 - 使用前注意：技能说明不代表依赖、模型、数据或凭据已经安装；首次使用先让 Codex 检查环境。
@@ -743,6 +795,8 @@ State-space model with O(n) complexity vs Transformers' O(n²). 5× faster infer
 ### `$miles-rl-training`
 
 - 全局目录：`~/.codex/skills/miles/`
+- 所属技能套件：[AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra)
+- 推荐总入口：`$autoresearch`
 - 中文理解：围绕 `miles-rl-training` 的专项能力，主要用于进行模型后训练或强化学习，并可部署模型并优化推理。
 - 适合何时使用：覆盖模型架构、微调、分布式训练、强化学习、量化、推理和部署。
 - 使用前注意：先核对硬件、依赖版本、运行时间和预算，再启动长任务。
@@ -769,9 +823,11 @@ Provides guidance for enterprise-grade RL training using miles, a production-rea
 ### `$ml-training-recipes`
 
 - 全局目录：`~/.codex/skills/ml-training-recipes/`
+- 所属技能套件：[AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra)
+- 推荐总入口：`$autoresearch`
 - 中文理解：围绕 `ml-training-recipes` 的专项能力，主要用于配置和执行模型微调，并可使用云端或 GPU 计算资源。
 - 适合何时使用：覆盖模型架构、微调、分布式训练、强化学习、量化、推理和部署。
-- 使用前注意：医学输出仅用于科研和信息整理，不能替代临床判断。 先核对硬件、依赖版本、运行时间和预算，再启动长任务。
+- 使用前注意：先核对硬件、依赖版本、运行时间和预算，再启动长任务。
 
 可复制提示词：
 
@@ -793,6 +849,8 @@ Battle-tested PyTorch training recipes for all domains — LLMs, vision, diffusi
 ### `$model-merging`
 
 - 全局目录：`~/.codex/skills/model-merging/`
+- 所属技能套件：[AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra)
+- 推荐总入口：`$autoresearch`
 - 中文理解：围绕 `model-merging` 的专项能力，主要用于配置和执行模型微调，并可部署模型并优化推理。
 - 适合何时使用：覆盖模型架构、微调、分布式训练、强化学习、量化、推理和部署。
 - 使用前注意：可能需要账号、API 凭据、联网权限或付费资源；执行外部写入前先确认。 先核对硬件、依赖版本、运行时间和预算，再启动长任务。
@@ -819,6 +877,8 @@ Merge multiple fine-tuned models using mergekit to combine capabilities without 
 ### `$model-pruning`
 
 - 全局目录：`~/.codex/skills/model-pruning/`
+- 所属技能套件：[AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra)
+- 推荐总入口：`$autoresearch`
 - 中文理解：围绕 `model-pruning` 的专项能力，主要用于部署模型并优化推理，并可压缩模型并优化推理资源。
 - 适合何时使用：覆盖模型架构、微调、分布式训练、强化学习、量化、推理和部署。
 - 使用前注意：先核对硬件、依赖版本、运行时间和预算，再启动长任务。
@@ -845,6 +905,8 @@ Reduce LLM size and accelerate inference using pruning techniques like Wanda and
 ### `$moe-training`
 
 - 全局目录：`~/.codex/skills/moe-training/`
+- 所属技能套件：[AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra)
+- 推荐总入口：`$autoresearch`
 - 中文理解：围绕 `moe-training` 的专项能力，主要用于部署模型并优化推理，并可配置分布式或多 GPU 训练。
 - 适合何时使用：覆盖模型架构、微调、分布式训练、强化学习、量化、推理和部署。
 - 使用前注意：先核对硬件、依赖版本、运行时间和预算，再启动长任务。
@@ -871,6 +933,8 @@ Train Mixture of Experts (MoE) models using DeepSpeed or HuggingFace. Use when t
 ### `$nanogpt`
 
 - 全局目录：`~/.codex/skills/nanogpt/`
+- 所属技能套件：[AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra)
+- 推荐总入口：`$autoresearch`
 - 中文理解：围绕 `nanogpt` 的专项能力，主要用于理解或实现模型架构，并可配置分布式或多 GPU 训练。
 - 适合何时使用：覆盖模型架构、微调、分布式训练、强化学习、量化、推理和部署。
 - 使用前注意：先核对硬件、依赖版本、运行时间和预算，再启动长任务。
@@ -897,6 +961,8 @@ Educational GPT implementation in ~300 lines. Reproduces GPT-2 (124M) on OpenWeb
 ### `$nnsight-remote-interpretability`
 
 - 全局目录：`~/.codex/skills/nnsight/`
+- 所属技能套件：[AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra)
+- 推荐总入口：`$autoresearch`
 - 中文理解：围绕 `nnsight-remote-interpretability` 的专项能力，主要用于分析模型内部机制与可解释性，并可使用云端或 GPU 计算资源。
 - 适合何时使用：覆盖模型架构、微调、分布式训练、强化学习、量化、推理和部署。
 - 使用前注意：先核对硬件、依赖版本、运行时间和预算，再启动长任务。
@@ -923,6 +989,8 @@ Provides guidance for interpreting and manipulating neural network internals usi
 ### `$openrlhf-training`
 
 - 全局目录：`~/.codex/skills/openrlhf/`
+- 所属技能套件：[AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra)
+- 推荐总入口：`$autoresearch`
 - 中文理解：围绕 `openrlhf-training` 的专项能力，主要用于进行模型后训练或强化学习，并可配置分布式或多 GPU 训练。
 - 适合何时使用：覆盖模型架构、微调、分布式训练、强化学习、量化、推理和部署。
 - 使用前注意：先核对硬件、依赖版本、运行时间和预算，再启动长任务。
@@ -949,6 +1017,8 @@ High-performance RLHF framework with Ray+vLLM acceleration. Use for PPO, GRPO, R
 ### `$optimizing-attention-flash`
 
 - 全局目录：`~/.codex/skills/flash-attention/`
+- 所属技能套件：[AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra)
+- 推荐总入口：`$autoresearch`
 - 中文理解：围绕 `optimizing-attention-flash` 的专项能力，主要用于部署模型并优化推理，并可使用云端或 GPU 计算资源。
 - 适合何时使用：覆盖模型架构、微调、分布式训练、强化学习、量化、推理和部署。
 - 使用前注意：先核对硬件、依赖版本、运行时间和预算，再启动长任务。
@@ -975,6 +1045,8 @@ Optimizes transformer attention with Flash Attention for 2-4x speedup and 10-20x
 ### `$peft-fine-tuning`
 
 - 全局目录：`~/.codex/skills/peft/`
+- 所属技能套件：[AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra)
+- 推荐总入口：`$autoresearch`
 - 中文理解：围绕 `peft-fine-tuning` 的专项能力，主要用于配置和执行模型微调，并可部署模型并优化推理。
 - 适合何时使用：覆盖模型架构、微调、分布式训练、强化学习、量化、推理和部署。
 - 使用前注意：先核对硬件、依赖版本、运行时间和预算，再启动长任务。
@@ -1001,6 +1073,8 @@ Parameter-efficient fine-tuning for LLMs using LoRA, QLoRA, and 25+ methods. Use
 ### `$pufferlib`
 
 - 全局目录：`~/.codex/skills/pufferlib/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：围绕 `pufferlib` 的专项能力，主要用于进行模型后训练或强化学习。
 - 适合何时使用：覆盖模型架构、微调、分布式训练、强化学习、量化、推理和部署。
 - 使用前注意：可能需要账号、API 凭据、联网权限或付费资源；执行外部写入前先确认。 先核对硬件、依赖版本、运行时间和预算，再启动长任务。
@@ -1027,6 +1101,8 @@ Version-aware guidance for PufferLib reinforcement-learning environments, vector
 ### `$pytorch-fsdp2`
 
 - 全局目录：`~/.codex/skills/pytorch-fsdp2/`
+- 所属技能套件：[AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra)
+- 推荐总入口：`$autoresearch`
 - 中文理解：围绕 `pytorch-fsdp2` 的专项能力，主要用于配置分布式或多 GPU 训练，并可使用云端或 GPU 计算资源。
 - 适合何时使用：覆盖模型架构、微调、分布式训练、强化学习、量化、推理和部署。
 - 使用前注意：先核对硬件、依赖版本、运行时间和预算，再启动长任务。
@@ -1051,6 +1127,8 @@ Adds PyTorch FSDP2 (fully_shard) to training scripts with correct init, sharding
 ### `$pytorch-lightning`
 
 - 全局目录：`~/.codex/skills/pytorch-lightning/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：围绕 `pytorch-lightning` 的专项能力，主要用于配置分布式或多 GPU 训练，并可使用云端或 GPU 计算资源。
 - 适合何时使用：覆盖模型架构、微调、分布式训练、强化学习、量化、推理和部署。
 - 使用前注意：先核对硬件、依赖版本、运行时间和预算，再启动长任务。
@@ -1077,6 +1155,8 @@ Deep learning framework (PyTorch Lightning / lightning package). Organize PyTorc
 ### `$pyvene-interventions`
 
 - 全局目录：`~/.codex/skills/pyvene/`
+- 所属技能套件：[AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra)
+- 推荐总入口：`$autoresearch`
 - 中文理解：围绕 `pyvene-interventions` 的专项能力，主要用于分析模型内部机制与可解释性。
 - 适合何时使用：覆盖模型架构、微调、分布式训练、强化学习、量化、推理和部署。
 - 使用前注意：先核对硬件、依赖版本、运行时间和预算，再启动长任务。
@@ -1103,6 +1183,8 @@ Provides guidance for performing causal interventions on PyTorch models using py
 ### `$quantizing-models-bitsandbytes`
 
 - 全局目录：`~/.codex/skills/bitsandbytes/`
+- 所属技能套件：[AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra)
+- 推荐总入口：`$autoresearch`
 - 中文理解：围绕 `quantizing-models-bitsandbytes` 的专项能力，主要用于配置和执行模型微调，并可部署模型并优化推理。
 - 适合何时使用：覆盖模型架构、微调、分布式训练、强化学习、量化、推理和部署。
 - 使用前注意：先核对硬件、依赖版本、运行时间和预算，再启动长任务。
@@ -1129,6 +1211,8 @@ Quantizes LLMs to 8-bit or 4-bit for 50-75% memory reduction with minimal accura
 ### `$ray-train`
 
 - 全局目录：`~/.codex/skills/ray-train/`
+- 所属技能套件：[AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra)
+- 推荐总入口：`$autoresearch`
 - 中文理解：围绕 `ray-train` 的专项能力，主要用于配置分布式或多 GPU 训练。
 - 适合何时使用：覆盖模型架构、微调、分布式训练、强化学习、量化、推理和部署。
 - 使用前注意：先核对硬件、依赖版本、运行时间和预算，再启动长任务。
@@ -1155,6 +1239,8 @@ Distributed training orchestration across clusters. Scales PyTorch/TensorFlow/Hu
 ### `$rwkv-architecture`
 
 - 全局目录：`~/.codex/skills/rwkv/`
+- 所属技能套件：[AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra)
+- 推荐总入口：`$autoresearch`
 - 中文理解：围绕 `rwkv-architecture` 的专项能力，主要用于部署模型并优化推理。
 - 适合何时使用：覆盖模型架构、微调、分布式训练、强化学习、量化、推理和部署。
 - 使用前注意：技能说明不代表依赖、模型、数据或凭据已经安装；首次使用先让 Codex 检查环境。
@@ -1181,6 +1267,8 @@ RNN+Transformer hybrid with O(n) inference. Linear time, infinite context, no KV
 ### `$segment-anything-model`
 
 - 全局目录：`~/.codex/skills/segment-anything/`
+- 所属技能套件：[AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra)
+- 推荐总入口：`$autoresearch`
 - 中文理解：这是一个面向“AI/LLM 模型训练、压缩与推理”的专项技能，用于处理 `segment-anything-model` 相关任务。
 - 适合何时使用：覆盖模型架构、微调、分布式训练、强化学习、量化、推理和部署。
 - 使用前注意：技能说明不代表依赖、模型、数据或凭据已经安装；首次使用先让 Codex 检查环境。
@@ -1207,6 +1295,8 @@ Foundation model for image segmentation with zero-shot transfer. Use when you ne
 ### `$sentencepiece`
 
 - 全局目录：`~/.codex/skills/sentencepiece/`
+- 所属技能套件：[AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra)
+- 推荐总入口：`$autoresearch`
 - 中文理解：围绕 `sentencepiece` 的专项能力，主要用于训练或使用文本分词器。
 - 适合何时使用：覆盖模型架构、微调、分布式训练、强化学习、量化、推理和部署。
 - 使用前注意：技能说明不代表依赖、模型、数据或凭据已经安装；首次使用先让 Codex 检查环境。
@@ -1233,6 +1323,8 @@ Language-independent tokenizer treating text as raw Unicode. Supports BPE and Un
 ### `$serving-llms-vllm`
 
 - 全局目录：`~/.codex/skills/vllm/`
+- 所属技能套件：[AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra)
+- 推荐总入口：`$autoresearch`
 - 中文理解：围绕 `serving-llms-vllm` 的专项能力，主要用于进行模型后训练或强化学习，并可部署模型并优化推理。
 - 适合何时使用：覆盖模型架构、微调、分布式训练、强化学习、量化、推理和部署。
 - 使用前注意：可能需要账号、API 凭据、联网权限或付费资源；执行外部写入前先确认。 先核对硬件、依赖版本、运行时间和预算，再启动长任务。
@@ -1259,6 +1351,8 @@ Serves LLMs with high throughput using vLLM's PagedAttention and continuous batc
 ### `$sglang`
 
 - 全局目录：`~/.codex/skills/sglang/`
+- 所属技能套件：[AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra)
+- 推荐总入口：`$autoresearch`
 - 中文理解：围绕 `sglang` 的专项能力，主要用于部署模型并优化推理，并可使用云端或 GPU 计算资源。
 - 适合何时使用：覆盖模型架构、微调、分布式训练、强化学习、量化、推理和部署。
 - 使用前注意：先核对硬件、依赖版本、运行时间和预算，再启动长任务。
@@ -1285,6 +1379,8 @@ Fast structured generation and serving for LLMs with RadixAttention prefix cachi
 ### `$simpo-training`
 
 - 全局目录：`~/.codex/skills/simpo/`
+- 所属技能套件：[AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra)
+- 推荐总入口：`$autoresearch`
 - 中文理解：围绕 `simpo-training` 的专项能力，主要用于进行模型后训练或强化学习。
 - 适合何时使用：覆盖模型架构、微调、分布式训练、强化学习、量化、推理和部署。
 - 使用前注意：先核对硬件、依赖版本、运行时间和预算，再启动长任务。
@@ -1311,6 +1407,8 @@ Simple Preference Optimization for LLM alignment. Reference-free alternative to 
 ### `$slime-rl-training`
 
 - 全局目录：`~/.codex/skills/slime/`
+- 所属技能套件：[AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra)
+- 推荐总入口：`$autoresearch`
 - 中文理解：围绕 `slime-rl-training` 的专项能力，主要用于进行模型后训练或强化学习。
 - 适合何时使用：覆盖模型架构、微调、分布式训练、强化学习、量化、推理和部署。
 - 使用前注意：先核对硬件、依赖版本、运行时间和预算，再启动长任务。
@@ -1337,6 +1435,8 @@ Provides guidance for LLM post-training with RL using slime, a Megatron+SGLang f
 ### `$sparse-autoencoder-training`
 
 - 全局目录：`~/.codex/skills/saelens/`
+- 所属技能套件：[AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra)
+- 推荐总入口：`$autoresearch`
 - 中文理解：围绕 `sparse-autoencoder-training` 的专项能力，主要用于分析模型内部机制与可解释性。
 - 适合何时使用：覆盖模型架构、微调、分布式训练、强化学习、量化、推理和部署。
 - 使用前注意：先核对硬件、依赖版本、运行时间和预算，再启动长任务。
@@ -1363,6 +1463,8 @@ Provides guidance for training and analyzing Sparse Autoencoders (SAEs) using SA
 ### `$speculative-decoding`
 
 - 全局目录：`~/.codex/skills/speculative-decoding/`
+- 所属技能套件：[AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra)
+- 推荐总入口：`$autoresearch`
 - 中文理解：围绕 `speculative-decoding` 的专项能力，主要用于部署模型并优化推理。
 - 适合何时使用：覆盖模型架构、微调、分布式训练、强化学习、量化、推理和部署。
 - 使用前注意：可能需要账号、API 凭据、联网权限或付费资源；执行外部写入前先确认。
@@ -1389,6 +1491,8 @@ Accelerate LLM inference using speculative decoding, Medusa multiple heads, and 
 ### `$stable-diffusion-image-generation`
 
 - 全局目录：`~/.codex/skills/stable-diffusion/`
+- 所属技能套件：[AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra)
+- 推荐总入口：`$autoresearch`
 - 中文理解：围绕 `stable-diffusion-image-generation` 的专项能力，主要用于生成或编辑图像。
 - 适合何时使用：覆盖模型架构、微调、分布式训练、强化学习、量化、推理和部署。
 - 使用前注意：技能说明不代表依赖、模型、数据或凭据已经安装；首次使用先让 Codex 检查环境。
@@ -1415,6 +1519,8 @@ State-of-the-art text-to-image generation with Stable Diffusion models via Huggi
 ### `$tensorrt-llm`
 
 - 全局目录：`~/.codex/skills/tensorrt-llm/`
+- 所属技能套件：[AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra)
+- 推荐总入口：`$autoresearch`
 - 中文理解：围绕 `tensorrt-llm` 的专项能力，主要用于部署模型并优化推理，并可压缩模型并优化推理资源。
 - 适合何时使用：覆盖模型架构、微调、分布式训练、强化学习、量化、推理和部署。
 - 使用前注意：可能需要账号、API 凭据、联网权限或付费资源；执行外部写入前先确认。 先核对硬件、依赖版本、运行时间和预算，再启动长任务。
@@ -1441,6 +1547,8 @@ Optimizes LLM inference with NVIDIA TensorRT for maximum throughput and lowest l
 ### `$torchforge-rl-training`
 
 - 全局目录：`~/.codex/skills/torchforge/`
+- 所属技能套件：[AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra)
+- 推荐总入口：`$autoresearch`
 - 中文理解：这是一个面向“AI/LLM 模型训练、压缩与推理”的专项技能，用于处理 `torchforge-rl-training` 相关任务。
 - 适合何时使用：覆盖模型架构、微调、分布式训练、强化学习、量化、推理和部署。
 - 使用前注意：先核对硬件、依赖版本、运行时间和预算，再启动长任务。
@@ -1467,6 +1575,8 @@ Provides guidance for PyTorch-native agentic RL using torchforge, Meta's library
 ### `$training-llms-megatron`
 
 - 全局目录：`~/.codex/skills/megatron-core/`
+- 所属技能套件：[AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra)
+- 推荐总入口：`$autoresearch`
 - 中文理解：围绕 `training-llms-megatron` 的专项能力，主要用于配置分布式或多 GPU 训练，并可使用云端或 GPU 计算资源。
 - 适合何时使用：覆盖模型架构、微调、分布式训练、强化学习、量化、推理和部署。
 - 使用前注意：先核对硬件、依赖版本、运行时间和预算，再启动长任务。
@@ -1493,6 +1603,8 @@ Trains large language models (2B-462B parameters) using NVIDIA Megatron-Core wit
 ### `$transformer-lens-interpretability`
 
 - 全局目录：`~/.codex/skills/transformer-lens/`
+- 所属技能套件：[AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra)
+- 推荐总入口：`$autoresearch`
 - 中文理解：围绕 `transformer-lens-interpretability` 的专项能力，主要用于分析模型内部机制与可解释性。
 - 适合何时使用：覆盖模型架构、微调、分布式训练、强化学习、量化、推理和部署。
 - 使用前注意：技能说明不代表依赖、模型、数据或凭据已经安装；首次使用先让 Codex 检查环境。
@@ -1519,6 +1631,8 @@ Provides guidance for mechanistic interpretability research using TransformerLen
 ### `$transformers`
 
 - 全局目录：`~/.codex/skills/transformers/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：围绕 `transformers` 的专项能力，主要用于配置和执行模型微调，并可训练或使用文本分词器。
 - 适合何时使用：覆盖模型架构、微调、分布式训练、强化学习、量化、推理和部署。
 - 使用前注意：先核对硬件、依赖版本、运行时间和预算，再启动长任务。
@@ -1545,6 +1659,8 @@ Hugging Face Transformers for loading Hub models, running pipeline inference, te
 ### `$unsloth`
 
 - 全局目录：`~/.codex/skills/unsloth/`
+- 所属技能套件：[AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra)
+- 推荐总入口：`$autoresearch`
 - 中文理解：围绕 `unsloth` 的专项能力，主要用于配置和执行模型微调。
 - 适合何时使用：覆盖模型架构、微调、分布式训练、强化学习、量化、推理和部署。
 - 使用前注意：先核对硬件、依赖版本、运行时间和预算，再启动长任务。
@@ -1569,6 +1685,8 @@ Expert guidance for fast fine-tuning with Unsloth - 2-5x faster training, 50-80%
 ### `$verl-rl-training`
 
 - 全局目录：`~/.codex/skills/verl/`
+- 所属技能套件：[AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra)
+- 推荐总入口：`$autoresearch`
 - 中文理解：围绕 `verl-rl-training` 的专项能力，主要用于进行模型后训练或强化学习。
 - 适合何时使用：覆盖模型架构、微调、分布式训练、强化学习、量化、推理和部署。
 - 使用前注意：先核对硬件、依赖版本、运行时间和预算，再启动长任务。
@@ -1595,6 +1713,8 @@ Provides guidance for training LLMs with reinforcement learning using verl (Volc
 ### `$whisper`
 
 - 全局目录：`~/.codex/skills/whisper/`
+- 所属技能套件：[AI Research SKILLs（Orchestra Research）](../技能套件导航.md#suite-orchestra)
+- 推荐总入口：`$autoresearch`
 - 中文理解：这是一个面向“AI/LLM 模型训练、压缩与推理”的专项技能，用于处理 `whisper` 相关任务。
 - 适合何时使用：覆盖模型架构、微调、分布式训练、强化学习、量化、推理和部署。
 - 使用前注意：技能说明不代表依赖、模型、数据或凭据已经安装；首次使用先让 Codex 检查环境。

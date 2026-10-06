@@ -6,45 +6,45 @@
 
 ## 本页索引
 
-| Skill | 一句话理解 |
-| --- | --- |
-| [`$auto-review-loop-minimax`](#skill-auto-review-loop-minimax) | 围绕 `auto-review-loop-minimax` 的专项能力，主要用于检查问题并给出修改建议。 |
-| [`$consciousness-council`](#skill-consciousness-council) | 这是一个面向“通用科研工具与质量保障”的专项技能，用于处理 `consciousness-council` 相关任务。 |
-| [`$doctor`](#skill-doctor) | 环境检查与安装向导。检查数学建模工作流所需的全部依赖是否已安装，对缺失项提供安装命令，并在用户确认后执行安装。手动触发。 |
-| [`$docx-editor-cn`](#skill-docx-editor-cn) | 围绕 `docx-editor-cn` 的专项能力，主要用于处理科研文档与结构化内容。 |
-| [`$exa-search`](#skill-exa-search) | 围绕 `exa-search` 的专项能力，主要用于处理科研文档与结构化内容。 |
-| [`$feishu-notify`](#skill-feishu-notify) | 这是一个面向“通用科研工具与质量保障”的专项技能，用于处理 `feishu-notify` 相关任务。 |
-| [`$fictiv`](#skill-fictiv) | 这是一个面向“通用科研工具与质量保障”的专项技能，用于处理 `fictiv` 相关任务。 |
-| [`$find-skills`](#skill-find-skills) | 这是一个面向“通用科研工具与质量保障”的专项技能，用于处理 `find-skills` 相关任务。 |
-| [`$flowio`](#skill-flowio) | 这是一个面向“通用科研工具与质量保障”的专项技能，用于处理 `flowio` 相关任务。 |
-| [`$flowkit`](#skill-flowkit) | 这是一个面向“通用科研工具与质量保障”的专项技能，用于处理 `flowkit` 相关任务。 |
-| [`$formula-derivation`](#skill-formula-derivation) | 围绕 `formula-derivation` 的专项能力，主要用于处理科研文档与结构化内容。 |
-| [`$get-available-resources`](#skill-get-available-resources) | 这是一个面向“通用科研工具与质量保障”的专项技能，用于处理 `get-available-resources` 相关任务。 |
-| [`$histolab`](#skill-histolab) | 围绕 `histolab` 的专项能力，主要用于组织可复现的科研流程。 |
-| [`$integrity-forensics`](#skill-integrity-forensics) | 围绕 `integrity-forensics` 的专项能力，主要用于检查问题并给出修改建议。 |
-| [`$interview-cheatsheet`](#skill-interview-cheatsheet) | Generate a long-form Chinese interview-prep cheat sheet on a specific ML/LLM topic — formulas with derivations, from-scratch PyTorch code, comparison tables, and 25 高频面试题 (L1 必会 /… |
-| [`$liteparse`](#skill-liteparse) | 围绕 `liteparse` 的专项能力，主要用于处理科研文档与结构化内容。 |
-| [`$markitdown`](#skill-markitdown) | 围绕 `markitdown` 的专项能力，主要用于组织可复现的科研流程，并可处理科研文档与结构化内容。 |
-| [`$nature-downloader`](#skill-nature-downloader) | 这是一个面向“通用科研工具与质量保障”的专项技能，用于处理 `nature-downloader` 相关任务。 |
-| [`$nature-experiment-log`](#skill-nature-experiment-log) | 标准化实验日志记录——直接上传或读取本地图片、语音和文字，产出带 YAML frontmatter 的 Markdown；可选集成飞书 CLI 与 Obsidian。 |
-| [`$neuropixels-analysis`](#skill-neuropixels-analysis) | 围绕 `neuropixels-analysis` 的专项能力，主要用于检查问题并给出修改建议。 |
-| [`$nwb-conversion`](#skill-nwb-conversion) | 这是一个面向“通用科研工具与质量保障”的专项技能，用于处理 `nwb-conversion` 相关任务。 |
-| [`$open-notebook`](#skill-open-notebook) | 围绕 `open-notebook` 的专项能力，主要用于处理科研文档与结构化内容。 |
-| [`$paper-illustration-image2`](#skill-paper-illustration-image2) | 这是一个面向“通用科研工具与质量保障”的专项技能，用于处理 `paper-illustration-image2` 相关任务。 |
-| [`$paperzilla`](#skill-paperzilla) | 围绕 `paperzilla` 的专项能力，主要用于处理科研文档与结构化内容。 |
-| [`$proof-orchestrator`](#skill-proof-orchestrator) | 这是一个面向“通用科研工具与质量保障”的专项技能，用于处理 `proof-orchestrator` 相关任务。 |
-| [`$proof-writer`](#skill-proof-writer) | Writes rigorous mathematical proofs for ML/AI theory. |
-| [`$pydicom`](#skill-pydicom) | 围绕 `pydicom` 的专项能力，主要用于检查问题并给出修改建议。 |
-| [`$render-html`](#skill-render-html) | 围绕 `render-html` 的专项能力，主要用于检查问题并给出修改建议，并可处理科研文档与结构化内容。 |
-| [`$research-grants`](#skill-research-grants) | 围绕 `research-grants` 的专项能力，主要用于检查问题并给出修改建议。 |
-| [`$research-refine`](#skill-research-refine) | Turn a vague research direction into a problem-anchored, elegant, frontier-aware, implementation-oriented method plan via iterative GPT-6-Astra review. |
-| [`$research-wiki`](#skill-research-wiki) | 这是一个面向“通用科研工具与质量保障”的专项技能，用于处理 `research-wiki` 相关任务。 |
-| [`$scholar-evaluation`](#skill-scholar-evaluation) | 围绕 `scholar-evaluation` 的专项能力，主要用于检查问题并给出修改建议。 |
-| [`$sympy`](#skill-sympy) | 这是一个面向“通用科研工具与质量保障”的专项技能，用于处理 `sympy` 相关任务。 |
-| [`$system-profile`](#skill-system-profile) | 这是一个面向“通用科研工具与质量保障”的专项技能，用于处理 `system-profile` 相关任务。 |
-| [`$training-check`](#skill-training-check) | 这是一个面向“通用科研工具与质量保障”的专项技能，用于处理 `training-check` 相关任务。 |
-| [`$typst-author`](#skill-typst-author) | 围绕 `typst-author` 的专项能力，主要用于处理科研文档与结构化内容。 |
-| [`$vast-gpu`](#skill-vast-gpu) | 这是一个面向“通用科研工具与质量保障”的专项技能，用于处理 `vast-gpu` 相关任务。 |
+| Skill | 所属技能套件 | 一句话理解 |
+| --- | --- | --- |
+| [`$auto-review-loop-minimax`](#skill-auto-review-loop-minimax) | [Auto Claude Code Research in Sleep（ARIS）](../技能套件导航.md#suite-aris) | 围绕 `auto-review-loop-minimax` 的专项能力，主要用于检查问题并给出修改建议。 |
+| [`$consciousness-council`](#skill-consciousness-council) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 这是一个面向“通用科研工具与质量保障”的专项技能，用于处理 `consciousness-council` 相关任务。 |
+| [`$doctor`](#skill-doctor) | [独立或暂未归入大型套件](../技能套件导航.md#suite-standalone) | 环境检查与安装向导。检查数学建模工作流所需的全部依赖是否已安装，对缺失项提供安装命令，并在用户确认后执行安装。手动触发。 |
+| [`$docx-editor-cn`](#skill-docx-editor-cn) | [独立或暂未归入大型套件](../技能套件导航.md#suite-standalone) | 围绕 `docx-editor-cn` 的专项能力，主要用于处理科研文档与结构化内容。 |
+| [`$exa-search`](#skill-exa-search) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 围绕 `exa-search` 的专项能力，主要用于处理科研文档与结构化内容。 |
+| [`$feishu-notify`](#skill-feishu-notify) | [Auto Claude Code Research in Sleep（ARIS）](../技能套件导航.md#suite-aris) | 这是一个面向“通用科研工具与质量保障”的专项技能，用于处理 `feishu-notify` 相关任务。 |
+| [`$fictiv`](#skill-fictiv) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 这是一个面向“通用科研工具与质量保障”的专项技能，用于处理 `fictiv` 相关任务。 |
+| [`$find-skills`](#skill-find-skills) | [独立或暂未归入大型套件](../技能套件导航.md#suite-standalone) | 这是一个面向“通用科研工具与质量保障”的专项技能，用于处理 `find-skills` 相关任务。 |
+| [`$flowio`](#skill-flowio) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 这是一个面向“通用科研工具与质量保障”的专项技能，用于处理 `flowio` 相关任务。 |
+| [`$flowkit`](#skill-flowkit) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 这是一个面向“通用科研工具与质量保障”的专项技能，用于处理 `flowkit` 相关任务。 |
+| [`$formula-derivation`](#skill-formula-derivation) | [Auto Claude Code Research in Sleep（ARIS）](../技能套件导航.md#suite-aris) | 围绕 `formula-derivation` 的专项能力，主要用于处理科研文档与结构化内容。 |
+| [`$get-available-resources`](#skill-get-available-resources) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 这是一个面向“通用科研工具与质量保障”的专项技能，用于处理 `get-available-resources` 相关任务。 |
+| [`$histolab`](#skill-histolab) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 围绕 `histolab` 的专项能力，主要用于组织可复现的科研流程。 |
+| [`$integrity-forensics`](#skill-integrity-forensics) | [Auto Claude Code Research in Sleep（ARIS）](../技能套件导航.md#suite-aris) | 围绕 `integrity-forensics` 的专项能力，主要用于检查问题并给出修改建议。 |
+| [`$interview-cheatsheet`](#skill-interview-cheatsheet) | [Auto Claude Code Research in Sleep（ARIS）](../技能套件导航.md#suite-aris) | 这是一个面向“通用科研工具与质量保障”的专项技能，用于处理 `interview-cheatsheet` 相关任务。 |
+| [`$liteparse`](#skill-liteparse) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 围绕 `liteparse` 的专项能力，主要用于处理科研文档与结构化内容。 |
+| [`$markitdown`](#skill-markitdown) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 围绕 `markitdown` 的专项能力，主要用于组织可复现的科研流程，并可处理科研文档与结构化内容。 |
+| [`$nature-downloader`](#skill-nature-downloader) | [Nature Research Skills](../技能套件导航.md#suite-nature) | 这是一个面向“通用科研工具与质量保障”的专项技能，用于处理 `nature-downloader` 相关任务。 |
+| [`$nature-experiment-log`](#skill-nature-experiment-log) | [Nature Research Skills](../技能套件导航.md#suite-nature) | 标准化实验日志记录——直接上传或读取本地图片、语音和文字，产出带 YAML frontmatter 的 Markdown；可选集成飞书 CLI 与 Obsidian。 |
+| [`$neuropixels-analysis`](#skill-neuropixels-analysis) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 围绕 `neuropixels-analysis` 的专项能力，主要用于检查问题并给出修改建议。 |
+| [`$nwb-conversion`](#skill-nwb-conversion) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 这是一个面向“通用科研工具与质量保障”的专项技能，用于处理 `nwb-conversion` 相关任务。 |
+| [`$open-notebook`](#skill-open-notebook) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 围绕 `open-notebook` 的专项能力，主要用于处理科研文档与结构化内容。 |
+| [`$paper-illustration-image2`](#skill-paper-illustration-image2) | [Auto Claude Code Research in Sleep（ARIS）](../技能套件导航.md#suite-aris) | 这是一个面向“通用科研工具与质量保障”的专项技能，用于处理 `paper-illustration-image2` 相关任务。 |
+| [`$paperzilla`](#skill-paperzilla) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 围绕 `paperzilla` 的专项能力，主要用于处理科研文档与结构化内容。 |
+| [`$proof-orchestrator`](#skill-proof-orchestrator) | [Auto Claude Code Research in Sleep（ARIS）](../技能套件导航.md#suite-aris) | 这是一个面向“通用科研工具与质量保障”的专项技能，用于处理 `proof-orchestrator` 相关任务。 |
+| [`$proof-writer`](#skill-proof-writer) | [Auto Claude Code Research in Sleep（ARIS）](../技能套件导航.md#suite-aris) | 这是一个面向“通用科研工具与质量保障”的专项技能，用于处理 `proof-writer` 相关任务。 |
+| [`$pydicom`](#skill-pydicom) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 围绕 `pydicom` 的专项能力，主要用于检查问题并给出修改建议。 |
+| [`$render-html`](#skill-render-html) | [Auto Claude Code Research in Sleep（ARIS）](../技能套件导航.md#suite-aris) | 围绕 `render-html` 的专项能力，主要用于检查问题并给出修改建议，并可处理科研文档与结构化内容。 |
+| [`$research-grants`](#skill-research-grants) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 围绕 `research-grants` 的专项能力，主要用于检查问题并给出修改建议。 |
+| [`$research-refine`](#skill-research-refine) | [Auto Claude Code Research in Sleep（ARIS）](../技能套件导航.md#suite-aris) | 围绕 `research-refine` 的专项能力，主要用于检查问题并给出修改建议。 |
+| [`$research-wiki`](#skill-research-wiki) | [Auto Claude Code Research in Sleep（ARIS）](../技能套件导航.md#suite-aris) | 这是一个面向“通用科研工具与质量保障”的专项技能，用于处理 `research-wiki` 相关任务。 |
+| [`$scholar-evaluation`](#skill-scholar-evaluation) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 围绕 `scholar-evaluation` 的专项能力，主要用于检查问题并给出修改建议。 |
+| [`$sympy`](#skill-sympy) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 这是一个面向“通用科研工具与质量保障”的专项技能，用于处理 `sympy` 相关任务。 |
+| [`$system-profile`](#skill-system-profile) | [Auto Claude Code Research in Sleep（ARIS）](../技能套件导航.md#suite-aris) | 这是一个面向“通用科研工具与质量保障”的专项技能，用于处理 `system-profile` 相关任务。 |
+| [`$training-check`](#skill-training-check) | [Auto Claude Code Research in Sleep（ARIS）](../技能套件导航.md#suite-aris) | 这是一个面向“通用科研工具与质量保障”的专项技能，用于处理 `training-check` 相关任务。 |
+| [`$typst-author`](#skill-typst-author) | [独立或暂未归入大型套件](../技能套件导航.md#suite-standalone) | 围绕 `typst-author` 的专项能力，主要用于处理科研文档与结构化内容。 |
+| [`$vast-gpu`](#skill-vast-gpu) | [Auto Claude Code Research in Sleep（ARIS）](../技能套件导航.md#suite-aris) | 这是一个面向“通用科研工具与质量保障”的专项技能，用于处理 `vast-gpu` 相关任务。 |
 
 ## 详细说明
 
@@ -52,6 +52,8 @@
 ### `$auto-review-loop-minimax`
 
 - 全局目录：`~/.codex/skills/auto-review-loop-minimax/`
+- 所属技能套件：[Auto Claude Code Research in Sleep（ARIS）](../技能套件导航.md#suite-aris)
+- 推荐总入口：`$research-pipeline`
 - 中文理解：围绕 `auto-review-loop-minimax` 的专项能力，主要用于检查问题并给出修改建议。
 - 适合何时使用：无法归入单一学科、但可支撑科研质量、文件处理、复现或效率的工具。
 - 使用前注意：可能需要账号、API 凭据、联网权限或付费资源；执行外部写入前先确认。
@@ -78,6 +80,8 @@ Autonomous multi-round research review loop using MiniMax API. Use when you want
 ### `$consciousness-council`
 
 - 全局目录：`~/.codex/skills/consciousness-council/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：这是一个面向“通用科研工具与质量保障”的专项技能，用于处理 `consciousness-council` 相关任务。
 - 适合何时使用：无法归入单一学科、但可支撑科研质量、文件处理、复现或效率的工具。
 - 使用前注意：论文、引用和结论必须回到原始来源核验，不要把摘要或模型回答当作最终证据。
@@ -102,6 +106,8 @@ Structures a multi-perspective council exercise for decisions, research trade-of
 ### `$doctor`
 
 - 全局目录：`~/.codex/skills/doctor/`
+- 所属技能套件：[独立或暂未归入大型套件](../技能套件导航.md#suite-standalone)
+- 推荐总入口：直接调用当前小 skill
 - 中文理解：环境检查与安装向导。检查数学建模工作流所需的全部依赖是否已安装，对缺失项提供安装命令，并在用户确认后执行安装。手动触发。
 - 适合何时使用：无法归入单一学科、但可支撑科研质量、文件处理、复现或效率的工具。
 - 使用前注意：技能说明不代表依赖、模型、数据或凭据已经安装；首次使用先让 Codex 检查环境。
@@ -128,6 +134,8 @@ Structures a multi-perspective council exercise for decisions, research trade-of
 ### `$docx-editor-cn`
 
 - 全局目录：`~/.codex/skills/docx-editor-cn/`
+- 所属技能套件：[独立或暂未归入大型套件](../技能套件导航.md#suite-standalone)
+- 推荐总入口：直接调用当前小 skill
 - 中文理解：围绕 `docx-editor-cn` 的专项能力，主要用于处理科研文档与结构化内容。
 - 适合何时使用：无法归入单一学科、但可支撑科研质量、文件处理、复现或效率的工具。
 - 使用前注意：技能说明不代表依赖、模型、数据或凭据已经安装；首次使用先让 Codex 检查环境。
@@ -152,6 +160,8 @@ Use this skill whenever the user wants to create, read, edit, or manipulate Word
 ### `$exa-search`
 
 - 全局目录：`~/.codex/skills/exa-search/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：围绕 `exa-search` 的专项能力，主要用于处理科研文档与结构化内容。
 - 适合何时使用：无法归入单一学科、但可支撑科研质量、文件处理、复现或效率的工具。
 - 使用前注意：技能说明不代表依赖、模型、数据或凭据已经安装；首次使用先让 Codex 检查环境。
@@ -178,6 +188,8 @@ Searches scientific and technical web content with Exa and extracts page or PDF 
 ### `$feishu-notify`
 
 - 全局目录：`~/.codex/skills/feishu-notify/`
+- 所属技能套件：[Auto Claude Code Research in Sleep（ARIS）](../技能套件导航.md#suite-aris)
+- 推荐总入口：`$research-pipeline`
 - 中文理解：这是一个面向“通用科研工具与质量保障”的专项技能，用于处理 `feishu-notify` 相关任务。
 - 适合何时使用：无法归入单一学科、但可支撑科研质量、文件处理、复现或效率的工具。
 - 使用前注意：技能说明不代表依赖、模型、数据或凭据已经安装；首次使用先让 Codex 检查环境。
@@ -204,6 +216,8 @@ Send notifications to Feishu/Lark. Internal utility used by other skills, or man
 ### `$fictiv`
 
 - 全局目录：`~/.codex/skills/fictiv/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：这是一个面向“通用科研工具与质量保障”的专项技能，用于处理 `fictiv` 相关任务。
 - 适合何时使用：无法归入单一学科、但可支撑科研质量、文件处理、复现或效率的工具。
 - 使用前注意：技能说明不代表依赖、模型、数据或凭据已经安装；首次使用先让 Codex 检查环境。
@@ -228,6 +242,8 @@ Operates Fictiv (app.fictiv.com), the on-demand manufacturing platform, end to e
 ### `$find-skills`
 
 - 全局目录：`~/.codex/skills/find-skills/`
+- 所属技能套件：[独立或暂未归入大型套件](../技能套件导航.md#suite-standalone)
+- 推荐总入口：直接调用当前小 skill
 - 中文理解：这是一个面向“通用科研工具与质量保障”的专项技能，用于处理 `find-skills` 相关任务。
 - 适合何时使用：无法归入单一学科、但可支撑科研质量、文件处理、复现或效率的工具。
 - 使用前注意：技能说明不代表依赖、模型、数据或凭据已经安装；首次使用先让 Codex 检查环境。
@@ -252,6 +268,8 @@ Helps users discover and install agent skills when they ask questions like "how 
 ### `$flowio`
 
 - 全局目录：`~/.codex/skills/flowio/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：这是一个面向“通用科研工具与质量保障”的专项技能，用于处理 `flowio` 相关任务。
 - 适合何时使用：无法归入单一学科、但可支撑科研质量、文件处理、复现或效率的工具。
 - 使用前注意：技能说明不代表依赖、模型、数据或凭据已经安装；首次使用先让 Codex 检查环境。
@@ -276,6 +294,8 @@ Reads, inspects, and writes Flow Cytometry Standard (FCS) 2.0, 3.0, and 3.1 file
 ### `$flowkit`
 
 - 全局目录：`~/.codex/skills/flowkit/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：这是一个面向“通用科研工具与质量保障”的专项技能，用于处理 `flowkit` 相关任务。
 - 适合何时使用：无法归入单一学科、但可支撑科研质量、文件处理、复现或效率的工具。
 - 使用前注意：技能说明不代表依赖、模型、数据或凭据已经安装；首次使用先让 Codex 检查环境。
@@ -302,6 +322,8 @@ Analyzes flow cytometry data with FlowKit, including spillover compensation, log
 ### `$formula-derivation`
 
 - 全局目录：`~/.codex/skills/formula-derivation/`
+- 所属技能套件：[Auto Claude Code Research in Sleep（ARIS）](../技能套件导航.md#suite-aris)
+- 推荐总入口：`$research-pipeline`
 - 中文理解：围绕 `formula-derivation` 的专项能力，主要用于处理科研文档与结构化内容。
 - 适合何时使用：无法归入单一学科、但可支撑科研质量、文件处理、复现或效率的工具。
 - 使用前注意：论文、引用和结论必须回到原始来源核验，不要把摘要或模型回答当作最终证据。
@@ -326,6 +348,8 @@ Structures and derives research formulas when the user wants to 推导公式, bu
 ### `$get-available-resources`
 
 - 全局目录：`~/.codex/skills/get-available-resources/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：这是一个面向“通用科研工具与质量保障”的专项技能，用于处理 `get-available-resources` 相关任务。
 - 适合何时使用：无法归入单一学科、但可支撑科研质量、文件处理、复现或效率的工具。
 - 使用前注意：技能说明不代表依赖、模型、数据或凭据已经安装；首次使用先让 Codex 检查环境。
@@ -350,6 +374,8 @@ Detects host inventory and effective CPU, memory, disk, scheduler, container, an
 ### `$histolab`
 
 - 全局目录：`~/.codex/skills/histolab/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：围绕 `histolab` 的专项能力，主要用于组织可复现的科研流程。
 - 适合何时使用：无法归入单一学科、但可支撑科研质量、文件处理、复现或效率的工具。
 - 使用前注意：技能说明不代表依赖、模型、数据或凭据已经安装；首次使用先让 Codex 检查环境。
@@ -376,6 +402,8 @@ Extracts and preprocesses whole-slide histology image tiles with Histolab. Use f
 ### `$integrity-forensics`
 
 - 全局目录：`~/.codex/skills/integrity-forensics/`
+- 所属技能套件：[Auto Claude Code Research in Sleep（ARIS）](../技能套件导航.md#suite-aris)
+- 推荐总入口：`$research-pipeline`
 - 中文理解：围绕 `integrity-forensics` 的专项能力，主要用于检查问题并给出修改建议。
 - 适合何时使用：无法归入单一学科、但可支撑科研质量、文件处理、复现或效率的工具。
 - 使用前注意：论文、引用和结论必须回到原始来源核验，不要把摘要或模型回答当作最终证据。
@@ -402,7 +430,9 @@ Run the Anti-Autoresearch integrity-forensics DETERMINISTIC slice (numeric core 
 ### `$interview-cheatsheet`
 
 - 全局目录：`~/.codex/skills/interview-cheatsheet/`
-- 中文理解：Generate a long-form Chinese interview-prep cheat sheet on a specific ML/LLM topic — formulas with derivations, from-scratch PyTorch code, comparison tables, and 25 高频面试题 (L1 必会 /…
+- 所属技能套件：[Auto Claude Code Research in Sleep（ARIS）](../技能套件导航.md#suite-aris)
+- 推荐总入口：`$research-pipeline`
+- 中文理解：这是一个面向“通用科研工具与质量保障”的专项技能，用于处理 `interview-cheatsheet` 相关任务。
 - 适合何时使用：无法归入单一学科、但可支撑科研质量、文件处理、复现或效率的工具。
 - 使用前注意：技能说明不代表依赖、模型、数据或凭据已经安装；首次使用先让 Codex 检查环境。
 
@@ -426,6 +456,8 @@ Generate a long-form Chinese interview-prep cheat sheet on a specific ML/LLM top
 ### `$liteparse`
 
 - 全局目录：`~/.codex/skills/liteparse/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：围绕 `liteparse` 的专项能力，主要用于处理科研文档与结构化内容。
 - 适合何时使用：无法归入单一学科、但可支撑科研质量、文件处理、复现或效率的工具。
 - 使用前注意：论文、引用和结论必须回到原始来源核验，不要把摘要或模型回答当作最终证据。
@@ -452,6 +484,8 @@ Local document and PDF parsing that returns spatial text with bounding boxes. Us
 ### `$markitdown`
 
 - 全局目录：`~/.codex/skills/markitdown/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：围绕 `markitdown` 的专项能力，主要用于组织可复现的科研流程，并可处理科研文档与结构化内容。
 - 适合何时使用：无法归入单一学科、但可支撑科研质量、文件处理、复现或效率的工具。
 - 使用前注意：技能说明不代表依赖、模型、数据或凭据已经安装；首次使用先让 Codex 检查环境。
@@ -478,6 +512,8 @@ Converts heterogeneous documents and selected URIs to Markdown with Microsoft Ma
 ### `$nature-downloader`
 
 - 全局目录：`~/.codex/skills/nature-downloader/`
+- 所属技能套件：[Nature Research Skills](../技能套件导航.md#suite-nature)
+- 推荐总入口：按任务直接调用对应的 $nature-* skill
 - 中文理解：这是一个面向“通用科研工具与质量保障”的专项技能，用于处理 `nature-downloader` 相关任务。
 - 适合何时使用：无法归入单一学科、但可支撑科研质量、文件处理、复现或效率的工具。
 - 使用前注意：可能需要账号、API 凭据、联网权限或付费资源；执行外部写入前先确认。
@@ -502,6 +538,8 @@ Use when a user needs lawful academic full text, CNKI institutional access, Engl
 ### `$nature-experiment-log`
 
 - 全局目录：`~/.codex/skills/nature-experiment-log/`
+- 所属技能套件：[Nature Research Skills](../技能套件导航.md#suite-nature)
+- 推荐总入口：按任务直接调用对应的 $nature-* skill
 - 中文理解：标准化实验日志记录——直接上传或读取本地图片、语音和文字，产出带 YAML frontmatter 的 Markdown；可选集成飞书 CLI 与 Obsidian。
 - 适合何时使用：无法归入单一学科、但可支撑科研质量、文件处理、复现或效率的工具。
 - 使用前注意：技能说明不代表依赖、模型、数据或凭据已经安装；首次使用先让 Codex 检查环境。
@@ -528,6 +566,8 @@ Use when a user needs lawful academic full text, CNKI institutional access, Engl
 ### `$neuropixels-analysis`
 
 - 全局目录：`~/.codex/skills/neuropixels-analysis/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：围绕 `neuropixels-analysis` 的专项能力，主要用于检查问题并给出修改建议。
 - 适合何时使用：无法归入单一学科、但可支撑科研质量、文件处理、复现或效率的工具。
 - 使用前注意：技能说明不代表依赖、模型、数据或凭据已经安装；首次使用先让 Codex 检查环境。
@@ -554,6 +594,8 @@ Analyzes Neuropixels extracellular recordings end-to-end with SpikeInterface. Co
 ### `$nwb-conversion`
 
 - 全局目录：`~/.codex/skills/nwb-conversion/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：这是一个面向“通用科研工具与质量保障”的专项技能，用于处理 `nwb-conversion` 相关任务。
 - 适合何时使用：无法归入单一学科、但可支撑科研质量、文件处理、复现或效率的工具。
 - 使用前注意：论文、引用和结论必须回到原始来源核验，不要把摘要或模型回答当作最终证据。
@@ -580,6 +622,8 @@ Converts neuroscience acquisition data to Neurodata Without Borders files with N
 ### `$open-notebook`
 
 - 全局目录：`~/.codex/skills/open-notebook/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：围绕 `open-notebook` 的专项能力，主要用于处理科研文档与结构化内容。
 - 适合何时使用：无法归入单一学科、但可支撑科研质量、文件处理、复现或效率的工具。
 - 使用前注意：可能需要账号、API 凭据、联网权限或付费资源；执行外部写入前先确认。
@@ -606,6 +650,8 @@ Organizes research with the self-hosted Open Notebook alternative to NotebookLM.
 ### `$paper-illustration-image2`
 
 - 全局目录：`~/.codex/skills/paper-illustration-image2/`
+- 所属技能套件：[Auto Claude Code Research in Sleep（ARIS）](../技能套件导航.md#suite-aris)
+- 推荐总入口：`$research-pipeline`
 - 中文理解：这是一个面向“通用科研工具与质量保障”的专项技能，用于处理 `paper-illustration-image2` 相关任务。
 - 适合何时使用：无法归入单一学科、但可支撑科研质量、文件处理、复现或效率的工具。
 - 使用前注意：论文、引用和结论必须回到原始来源核验，不要把摘要或模型回答当作最终证据。
@@ -630,6 +676,8 @@ Generate publication-quality academic illustrations through a local Codex app-se
 ### `$paperzilla`
 
 - 全局目录：`~/.codex/skills/paperzilla/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：围绕 `paperzilla` 的专项能力，主要用于处理科研文档与结构化内容。
 - 适合何时使用：无法归入单一学科、但可支撑科研质量、文件处理、复现或效率的工具。
 - 使用前注意：论文、引用和结论必须回到原始来源核验，不要把摘要或模型回答当作最终证据。
@@ -656,6 +704,8 @@ Reads projects, searches project feeds, and retrieves recommendations and canoni
 ### `$proof-orchestrator`
 
 - 全局目录：`~/.codex/skills/proof-orchestrator/`
+- 所属技能套件：[Auto Claude Code Research in Sleep（ARIS）](../技能套件导航.md#suite-aris)
+- 推荐总入口：`$research-pipeline`
 - 中文理解：这是一个面向“通用科研工具与质量保障”的专项技能，用于处理 `proof-orchestrator` 相关任务。
 - 适合何时使用：无法归入单一学科、但可支撑科研质量、文件处理、复现或效率的工具。
 - 使用前注意：论文、引用和结论必须回到原始来源核验，不要把摘要或模型回答当作最终证据。
@@ -680,7 +730,9 @@ Manage a stateful, run-directory-based proof project with Codex: continuation ac
 ### `$proof-writer`
 
 - 全局目录：`~/.codex/skills/proof-writer/`
-- 中文理解：Writes rigorous mathematical proofs for ML/AI theory.
+- 所属技能套件：[Auto Claude Code Research in Sleep（ARIS）](../技能套件导航.md#suite-aris)
+- 推荐总入口：`$research-pipeline`
+- 中文理解：这是一个面向“通用科研工具与质量保障”的专项技能，用于处理 `proof-writer` 相关任务。
 - 适合何时使用：无法归入单一学科、但可支撑科研质量、文件处理、复现或效率的工具。
 - 使用前注意：技能说明不代表依赖、模型、数据或凭据已经安装；首次使用先让 Codex 检查环境。
 
@@ -704,6 +756,8 @@ Writes rigorous mathematical proofs for ML/AI theory. Use when asked to prove a 
 ### `$pydicom`
 
 - 全局目录：`~/.codex/skills/pydicom/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：围绕 `pydicom` 的专项能力，主要用于检查问题并给出修改建议。
 - 适合何时使用：无法归入单一学科、但可支撑科研质量、文件处理、复现或效率的工具。
 - 使用前注意：技能说明不代表依赖、模型、数据或凭据已经安装；首次使用先让 Codex 检查环境。
@@ -730,6 +784,8 @@ Reads, inspects, writes, transforms, and preflights local DICOM datasets and pix
 ### `$render-html`
 
 - 全局目录：`~/.codex/skills/render-html/`
+- 所属技能套件：[Auto Claude Code Research in Sleep（ARIS）](../技能套件导航.md#suite-aris)
+- 推荐总入口：`$research-pipeline`
 - 中文理解：围绕 `render-html` 的专项能力，主要用于检查问题并给出修改建议，并可处理科研文档与结构化内容。
 - 适合何时使用：无法归入单一学科、但可支撑科研质量、文件处理、复现或效率的工具。
 - 使用前注意：论文、引用和结论必须回到原始来源核验，不要把摘要或模型回答当作最终证据。
@@ -756,6 +812,8 @@ Render an ARIS Markdown / JSON artifact (IDEA_REPORT, AUTO_REVIEW, KILL_ARGUMENT
 ### `$research-grants`
 
 - 全局目录：`~/.codex/skills/research-grants/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：围绕 `research-grants` 的专项能力，主要用于检查问题并给出修改建议。
 - 适合何时使用：无法归入单一学科、但可支撑科研质量、文件处理、复现或效率的工具。
 - 使用前注意：技能说明不代表依赖、模型、数据或凭据已经安装；首次使用先让 Codex 检查环境。
@@ -780,7 +838,9 @@ Supports research proposal preparation and review for NSF, NIH, DOE, DARPA, and 
 ### `$research-refine`
 
 - 全局目录：`~/.codex/skills/research-refine/`
-- 中文理解：Turn a vague research direction into a problem-anchored, elegant, frontier-aware, implementation-oriented method plan via iterative GPT-6-Astra review.
+- 所属技能套件：[Auto Claude Code Research in Sleep（ARIS）](../技能套件导航.md#suite-aris)
+- 推荐总入口：`$research-pipeline`
+- 中文理解：围绕 `research-refine` 的专项能力，主要用于检查问题并给出修改建议。
 - 适合何时使用：无法归入单一学科、但可支撑科研质量、文件处理、复现或效率的工具。
 - 使用前注意：技能说明不代表依赖、模型、数据或凭据已经安装；首次使用先让 Codex 检查环境。
 
@@ -804,6 +864,8 @@ Turn a vague research direction into a problem-anchored, elegant, frontier-aware
 ### `$research-wiki`
 
 - 全局目录：`~/.codex/skills/research-wiki/`
+- 所属技能套件：[Auto Claude Code Research in Sleep（ARIS）](../技能套件导航.md#suite-aris)
+- 推荐总入口：`$research-pipeline`
 - 中文理解：这是一个面向“通用科研工具与质量保障”的专项技能，用于处理 `research-wiki` 相关任务。
 - 适合何时使用：无法归入单一学科、但可支撑科研质量、文件处理、复现或效率的工具。
 - 使用前注意：论文、引用和结论必须回到原始来源核验，不要把摘要或模型回答当作最终证据。
@@ -828,6 +890,8 @@ Persistent research knowledge base that accumulates papers, ideas, experiments, 
 ### `$scholar-evaluation`
 
 - 全局目录：`~/.codex/skills/scholar-evaluation/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：围绕 `scholar-evaluation` 的专项能力，主要用于检查问题并给出修改建议。
 - 适合何时使用：无法归入单一学科、但可支撑科研质量、文件处理、复现或效率的工具。
 - 使用前注意：论文、引用和结论必须回到原始来源核验，不要把摘要或模型回答当作最终证据。
@@ -852,6 +916,8 @@ Provides qualitative-first, evidence-traceable developmental review of scholarly
 ### `$sympy`
 
 - 全局目录：`~/.codex/skills/sympy/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：这是一个面向“通用科研工具与质量保障”的专项技能，用于处理 `sympy` 相关任务。
 - 适合何时使用：无法归入单一学科、但可支撑科研质量、文件处理、复现或效率的工具。
 - 使用前注意：技能说明不代表依赖、模型、数据或凭据已经安装；首次使用先让 Codex 检查环境。
@@ -878,6 +944,8 @@ Performs exact symbolic mathematics with SymPy for algebra, calculus, equation s
 ### `$system-profile`
 
 - 全局目录：`~/.codex/skills/system-profile/`
+- 所属技能套件：[Auto Claude Code Research in Sleep（ARIS）](../技能套件导航.md#suite-aris)
+- 推荐总入口：`$research-pipeline`
 - 中文理解：这是一个面向“通用科研工具与质量保障”的专项技能，用于处理 `system-profile` 相关任务。
 - 适合何时使用：无法归入单一学科、但可支撑科研质量、文件处理、复现或效率的工具。
 - 使用前注意：先核对硬件、依赖版本、运行时间和预算，再启动长任务。
@@ -902,6 +970,8 @@ Profile a target (script, process, GPU, memory, interconnect) for performance an
 ### `$training-check`
 
 - 全局目录：`~/.codex/skills/training-check/`
+- 所属技能套件：[Auto Claude Code Research in Sleep（ARIS）](../技能套件导航.md#suite-aris)
+- 推荐总入口：`$research-pipeline`
 - 中文理解：这是一个面向“通用科研工具与质量保障”的专项技能，用于处理 `training-check` 相关任务。
 - 适合何时使用：无法归入单一学科、但可支撑科研质量、文件处理、复现或效率的工具。
 - 使用前注意：先核对硬件、依赖版本、运行时间和预算，再启动长任务。
@@ -926,6 +996,8 @@ Interactively monitor training metrics from the current Codex session, periodica
 ### `$typst-author`
 
 - 全局目录：`~/.codex/skills/typst-author/`
+- 所属技能套件：[独立或暂未归入大型套件](../技能套件导航.md#suite-standalone)
+- 推荐总入口：直接调用当前小 skill
 - 中文理解：围绕 `typst-author` 的专项能力，主要用于处理科研文档与结构化内容。
 - 适合何时使用：无法归入单一学科、但可支撑科研质量、文件处理、复现或效率的工具。
 - 使用前注意：技能说明不代表依赖、模型、数据或凭据已经安装；首次使用先让 Codex 检查环境。
@@ -950,6 +1022,8 @@ Generate idiomatic Typst (.typ) code, edit and troubleshoot Typst documents and 
 ### `$vast-gpu`
 
 - 全局目录：`~/.codex/skills/vast-gpu/`
+- 所属技能套件：[Auto Claude Code Research in Sleep（ARIS）](../技能套件导航.md#suite-aris)
+- 推荐总入口：`$research-pipeline`
 - 中文理解：这是一个面向“通用科研工具与质量保障”的专项技能，用于处理 `vast-gpu` 相关任务。
 - 适合何时使用：无法归入单一学科、但可支撑科研质量、文件处理、复现或效率的工具。
 - 使用前注意：可能需要账号、API 凭据、联网权限或付费资源；执行外部写入前先确认。 先核对硬件、依赖版本、运行时间和预算，再启动长任务。

@@ -6,13 +6,13 @@
 
 ## 本页索引
 
-| Skill | 一句话理解 |
-| --- | --- |
-| [`$benchling-integration`](#skill-benchling-integration) | 围绕 `benchling-integration` 的专项能力，主要用于组织可复现的科研流程，并可管理实验记录、样品或实验室数据。 |
-| [`$labarchive-integration`](#skill-labarchive-integration) | 围绕 `labarchive-integration` 的专项能力，主要用于组织可复现的科研流程，并可管理实验记录、样品或实验室数据。 |
-| [`$omero-integration`](#skill-omero-integration) | 围绕 `omero-integration` 的专项能力，主要用于组织可复现的科研流程，并可管理实验记录、样品或实验室数据。 |
-| [`$opentrons-integration`](#skill-opentrons-integration) | 围绕 `opentrons-integration` 的专项能力，主要用于组织可复现的科研流程，并可设计或自动化实验室操作。 |
-| [`$protocolsio-integration`](#skill-protocolsio-integration) | 这是一个面向“实验室平台、ELN 与科研硬件”的专项技能，用于处理 `protocolsio-integration` 相关任务。 |
+| Skill | 所属技能套件 | 一句话理解 |
+| --- | --- | --- |
+| [`$benchling-integration`](#skill-benchling-integration) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 围绕 `benchling-integration` 的专项能力，主要用于组织可复现的科研流程，并可管理实验记录、样品或实验室数据。 |
+| [`$labarchive-integration`](#skill-labarchive-integration) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 围绕 `labarchive-integration` 的专项能力，主要用于组织可复现的科研流程，并可管理实验记录、样品或实验室数据。 |
+| [`$omero-integration`](#skill-omero-integration) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 围绕 `omero-integration` 的专项能力，主要用于组织可复现的科研流程，并可管理实验记录、样品或实验室数据。 |
+| [`$opentrons-integration`](#skill-opentrons-integration) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 围绕 `opentrons-integration` 的专项能力，主要用于组织可复现的科研流程，并可设计或自动化实验室操作。 |
+| [`$protocolsio-integration`](#skill-protocolsio-integration) | [Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills) | 这是一个面向“实验室平台、ELN 与科研硬件”的专项技能，用于处理 `protocolsio-integration` 相关任务。 |
 
 ## 详细说明
 
@@ -20,6 +20,8 @@
 ### `$benchling-integration`
 
 - 全局目录：`~/.codex/skills/benchling-integration/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：围绕 `benchling-integration` 的专项能力，主要用于组织可复现的科研流程，并可管理实验记录、样品或实验室数据。
 - 适合何时使用：连接云实验室、电子实验记录、仪器、实验硬件和科研数据平台。
 - 使用前注意：可能需要账号、API 凭据、联网权限或付费资源；执行外部写入前先确认。
@@ -44,6 +46,8 @@ Benchling Python SDK and REST API integration for registry entities, inventory, 
 ### `$labarchive-integration`
 
 - 全局目录：`~/.codex/skills/labarchive-integration/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：围绕 `labarchive-integration` 的专项能力，主要用于组织可复现的科研流程，并可管理实验记录、样品或实验室数据。
 - 适合何时使用：连接云实验室、电子实验记录、仪器、实验硬件和科研数据平台。
 - 使用前注意：可能需要账号、API 凭据、联网权限或付费资源；执行外部写入前先确认。
@@ -68,6 +72,8 @@ Integrates with the official LabArchives ELN REST-like API and Inventory API v1.
 ### `$omero-integration`
 
 - 全局目录：`~/.codex/skills/omero-integration/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：围绕 `omero-integration` 的专项能力，主要用于组织可复现的科研流程，并可管理实验记录、样品或实验室数据。
 - 适合何时使用：连接云实验室、电子实验记录、仪器、实验硬件和科研数据平台。
 - 使用前注意：可能需要账号、API 凭据、联网权限或付费资源；执行外部写入前先确认。
@@ -92,6 +98,8 @@ Inspects and automates microscopy data workflows against OMERO.server with omero
 ### `$opentrons-integration`
 
 - 全局目录：`~/.codex/skills/opentrons-integration/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：围绕 `opentrons-integration` 的专项能力，主要用于组织可复现的科研流程，并可设计或自动化实验室操作。
 - 适合何时使用：连接云实验室、电子实验记录、仪器、实验硬件和科研数据平台。
 - 使用前注意：可能需要账号、API 凭据、联网权限或付费资源；执行外部写入前先确认。
@@ -116,6 +124,8 @@ Authors, reviews, migrates, simulates, and troubleshoots official Opentrons Pyth
 ### `$protocolsio-integration`
 
 - 全局目录：`~/.codex/skills/protocolsio-integration/`
+- 所属技能套件：[Scientific Agent Skills（K-Dense）](../技能套件导航.md#suite-scientific-agent-skills)
+- 推荐总入口：按任务直接调用对应小 skill
 - 中文理解：这是一个面向“实验室平台、ELN 与科研硬件”的专项技能，用于处理 `protocolsio-integration` 相关任务。
 - 适合何时使用：连接云实验室、电子实验记录、仪器、实验硬件和科研数据平台。
 - 使用前注意：技能说明不代表依赖、模型、数据或凭据已经安装；首次使用先让 Codex 检查环境。

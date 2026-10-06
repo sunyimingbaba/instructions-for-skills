@@ -6,48 +6,48 @@
 
 ## 本页索引
 
-| Skill | 一句话理解 |
-| --- | --- |
-| [`$1start-mathmodel`](#skill-1start-mathmodel) | 数学建模竞赛工作流入口。用于启动完整建模流程：询问用户偏好，生成 plan.md 和 todo.md，并按阶段调用赛题分析、建模、代码与图表、流程图、论文撰写、验证验收等 skills。 |
-| [`$2analysis-modeling`](#skill-2analysis-modeling) | 数学建模赛题分析与建模设计合并阶段。用于读取题面和附件，完成子问题拆解、数据理解、假设预检、变量定义、模型公式、目标函数、约束条件、求解策略和可交给代码实现的建模报告。 |
-| [`$3coding-visual`](#skill-3coding-visual) | 数学建模编程实现与数据图表生成阶段。根据 ANALYSIS_MODELING_REPORT.md 编写可复现代码、运行求解、验证约束、输出 RESULTS_REPORT.md 并生成论文可用的数据驱动图表 PDF。 |
-| [`$4drawio`](#skill-4drawio) | 数学建模非数据型图示绘制阶段。根据 ANALYSIS_MODELING_REPORT.md、RESULTS_REPORT.md 和已有 figures/ 生成技术路线图、子问题求解流程图、模型结构图、数据处理流程图等 DrawIO 图，并导出论文可引用 PDF。 |
-| [`$5writing`](#skill-5writing) | 数学建模竞赛论文撰写阶段，支持 Typst 和 LaTeX 双引擎。根据 ANALYSIS_MODELING_REPORT.md、RESULTS_REPORT.md 和 figures/*.pdf 选择比赛模板、排版引擎、组织章节，并在论文正文中按章节直接插入图表。 |
-| [`$6verity`](#skill-6verity) | 数学建模竞赛最终验证和验收阶段，支持 Typst 和 LaTeX 双引擎。用于论文写完后检查章节数量、标题顺序、图表引用、数值一致性、占位符、内部文件泄露、参考文献、代码可复现性、编译和提交就绪状态。 |
-| [`$_references`](#skill-_references) | 共享规范知识库。包含数学建模竞赛的写作规范、题型防错速查、图表规范等参考内容。其他 skills 在执行过程中按需读取，无需单独触发。 |
-| [`$bzd-abstract-checker`](#skill-bzd-abstract-checker) | 围绕 `bzd-abstract-checker` 的专项能力，主要用于检查问题并给出修改建议。 |
-| [`$bzd-ai-usage-disclosure`](#skill-bzd-ai-usage-disclosure) | 围绕 `bzd-ai-usage-disclosure` 的专项能力，主要用于检查问题并给出修改建议。 |
-| [`$bzd-cumcm-school-awards`](#skill-bzd-cumcm-school-awards) | 这是一个面向“数学建模竞赛”的专项技能，用于处理 `bzd-cumcm-school-awards` 相关任务。 |
-| [`$bzd-model-assumption-checker`](#skill-bzd-model-assumption-checker) | 围绕 `bzd-model-assumption-checker` 的专项能力，主要用于检查问题并给出修改建议。 |
-| [`$bzd-model-dictionary`](#skill-bzd-model-dictionary) | 围绕 `bzd-model-dictionary` 的专项能力，主要用于检查问题并给出修改建议。 |
-| [`$bzd-model-solution-checker`](#skill-bzd-model-solution-checker) | 围绕 `bzd-model-solution-checker` 的专项能力，主要用于检查问题并给出修改建议。 |
-| [`$bzd-modeling-ideas`](#skill-bzd-modeling-ideas) | 这是一个面向“数学建模竞赛”的专项技能，用于处理 `bzd-modeling-ideas` 相关任务。 |
-| [`$bzd-modeling-workflow`](#skill-bzd-modeling-workflow) | 围绕 `bzd-modeling-workflow` 的专项能力，主要用于检查问题并给出修改建议，并可组织可复现的科研流程。 |
-| [`$bzd-paper-aigc-auditor`](#skill-bzd-paper-aigc-auditor) | 对数学建模竞赛论文进行两层AI痕迹审计——第一层9维检测(语言层面60%：连接词/排比/拔高词/被动句/段落规律/文本复杂度；事实层面40%：引文验证/数值一致性/术语一致性)，第二层模型合理性深度审查。严格判分+一票否决+问题标红。输出分层HTML报告。 |
-| [`$bzd-paper-format-checker`](#skill-bzd-paper-format-checker) | 围绕 `bzd-paper-format-checker` 的专项能力，主要用于检查问题并给出修改建议，并可生成或检查科研图表。 |
-| [`$bzd-problem-analysis-checker`](#skill-bzd-problem-analysis-checker) | 围绕 `bzd-problem-analysis-checker` 的专项能力，主要用于检查问题并给出修改建议，并可完成机器学习建模与评估。 |
-| [`$bzd-problem-restatement`](#skill-bzd-problem-restatement) | 围绕 `bzd-problem-restatement` 的专项能力，主要用于检查问题并给出修改建议。 |
-| [`$bzd-problem-translator`](#skill-bzd-problem-translator) | 围绕 `bzd-problem-translator` 的专项能力，主要用于检查问题并给出修改建议。 |
-| [`$bzd-reference-appendix-checker`](#skill-bzd-reference-appendix-checker) | 围绕 `bzd-reference-appendix-checker` 的专项能力，主要用于检查问题并给出修改建议。 |
-| [`$bzd-review-paper`](#skill-bzd-review-paper) | 围绕 `bzd-review-paper` 的专项能力，主要用于检查问题并给出修改建议。 |
-| [`$bzd-symbol-notation-checker`](#skill-bzd-symbol-notation-checker) | 围绕 `bzd-symbol-notation-checker` 的专项能力，主要用于检查问题并给出修改建议。 |
-| [`$hwb-abstract-checker`](#skill-hwb-abstract-checker) | 这是一个面向“数学建模竞赛”的专项技能，用于处理 `hwb-abstract-checker` 相关任务。 |
-| [`$hwb-ai-usage-disclosure`](#skill-hwb-ai-usage-disclosure) | 围绕 `hwb-ai-usage-disclosure` 的专项能力，主要用于检查问题并给出修改建议。 |
-| [`$hwb-cpgmcm-award-standing`](#skill-hwb-cpgmcm-award-standing) | 这是一个面向“数学建模竞赛”的专项技能，用于处理 `hwb-cpgmcm-award-standing` 相关任务。 |
-| [`$hwb-model-assumption-checker`](#skill-hwb-model-assumption-checker) | 围绕 `hwb-model-assumption-checker` 的专项能力，主要用于检查问题并给出修改建议。 |
-| [`$hwb-model-dictionary`](#skill-hwb-model-dictionary) | 这是一个面向“数学建模竞赛”的专项技能，用于处理 `hwb-model-dictionary` 相关任务。 |
-| [`$hwb-model-solution-checker`](#skill-hwb-model-solution-checker) | 围绕 `hwb-model-solution-checker` 的专项能力，主要用于检查问题并给出修改建议。 |
-| [`$hwb-modeling-ideas`](#skill-hwb-modeling-ideas) | 这是一个面向“数学建模竞赛”的专项技能，用于处理 `hwb-modeling-ideas` 相关任务。 |
-| [`$hwb-modeling-workflow`](#skill-hwb-modeling-workflow) | 围绕 `hwb-modeling-workflow` 的专项能力，主要用于检查问题并给出修改建议，并可组织可复现的科研流程。 |
-| [`$hwb-paper-aigc-auditor`](#skill-hwb-paper-aigc-auditor) | 围绕 `hwb-paper-aigc-auditor` 的专项能力，主要用于检查问题并给出修改建议，并可完成机器学习建模与评估。 |
-| [`$hwb-paper-format-checker`](#skill-hwb-paper-format-checker) | 围绕 `hwb-paper-format-checker` 的专项能力，主要用于检查问题并给出修改建议，并可生成或检查科研图表。 |
-| [`$hwb-problem-analysis-checker`](#skill-hwb-problem-analysis-checker) | 围绕 `hwb-problem-analysis-checker` 的专项能力，主要用于检查问题并给出修改建议。 |
-| [`$hwb-problem-restatement`](#skill-hwb-problem-restatement) | 围绕 `hwb-problem-restatement` 的专项能力，主要用于检查问题并给出修改建议。 |
-| [`$hwb-problem-translator`](#skill-hwb-problem-translator) | 这是一个面向“数学建模竞赛”的专项技能，用于处理 `hwb-problem-translator` 相关任务。 |
-| [`$hwb-reference-appendix-checker`](#skill-hwb-reference-appendix-checker) | 围绕 `hwb-reference-appendix-checker` 的专项能力，主要用于检查问题并给出修改建议。 |
-| [`$hwb-review-paper`](#skill-hwb-review-paper) | 围绕 `hwb-review-paper` 的专项能力，主要用于检查问题并给出修改建议。 |
-| [`$hwb-symbol-notation-checker`](#skill-hwb-symbol-notation-checker) | 围绕 `hwb-symbol-notation-checker` 的专项能力，主要用于检查问题并给出修改建议。 |
-| [`$mathmodel-figure-templates`](#skill-mathmodel-figure-templates) | Use this skill in the MathModel LaTeX sandbox when the user asks to reproduce built-in scientific visualization templates, especially prompts from the Improve tab mentioning $math… |
+| Skill | 所属技能套件 | 一句话理解 |
+| --- | --- | --- |
+| [`$1start-mathmodel`](#skill-1start-mathmodel) | [MathModel 数学建模工作流](../技能套件导航.md#suite-mathmodel) | 数学建模竞赛工作流入口。用于启动完整建模流程：询问用户偏好，生成 plan.md 和 todo.md，并按阶段调用赛题分析、建模、代码与图表、流程图、论文撰写、验证验收等 skills。 |
+| [`$2analysis-modeling`](#skill-2analysis-modeling) | [MathModel 数学建模工作流](../技能套件导航.md#suite-mathmodel) | 数学建模赛题分析与建模设计合并阶段。用于读取题面和附件，完成子问题拆解、数据理解、假设预检、变量定义、模型公式、目标函数、约束条件、求解策略和可交给代码实现的建模报告。 |
+| [`$3coding-visual`](#skill-3coding-visual) | [MathModel 数学建模工作流](../技能套件导航.md#suite-mathmodel) | 数学建模编程实现与数据图表生成阶段。根据 ANALYSIS_MODELING_REPORT.md 编写可复现代码、运行求解、验证约束、输出 RESULTS_REPORT.md 并生成论文可用的数据驱动图表 PDF。 |
+| [`$4drawio`](#skill-4drawio) | [MathModel 数学建模工作流](../技能套件导航.md#suite-mathmodel) | 数学建模非数据型图示绘制阶段。根据 ANALYSIS_MODELING_REPORT.md、RESULTS_REPORT.md 和已有 figures/ 生成技术路线图、子问题求解流程图、模型结构图、数据处理流程图等 DrawIO 图，并导出论文可引用 PDF。 |
+| [`$5writing`](#skill-5writing) | [MathModel 数学建模工作流](../技能套件导航.md#suite-mathmodel) | 数学建模竞赛论文撰写阶段，支持 Typst 和 LaTeX 双引擎。根据 ANALYSIS_MODELING_REPORT.md、RESULTS_REPORT.md 和 figures/*.pdf 选择比赛模板、排版引擎、组织章节，并在论文正文中按章节直接插入图表。 |
+| [`$6verity`](#skill-6verity) | [MathModel 数学建模工作流](../技能套件导航.md#suite-mathmodel) | 数学建模竞赛最终验证和验收阶段，支持 Typst 和 LaTeX 双引擎。用于论文写完后检查章节数量、标题顺序、图表引用、数值一致性、占位符、内部文件泄露、参考文献、代码可复现性、编译和提交就绪状态。 |
+| [`$_references`](#skill-_references) | [MathModel 数学建模工作流](../技能套件导航.md#suite-mathmodel) | 共享规范知识库。包含数学建模竞赛的写作规范、题型防错速查、图表规范等参考内容。其他 skills 在执行过程中按需读取，无需单独触发。 |
+| [`$bzd-abstract-checker`](#skill-bzd-abstract-checker) | [BZD 数学建模 Skills](../技能套件导航.md#suite-bzd) | 围绕 `bzd-abstract-checker` 的专项能力，主要用于检查问题并给出修改建议。 |
+| [`$bzd-ai-usage-disclosure`](#skill-bzd-ai-usage-disclosure) | [BZD 数学建模 Skills](../技能套件导航.md#suite-bzd) | 围绕 `bzd-ai-usage-disclosure` 的专项能力，主要用于检查问题并给出修改建议。 |
+| [`$bzd-cumcm-school-awards`](#skill-bzd-cumcm-school-awards) | [BZD 数学建模 Skills](../技能套件导航.md#suite-bzd) | 这是一个面向“数学建模竞赛”的专项技能，用于处理 `bzd-cumcm-school-awards` 相关任务。 |
+| [`$bzd-model-assumption-checker`](#skill-bzd-model-assumption-checker) | [BZD 数学建模 Skills](../技能套件导航.md#suite-bzd) | 围绕 `bzd-model-assumption-checker` 的专项能力，主要用于检查问题并给出修改建议。 |
+| [`$bzd-model-dictionary`](#skill-bzd-model-dictionary) | [BZD 数学建模 Skills](../技能套件导航.md#suite-bzd) | 围绕 `bzd-model-dictionary` 的专项能力，主要用于检查问题并给出修改建议。 |
+| [`$bzd-model-solution-checker`](#skill-bzd-model-solution-checker) | [BZD 数学建模 Skills](../技能套件导航.md#suite-bzd) | 围绕 `bzd-model-solution-checker` 的专项能力，主要用于检查问题并给出修改建议。 |
+| [`$bzd-modeling-ideas`](#skill-bzd-modeling-ideas) | [BZD 数学建模 Skills](../技能套件导航.md#suite-bzd) | 这是一个面向“数学建模竞赛”的专项技能，用于处理 `bzd-modeling-ideas` 相关任务。 |
+| [`$bzd-modeling-workflow`](#skill-bzd-modeling-workflow) | [BZD 数学建模 Skills](../技能套件导航.md#suite-bzd) | 围绕 `bzd-modeling-workflow` 的专项能力，主要用于检查问题并给出修改建议，并可组织可复现的科研流程。 |
+| [`$bzd-paper-aigc-auditor`](#skill-bzd-paper-aigc-auditor) | [BZD 数学建模 Skills](../技能套件导航.md#suite-bzd) | 对数学建模竞赛论文进行两层AI痕迹审计——第一层9维检测(语言层面60%：连接词/排比/拔高词/被动句/段落规律/文本复杂度；事实层面40%：引文验证/数值一致性/术语一致性)，第二层模型合理性深度审查。严格判分+一票否决+问题标红。输出分层HTML报告。 |
+| [`$bzd-paper-format-checker`](#skill-bzd-paper-format-checker) | [BZD 数学建模 Skills](../技能套件导航.md#suite-bzd) | 围绕 `bzd-paper-format-checker` 的专项能力，主要用于检查问题并给出修改建议，并可生成或检查科研图表。 |
+| [`$bzd-problem-analysis-checker`](#skill-bzd-problem-analysis-checker) | [BZD 数学建模 Skills](../技能套件导航.md#suite-bzd) | 围绕 `bzd-problem-analysis-checker` 的专项能力，主要用于检查问题并给出修改建议，并可完成机器学习建模与评估。 |
+| [`$bzd-problem-restatement`](#skill-bzd-problem-restatement) | [BZD 数学建模 Skills](../技能套件导航.md#suite-bzd) | 围绕 `bzd-problem-restatement` 的专项能力，主要用于检查问题并给出修改建议。 |
+| [`$bzd-problem-translator`](#skill-bzd-problem-translator) | [BZD 数学建模 Skills](../技能套件导航.md#suite-bzd) | 围绕 `bzd-problem-translator` 的专项能力，主要用于检查问题并给出修改建议。 |
+| [`$bzd-reference-appendix-checker`](#skill-bzd-reference-appendix-checker) | [BZD 数学建模 Skills](../技能套件导航.md#suite-bzd) | 围绕 `bzd-reference-appendix-checker` 的专项能力，主要用于检查问题并给出修改建议。 |
+| [`$bzd-review-paper`](#skill-bzd-review-paper) | [BZD 数学建模 Skills](../技能套件导航.md#suite-bzd) | 围绕 `bzd-review-paper` 的专项能力，主要用于检查问题并给出修改建议。 |
+| [`$bzd-symbol-notation-checker`](#skill-bzd-symbol-notation-checker) | [BZD 数学建模 Skills](../技能套件导航.md#suite-bzd) | 围绕 `bzd-symbol-notation-checker` 的专项能力，主要用于检查问题并给出修改建议。 |
+| [`$hwb-abstract-checker`](#skill-hwb-abstract-checker) | [HWB 华为杯数学建模 Skills](../技能套件导航.md#suite-hwb) | 这是一个面向“数学建模竞赛”的专项技能，用于处理 `hwb-abstract-checker` 相关任务。 |
+| [`$hwb-ai-usage-disclosure`](#skill-hwb-ai-usage-disclosure) | [HWB 华为杯数学建模 Skills](../技能套件导航.md#suite-hwb) | 围绕 `hwb-ai-usage-disclosure` 的专项能力，主要用于检查问题并给出修改建议。 |
+| [`$hwb-cpgmcm-award-standing`](#skill-hwb-cpgmcm-award-standing) | [HWB 华为杯数学建模 Skills](../技能套件导航.md#suite-hwb) | 这是一个面向“数学建模竞赛”的专项技能，用于处理 `hwb-cpgmcm-award-standing` 相关任务。 |
+| [`$hwb-model-assumption-checker`](#skill-hwb-model-assumption-checker) | [HWB 华为杯数学建模 Skills](../技能套件导航.md#suite-hwb) | 围绕 `hwb-model-assumption-checker` 的专项能力，主要用于检查问题并给出修改建议。 |
+| [`$hwb-model-dictionary`](#skill-hwb-model-dictionary) | [HWB 华为杯数学建模 Skills](../技能套件导航.md#suite-hwb) | 这是一个面向“数学建模竞赛”的专项技能，用于处理 `hwb-model-dictionary` 相关任务。 |
+| [`$hwb-model-solution-checker`](#skill-hwb-model-solution-checker) | [HWB 华为杯数学建模 Skills](../技能套件导航.md#suite-hwb) | 围绕 `hwb-model-solution-checker` 的专项能力，主要用于检查问题并给出修改建议。 |
+| [`$hwb-modeling-ideas`](#skill-hwb-modeling-ideas) | [HWB 华为杯数学建模 Skills](../技能套件导航.md#suite-hwb) | 这是一个面向“数学建模竞赛”的专项技能，用于处理 `hwb-modeling-ideas` 相关任务。 |
+| [`$hwb-modeling-workflow`](#skill-hwb-modeling-workflow) | [HWB 华为杯数学建模 Skills](../技能套件导航.md#suite-hwb) | 围绕 `hwb-modeling-workflow` 的专项能力，主要用于检查问题并给出修改建议，并可组织可复现的科研流程。 |
+| [`$hwb-paper-aigc-auditor`](#skill-hwb-paper-aigc-auditor) | [HWB 华为杯数学建模 Skills](../技能套件导航.md#suite-hwb) | 围绕 `hwb-paper-aigc-auditor` 的专项能力，主要用于检查问题并给出修改建议，并可完成机器学习建模与评估。 |
+| [`$hwb-paper-format-checker`](#skill-hwb-paper-format-checker) | [HWB 华为杯数学建模 Skills](../技能套件导航.md#suite-hwb) | 围绕 `hwb-paper-format-checker` 的专项能力，主要用于检查问题并给出修改建议，并可生成或检查科研图表。 |
+| [`$hwb-problem-analysis-checker`](#skill-hwb-problem-analysis-checker) | [HWB 华为杯数学建模 Skills](../技能套件导航.md#suite-hwb) | 围绕 `hwb-problem-analysis-checker` 的专项能力，主要用于检查问题并给出修改建议。 |
+| [`$hwb-problem-restatement`](#skill-hwb-problem-restatement) | [HWB 华为杯数学建模 Skills](../技能套件导航.md#suite-hwb) | 围绕 `hwb-problem-restatement` 的专项能力，主要用于检查问题并给出修改建议。 |
+| [`$hwb-problem-translator`](#skill-hwb-problem-translator) | [HWB 华为杯数学建模 Skills](../技能套件导航.md#suite-hwb) | 这是一个面向“数学建模竞赛”的专项技能，用于处理 `hwb-problem-translator` 相关任务。 |
+| [`$hwb-reference-appendix-checker`](#skill-hwb-reference-appendix-checker) | [HWB 华为杯数学建模 Skills](../技能套件导航.md#suite-hwb) | 围绕 `hwb-reference-appendix-checker` 的专项能力，主要用于检查问题并给出修改建议。 |
+| [`$hwb-review-paper`](#skill-hwb-review-paper) | [HWB 华为杯数学建模 Skills](../技能套件导航.md#suite-hwb) | 围绕 `hwb-review-paper` 的专项能力，主要用于检查问题并给出修改建议。 |
+| [`$hwb-symbol-notation-checker`](#skill-hwb-symbol-notation-checker) | [HWB 华为杯数学建模 Skills](../技能套件导航.md#suite-hwb) | 围绕 `hwb-symbol-notation-checker` 的专项能力，主要用于检查问题并给出修改建议。 |
+| [`$mathmodel-figure-templates`](#skill-mathmodel-figure-templates) | [MathModel 数学建模工作流](../技能套件导航.md#suite-mathmodel) | 围绕 `mathmodel-figure-templates` 的专项能力，主要用于生成或检查科研图表。 |
 
 ## 详细说明
 
@@ -55,6 +55,8 @@
 ### `$1start-mathmodel`
 
 - 全局目录：`~/.codex/skills/1start-mathmodel/`
+- 所属技能套件：[MathModel 数学建模工作流](../技能套件导航.md#suite-mathmodel)
+- 推荐总入口：`$1start-mathmodel`
 - 中文理解：数学建模竞赛工作流入口。用于启动完整建模流程：询问用户偏好，生成 plan.md 和 todo.md，并按阶段调用赛题分析、建模、代码与图表、流程图、论文撰写、验证验收等 skills。
 - 适合何时使用：覆盖读题、建模、求解、绘图、写作、格式检查和最终验收。
 - 使用前注意：技能说明不代表依赖、模型、数据或凭据已经安装；首次使用先让 Codex 检查环境。
@@ -79,6 +81,8 @@
 ### `$2analysis-modeling`
 
 - 全局目录：`~/.codex/skills/2analysis-modeling/`
+- 所属技能套件：[MathModel 数学建模工作流](../技能套件导航.md#suite-mathmodel)
+- 推荐总入口：`$1start-mathmodel`
 - 中文理解：数学建模赛题分析与建模设计合并阶段。用于读取题面和附件，完成子问题拆解、数据理解、假设预检、变量定义、模型公式、目标函数、约束条件、求解策略和可交给代码实现的建模报告。
 - 适合何时使用：覆盖读题、建模、求解、绘图、写作、格式检查和最终验收。
 - 使用前注意：技能说明不代表依赖、模型、数据或凭据已经安装；首次使用先让 Codex 检查环境。
@@ -103,6 +107,8 @@
 ### `$3coding-visual`
 
 - 全局目录：`~/.codex/skills/3coding-visual/`
+- 所属技能套件：[MathModel 数学建模工作流](../技能套件导航.md#suite-mathmodel)
+- 推荐总入口：`$1start-mathmodel`
 - 中文理解：数学建模编程实现与数据图表生成阶段。根据 ANALYSIS_MODELING_REPORT.md 编写可复现代码、运行求解、验证约束、输出 RESULTS_REPORT.md 并生成论文可用的数据驱动图表 PDF。
 - 适合何时使用：覆盖读题、建模、求解、绘图、写作、格式检查和最终验收。
 - 使用前注意：技能说明不代表依赖、模型、数据或凭据已经安装；首次使用先让 Codex 检查环境。
@@ -127,6 +133,8 @@
 ### `$4drawio`
 
 - 全局目录：`~/.codex/skills/4drawio/`
+- 所属技能套件：[MathModel 数学建模工作流](../技能套件导航.md#suite-mathmodel)
+- 推荐总入口：`$1start-mathmodel`
 - 中文理解：数学建模非数据型图示绘制阶段。根据 ANALYSIS_MODELING_REPORT.md、RESULTS_REPORT.md 和已有 figures/ 生成技术路线图、子问题求解流程图、模型结构图、数据处理流程图等 DrawIO 图，并导出论文可引用 PDF。
 - 适合何时使用：覆盖读题、建模、求解、绘图、写作、格式检查和最终验收。
 - 使用前注意：技能说明不代表依赖、模型、数据或凭据已经安装；首次使用先让 Codex 检查环境。
@@ -151,6 +159,8 @@
 ### `$5writing`
 
 - 全局目录：`~/.codex/skills/5writing/`
+- 所属技能套件：[MathModel 数学建模工作流](../技能套件导航.md#suite-mathmodel)
+- 推荐总入口：`$1start-mathmodel`
 - 中文理解：数学建模竞赛论文撰写阶段，支持 Typst 和 LaTeX 双引擎。根据 ANALYSIS_MODELING_REPORT.md、RESULTS_REPORT.md 和 figures/*.pdf 选择比赛模板、排版引擎、组织章节，并在论文正文中按章节直接插入图表。
 - 适合何时使用：覆盖读题、建模、求解、绘图、写作、格式检查和最终验收。
 - 使用前注意：技能说明不代表依赖、模型、数据或凭据已经安装；首次使用先让 Codex 检查环境。
@@ -175,6 +185,8 @@
 ### `$6verity`
 
 - 全局目录：`~/.codex/skills/6verity/`
+- 所属技能套件：[MathModel 数学建模工作流](../技能套件导航.md#suite-mathmodel)
+- 推荐总入口：`$1start-mathmodel`
 - 中文理解：数学建模竞赛最终验证和验收阶段，支持 Typst 和 LaTeX 双引擎。用于论文写完后检查章节数量、标题顺序、图表引用、数值一致性、占位符、内部文件泄露、参考文献、代码可复现性、编译和提交就绪状态。
 - 适合何时使用：覆盖读题、建模、求解、绘图、写作、格式检查和最终验收。
 - 使用前注意：技能说明不代表依赖、模型、数据或凭据已经安装；首次使用先让 Codex 检查环境。
@@ -199,6 +211,8 @@
 ### `$_references`
 
 - 全局目录：`~/.codex/skills/_references/`
+- 所属技能套件：[MathModel 数学建模工作流](../技能套件导航.md#suite-mathmodel)
+- 推荐总入口：`$1start-mathmodel`
 - 中文理解：共享规范知识库。包含数学建模竞赛的写作规范、题型防错速查、图表规范等参考内容。其他 skills 在执行过程中按需读取，无需单独触发。
 - 适合何时使用：覆盖读题、建模、求解、绘图、写作、格式检查和最终验收。
 - 使用前注意：技能说明不代表依赖、模型、数据或凭据已经安装；首次使用先让 Codex 检查环境。
@@ -220,6 +234,8 @@
 ### `$bzd-abstract-checker`
 
 - 全局目录：`~/.codex/skills/bzd-abstract-checker/`
+- 所属技能套件：[BZD 数学建模 Skills](../技能套件导航.md#suite-bzd)
+- 推荐总入口：`$bzd-modeling-workflow`
 - 中文理解：围绕 `bzd-abstract-checker` 的专项能力，主要用于检查问题并给出修改建议。
 - 适合何时使用：覆盖读题、建模、求解、绘图、写作、格式检查和最终验收。
 - 使用前注意：医学输出仅用于科研和信息整理，不能替代临床判断。 论文、引用和结论必须回到原始来源核验，不要把摘要或模型回答当作最终证据。
@@ -244,6 +260,8 @@ Review a user-provided Chinese mathematical-modeling abstract without requiring 
 ### `$bzd-ai-usage-disclosure`
 
 - 全局目录：`~/.codex/skills/bzd-ai-usage-disclosure/`
+- 所属技能套件：[BZD 数学建模 Skills](../技能套件导航.md#suite-bzd)
+- 推荐总入口：`$bzd-modeling-workflow`
 - 中文理解：围绕 `bzd-ai-usage-disclosure` 的专项能力，主要用于检查问题并给出修改建议。
 - 适合何时使用：覆盖读题、建模、求解、绘图、写作、格式检查和最终验收。
 - 使用前注意：论文、引用和结论必须回到原始来源核验，不要把摘要或模型回答当作最终证据。
@@ -268,6 +286,8 @@ Generate or review mathematical-modeling competition AI tool usage statements an
 ### `$bzd-cumcm-school-awards`
 
 - 全局目录：`~/.codex/skills/bzd-cumcm-school-awards/`
+- 所属技能套件：[BZD 数学建模 Skills](../技能套件导航.md#suite-bzd)
+- 推荐总入口：`$bzd-modeling-workflow`
 - 中文理解：这是一个面向“数学建模竞赛”的专项技能，用于处理 `bzd-cumcm-school-awards` 相关任务。
 - 适合何时使用：覆盖读题、建模、求解、绘图、写作、格式检查和最终验收。
 - 使用前注意：技能说明不代表依赖、模型、数据或凭据已经安装；首次使用先让 Codex 检查环境。
@@ -292,6 +312,8 @@ Query 2021-2025 CUMCM school awards and 2026 forecasts, or assess a student's pr
 ### `$bzd-model-assumption-checker`
 
 - 全局目录：`~/.codex/skills/bzd-model-assumption-checker/`
+- 所属技能套件：[BZD 数学建模 Skills](../技能套件导航.md#suite-bzd)
+- 推荐总入口：`$bzd-modeling-workflow`
 - 中文理解：围绕 `bzd-model-assumption-checker` 的专项能力，主要用于检查问题并给出修改建议。
 - 适合何时使用：覆盖读题、建模、求解、绘图、写作、格式检查和最终验收。
 - 使用前注意：医学输出仅用于科研和信息整理，不能替代临床判断。 论文、引用和结论必须回到原始来源核验，不要把摘要或模型回答当作最终证据。
@@ -316,6 +338,8 @@ Review a mathematical-modeling paper's model-assumption section against the comp
 ### `$bzd-model-dictionary`
 
 - 全局目录：`~/.codex/skills/bzd-model-dictionary/`
+- 所属技能套件：[BZD 数学建模 Skills](../技能套件导航.md#suite-bzd)
+- 推荐总入口：`$bzd-modeling-workflow`
 - 中文理解：围绕 `bzd-model-dictionary` 的专项能力，主要用于检查问题并给出修改建议。
 - 适合何时使用：覆盖读题、建模、求解、绘图、写作、格式检查和最终验收。
 - 使用前注意：技能说明不代表依赖、模型、数据或凭据已经安装；首次使用先让 Codex 检查环境。
@@ -340,6 +364,8 @@ Query the bundled BZD mathematical-modeling dictionary for a user-selected model
 ### `$bzd-model-solution-checker`
 
 - 全局目录：`~/.codex/skills/bzd-model-solution-checker/`
+- 所属技能套件：[BZD 数学建模 Skills](../技能套件导航.md#suite-bzd)
+- 推荐总入口：`$bzd-modeling-workflow`
 - 中文理解：围绕 `bzd-model-solution-checker` 的专项能力，主要用于检查问题并给出修改建议。
 - 适合何时使用：覆盖读题、建模、求解、绘图、写作、格式检查和最终验收。
 - 使用前注意：医学输出仅用于科研和信息整理，不能替代临床判断。 论文、引用和结论必须回到原始来源核验，不要把摘要或模型回答当作最终证据。
@@ -364,6 +390,8 @@ Review the model establishment, numerical solution, result analysis, model valid
 ### `$bzd-modeling-ideas`
 
 - 全局目录：`~/.codex/skills/bzd-modeling-ideas/`
+- 所属技能套件：[BZD 数学建模 Skills](../技能套件导航.md#suite-bzd)
+- 推荐总入口：`$bzd-modeling-workflow`
 - 中文理解：这是一个面向“数学建模竞赛”的专项技能，用于处理 `bzd-modeling-ideas` 相关任务。
 - 适合何时使用：覆盖读题、建模、求解、绘图、写作、格式检查和最终验收。
 - 使用前注意：论文、引用和结论必须回到原始来源核验，不要把摘要或模型回答当作最终证据。
@@ -388,6 +416,8 @@ Generate a coherent, whole-paper mathematical modeling solution framework from a
 ### `$bzd-modeling-workflow`
 
 - 全局目录：`~/.codex/skills/bzd-modeling-workflow/`
+- 所属技能套件：[BZD 数学建模 Skills](../技能套件导航.md#suite-bzd)
+- 推荐总入口：`$bzd-modeling-workflow`
 - 中文理解：围绕 `bzd-modeling-workflow` 的专项能力，主要用于检查问题并给出修改建议，并可组织可复现的科研流程。
 - 适合何时使用：覆盖读题、建模、求解、绘图、写作、格式检查和最终验收。
 - 使用前注意：论文、引用和结论必须回到原始来源核验，不要把摘要或模型回答当作最终证据。
@@ -412,6 +442,8 @@ Orchestrate the BZD mathematical-modeling Skills across problem reading, idea ge
 ### `$bzd-paper-aigc-auditor`
 
 - 全局目录：`~/.codex/skills/bzd-paper-aigc-auditor/`
+- 所属技能套件：[BZD 数学建模 Skills](../技能套件导航.md#suite-bzd)
+- 推荐总入口：`$bzd-modeling-workflow`
 - 中文理解：对数学建模竞赛论文进行两层AI痕迹审计——第一层9维检测(语言层面60%：连接词/排比/拔高词/被动句/段落规律/文本复杂度；事实层面40%：引文验证/数值一致性/术语一致性)，第二层模型合理性深度审查。严格判分+一票否决+问题标红。输出分层HTML报告。
 - 适合何时使用：覆盖读题、建模、求解、绘图、写作、格式检查和最终验收。
 - 使用前注意：技能说明不代表依赖、模型、数据或凭据已经安装；首次使用先让 Codex 检查环境。
@@ -436,6 +468,8 @@ Orchestrate the BZD mathematical-modeling Skills across problem reading, idea ge
 ### `$bzd-paper-format-checker`
 
 - 全局目录：`~/.codex/skills/bzd-paper-format-checker/`
+- 所属技能套件：[BZD 数学建模 Skills](../技能套件导航.md#suite-bzd)
+- 推荐总入口：`$bzd-modeling-workflow`
 - 中文理解：围绕 `bzd-paper-format-checker` 的专项能力，主要用于检查问题并给出修改建议，并可生成或检查科研图表。
 - 适合何时使用：覆盖读题、建模、求解、绘图、写作、格式检查和最终验收。
 - 使用前注意：论文、引用和结论必须回到原始来源核验，不要把摘要或模型回答当作最终证据。
@@ -460,6 +494,8 @@ Review a complete mathematical-modeling competition paper with an atomic checkli
 ### `$bzd-problem-analysis-checker`
 
 - 全局目录：`~/.codex/skills/bzd-problem-analysis-checker/`
+- 所属技能套件：[BZD 数学建模 Skills](../技能套件导航.md#suite-bzd)
+- 推荐总入口：`$bzd-modeling-workflow`
 - 中文理解：围绕 `bzd-problem-analysis-checker` 的专项能力，主要用于检查问题并给出修改建议，并可完成机器学习建模与评估。
 - 适合何时使用：覆盖读题、建模、求解、绘图、写作、格式检查和最终验收。
 - 使用前注意：医学输出仅用于科研和信息整理，不能替代临床判断。
@@ -484,6 +520,8 @@ Review a Chinese mathematical-modeling problem-analysis section against the orig
 ### `$bzd-problem-restatement`
 
 - 全局目录：`~/.codex/skills/bzd-problem-restatement/`
+- 所属技能套件：[BZD 数学建模 Skills](../技能套件导航.md#suite-bzd)
+- 推荐总入口：`$bzd-modeling-workflow`
 - 中文理解：围绕 `bzd-problem-restatement` 的专项能力，主要用于检查问题并给出修改建议。
 - 适合何时使用：覆盖读题、建模、求解、绘图、写作、格式检查和最终验收。
 - 使用前注意：技能说明不代表依赖、模型、数据或凭据已经安装；首次使用先让 Codex 检查环境。
@@ -508,6 +546,8 @@ Generate a compliant Chinese mathematical-modeling problem-restatement chapter f
 ### `$bzd-problem-translator`
 
 - 全局目录：`~/.codex/skills/bzd-problem-translator/`
+- 所属技能套件：[BZD 数学建模 Skills](../技能套件导航.md#suite-bzd)
+- 推荐总入口：`$bzd-modeling-workflow`
 - 中文理解：围绕 `bzd-problem-translator` 的专项能力，主要用于检查问题并给出修改建议。
 - 适合何时使用：覆盖读题、建模、求解、绘图、写作、格式检查和最终验收。
 - 使用前注意：技能说明不代表依赖、模型、数据或凭据已经安装；首次使用先让 Codex 检查环境。
@@ -532,6 +572,8 @@ Translate a complete mathematical modeling contest problem sentence by sentence 
 ### `$bzd-reference-appendix-checker`
 
 - 全局目录：`~/.codex/skills/bzd-reference-appendix-checker/`
+- 所属技能套件：[BZD 数学建模 Skills](../技能套件导航.md#suite-bzd)
+- 推荐总入口：`$bzd-modeling-workflow`
 - 中文理解：围绕 `bzd-reference-appendix-checker` 的专项能力，主要用于检查问题并给出修改建议。
 - 适合何时使用：覆盖读题、建模、求解、绘图、写作、格式检查和最终验收。
 - 使用前注意：论文、引用和结论必须回到原始来源核验，不要把摘要或模型回答当作最终证据。
@@ -556,6 +598,8 @@ Check a mathematical-modeling paper's in-text citations, bibliography, appendix 
 ### `$bzd-review-paper`
 
 - 全局目录：`~/.codex/skills/bzd-review-paper/`
+- 所属技能套件：[BZD 数学建模 Skills](../技能套件导航.md#suite-bzd)
+- 推荐总入口：`$bzd-modeling-workflow`
 - 中文理解：围绕 `bzd-review-paper` 的专项能力，主要用于检查问题并给出修改建议。
 - 适合何时使用：覆盖读题、建模、求解、绘图、写作、格式检查和最终验收。
 - 使用前注意：论文、引用和结论必须回到原始来源核验，不要把摘要或模型回答当作最终证据。
@@ -580,6 +624,8 @@ Review mathematical modeling competition papers from a complete problem and pape
 ### `$bzd-symbol-notation-checker`
 
 - 全局目录：`~/.codex/skills/bzd-symbol-notation-checker/`
+- 所属技能套件：[BZD 数学建模 Skills](../技能套件导航.md#suite-bzd)
+- 推荐总入口：`$bzd-modeling-workflow`
 - 中文理解：围绕 `bzd-symbol-notation-checker` 的专项能力，主要用于检查问题并给出修改建议。
 - 适合何时使用：覆盖读题、建模、求解、绘图、写作、格式检查和最终验收。
 - 使用前注意：医学输出仅用于科研和信息整理，不能替代临床判断。 论文、引用和结论必须回到原始来源核验，不要把摘要或模型回答当作最终证据。
@@ -604,6 +650,8 @@ Review the symbol-notation section of a mathematical-modeling paper against the 
 ### `$hwb-abstract-checker`
 
 - 全局目录：`~/.codex/skills/hwb-abstract-checker/`
+- 所属技能套件：[HWB 华为杯数学建模 Skills](../技能套件导航.md#suite-hwb)
+- 推荐总入口：`$hwb-modeling-workflow`
 - 中文理解：这是一个面向“数学建模竞赛”的专项技能，用于处理 `hwb-abstract-checker` 相关任务。
 - 适合何时使用：覆盖读题、建模、求解、绘图、写作、格式检查和最终验收。
 - 使用前注意：医学输出仅用于科研和信息整理，不能替代临床判断。 论文、引用和结论必须回到原始来源核验，不要把摘要或模型回答当作最终证据。
@@ -628,6 +676,8 @@ Check the title, abstract and keywords of a HUAWEI Cup paper for independence, i
 ### `$hwb-ai-usage-disclosure`
 
 - 全局目录：`~/.codex/skills/hwb-ai-usage-disclosure/`
+- 所属技能套件：[HWB 华为杯数学建模 Skills](../技能套件导航.md#suite-hwb)
+- 推荐总入口：`$hwb-modeling-workflow`
 - 中文理解：围绕 `hwb-ai-usage-disclosure` 的专项能力，主要用于检查问题并给出修改建议。
 - 适合何时使用：覆盖读题、建模、求解、绘图、写作、格式检查和最终验收。
 - 使用前注意：论文、引用和结论必须回到原始来源核验，不要把摘要或模型回答当作最终证据。
@@ -652,6 +702,8 @@ Generate or review an AI-tool usage statement and detailed usage disclosure for 
 ### `$hwb-cpgmcm-award-standing`
 
 - 全局目录：`~/.codex/skills/hwb-cpgmcm-award-standing/`
+- 所属技能套件：[HWB 华为杯数学建模 Skills](../技能套件导航.md#suite-hwb)
+- 推荐总入口：`$hwb-modeling-workflow`
 - 中文理解：这是一个面向“数学建模竞赛”的专项技能，用于处理 `hwb-cpgmcm-award-standing` 相关任务。
 - 适合何时使用：覆盖读题、建模、求解、绘图、写作、格式检查和最终验收。
 - 使用前注意：先核对硬件、依赖版本、运行时间和预算，再启动长任务。 论文、引用和结论必须回到原始来源核验，不要把摘要或模型回答当作最终证据。
@@ -676,6 +728,8 @@ Query a graduate training unit's Huawei Cup (CPGMCM) award profile, estimate the
 ### `$hwb-model-assumption-checker`
 
 - 全局目录：`~/.codex/skills/hwb-model-assumption-checker/`
+- 所属技能套件：[HWB 华为杯数学建模 Skills](../技能套件导航.md#suite-hwb)
+- 推荐总入口：`$hwb-modeling-workflow`
 - 中文理解：围绕 `hwb-model-assumption-checker` 的专项能力，主要用于检查问题并给出修改建议。
 - 适合何时使用：覆盖读题、建模、求解、绘图、写作、格式检查和最终验收。
 - 使用前注意：医学输出仅用于科研和信息整理，不能替代临床判断。 论文、引用和结论必须回到原始来源核验，不要把摘要或模型回答当作最终证据。
@@ -700,6 +754,8 @@ Diagnose whether each modeling assumption in a HUAWEI Cup paper is necessary, re
 ### `$hwb-model-dictionary`
 
 - 全局目录：`~/.codex/skills/hwb-model-dictionary/`
+- 所属技能套件：[HWB 华为杯数学建模 Skills](../技能套件导航.md#suite-hwb)
+- 推荐总入口：`$hwb-modeling-workflow`
 - 中文理解：这是一个面向“数学建模竞赛”的专项技能，用于处理 `hwb-model-dictionary` 相关任务。
 - 适合何时使用：覆盖读题、建模、求解、绘图、写作、格式检查和最终验收。
 - 使用前注意：技能说明不代表依赖、模型、数据或凭据已经安装；首次使用先让 Codex 检查环境。
@@ -724,6 +780,8 @@ Judge whether a candidate model actually fits a HUAWEI Cup problem, its data and
 ### `$hwb-model-solution-checker`
 
 - 全局目录：`~/.codex/skills/hwb-model-solution-checker/`
+- 所属技能套件：[HWB 华为杯数学建模 Skills](../技能套件导航.md#suite-hwb)
+- 推荐总入口：`$hwb-modeling-workflow`
 - 中文理解：围绕 `hwb-model-solution-checker` 的专项能力，主要用于检查问题并给出修改建议。
 - 适合何时使用：覆盖读题、建模、求解、绘图、写作、格式检查和最终验收。
 - 使用前注意：医学输出仅用于科研和信息整理，不能替代临床判断。 论文、引用和结论必须回到原始来源核验，不要把摘要或模型回答当作最终证据。
@@ -748,6 +806,8 @@ Diagnose the model-establishment, solution, results, validation and sensitivity-
 ### `$hwb-modeling-ideas`
 
 - 全局目录：`~/.codex/skills/hwb-modeling-ideas/`
+- 所属技能套件：[HWB 华为杯数学建模 Skills](../技能套件导航.md#suite-hwb)
+- 推荐总入口：`$hwb-modeling-workflow`
 - 中文理解：这是一个面向“数学建模竞赛”的专项技能，用于处理 `hwb-modeling-ideas` 相关任务。
 - 适合何时使用：覆盖读题、建模、求解、绘图、写作、格式检查和最终验收。
 - 使用前注意：论文、引用和结论必须回到原始来源核验，不要把摘要或模型回答当作最终证据。
@@ -772,6 +832,8 @@ Generate a whole-paper modeling backbone for a HUAWEI Cup post-graduate contest 
 ### `$hwb-modeling-workflow`
 
 - 全局目录：`~/.codex/skills/hwb-modeling-workflow/`
+- 所属技能套件：[HWB 华为杯数学建模 Skills](../技能套件导航.md#suite-hwb)
+- 推荐总入口：`$hwb-modeling-workflow`
 - 中文理解：围绕 `hwb-modeling-workflow` 的专项能力，主要用于检查问题并给出修改建议，并可组织可复现的科研流程。
 - 适合何时使用：覆盖读题、建模、求解、绘图、写作、格式检查和最终验收。
 - 使用前注意：论文、引用和结论必须回到原始来源核验，不要把摘要或模型回答当作最终证据。
@@ -796,6 +858,8 @@ Orchestrate the HWB (HUAWEI Cup China Post-Graduate Mathematical Contest in Mode
 ### `$hwb-paper-aigc-auditor`
 
 - 全局目录：`~/.codex/skills/hwb-paper-aigc-auditor/`
+- 所属技能套件：[HWB 华为杯数学建模 Skills](../技能套件导航.md#suite-hwb)
+- 推荐总入口：`$hwb-modeling-workflow`
 - 中文理解：围绕 `hwb-paper-aigc-auditor` 的专项能力，主要用于检查问题并给出修改建议，并可完成机器学习建模与评估。
 - 适合何时使用：覆盖读题、建模、求解、绘图、写作、格式检查和最终验收。
 - 使用前注意：论文、引用和结论必须回到原始来源核验，不要把摘要或模型回答当作最终证据。
@@ -820,6 +884,8 @@ Audit a HUAWEI Cup paper for AI-generation traces, template-like modeling, model
 ### `$hwb-paper-format-checker`
 
 - 全局目录：`~/.codex/skills/hwb-paper-format-checker/`
+- 所属技能套件：[HWB 华为杯数学建模 Skills](../技能套件导航.md#suite-hwb)
+- 推荐总入口：`$hwb-modeling-workflow`
 - 中文理解：围绕 `hwb-paper-format-checker` 的专项能力，主要用于检查问题并给出修改建议，并可生成或检查科研图表。
 - 适合何时使用：覆盖读题、建模、求解、绘图、写作、格式检查和最终验收。
 - 使用前注意：论文、引用和结论必须回到原始来源核验，不要把摘要或模型回答当作最终证据。
@@ -844,6 +910,8 @@ Run a strict whole-paper format, structure, anonymity and file-hygiene audit for
 ### `$hwb-problem-analysis-checker`
 
 - 全局目录：`~/.codex/skills/hwb-problem-analysis-checker/`
+- 所属技能套件：[HWB 华为杯数学建模 Skills](../技能套件导航.md#suite-hwb)
+- 推荐总入口：`$hwb-modeling-workflow`
 - 中文理解：围绕 `hwb-problem-analysis-checker` 的专项能力，主要用于检查问题并给出修改建议。
 - 适合何时使用：覆盖读题、建模、求解、绘图、写作、格式检查和最终验收。
 - 使用前注意：医学输出仅用于科研和信息整理，不能替代临床判断。 论文、引用和结论必须回到原始来源核验，不要把摘要或模型回答当作最终证据。
@@ -868,6 +936,8 @@ Diagnose the problem-analysis chapter of a HUAWEI Cup paper: task mapping to eac
 ### `$hwb-problem-restatement`
 
 - 全局目录：`~/.codex/skills/hwb-problem-restatement/`
+- 所属技能套件：[HWB 华为杯数学建模 Skills](../技能套件导航.md#suite-hwb)
+- 推荐总入口：`$hwb-modeling-workflow`
 - 中文理解：围绕 `hwb-problem-restatement` 的专项能力，主要用于检查问题并给出修改建议。
 - 适合何时使用：覆盖读题、建模、求解、绘图、写作、格式检查和最终验收。
 - 使用前注意：技能说明不代表依赖、模型、数据或凭据已经安装；首次使用先让 Codex 检查环境。
@@ -892,6 +962,8 @@ Generate a compliant Chinese problem-restatement chapter from a complete HUAWEI 
 ### `$hwb-problem-translator`
 
 - 全局目录：`~/.codex/skills/hwb-problem-translator/`
+- 所属技能套件：[HWB 华为杯数学建模 Skills](../技能套件导航.md#suite-hwb)
+- 推荐总入口：`$hwb-modeling-workflow`
 - 中文理解：这是一个面向“数学建模竞赛”的专项技能，用于处理 `hwb-problem-translator` 相关任务。
 - 适合何时使用：覆盖读题、建模、求解、绘图、写作、格式检查和最终验收。
 - 使用前注意：技能说明不代表依赖、模型、数据或凭据已经安装；首次使用先让 Codex 检查环境。
@@ -916,6 +988,8 @@ Translate a complete HUAWEI Cup (China Post-Graduate Mathematical Contest in Mod
 ### `$hwb-reference-appendix-checker`
 
 - 全局目录：`~/.codex/skills/hwb-reference-appendix-checker/`
+- 所属技能套件：[HWB 华为杯数学建模 Skills](../技能套件导航.md#suite-hwb)
+- 推荐总入口：`$hwb-modeling-workflow`
 - 中文理解：围绕 `hwb-reference-appendix-checker` 的专项能力，主要用于检查问题并给出修改建议。
 - 适合何时使用：覆盖读题、建模、求解、绘图、写作、格式检查和最终验收。
 - 使用前注意：论文、引用和结论必须回到原始来源核验，不要把摘要或模型回答当作最终证据。
@@ -940,6 +1014,8 @@ Audit in-text citations, the reference list, appendices, code and supporting mat
 ### `$hwb-review-paper`
 
 - 全局目录：`~/.codex/skills/hwb-review-paper/`
+- 所属技能套件：[HWB 华为杯数学建模 Skills](../技能套件导航.md#suite-hwb)
+- 推荐总入口：`$hwb-modeling-workflow`
 - 中文理解：围绕 `hwb-review-paper` 的专项能力，主要用于检查问题并给出修改建议。
 - 适合何时使用：覆盖读题、建模、求解、绘图、写作、格式检查和最终验收。
 - 使用前注意：论文、引用和结论必须回到原始来源核验，不要把摘要或模型回答当作最终证据。
@@ -964,6 +1040,8 @@ Review mathematical modeling competition papers from a complete problem and pape
 ### `$hwb-symbol-notation-checker`
 
 - 全局目录：`~/.codex/skills/hwb-symbol-notation-checker/`
+- 所属技能套件：[HWB 华为杯数学建模 Skills](../技能套件导航.md#suite-hwb)
+- 推荐总入口：`$hwb-modeling-workflow`
 - 中文理解：围绕 `hwb-symbol-notation-checker` 的专项能力，主要用于检查问题并给出修改建议。
 - 适合何时使用：覆盖读题、建模、求解、绘图、写作、格式检查和最终验收。
 - 使用前注意：论文、引用和结论必须回到原始来源核验，不要把摘要或模型回答当作最终证据。
@@ -988,7 +1066,9 @@ Audit the symbol table of a HUAWEI Cup paper for missing definitions, conflicts,
 ### `$mathmodel-figure-templates`
 
 - 全局目录：`~/.codex/skills/mathmodel-figure-templates/`
-- 中文理解：Use this skill in the MathModel LaTeX sandbox when the user asks to reproduce built-in scientific visualization templates, especially prompts from the Improve tab mentioning $math…
+- 所属技能套件：[MathModel 数学建模工作流](../技能套件导航.md#suite-mathmodel)
+- 推荐总入口：`$1start-mathmodel`
+- 中文理解：围绕 `mathmodel-figure-templates` 的专项能力，主要用于生成或检查科研图表。
 - 适合何时使用：覆盖读题、建模、求解、绘图、写作、格式检查和最终验收。
 - 使用前注意：技能说明不代表依赖、模型、数据或凭据已经安装；首次使用先让 Codex 检查环境。
 
